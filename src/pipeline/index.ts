@@ -1,7 +1,7 @@
 import { runReport } from '@/agents/report';
 import { runScreen } from '@/agents/screen';
 import { runVet } from '@/agents/vet';
-import { allocate } from '@/finance';
+import { allocate, realFinance } from '@/finance';
 import { useMocks } from '@/lib/env';
 import { loadFixture, loadJson } from '@/lib/fixtures';
 import {
@@ -18,6 +18,8 @@ import {
   type VetResult,
 } from '@/lib/schemas';
 import { z } from 'zod';
+import { demoAllocate, demoRules, demoVet } from './demo';
+import { buildReport, realAllocate, realData, realVet, screenByRules } from './real';
 
 /**
  * The only place that switches between mocks and real implementations.
@@ -26,10 +28,11 @@ import { z } from 'zod';
 
 export async function loadUniverse(): Promise<Company[]> {
   const universe = z.array(companySchema);
-  return useMocks() ? loadFixture('companies.json', universe) : loadJson('data/universe.json', universe);
+  return useMocks() && !realData() ? loadFixture('companies.json', universe) : loadJson('data/universe.json', universe);
 }
 
 export async function screenStage(session: Session): Promise<ScreenResult> {
+  if (realData() || demoRules()) return screenByRules(session.profile!, await loadUniverse());
   if (useMocks()) return loadFixture('screen-result.json', screenResultSchema);
   return runScreen(session.profile!, await loadUniverse());
 }
@@ -45,12 +48,24 @@ export function keptTickers(session: Session): string[] {
 }
 
 export async function vetStage(session: Session): Promise<VetResult> {
+  if (realData()) return realVet(session.profile!, keptTickers(session));
+  if (demoRules()) return demoVet(session.profile!, keptTickers(session));
   if (useMocks()) return loadFixture('vet-result.json', vetResultSchema);
   return runVet(session.profile!, keptTickers(session));
 }
 
 export async function allocateStage(session: Session): Promise<Portfolio> {
-  if (useMocks()) return loadFixture('portfolio.json', portfolioSchema);
+  // REAL_FINANCE=1 sends the real universe through the finance optimiser instead
+  // of the placeholder. Off by default: REAL_DATA on its own behaves as before.
+  if (realData() && !realFinance()) {
+    return realAllocate({
+      universe: await loadUniverse(),
+      vet: session.vet!,
+      confirmation: session.vetConfirmation,
+      profile: session.profile!,
+    });
+  }
+  if (useMocks() && !demoRules() && !realData()) return loadFixture('portfolio.json', portfolioSchema);
   const universe = await loadUniverse();
   const vet = session.vet!;
   const out = new Set(session.vetConfirmation?.forceExclude ?? []);
@@ -60,10 +75,12 @@ export async function allocateStage(session: Session): Promise<Portfolio> {
   const companies = universe
     .filter((c) => tickers.includes(c.ticker))
     .map((c) => ({ ...c, ethicalNotes: [], borderlineReason: borderline.get(c.ticker) }));
-  return allocate({ companies, profile: session.profile! });
+  const input = { companies, profile: session.profile! };
+  return demoRules() ? demoAllocate(input) : allocate(input);
 }
 
 export async function reportStage(session: Session): Promise<ReportSpec> {
+  if (realData() || demoRules()) return buildReport({ profile: session.profile!, vet: session.vet!, portfolio: session.portfolio! });
   if (useMocks()) return loadFixture('report-spec.json', reportSpecSchema);
   return runReport({ profile: session.profile!, vet: session.vet!, portfolio: session.portfolio! });
 }

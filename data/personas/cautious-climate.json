@@ -34,6 +34,12 @@
       "stance": "avoid",
       "weight": 2,
       "userWords": "Prefer to avoid animal cruelty"
+    },
+    {
+      "causeId": "anti_competitive",
+      "stance": "avoid",
+      "weight": 3,
+      "userWords": "Companies should compete fairly and not rig markets"
     }
   ],
   "notes": "Retired teacher, capital preservation, income focus."

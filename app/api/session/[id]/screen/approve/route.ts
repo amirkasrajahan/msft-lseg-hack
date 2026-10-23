@@ -8,6 +8,11 @@ export const POST = sessionRoute(
     updateSession(session.id, {
       screenApproval: screenApprovalSchema.parse(await req.json()),
       stage: 'vet',
+      // A new approval makes everything after it stale (the client may be revisiting this step).
+      vet: undefined,
+      vetConfirmation: undefined,
+      portfolio: undefined,
+      report: undefined,
     }),
   { requires: ['screen'] },
 );
