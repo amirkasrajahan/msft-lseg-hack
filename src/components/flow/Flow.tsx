@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Company, ScreenApproval, Session, VetConfirmation } from '@/lib/schemas';
+import { EthosMark } from './EthosMark';
 import { IntakeStep } from './IntakeStep';
 import { ProfileSummary } from './ProfileSummary';
 import { ReportView } from './ReportView';
@@ -204,17 +205,18 @@ export function Flow() {
     return null;
   };
 
+  // The landing page is a full hero, so the app header and progress bar only appear once a session exists.
+  const landing = !session && !restoring;
+
   return (
     <div className="shell">
+      {!landing && (
       <header className="topbar">
         <div className="brand">
-          <svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true">
-            <circle cx="18" cy="18" r="18" fill="var(--brand)" />
-            <path d="M11 24c0-8 5-12 14-12 0 8-4 13-12 13l-2 3" fill="none" stroke="var(--on-brand)" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
+          <EthosMark />
           <div>
-            <h1>Ethical Investment Assistant</h1>
-            <small>Educational hackathon project. Not financial advice.</small>
+            <h1>Ethos</h1>
+            <small>Invest with purpose. Grow with confidence.</small>
           </div>
         </div>
         {session && (
@@ -230,7 +232,9 @@ export function Flow() {
           </div>
         )}
       </header>
+      )}
 
+      {!landing && (
       <ol className="stepper" aria-label="Progress">
         {STEPS.map((label, i) => (
           <li
@@ -250,6 +254,7 @@ export function Flow() {
           </li>
         ))}
       </ol>
+      )}
 
       {error && (
         <div className="error" role="alert">
@@ -274,6 +279,7 @@ export function Flow() {
           </div>
         </>
       )}
+      <footer className="foot">Ethos is an educational hackathon project. Not financial advice.</footer>
     </div>
   );
 }

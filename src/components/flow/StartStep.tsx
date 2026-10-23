@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { EthosMark } from './EthosMark';
 
 // ponytail: personas are hardcoded, there is no list endpoint. Add one if more personas appear.
 const PERSONAS = [
@@ -21,22 +22,54 @@ const PERSONAS = [
 ];
 
 const HOW = [
-  ['Tell us what matters', 'Chat about goals, risk and the ethical lines you will not cross.'],
-  ['We screen and check', 'Companies are filtered on your rules, then checked against your causes. You approve each stage.'],
+  ['Tell Ethos what matters', 'Chat about goals, risk and the ethical lines you will not cross.'],
+  ['Ethos screens and checks', 'Companies are filtered on your rules, then checked against your causes. You approve each stage.'],
   ['Get a clear report', 'A portfolio with a plain-English reason for every holding, and for every exclusion.'],
+];
+
+const BUILT_FOR = [
+  ['Charities and foundations', 'Spend a share of their funds every year and cannot afford to break their own values.'],
+  ['Law firms and professional bodies', 'Hold money under strict duties and need a record of why each holding was chosen.'],
+  ['Other ethical institutions', 'Trusts, universities and funds that answer to members or the public.'],
 ];
 
 export function StartStep({ onStart }: { onStart: (personaId?: string) => void }) {
   const [picked, setPicked] = useState<string | null>(null);
+  const startChat = () => {
+    setPicked('chat');
+    onStart();
+  };
 
   return (
-    <section>
-      <div className="hero">
-        <h2>Invest in line with your values, and see exactly why.</h2>
-        <p>
-          An AI adviser interviews you, screens companies against your rules and causes, and builds a portfolio
-          you can question at every step.
-        </p>
+    <section className="landing">
+      <div className="hero-band">
+        <span className="orb o1" />
+        <span className="orb o2" />
+        <span className="orb o3" />
+        <div className="hero-inner">
+          <div className="wordmark">
+            <EthosMark size={40} fill="#fff" stroke="#12305f" />
+            Ethos
+          </div>
+          <h2 className="motto">
+            Invest with purpose.
+            <br />
+            <span>Grow with confidence.</span>
+          </h2>
+          <p>
+            Ethos is an AI adviser that interviews you, screens companies against your values, and shows its reasoning at
+            every step.
+          </p>
+          <div className="cta-row">
+            <button className="btn gold" onClick={startChat} disabled={picked !== null}>
+              Start with Ethos
+            </button>
+            <a className="btn outline" href="#clients">
+              Try a ready-made client
+            </a>
+          </div>
+          <p className="audience">Ethos works best for ethical charities and ethical institutions, such as law firms.</p>
+        </div>
       </div>
 
       <ol className="how">
@@ -49,24 +82,21 @@ export function StartStep({ onStart }: { onStart: (personaId?: string) => void }
         ))}
       </ol>
 
-      <button
-        className="persona primary"
-        style={{ width: '100%' }}
-        disabled={picked !== null}
-        onClick={() => {
-          setPicked('chat');
-          onStart();
-        }}
-      >
-        <span className="badge keep">Recommended</span>
-        <h3>Describe your own client in chat</h3>
-        <p style={{ margin: 0 }}>
-          The AI asks about your goals, limits and ethical lines, challenges grey areas, and builds the profile from
-          your answers.
-        </p>
-      </button>
+      <h3 className="section-title">Built for institutions that have to explain where their money goes</h3>
+      <div className="grid3">
+        {BUILT_FOR.map(([title, text]) => (
+          <div key={title} className="card built">
+            <b>{title}</b>
+            <p className="muted" style={{ margin: 0 }}>
+              {text}
+            </p>
+          </div>
+        ))}
+      </div>
 
-      <h3 style={{ margin: '1.5rem 0 .5rem' }}>Or try a ready-made client</h3>
+      <h3 id="clients" className="section-title">
+        Or try a ready-made client
+      </h3>
       <div className="grid2">
         {PERSONAS.map((p) => (
           <button
