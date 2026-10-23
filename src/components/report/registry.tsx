@@ -1,6 +1,7 @@
 import type { ComponentType } from 'react';
 import type {
   ClientProfile,
+  Company,
   Portfolio,
   ReportComponentName,
   ReportSection,
@@ -19,7 +20,7 @@ import {
 } from './sections';
 
 /** Data every report component can read. Numbers come from here, never from props. */
-export type ReportData = { profile: ClientProfile; vet: VetResult; portfolio: Portfolio };
+export type ReportData = { profile: ClientProfile; vet: VetResult; portfolio: Portfolio; companies: Record<string, Company> };
 
 export type ReportComponentProps<N extends ReportComponentName> = Extract<
   ReportSection,

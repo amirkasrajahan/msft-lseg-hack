@@ -180,7 +180,7 @@ export async function realAllocate(input: {
       ethicalReasons: positives.length
         ? positives
         : rec?.coverage === 'full'
-          ? [`No serious concern found on the causes you chose (${Object.keys(rec.causes).length ? 'evidence reviewed' : 'no incidents found'}).`]
+          ? [Object.keys(rec.causes).length ? 'Evidence reviewed: nothing above your threshold on the causes you chose.' : 'No incidents found on the causes you chose.']
           : ['Not rated: limited evidence.'],
       flags,
       metrics,
@@ -221,7 +221,7 @@ export function buildReport(input: { profile: ClientProfile; vet: VetResult; por
     {
       component: 'EthicalScreeningSummary',
       props: {
-        narrative: `${vet.excluded.length} ${vet.excluded.length === 1 ? 'company was' : 'companies were'} excluded on the ethics check, ${vet.borderline.length} accepted with concerns and ${vet.passed.length} passed. ${vet.unrated.length ? `${vet.unrated.length} could not be rated because there is not enough evidence yet, so they are not treated as clean.` : ''}`.trim(),
+        narrative: `Each company was rated on the causes you chose, using dated incidents with cited sources.${vet.unrated.length ? ' Companies without enough evidence are listed as not rated and are never treated as clean.' : ''}`,
       },
     },
     {
