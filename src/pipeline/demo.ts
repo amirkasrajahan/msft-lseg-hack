@@ -73,6 +73,7 @@ export async function demoVet(profile: ClientProfile, kept: string[]): Promise<V
     passed,
     borderline,
     excluded,
+    unrated: [],
     summary: `${excluded.length} excluded, ${borderline.length} borderline accepted, ${passed.length} passed cleanly.`,
   };
 }
