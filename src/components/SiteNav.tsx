@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useEffect, useState } from 'react';
 import { EthosMark } from './flow/EthosMark';
 
 const LINKS = [
@@ -11,14 +12,22 @@ const LINKS = [
   { href: '/about', label: 'About', anchor: false },
 ];
 
-/** Sticky site navigation, shared by every page. */
+/** Sticky site navigation, shared by every page. Dark glass over the landing page, light elsewhere. */
 export function SiteNav() {
   const path = usePathname();
+  const dark = path === '/';
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const on = () => setScrolled(window.scrollY > 24);
+    on();
+    window.addEventListener('scroll', on, { passive: true });
+    return () => window.removeEventListener('scroll', on);
+  }, []);
   return (
-    <header className="sitenav">
+    <header className={`sitenav${dark ? ' dark' : ''}${dark && scrolled ? ' scrolled' : ''}`}>
       <div className="sitenav-inner">
         <Link href="/" className="nav-brand" aria-label="Ethos home">
-          <EthosMark size={34} />
+          <EthosMark size={34} boxed={!dark} />
           <span>Ethos</span>
         </Link>
         <nav aria-label="Main">
@@ -36,22 +45,28 @@ export function SiteNav() {
             );
           })}
         </nav>
-        {path !== '/' && (
-          <Link href="/" className="btn small">
-            Try Ethos
-          </Link>
-        )}
+        <div className="nav-cta">
+          {!path.startsWith('/app') && (
+            <Link href="/app?start=chat" className={`btn small${dark ? ' glow' : ''}`}>
+              Get started
+            </Link>
+          )}
+        </div>
       </div>
     </header>
   );
 }
 
+/** Shared footer. The landing page draws its own. */
 export function SiteFooter() {
+  const path = usePathname();
+  if (path === '/') return null;
   return (
     <footer className="foot">
       <b>Ethos</b> · Invest with purpose. Grow with confidence.
       <br />
-      An educational hackathon prototype. Ethical assessments use a growing evidence base and portfolio weights are a placeholder. Not financial advice.
+      An educational hackathon prototype. Ethical assessments use a growing evidence base and portfolio weights are a
+      placeholder. Not financial advice.
     </footer>
   );
 }

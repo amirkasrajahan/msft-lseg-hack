@@ -74,8 +74,24 @@ export function Flow() {
     }
   }, []);
 
-  // Resume the last session after a reload.
+  // Start from a link on the landing page (/app?start=chat or /app?persona=ID), or resume the last session.
+  const booted = useRef(false);
   useEffect(() => {
+    if (booted.current) return;
+    booted.current = true;
+    const params = new URLSearchParams(window.location.search);
+    const persona = params.get('persona');
+    if (persona || params.get('start') === 'chat') {
+      window.history.replaceState(null, '', '/app'); // the link is one-shot, a reload resumes instead
+      post('/api/session', persona ? { personaId: persona } : {})
+        .then((next) => {
+          setSession(next);
+          remember(next.id);
+        })
+        .catch((e) => setError(friendly(e)))
+        .finally(() => setRestoring(false));
+      return;
+    }
     let id: string | null = null;
     try {
       id = localStorage.getItem(STORAGE_KEY);

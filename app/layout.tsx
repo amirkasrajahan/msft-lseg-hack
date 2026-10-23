@@ -1,6 +1,9 @@
 import type { ReactNode } from 'react';
+import { Plus_Jakarta_Sans } from 'next/font/google';
 import { SiteFooter, SiteNav } from '@/components/SiteNav';
 import './globals.css';
+
+const font = Plus_Jakarta_Sans({ subsets: ['latin'], variable: '--font-sans', display: 'swap' });
 
 export const metadata = {
   title: 'Ethos | Invest with purpose',
@@ -9,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={font.variable}>
       <body>
         <SiteNav />
         {children}
