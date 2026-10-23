@@ -44,7 +44,7 @@ export function ReportView({
             screenApproval={screenApproval}
             vet={data.vet}
             vetConfirmation={vetConfirmation}
-            held={data.portfolio.holdings.length}
+            held={data.portfolio.holdings.map((h) => h.ticker)}
             companies={companies}
           />
         </div>

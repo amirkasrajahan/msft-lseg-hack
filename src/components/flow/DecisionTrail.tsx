@@ -1,63 +1,96 @@
 import type { Company, ScreenApproval, ScreenResult, VetConfirmation, VetResult } from '@/lib/schemas';
+import { CompanyLogo } from './CompanyLogo';
 
 type Props = {
   screen: ScreenResult;
   screenApproval?: ScreenApproval;
   vet: VetResult;
   vetConfirmation?: VetConfirmation;
-  held: number;
+  /** Tickers actually in the portfolio. */
+  held: string[];
   companies: Record<string, Company>;
 };
 
-const name = (companies: Record<string, Company>, t: string) => companies[t]?.name ?? t;
-
-/** The funnel from the full list down to the portfolio, plus every call the client overruled. Real session data only. */
+/**
+ * How the list of companies shrank to the portfolio: four numbered stages showing what each one removed,
+ * then every company under the outcome it ended up with. Real session data only.
+ */
 export function DecisionTrail({ screen, screenApproval, vet, vetConfirmation, held, companies }: Props) {
-  const total = screen.buckets.reduce((n, b) => n + b.tickers.length, 0);
+  const all = screen.buckets.flatMap((b) => b.tickers);
+
   const kept = new Set(screen.buckets.filter((b) => b.action === 'keep').flatMap((b) => b.tickers));
   screenApproval?.forceKeep.forEach((t) => kept.add(t));
   screenApproval?.forceExclude.forEach((t) => kept.delete(t));
-  const passedEthics =
-    vet.passed.length + vet.borderline.length - (vetConfirmation?.forceExclude.length ?? 0) + (vetConfirmation?.forceInclude.length ?? 0);
+
+  const ethicsPass = new Set([...vet.passed, ...vet.borderline.map((d) => d.ticker), ...(vetConfirmation?.forceInclude ?? [])]);
+  vetConfirmation?.forceExclude.forEach((t) => ethicsPass.delete(t));
+
+  const inPortfolio = new Set(held);
+  const passedEthics = [...kept].filter((t) => ethicsPass.has(t)).length;
+
+  // Where each company ended up. A company is counted once, in the first outcome that applies.
+  const byRules = all.filter((t) => !kept.has(t) && !inPortfolio.has(t));
+  const byEthics = all.filter((t) => kept.has(t) && !ethicsPass.has(t) && !inPortfolio.has(t));
+  const left = all.filter((t) => !inPortfolio.has(t) && !byRules.includes(t) && !byEthics.includes(t));
+
+  // The client's own calls, shown as a tag on the company.
+  const calls = new Map<string, string>();
+  screenApproval?.forceKeep.forEach((t) => calls.set(t, 'you kept it'));
+  screenApproval?.forceExclude.forEach((t) => calls.set(t, 'you removed it'));
+  vetConfirmation?.forceExclude.forEach((t) => calls.set(t, 'you excluded it'));
+  vetConfirmation?.forceInclude.forEach((t) => calls.set(t, 'you included it'));
 
   const stages = [
-    ['Companies considered', total],
-    ['Passed your rules', kept.size],
-    ['Passed the ethics check', passedEthics],
-    ['In your portfolio', held],
-  ] as const;
-
-  const overrides = [
-    ...(screenApproval?.forceKeep ?? []).map((t) => `You kept ${name(companies, t)} although the screen excluded it.`),
-    ...(screenApproval?.forceExclude ?? []).map((t) => `You removed ${name(companies, t)} although the screen kept it.`),
-    ...(vetConfirmation?.forceExclude ?? []).map((t) => `You excluded ${name(companies, t)} after the ethics check.`),
-    ...(vetConfirmation?.forceInclude ?? []).map((t) => `You included ${name(companies, t)} although it failed the ethics check.`),
+    { n: all.length, label: 'Companies considered', drop: 0 },
+    { n: kept.size, label: 'Passed your rules', drop: all.length - kept.size },
+    { n: passedEthics, label: 'Passed the ethics check', drop: kept.size - passedEthics },
+    { n: held.length, label: 'In your portfolio', drop: 0 },
   ];
+
+  const groups = [
+    { key: 'in', title: 'In your portfolio', note: 'These are what the money is invested in.', list: [...inPortfolio] },
+    { key: 'rules', title: 'Removed by your rules', note: 'They break a sector or activity rule you set.', list: byRules },
+    { key: 'ethics', title: 'Removed by the ethics check', note: 'They failed on a cause you care about.', list: byEthics },
+    { key: 'left', title: 'Left out of the portfolio', note: 'They passed, but were not chosen.', list: left },
+  ].filter((g) => g.list.length > 0);
 
   return (
     <div className="card">
       <h3>How we got here</h3>
-      <div className="bars">
-        {stages.map(([label, n]) => (
-          <div key={label} className="bar-row">
-            <span>{label}</span>
-            <div className="track">
-              <div className="fill" style={{ width: `${total ? (n / total) * 100 : 0}%` }} />
-            </div>
-            <b>{n}</b>
-          </div>
+      <p className="muted" style={{ marginBottom: '.75rem' }}>
+        Ethos started with {all.length} companies and ended with {held.length}. This is what happened to each one.
+      </p>
+
+      <ol className="pipeline">
+        {stages.map((s, i) => (
+          <li key={s.label} className="stage">
+            <span className="step-no">{i + 1}</span>
+            <b className="big">{s.n}</b>
+            <span>{s.label}</span>
+            {s.drop > 0 && <span className="drop">{s.drop} removed</span>}
+          </li>
         ))}
-      </div>
-      <h3 style={{ marginTop: '1rem' }}>Your calls</h3>
-      {overrides.length === 0 ? (
-        <p className="muted" style={{ margin: 0 }}>You accepted the recommendation at both checkpoints.</p>
-      ) : (
-        <ul className="plain">
-          {overrides.map((o) => (
-            <li key={o}>{o}</li>
-          ))}
-        </ul>
-      )}
+      </ol>
+
+      {groups.map((g) => (
+        <div key={g.key} className={`outcome ${g.key}`}>
+          <h4>
+            {g.title} <span className="count">{g.list.length}</span>
+          </h4>
+          <p className="muted">{g.note}</p>
+          <div className="pills">
+            {g.list.map((t) => (
+              <span key={t} className="pill-co">
+                <CompanyLogo ticker={t} name={companies[t]?.name} />
+                {companies[t]?.name ?? t}
+                {calls.has(t) && <em>{calls.get(t)}</em>}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))}
+
+      {calls.size === 0 && <p className="muted" style={{ margin: '1rem 0 0' }}>You accepted the recommendation at both checkpoints.</p>}
     </div>
   );
 }
