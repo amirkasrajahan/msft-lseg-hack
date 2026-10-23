@@ -20,6 +20,7 @@ export const CAUSES = [
   { id: 'product_safety', label: 'Product safety & health', description: 'Unsafe products, recalls, misleading marketing, public health harm.' },
   { id: 'community_impact', label: 'Community impact', description: 'Local community harm or investment, displacement, social license to operate.' },
   { id: 'customer_practices', label: 'Customer practices', description: 'Mis-selling, unfair fees, misleading marketing, poor treatment of customers, complaints and redress.' },
+  { id: 'anti_competitive', label: 'Anti-competitive behaviour', description: 'Cartels, price fixing, abuse of dominant position, competition-authority fines and investigations.' },
   { id: 'executive_pay', label: 'Executive pay', description: 'Excessive executive remuneration relative to performance or workforce pay.' },
 ] as const;
 

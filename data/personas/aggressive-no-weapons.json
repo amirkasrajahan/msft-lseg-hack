@@ -20,6 +20,12 @@
       "stance": "avoid",
       "weight": 3,
       "userWords": "No forced labour in supply chains"
+    },
+    {
+      "causeId": "anti_competitive",
+      "stance": "avoid",
+      "weight": 3,
+      "userWords": "No cartels, price fixing or abuse of market power"
     }
   ],
   "notes": "30-year-old engineer, long horizon, maximise growth."
