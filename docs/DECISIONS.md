@@ -31,3 +31,7 @@ The starter's Python `.gitignore` template contained bare `lib/` and `lib64/`, w
 
 ## 9. Intake uses structured output, not function tools
 The portal's chat completions endpoint rejects function tools for `gpt-6.1-sol` (it demands `reasoning_effort: none`, then rejects `none`), and `/responses` returns 404. So the intake agent makes one `generateText` call per turn with `Output.object({ reply, profile | null })`, and `strictJsonSchema: false` because the profile has optional fields. The server saves the profile when the model returns it after the client confirms; the frontend detects that by re-reading the session. Revisit if the portal gains a Responses endpoint.
+
+## 10. Real-data mode lives beside the mocks, with 'not rated' as its own outcome
+`REAL_DATA=1` switches the four stages to `src/pipeline/real.ts` without touching the agent stubs, so Rayhan's agents and finance's `allocate()` can replace each stage independently. A missing or thin (`partial`, `none`) evidence record is reported as `unrated` and left out by default, because "no evidence" is not "clean" (see `docs/ETHICS_CACHE.md`). The rubric constants were set from the real score distribution (276 company-cause pairs) and are one object to retune. Allocation is a labelled placeholder until finance has price data.
+
