@@ -1,10 +1,10 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import type { ScreenApproval, Session, VetConfirmation } from '@/lib/schemas';
+import type { Company, ScreenApproval, Session, VetConfirmation } from '@/lib/schemas';
+import { IntakeStep } from './IntakeStep';
 import { ProfileSummary } from './ProfileSummary';
 import { ReportView } from './ReportView';
-import { IntakeStep } from './IntakeStep';
 import { ScreenStep } from './ScreenStep';
 import { StartStep } from './StartStep';
 import { VetStep } from './VetStep';
@@ -12,6 +12,8 @@ import { getSession, post } from './api';
 
 const STORAGE_KEY = 'eia-session-id';
 const STEPS = ['Client', 'Screen', 'Ethics check', 'Portfolio', 'Report'];
+/** Steps the client makes decisions in, so the only ones they can go back to. */
+const REVISITABLE = 2;
 
 type Pending = 'screen' | 'vet' | 'allocate' | 'report' | null;
 
@@ -34,7 +36,8 @@ function pendingAction(s: Session | null): Pending {
   return null;
 }
 
-function stepIndex(s: Session | null): number {
+/** How far the session has actually got (0 to 4), whatever step is on screen. */
+function progress(s: Session | null): number {
   if (!s?.profile) return 0;
   if (!s.screenApproval) return 1;
   if (!s.vetConfirmation) return 2;
@@ -55,7 +58,9 @@ export function Flow() {
   const [session, setSession] = useState<Session | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [restoring, setRestoring] = useState(true);
-  const [editing, setEditing] = useState(false);
+  /** A step the client went back to. Null means show wherever the session has got to. */
+  const [revisit, setRevisit] = useState<number | null>(null);
+  const [companies, setCompanies] = useState<Record<string, Company>>({});
   const inflight = useRef<string | null>(null);
 
   const run = useCallback(async (path: string, body?: unknown) => {
@@ -87,6 +92,14 @@ export function Flow() {
       .finally(() => setRestoring(false));
   }, []);
 
+  // Company names and details for the screen and vet steps. Without them the steps show tickers only.
+  useEffect(() => {
+    fetch('/api/companies')
+      .then((r) => (r.ok ? r.json() : []))
+      .then((list: Company[]) => setCompanies(Object.fromEntries(list.map((c) => [c.ticker, c]))))
+      .catch(() => undefined);
+  }, []);
+
   const pending = pendingAction(session);
 
   // Fire the next server stage automatically once the client has nothing left to decide.
@@ -111,20 +124,81 @@ export function Flow() {
 
   const finishEditing = async () => {
     await reload();
-    setEditing(false);
+    setRevisit(null);
   };
 
   const restart = () => {
     remember(null);
-    setEditing(false);
+    setRevisit(null);
     setSession(null);
     setError(null);
   };
 
-  const approveScreen = (a: ScreenApproval) => run(`/api/session/${session!.id}/screen/approve`, a);
-  const confirmVet = (c: VetConfirmation) => run(`/api/session/${session!.id}/vet/confirm`, c);
+  const approveScreen = async (a: ScreenApproval) => {
+    setRevisit(null);
+    await run(`/api/session/${session!.id}/screen/approve`, a);
+  };
+  const confirmVet = async (c: VetConfirmation) => {
+    setRevisit(null);
+    await run(`/api/session/${session!.id}/vet/confirm`, c);
+  };
 
-  const current = editing ? 0 : stepIndex(session);
+  const reached = progress(session);
+  const current = revisit ?? reached;
+  const canGoBack = (i: number) => !!session?.profile && !pending && i <= REVISITABLE && i < reached && i !== revisit;
+
+  const body = () => {
+    if (!session) return null;
+    if (!session.profile || revisit === 0) {
+      return (
+        <IntakeStep
+          sessionId={session.id}
+          profile={revisit === 0 ? session.profile : undefined}
+          onDone={finishEditing}
+          onCancel={revisit === 0 ? () => setRevisit(null) : undefined}
+        />
+      );
+    }
+    if (pending) return <Working label={WORKING_LABEL[pending]} />;
+    if (revisit === 1 && session.screen) {
+      return (
+        <ScreenStep
+          screen={session.screen}
+          profile={session.profile}
+          companies={companies}
+          initial={session.screenApproval}
+          onApprove={approveScreen}
+          onCancel={() => setRevisit(null)}
+        />
+      );
+    }
+    if (revisit === 2 && session.vet) {
+      return (
+        <VetStep
+          vet={session.vet}
+          companies={companies}
+          initial={session.vetConfirmation}
+          onConfirm={confirmVet}
+          onCancel={() => setRevisit(null)}
+        />
+      );
+    }
+    if (session.report && session.vet && session.portfolio) {
+      return (
+        <ReportView
+          report={session.report}
+          data={{ profile: session.profile, vet: session.vet, portfolio: session.portfolio }}
+        />
+      );
+    }
+    if (session.screen && !session.screenApproval) {
+      return <ScreenStep screen={session.screen} profile={session.profile} companies={companies} onApprove={approveScreen} />;
+    }
+    if (session.vet && !session.vetConfirmation) {
+      return <VetStep vet={session.vet} companies={companies} onConfirm={confirmVet} />;
+    }
+    return null;
+  };
 
   return (
     <div className="shell">
@@ -135,8 +209,8 @@ export function Flow() {
         </div>
         {session && (
           <div className="actions" style={{ marginTop: 0 }}>
-            {session.profile && !editing && !pending && (
-              <button className="btn ghost" onClick={() => setEditing(true)}>
+            {session.profile && !pending && revisit !== 0 && (
+              <button className="btn ghost" onClick={() => setRevisit(0)}>
                 Edit preferences
               </button>
             )}
@@ -154,7 +228,15 @@ export function Flow() {
             className={i < current ? 'done' : i === current ? 'current' : ''}
             aria-current={i === current ? 'step' : undefined}
           >
-            {i + 1}. {label}
+            {canGoBack(i) ? (
+              <button onClick={() => setRevisit(i)} title={`Go back to ${label.toLowerCase()}`}>
+                {i + 1}. {label}
+              </button>
+            ) : (
+              <>
+                {i + 1}. {label}
+              </>
+            )}
           </li>
         ))}
       </ol>
@@ -176,26 +258,8 @@ export function Flow() {
         <StartStep onStart={(personaId) => run('/api/session', personaId ? { personaId } : {})} />
       ) : (
         <>
-          {session.profile && !editing && current < 4 && <ProfileSummary profile={session.profile} />}
-          {!session.profile || editing ? (
-            <IntakeStep
-              sessionId={session.id}
-              profile={editing ? session.profile : undefined}
-              onDone={finishEditing}
-              onCancel={editing ? () => setEditing(false) : undefined}
-            />
-          ) : pending ? (
-            <Working label={WORKING_LABEL[pending]} />
-          ) : session.report && session.vet && session.portfolio && session.profile ? (
-            <ReportView
-              report={session.report}
-              data={{ profile: session.profile, vet: session.vet, portfolio: session.portfolio }}
-            />
-          ) : session.screen && !session.screenApproval ? (
-            <ScreenStep screen={session.screen} onApprove={approveScreen} />
-          ) : session.vet && !session.vetConfirmation ? (
-            <VetStep vet={session.vet} onConfirm={confirmVet} />
-          ) : null}
+          {session.profile && revisit !== 0 && current < 4 && <ProfileSummary profile={session.profile} />}
+          {body()}
         </>
       )}
     </div>

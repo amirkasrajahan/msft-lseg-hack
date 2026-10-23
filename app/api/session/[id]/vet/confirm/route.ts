@@ -8,6 +8,9 @@ export const POST = sessionRoute(
     updateSession(session.id, {
       vetConfirmation: vetConfirmationSchema.parse(await req.json()),
       stage: 'allocate',
+      // A new confirmation makes the portfolio and report stale (the client may be revisiting this step).
+      portfolio: undefined,
+      report: undefined,
     }),
   { requires: ['vet'] },
 );

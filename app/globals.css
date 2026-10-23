@@ -161,3 +161,17 @@ ul.plain { margin: 0; padding-left: 1.1rem; }
 .chatform { display: flex; gap: .5rem; padding: .75rem 1rem; border-top: 1px solid var(--line); }
 .chatform input { flex: 1; padding: .65rem .8rem; font: inherit; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--fg); }
 .chat .error { margin: 0 1rem .75rem; }
+
+.chip-wrap { position: relative; display: inline-block; }
+.chip-name { font-weight: 400; color: var(--muted); }
+.logo { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 6px; color: #fff; font-size: .62rem; font-weight: 700; letter-spacing: .02em; flex: none; }
+.chip .logo { margin-left: -.3rem; }
+.tip { display: none; flex-direction: column; gap: .3rem; position: absolute; left: 0; top: calc(100% + 6px); z-index: 20; width: min(320px, 80vw); padding: .7rem .85rem; background: var(--card); color: var(--fg); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 24px rgba(0, 0, 0, .2); font-size: .85rem; line-height: 1.4; text-align: left; font-weight: 400; text-decoration: none; }
+.chip-wrap:hover .tip, .chip-wrap:focus-within .tip { display: flex; }
+.tip-head { display: flex; align-items: center; gap: .5rem; }
+.tip small { color: var(--muted); }
+.tip .why { border-top: 1px solid var(--line); padding-top: .3rem; }
+.stepper button { all: unset; cursor: pointer; display: block; width: 100%; }
+.stepper button:hover { color: var(--brand); text-decoration: underline; }
+.stepper button:focus-visible { outline: 3px solid var(--brand); outline-offset: 2px; }
+.decision .head .logo { width: 24px; height: 24px; }

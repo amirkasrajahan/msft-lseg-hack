@@ -1,18 +1,27 @@
 'use client';
 
 import { useState } from 'react';
-import { causeById, type VetConfirmation, type VetDecision, type VetResult } from '@/lib/schemas';
+import { causeById, type Company, type VetConfirmation, type VetDecision, type VetResult } from '@/lib/schemas';
+import { CompanyChip } from './CompanyChip';
+import { CompanyLogo } from './CompanyLogo';
 
-/** Checkpoint 2. Borderline companies are in by default and can be removed; excluded ones can be brought back. */
+/** Checkpoint 2. Borderline companies are in by default and can be excluded; excluded ones can be brought back. */
 export function VetStep({
   vet,
+  companies,
+  initial,
   onConfirm,
+  onCancel,
 }: {
   vet: VetResult;
+  companies: Record<string, Company>;
+  /** Earlier decisions, when the client comes back to this step. */
+  initial?: VetConfirmation;
   onConfirm: (c: VetConfirmation) => void;
+  onCancel?: () => void;
 }) {
-  const [out, setOut] = useState<Set<string>>(new Set()); // passed or borderline tickers the client removed
-  const [back, setBack] = useState<Set<string>>(new Set()); // excluded tickers the client brought back
+  const [out, setOut] = useState<Set<string>>(() => new Set(initial?.forceExclude)); // passed or borderline tickers the client excluded
+  const [back, setBack] = useState<Set<string>>(() => new Set(initial?.forceInclude)); // excluded tickers the client brought back
   const [sent, setSent] = useState(false);
 
   const toggle = (set: Set<string>, ticker: string, update: (s: Set<string>) => void) => {
@@ -33,18 +42,18 @@ export function VetStep({
 
       <div className="card">
         <h3>Passed cleanly ({vet.passed.length})</h3>
-        <p className="muted">No serious concerns on your causes. Click one to leave it out.</p>
+        <p className="muted">No serious concerns on your causes. Hover for details, click one to exclude it.</p>
         <div className="chips">
           {vet.passed.map((t) => (
-            <button
+            <CompanyChip
               key={t}
-              className="chip good"
-              aria-pressed={!out.has(t)}
+              ticker={t}
+              company={companies[t]}
+              tone="good"
+              pressed={!out.has(t)}
               disabled={sent}
               onClick={() => toggle(out, t, setOut)}
-            >
-              {t}
-            </button>
+            />
           ))}
         </div>
       </div>
@@ -52,14 +61,15 @@ export function VetStep({
       {vet.borderline.length > 0 && (
         <div className="card">
           <h3>Accepted with concerns ({vet.borderline.length})</h3>
-          <p className="muted">Close calls. They are in the portfolio unless you remove them.</p>
+          <p className="muted">Close calls. They are in the portfolio unless you exclude them.</p>
           {vet.borderline.map((d) => (
             <Decision
               key={d.ticker}
               d={d}
+              company={companies[d.ticker]}
               tone="warn"
-              pressed={!out.has(d.ticker)}
-              label={out.has(d.ticker) ? 'Removed' : 'Keep in portfolio'}
+              pressed={out.has(d.ticker)}
+              label={out.has(d.ticker) ? 'Excluded (undo)' : 'Exclude this'}
               disabled={sent}
               onToggle={() => toggle(out, d.ticker, setOut)}
             />
@@ -75,9 +85,10 @@ export function VetStep({
             <Decision
               key={d.ticker}
               d={d}
+              company={companies[d.ticker]}
               tone="bad"
               pressed={back.has(d.ticker)}
-              label={back.has(d.ticker) ? 'Included anyway' : 'Include anyway'}
+              label={back.has(d.ticker) ? 'Included anyway (undo)' : 'Include anyway'}
               disabled={sent}
               onToggle={() => toggle(back, d.ticker, setBack)}
             />
@@ -96,6 +107,11 @@ export function VetStep({
         >
           Confirm and build portfolio ({total} {total === 1 ? 'company' : 'companies'})
         </button>
+        {onCancel && (
+          <button className="btn ghost" onClick={onCancel} disabled={sent}>
+            Back to results
+          </button>
+        )}
         {total === 0 && <small>Keep at least one company to continue.</small>}
       </div>
     </section>
@@ -104,6 +120,7 @@ export function VetStep({
 
 function Decision({
   d,
+  company,
   tone,
   pressed,
   label,
@@ -111,6 +128,7 @@ function Decision({
   onToggle,
 }: {
   d: VetDecision;
+  company?: Company;
   tone: 'warn' | 'bad';
   pressed: boolean;
   label: string;
@@ -121,9 +139,11 @@ function Decision({
     <div className="decision">
       <div>
         <div className="head">
+          <CompanyLogo ticker={d.ticker} name={company?.name} />
           <span className={`chip ${tone}`}>
             <b>{d.ticker}</b>
           </span>
+          {company && <b>{company.name}</b>}
           <span>{causeById(d.causeId).label}</span>
           <span className={`meter ${tone === 'bad' ? 'bad' : ''}`} title={`Concern score ${d.score}`}>
             <span style={{ width: `${Math.min(100, d.score)}%` }} />

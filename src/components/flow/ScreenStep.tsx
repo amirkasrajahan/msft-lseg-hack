@@ -1,21 +1,46 @@
 'use client';
 
 import { useState } from 'react';
-import type { ScreenApproval, ScreenResult } from '@/lib/schemas';
+import type { ClientProfile, Company, ScreenApproval, ScreenBucket, ScreenResult } from '@/lib/schemas';
+import { CompanyChip } from './CompanyChip';
+import { humanize } from './ProfileSummary';
+
+/** Why a company is in or out: the bucket's reason plus which of the client's own rules it touches. */
+function whyLines(bucket: ScreenBucket, company: Company | undefined, profile: ClientProfile, moved: boolean) {
+  const lines = [`${bucket.action === 'keep' ? 'Continues' : 'Excluded'}: ${bucket.label}. ${bucket.rationale}`];
+  if (company) {
+    const refused = company.activityTags.filter((t) => profile.activityExclusions.includes(t));
+    if (refused.length) lines.push(`Matches what you refuse: ${refused.map((t) => humanize(t).toLowerCase()).join(', ')}.`);
+    if (profile.sectors.exclude.includes(company.sector)) lines.push(`In a sector you excluded: ${company.sector}.`);
+    if (profile.sectors.include.includes(company.sector)) lines.push(`In a sector you prefer: ${company.sector}.`);
+  }
+  if (moved) lines.push('You moved this one. Click again to undo.');
+  return lines;
+}
 
 /**
- * Checkpoint 1. A ticker chip flips between kept and excluded; the diff against the server's
+ * Checkpoint 1. A company chip flips between kept and excluded; the diff against the server's
  * buckets is what we send back as ScreenApproval.
- * ponytail: tickers only, the screen result carries no company names. Ask orchestration to expose them.
  */
 export function ScreenStep({
   screen,
+  profile,
+  companies,
+  initial,
   onApprove,
+  onCancel,
 }: {
   screen: ScreenResult;
+  profile: ClientProfile;
+  companies: Record<string, Company>;
+  /** Earlier decisions, when the client comes back to this step. */
+  initial?: ScreenApproval;
   onApprove: (a: ScreenApproval) => void;
+  onCancel?: () => void;
 }) {
-  const [flipped, setFlipped] = useState<Set<string>>(new Set());
+  const [flipped, setFlipped] = useState<Set<string>>(
+    () => new Set([...(initial?.forceKeep ?? []), ...(initial?.forceExclude ?? [])]),
+  );
   const [sent, setSent] = useState(false);
 
   const isKept = (ticker: string, action: 'keep' | 'exclude') =>
@@ -45,7 +70,10 @@ export function ScreenStep({
     <section>
       <h2>Step 1: check the first screen</h2>
       <p>{screen.summary}</p>
-      <p className="muted">Click a company to move it in or out. Crossed-out companies won&apos;t be considered.</p>
+      <p className="muted">
+        Hover over a company to see what it does and why it is in or out. Click it to move it. Crossed-out companies
+        won&apos;t be considered.
+      </p>
 
       {screen.buckets.map((b) => (
         <div key={b.id} className="card">
@@ -56,15 +84,15 @@ export function ScreenStep({
           <p className="muted">{b.rationale}</p>
           <div className="chips">
             {b.tickers.map((t) => (
-              <button
+              <CompanyChip
                 key={t}
-                className="chip"
-                aria-pressed={isKept(t, b.action)}
-                onClick={() => flip(t)}
+                ticker={t}
+                company={companies[t]}
+                pressed={isKept(t, b.action)}
                 disabled={sent}
-              >
-                {t}
-              </button>
+                why={whyLines(b, companies[t], profile, flipped.has(t))}
+                onClick={() => flip(t)}
+              />
             ))}
           </div>
         </div>
@@ -74,6 +102,11 @@ export function ScreenStep({
         <button className="btn" onClick={approve} disabled={sent || keptCount === 0}>
           Approve and check ethics ({keptCount} {keptCount === 1 ? 'company' : 'companies'})
         </button>
+        {onCancel && (
+          <button className="btn ghost" onClick={onCancel} disabled={sent}>
+            Back to results
+          </button>
+        )}
         {keptCount === 0 && <small>Keep at least one company to continue.</small>}
       </div>
     </section>
