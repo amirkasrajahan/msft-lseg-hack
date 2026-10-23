@@ -386,3 +386,8 @@ html { scroll-behavior: smooth; }
 .incident cite a { color: var(--brand); }
 .stage .drop.warn { background: var(--warn-soft); color: var(--warn); margin-left: .25rem; }
 .outcome.unrated { border-color: var(--warn); }
+
+/* ---- Status badges ---- */
+.status { display: inline-block; align-self: flex-start; margin-top: .35rem; padding: .1rem .6rem; border-radius: 999px; font-size: .75rem; font-weight: 700; }
+.status.live { background: var(--good-soft); color: var(--good); }
+.status.soon { background: var(--warn-soft); color: var(--warn); }
