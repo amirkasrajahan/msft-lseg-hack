@@ -202,6 +202,7 @@ export function Flow() {
     if (session.report && session.vet && session.portfolio) {
       return (
         <ReportView
+          sessionId={session.id}
           report={session.report}
           data={{ profile: session.profile, vet: session.vet, portfolio: session.portfolio }}
           screen={session.screen}

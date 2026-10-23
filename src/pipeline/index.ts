@@ -1,7 +1,7 @@
 import { runReport } from '@/agents/report';
 import { runScreen } from '@/agents/screen';
 import { runVet } from '@/agents/vet';
-import { allocate } from '@/finance';
+import { allocate, realFinance } from '@/finance';
 import { useMocks } from '@/lib/env';
 import { loadFixture, loadJson } from '@/lib/fixtures';
 import {
@@ -55,7 +55,9 @@ export async function vetStage(session: Session): Promise<VetResult> {
 }
 
 export async function allocateStage(session: Session): Promise<Portfolio> {
-  if (realData()) {
+  // REAL_FINANCE=1 sends the real universe through the finance optimiser instead
+  // of the placeholder. Off by default: REAL_DATA on its own behaves as before.
+  if (realData() && !realFinance()) {
     return realAllocate({
       universe: await loadUniverse(),
       vet: session.vet!,
@@ -63,7 +65,7 @@ export async function allocateStage(session: Session): Promise<Portfolio> {
       profile: session.profile!,
     });
   }
-  if (useMocks() && !demoRules()) return loadFixture('portfolio.json', portfolioSchema);
+  if (useMocks() && !demoRules() && !realData()) return loadFixture('portfolio.json', portfolioSchema);
   const universe = await loadUniverse();
   const vet = session.vet!;
   const out = new Set(session.vetConfirmation?.forceExclude ?? []);

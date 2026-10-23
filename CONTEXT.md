@@ -18,7 +18,9 @@ Scaffold and contracts are done. Next: each owner builds their module against mo
 | Vet agent + rubric | Orchestration | Rubric written (`src/lib/rubric.ts`), real vet runs in `REAL_DATA=1` | `src/agents/vet.ts` still a stub; `realVet` in `src/pipeline/real.ts` does the work |
 | Cache builder + `data/universe.json` | Orchestration | In progress (`orch/cache`) | 332 companies, 110 evidence records so far |
 | Report agent | Orchestration | Stub | `src/agents/report.ts` |
-| Finance `allocate()` | Finance | Stub | `src/finance/index.ts` |
+| Finance `allocate()` | Finance | Done | Mean-variance under a volatility budget set by `riskLevel`, long only, 10% per company, cash synthesised so short horizons are reachable. Reads the frozen `data/market.json` |
+| Market data | Finance | Done | `scripts/fetch-market.py` builds `data/market.json` from Yahoo: 97 FTSE 100 companies, 3y of daily closes. Offline only |
+| Three horizons | Finance | Done | `POST /api/session/:id/options` + `HorizonOptions.tsx`, shown inside the report |
 | Frontend pages | Frontend | Done in mock mode | Landing page at `/`, the advisor at `/app` (`/app?start=chat` and `/app?persona=ID` start straight away). Single-page flow in `src/components/flow/`: persona start, screen approval, vet confirmation, report. Chat intake step in `IntakeStep.tsx` (`useChat`). Earlier steps are clickable in the stepper; company chips show a hover card with name, details and why they are in or out. Resumes the last session from localStorage |
 | Report component registry | Frontend | Done | All nine components in `src/components/report/sections.tsx`, wired in `registry.tsx` |
 
@@ -26,7 +28,9 @@ Scaffold and contracts are done. Next: each owner builds their module against mo
 
 `src/pipeline/real.ts` runs the pipeline on `data/universe.json` and `data/ethics/` instead of fixtures. Set it in `.env`.
 - **Real:** stage 1 screen (rules on sector and activity tags) and stage 2 vet (`src/lib/rubric.ts` on cited evidence). `npm run check:rubric` asserts the rubric.
-- **Placeholder:** allocation (`realAllocate`) uses no price or return data. It picks up to 20 companies with the cleanest record (max 4 per sector), tilts by risk level, caps holdings. **Finance: replace it with `allocate()`** and delete `realAllocate`.
+- **`realAllocate` is superseded.** `REAL_FINANCE=1` routes real-data mode through `allocate()` instead; without the flag nothing changes. Once the team is happy, drop the flag and delete `realAllocate` from `src/pipeline/real.ts`.
+- Expected returns are shrunk 80% toward the cross-sectional mean and re-centred on the risk-free rate plus a 4.5% equity premium. A three-year sample mean is not a forecast: raw, it claims 42% a year for Rolls-Royce. Say so when presenting.
+- Only FTSE 100 is priced. Eligible companies outside it are named in the portfolio's methodology, never silently dropped. `python3 scripts/fetch-market.py --index all` covers all 332.
 - **Not rated:** a company with no cache record, or coverage `partial` or `none`, goes in `VetResult.unrated`. It is never treated as clean and is left out unless the client includes it.
 - **Schemas** were extended additively to read the new data (`sources` with quotes, `coverage`, `customer_practices`, `tier`, `index`, `VetResult.unrated`). Rayhan: if your own schema changes differ, yours win; tell me and I will adapt.
 - **Rubric constants** (`RUBRIC` in `rubric.ts`): exclude at 8, borderline at 4, 12-year half-life; per cause the worst incident counts in full and the rest at half; a confirmed severity 4 or 5 incident keeps a cause at least a close call (client weight 3 or more). Cause weight scales the score (3 is neutral). See `docs/DECISIONS.md` 11. The UI shows the score as a share of the exclusion line. Tune freely.
@@ -40,5 +44,7 @@ Scaffold and contracts are done. Next: each owner builds their module against mo
 - `.env.example` now exists (added by Frontend); copy it to `.env`. It documents `USE_MOCKS`, `REAL_DATA`, `DEMO_RULES`, the Azure key and the logo.dev token.
 - `.gitignore` does not ignore `node_modules/`, `.next/`, `.data/`, `next-env.d.ts`, `tsconfig.tsbuildinfo`.
 - Confirm embeddings (`text-embedding-3-large`) work on the portal. Endpoint and chat deployment (`gpt-6.1-sol`) are confirmed.
-- Confirm LSEG data availability with organisers (Finance).
+- Confirm LSEG data availability with organisers (Finance). Yahoo is in place meanwhile.
+- The footer still says portfolio weights are a placeholder. They are not, once `REAL_FINANCE=1`.
+- Azure embeddings are confirmed working (`text-embedding-3-large`, 3072 dimensions).
 - Choose news source for the cache (Google News RSS / GDELT, or a search API if provided).

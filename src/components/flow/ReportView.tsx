@@ -3,6 +3,7 @@ import type { ReportData } from '@/components/report/registry';
 import { reportRegistry } from '@/components/report/registry';
 import type { Company, ReportSection, ReportSpec, ScreenApproval, ScreenResult, VetConfirmation } from '@/lib/schemas';
 import { DecisionTrail } from './DecisionTrail';
+import { HorizonOptions } from './HorizonOptions';
 
 /** Open every <details> so the printed or saved page keeps all the detail, then put them back. */
 function printAll() {
@@ -15,6 +16,7 @@ function printAll() {
 
 /** Renders the report agent's sections through the component registry, plus the client's decision trail. */
 export function ReportView({
+  sessionId,
   report,
   data,
   screen,
@@ -22,6 +24,7 @@ export function ReportView({
   vetConfirmation,
   companies,
 }: {
+  sessionId: string;
   report: ReportSpec;
   data: Omit<ReportData, 'companies'>;
   screen?: ScreenResult;
@@ -80,6 +83,10 @@ export function ReportView({
         </div>
       )}
       {parts}
+      {/* The three horizons sit inside the report, not on a page of their own:
+          the comparison is the point, and it belongs where the client is
+          already reading their portfolio. Hidden when nothing was allocated. */}
+      {!empty && <HorizonOptions sessionId={sessionId} />}
     </article>
   );
 }
