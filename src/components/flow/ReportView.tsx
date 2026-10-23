@@ -28,6 +28,15 @@ export function ReportView({
           Print or save as PDF
         </button>
       </div>
+      {data.portfolio.holdings.length === 0 && (
+        <div className="card warn-card" role="alert">
+          <h3>No companies are left to invest in</h3>
+          <p style={{ margin: 0 }}>
+            Your rules and the ethics check removed every company. Go back with the steps above, relax a rule or
+            include a company anyway, and the report will rebuild.
+          </p>
+        </div>
+      )}
       {screen && (
         <div className="report-section">
           <DecisionTrail
@@ -40,11 +49,12 @@ export function ReportView({
           />
         </div>
       )}
-      {report.sections.map((s, i) => (
-        <div key={i} className="report-section">
-          {renderSection(s, data)}
-        </div>
-      ))}
+      {data.portfolio.holdings.length > 0 &&
+        report.sections.map((s, i) => (
+          <div key={i} className="report-section">
+            {renderSection(s, data)}
+          </div>
+        ))}
     </section>
   );
 }

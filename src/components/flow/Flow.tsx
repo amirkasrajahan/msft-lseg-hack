@@ -8,7 +8,7 @@ import { ReportView } from './ReportView';
 import { ScreenStep } from './ScreenStep';
 import { StartStep } from './StartStep';
 import { VetStep } from './VetStep';
-import { getSession, post } from './api';
+import { friendly, getSession, post } from './api';
 
 const STORAGE_KEY = 'eia-session-id';
 // The portfolio is built and the report written with no client decision in between, so they share one step.
@@ -70,7 +70,7 @@ export function Flow() {
       setSession(next);
       remember(next.id);
     } catch (e) {
-      setError(e instanceof Error ? e.message : 'Something went wrong');
+      setError(friendly(e));
     }
   }, []);
 
@@ -118,7 +118,7 @@ export function Flow() {
     try {
       setSession(await getSession(session.id));
     } catch (e) {
-      setError(e instanceof Error ? e.message : 'Something went wrong');
+      setError(friendly(e));
     }
   }, [session]);
 

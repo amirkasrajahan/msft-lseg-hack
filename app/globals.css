@@ -213,3 +213,19 @@ ul.plain { margin: 0; padding-left: 1.1rem; }
 .understood ul { margin: 0; }
 .understood li { margin-bottom: .35rem; }
 @media (max-width: 860px) { .intake-grid { grid-template-columns: 1fr; } .understood { position: static; } }
+
+.warn-card { background: var(--warn-soft); border-color: transparent; }
+@media (max-width: 600px) {
+  .shell { padding: 1rem .75rem 4rem; }
+  .topbar .actions { width: 100%; }
+  .topbar .btn { flex: 1; }
+  .brand h1 { font-size: 1.2rem; }
+  .hero h2 { font-size: 1.4rem; }
+  .stepper li { min-width: 70px; font-size: .75rem; padding: .35rem .3rem; }
+  .decision { grid-template-columns: 1fr; }
+  .toggle { justify-self: start; }
+  .report-head .btn { width: 100%; }
+  .bubble { max-width: 94%; }
+  /* No hover on touch: show the company card as a sheet at the bottom of the screen while the chip is focused. */
+  .tip { position: fixed; left: .75rem; right: .75rem; top: auto; bottom: .75rem; width: auto; max-height: 55vh; overflow-y: auto; }
+}

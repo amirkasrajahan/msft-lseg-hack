@@ -6,7 +6,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ClientProfile } from '@/lib/schemas';
 import type { IntakeMessage } from '@/agents/intake';
 import { profileLines, profileToText } from './ProfileSummary';
-import { getSession } from './api';
+import { friendly, getSession } from './api';
 
 const GREETING =
   "Hi! I'll help you work out where an ethical portfolio should invest. To start: who is the money for, and roughly how long can it stay invested?";
@@ -160,7 +160,7 @@ export function IntakeStep({
         </div>
         {error && (
           <div className="error" role="alert">
-            {error.message}
+            {friendly(error)}
           </div>
         )}
         <form
