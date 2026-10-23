@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Company, ScreenApproval, Session, VetConfirmation } from '@/lib/schemas';
 import { EthosMark } from './EthosMark';
@@ -226,6 +227,9 @@ export function Flow() {
                 Edit preferences
               </button>
             )}
+            <Link className="btn ghost" href="/about">
+              About
+            </Link>
             <button className="btn ghost" onClick={restart}>
               Start over
             </button>

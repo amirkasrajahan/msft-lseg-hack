@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState } from 'react';
 import { EthosMark } from './EthosMark';
 
@@ -67,6 +68,9 @@ export function StartStep({ onStart }: { onStart: (personaId?: string) => void }
             <a className="btn outline" href="#clients">
               Try a ready-made client
             </a>
+            <Link className="btn outline" href="/about">
+              What is Ethos?
+            </Link>
           </div>
           <p className="audience">Ethos works best for ethical charities and ethical institutions, such as law firms.</p>
         </div>

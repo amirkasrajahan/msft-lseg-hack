@@ -302,3 +302,18 @@ button.chip:hover:not(:disabled) { transform: translateY(-1px); }
 .mark i { display: block; width: 66%; height: 66%; background-color: #a59a85; -webkit-mask: url(/ethos-logo.png) center / contain no-repeat; mask: url(/ethos-logo.png) center / contain no-repeat; }
 .mark.plain i { width: 100%; height: 100%; background-color: #c9bda4; }
 .wordmark { font-size: 1.6rem; }
+
+/* ---- About ---- */
+.about .brand { text-decoration: none; color: inherit; }
+.about-hero { padding: 2.5rem 2.25rem; }
+.about-hero .eyebrow { color: var(--gold); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; margin-bottom: .5rem; }
+.prose { margin: 2.25rem 0; }
+.prose h2 { font-size: 1.5rem; color: var(--brand); margin-bottom: .75rem; }
+.prose > p { max-width: 70ch; }
+.prose .grid3, .prose .grid2 { margin: 1rem 0; }
+.prose blockquote { margin: 1.25rem 0 0; padding: .9rem 1.25rem; border-left: 4px solid var(--gold); background: var(--brand-soft); border-radius: 0 12px 12px 0; font-size: 1.15rem; font-weight: 600; color: var(--brand); max-width: 70ch; }
+.about-steps { grid-template-columns: repeat(2, 1fr); margin: 1rem 0; }
+@media (max-width: 760px) { .about-steps { grid-template-columns: 1fr; } }
+.callout { margin-top: 1rem; max-width: 70ch; }
+.purpose { margin-top: 2.5rem; }
+.btn { text-decoration: none; display: inline-block; }
