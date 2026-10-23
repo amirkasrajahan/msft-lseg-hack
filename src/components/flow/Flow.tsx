@@ -18,11 +18,11 @@ const REVISITABLE = 2;
 
 type Pending = 'screen' | 'vet' | 'allocate' | 'report' | null;
 
-const WORKING_LABEL: Record<Exclude<Pending, null>, string> = {
-  screen: 'Screening companies against your rules…',
-  vet: 'Checking each company against your causes…',
-  allocate: 'Building your portfolio…',
-  report: 'Writing your report…',
+const WORKING: Record<Exclude<Pending, null>, [string, string]> = {
+  screen: ['Screening companies against your rules…', 'Applying your sector and activity rules and grouping what is left.'],
+  vet: ['Checking each company against your causes…', "Reading each company's record on the causes you care about and scoring it."],
+  allocate: ['Building your portfolio…', 'Weighing risk and return across the companies that passed.'],
+  report: ['Writing your report…', 'Turning the numbers into a plain-English explanation.'],
 };
 
 /** The server call the session is waiting for, if the client has nothing left to decide. */
@@ -159,7 +159,7 @@ export function Flow() {
         />
       );
     }
-    if (pending) return <Working label={WORKING_LABEL[pending]} />;
+    if (pending) return <Working label={WORKING[pending][0]} detail={WORKING[pending][1]} />;
     if (revisit === 1 && session.screen) {
       return (
         <ScreenStep
@@ -203,9 +203,15 @@ export function Flow() {
   return (
     <div className="shell">
       <header className="topbar">
-        <div>
-          <h1>Ethical Investment Assistant</h1>
-          <small>Educational hackathon project. Not financial advice.</small>
+        <div className="brand">
+          <svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true">
+            <circle cx="18" cy="18" r="18" fill="var(--brand)" />
+            <path d="M11 24c0-8 5-12 14-12 0 8-4 13-12 13l-2 3" fill="none" stroke="var(--on-brand)" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <div>
+            <h1>Ethical Investment Assistant</h1>
+            <small>Educational hackathon project. Not financial advice.</small>
+          </div>
         </div>
         {session && (
           <div className="actions" style={{ marginTop: 0 }}>
@@ -266,11 +272,14 @@ export function Flow() {
   );
 }
 
-function Working({ label }: { label: string }) {
+function Working({ label, detail }: { label: string; detail?: string }) {
   return (
     <div className="working card" role="status">
       <div className="spinner" />
-      <p>{label}</p>
+      <p style={{ marginBottom: detail ? '.25rem' : undefined }}>
+        <b>{label}</b>
+      </p>
+      {detail && <p className="muted">{detail}</p>}
     </div>
   );
 }

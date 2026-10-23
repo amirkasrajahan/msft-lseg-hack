@@ -20,16 +20,53 @@ const PERSONAS = [
   },
 ];
 
+const HOW = [
+  ['Tell us what matters', 'Chat about goals, risk and the ethical lines you will not cross.'],
+  ['We screen and check', 'Companies are filtered on your rules, then checked against your causes. You approve each stage.'],
+  ['Get a clear report', 'A portfolio with a plain-English reason for every holding, and for every exclusion.'],
+];
+
 export function StartStep({ onStart }: { onStart: (personaId?: string) => void }) {
   const [picked, setPicked] = useState<string | null>(null);
 
   return (
     <section>
-      <h2>Who are we investing for?</h2>
-      <p className="muted">
-        Pick a client to see how the assistant screens companies against their rules and causes, then
-        builds a portfolio they can understand.
-      </p>
+      <div className="hero">
+        <h2>Invest in line with your values, and see exactly why.</h2>
+        <p>
+          An AI adviser interviews you, screens companies against your rules and causes, and builds a portfolio
+          you can question at every step.
+        </p>
+      </div>
+
+      <ol className="how">
+        {HOW.map(([title, text], i) => (
+          <li key={title}>
+            <span className="num">{i + 1}</span>
+            <b>{title}</b>
+            <span className="muted">{text}</span>
+          </li>
+        ))}
+      </ol>
+
+      <button
+        className="persona primary"
+        style={{ width: '100%' }}
+        disabled={picked !== null}
+        onClick={() => {
+          setPicked('chat');
+          onStart();
+        }}
+      >
+        <span className="badge keep">Recommended</span>
+        <h3>Describe your own client in chat</h3>
+        <p style={{ margin: 0 }}>
+          The AI asks about your goals, limits and ethical lines, challenges grey areas, and builds the profile from
+          your answers.
+        </p>
+      </button>
+
+      <h3 style={{ margin: '1.5rem 0 .5rem' }}>Or try a ready-made client</h3>
       <div className="grid2">
         {PERSONAS.map((p) => (
           <button
@@ -53,20 +90,6 @@ export function StartStep({ onStart }: { onStart: (personaId?: string) => void }
           </button>
         ))}
       </div>
-      <button
-        className="persona"
-        style={{ width: '100%', marginTop: '1rem' }}
-        disabled={picked !== null}
-        onClick={() => {
-          setPicked('chat');
-          onStart();
-        }}
-      >
-        <h3>Describe your own client in chat</h3>
-        <p style={{ margin: 0 }}>
-          An AI adviser asks about your goals, limits and ethical lines, and builds the profile from your answers.
-        </p>
-      </button>
     </section>
   );
 }
