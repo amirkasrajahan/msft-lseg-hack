@@ -1,0 +1,22 @@
+{
+  "ticker": "SOLR",
+  "generatedAt": "2026-10-01T00:00:00Z",
+  "sources": [
+    "https://example.com/mock"
+  ],
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "100% renewable generation.",
+        "Science-based targets validated."
+      ]
+    },
+    "fair_wages": {
+      "incidents": [],
+      "positives": [
+        "Accredited living-wage employer."
+      ]
+    }
+  }
+}

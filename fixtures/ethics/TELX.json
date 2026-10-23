@@ -1,0 +1,25 @@
+{
+  "ticker": "TELX",
+  "generatedAt": "2026-10-01T00:00:00Z",
+  "sources": [
+    "https://example.com/mock"
+  ],
+  "causes": {
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Regulator found underpayment of overtime across contact-centre staff.",
+          "severity": 4,
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sourceUrls": [
+            "https://example.com/mock"
+          ]
+        }
+      ],
+      "positives": []
+    }
+  }
+}

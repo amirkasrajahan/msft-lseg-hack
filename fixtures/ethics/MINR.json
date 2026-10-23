@@ -1,0 +1,27 @@
+{
+  "ticker": "MINR",
+  "generatedAt": "2026-10-01T00:00:00Z",
+  "sources": [
+    "https://example.com/mock"
+  ],
+  "causes": {
+    "climate_emissions": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Scope 1 and 2 emissions among the highest in its sector.",
+          "severity": 4,
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sourceUrls": [
+            "https://example.com/mock"
+          ]
+        }
+      ],
+      "positives": [
+        "2035 net-zero target with interim milestones."
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "summary": "3 of 11 companies excluded on your sector and activity rules; 8 continue to ethical vetting.",
+  "buckets": [
+    {
+      "id": "fossil",
+      "label": "Fossil fuel producers",
+      "rationale": "You excluded Energy and fossil fuels.",
+      "action": "exclude",
+      "tickers": [
+        "NRTH",
+        "CRBN"
+      ]
+    },
+    {
+      "id": "tobacco",
+      "label": "Tobacco",
+      "rationale": "You excluded tobacco.",
+      "action": "exclude",
+      "tickers": [
+        "SMKE"
+      ]
+    },
+    {
+      "id": "defensive",
+      "label": "Defensive consumer, health and utilities",
+      "rationale": "Stable earnings that match a cautious risk level.",
+      "action": "keep",
+      "tickers": [
+        "SOLR",
+        "GRDX",
+        "LEAF",
+        "MEDX"
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Financials, materials, telecoms and defence",
+      "rationale": "Allowed by your rules; will be vetted on your causes next.",
+      "action": "keep",
+      "tickers": [
+        "FINR",
+        "MINR",
+        "TELX",
+        "ARMR"
+      ]
+    }
+  ]
+}

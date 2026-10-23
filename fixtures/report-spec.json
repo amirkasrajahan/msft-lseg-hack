@@ -1,0 +1,62 @@
+{
+  "title": "Your Ethical Portfolio",
+  "sections": [
+    {
+      "component": "ExecutiveSummary",
+      "props": {
+        "headline": "A cautious, climate-aligned portfolio of 7 companies",
+        "narrative": "We screened 11 companies against your sector rules and causes, kept 7, and weighted them for a low-risk profile."
+      }
+    },
+    {
+      "component": "RiskProfileCard",
+      "props": {
+        "narrative": "Your risk level of 2 favours stable, income-producing holdings."
+      }
+    },
+    {
+      "component": "AllocationDonut",
+      "props": {
+        "title": "Where your money goes"
+      }
+    },
+    {
+      "component": "SectorBreakdown",
+      "props": {
+        "title": "Sector exposure"
+      }
+    },
+    {
+      "component": "EthicalScreeningSummary",
+      "props": {
+        "narrative": "Three companies were excluded by your rules; one more failed our ethical review on fair wages."
+      }
+    },
+    {
+      "component": "BorderlineDecisions",
+      "props": {
+        "narrative": "Minerva Mining was accepted despite high emissions because of its credible reduction plan."
+      }
+    },
+    {
+      "component": "HoldingsTable",
+      "props": {
+        "title": "All holdings",
+        "showReasons": true
+      }
+    },
+    {
+      "component": "HoldingDeepDive",
+      "props": {
+        "ticker": "SOLR",
+        "narrative": "Our largest position: stable cash flow and a fully renewable generation mix."
+      }
+    },
+    {
+      "component": "RiskFlags",
+      "props": {
+        "narrative": "Defence exposure and commodity price risk are worth a second look."
+      }
+    }
+  ]
+}

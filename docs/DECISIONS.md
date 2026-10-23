@@ -1,0 +1,27 @@
+# Decisions
+
+Append new decisions at the bottom: context, decision, consequence.
+
+## 1. TypeScript single Next.js app, no workspaces
+Vercel AI SDK is TypeScript-only and the finance module is also TypeScript. One app avoids workspace setup cost in a 6h build. Python starter moved to `legacy/`.
+
+## 2. Contract-first with zod schemas and fixtures
+Three people work in parallel; `src/lib/schemas/` plus `fixtures/` let each build against the others' outputs immediately. `npm run check:fixtures` enforces the contracts.
+
+## 3. Mock mode isolated in `src/pipeline/index.ts`
+`USE_MOCKS=1` swaps stage implementations for fixtures in one place only. Agents and finance stay free of mock logic.
+
+## 4. LLM extracts factors, deterministic rubric decides exclusion
+The ethics cache stores incident factors (severity, relative scale, confirmed, remediation). A rubric applies the "high threshold" so decisions are auditable and tunable. The LLM only writes explanations.
+
+## 5. Report agent outputs narrative and layout only
+Numbers are read from `Portfolio`/`VetResult` by components. Prevents the LLM inventing figures. Falls back to a default spec on failure.
+
+## 6. Azure Chat Completions with deployment-based URLs
+The portal sample uses `chat.completions` at `{endpoint}/openai/deployments/{model}/...`. `src/lib/llm.ts` uses `createAzure` with `useDeploymentBasedUrls` and `azure.chat()` rather than the default Responses API. Unverified until a key is available.
+
+## 7. File-based sessions, no database
+Sessions persist as JSON in `.data/sessions/`. Enough for a demo; revisit only if deploying to serverless.
+
+## 8. Fictional companies in fixtures
+Mock ethical incidents are attached to fictional companies to avoid presenting invented claims about real firms. The real universe (`data/universe.json`) is separate.

@@ -1,0 +1,26 @@
+{
+  "riskLevel": 5,
+  "sectors": {
+    "include": [],
+    "exclude": []
+  },
+  "activityExclusions": [
+    "weapons",
+    "gambling"
+  ],
+  "causes": [
+    {
+      "causeId": "fair_wages",
+      "stance": "seek",
+      "weight": 4,
+      "userWords": "Fair wages matter a lot to me"
+    },
+    {
+      "causeId": "supply_chain",
+      "stance": "avoid",
+      "weight": 3,
+      "userWords": "No forced labour in supply chains"
+    }
+  ],
+  "notes": "30-year-old engineer, long horizon, maximise growth."
+}

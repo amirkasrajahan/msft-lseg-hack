@@ -1,0 +1,143 @@
+{
+  "summary": {
+    "expectedReturn": 0.058,
+    "volatility": 0.091,
+    "sharpe": 0.62,
+    "methodology": "Illustrative mock: risk-level 2 caps equity beta and weights toward low-volatility, dividend-paying names."
+  },
+  "holdings": [
+    {
+      "ticker": "SOLR",
+      "name": "Solara Power",
+      "sector": "Utilities",
+      "weight": 0.22,
+      "financialReasons": [
+        "Contracted long-term power prices give stable cash flow.",
+        "Dividend yield of 4.1%."
+      ],
+      "ethicalReasons": [
+        "Generates 100% of electricity from renewables."
+      ],
+      "flags": [],
+      "metrics": {
+        "dividendYield": 0.041,
+        "beta": 0.55,
+        "pe": 14.2
+      }
+    },
+    {
+      "ticker": "GRDX",
+      "name": "GridCo Networks",
+      "sector": "Utilities",
+      "weight": 0.18,
+      "financialReasons": [
+        "Regulated returns with inflation-linked revenue."
+      ],
+      "ethicalReasons": [
+        "Largest enabler of grid connections for renewables."
+      ],
+      "flags": [],
+      "metrics": {
+        "dividendYield": 0.05,
+        "beta": 0.45,
+        "pe": 13.1
+      }
+    },
+    {
+      "ticker": "LEAF",
+      "name": "Leafline Foods",
+      "sector": "Consumer Staples",
+      "weight": 0.15,
+      "financialReasons": [
+        "Resilient demand and consistent margins."
+      ],
+      "ethicalReasons": [
+        "Fastest-growing plant-based range in its category."
+      ],
+      "flags": [],
+      "metrics": {
+        "dividendYield": 0.032,
+        "beta": 0.6,
+        "pe": 17.5
+      }
+    },
+    {
+      "ticker": "FINR",
+      "name": "Finora Bank",
+      "sector": "Financials",
+      "weight": 0.15,
+      "financialReasons": [
+        "Strong capital ratio and rising net interest income."
+      ],
+      "ethicalReasons": [
+        "Sustainable lending commitments published and tracked."
+      ],
+      "flags": [],
+      "metrics": {
+        "dividendYield": 0.058,
+        "beta": 1.05,
+        "pe": 8.9
+      }
+    },
+    {
+      "ticker": "MEDX",
+      "name": "Medix Pharma",
+      "sector": "Health Care",
+      "weight": 0.12,
+      "financialReasons": [
+        "Diversified late-stage pipeline."
+      ],
+      "ethicalReasons": [
+        "No confirmed animal welfare breaches in 10 years."
+      ],
+      "flags": [
+        "Uses animal testing where legally required."
+      ],
+      "metrics": {
+        "dividendYield": 0.027,
+        "beta": 0.7,
+        "pe": 19.3
+      }
+    },
+    {
+      "ticker": "ARMR",
+      "name": "Armora Defence",
+      "sector": "Industrials",
+      "weight": 0.1,
+      "financialReasons": [
+        "Multi-year government order book."
+      ],
+      "ethicalReasons": [
+        "Passes all of your stated causes; defence was not excluded."
+      ],
+      "flags": [
+        "Defence exposure; confirm this matches your values."
+      ],
+      "metrics": {
+        "dividendYield": 0.022,
+        "beta": 0.85,
+        "pe": 16.0
+      }
+    },
+    {
+      "ticker": "MINR",
+      "name": "Minerva Mining",
+      "sector": "Materials",
+      "weight": 0.08,
+      "financialReasons": [
+        "Low-cost copper and iron ore producer."
+      ],
+      "ethicalReasons": [
+        "Credible transition plan with measured emission cuts."
+      ],
+      "flags": [
+        "Borderline on emissions; kept small. Commodity price risk."
+      ],
+      "metrics": {
+        "dividendYield": 0.045,
+        "beta": 1.15,
+        "pe": 9.8
+      }
+    }
+  ]
+}

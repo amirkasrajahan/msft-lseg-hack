@@ -1,0 +1,136 @@
+[
+  {
+    "ticker": "NRTH",
+    "name": "Northwind Energy",
+    "sector": "Energy",
+    "industries": [
+      "Integrated Oil & Gas"
+    ],
+    "activityTags": [
+      "fossil_fuels"
+    ],
+    "description": "Fictional integrated oil and gas major with global upstream and refining operations.",
+    "marketCapGbpBn": 85
+  },
+  {
+    "ticker": "CRBN",
+    "name": "Carbonex Resources",
+    "sector": "Energy",
+    "industries": [
+      "Coal & Consumable Fuels"
+    ],
+    "activityTags": [
+      "coal",
+      "fossil_fuels"
+    ],
+    "description": "Fictional thermal coal miner supplying power generators.",
+    "marketCapGbpBn": 9
+  },
+  {
+    "ticker": "SOLR",
+    "name": "Solara Power",
+    "sector": "Utilities",
+    "industries": [
+      "Renewable Electricity"
+    ],
+    "activityTags": [
+      "renewables"
+    ],
+    "description": "Fictional utility generating electricity from solar and onshore wind.",
+    "marketCapGbpBn": 22
+  },
+  {
+    "ticker": "GRDX",
+    "name": "GridCo Networks",
+    "sector": "Utilities",
+    "industries": [
+      "Electric Utilities"
+    ],
+    "activityTags": [],
+    "description": "Fictional regulated electricity and gas transmission network operator.",
+    "marketCapGbpBn": 31
+  },
+  {
+    "ticker": "LEAF",
+    "name": "Leafline Foods",
+    "sector": "Consumer Staples",
+    "industries": [
+      "Packaged Foods & Meats"
+    ],
+    "activityTags": [],
+    "description": "Fictional packaged food group with a plant-based product range.",
+    "marketCapGbpBn": 18
+  },
+  {
+    "ticker": "SMKE",
+    "name": "Smokestack Tobacco",
+    "sector": "Consumer Staples",
+    "industries": [
+      "Tobacco"
+    ],
+    "activityTags": [
+      "tobacco"
+    ],
+    "description": "Fictional cigarette and nicotine products manufacturer.",
+    "marketCapGbpBn": 60
+  },
+  {
+    "ticker": "ARMR",
+    "name": "Armora Defence",
+    "sector": "Industrials",
+    "industries": [
+      "Aerospace & Defense"
+    ],
+    "activityTags": [
+      "weapons"
+    ],
+    "description": "Fictional defence contractor producing military aircraft and munitions.",
+    "marketCapGbpBn": 27
+  },
+  {
+    "ticker": "MEDX",
+    "name": "Medix Pharma",
+    "sector": "Health Care",
+    "industries": [
+      "Pharmaceuticals"
+    ],
+    "activityTags": [
+      "animal_testing"
+    ],
+    "description": "Fictional pharmaceutical company focused on oncology and respiratory drugs.",
+    "marketCapGbpBn": 74
+  },
+  {
+    "ticker": "FINR",
+    "name": "Finora Bank",
+    "sector": "Financials",
+    "industries": [
+      "Diversified Banks"
+    ],
+    "activityTags": [],
+    "description": "Fictional UK retail and commercial bank.",
+    "marketCapGbpBn": 45
+  },
+  {
+    "ticker": "TELX",
+    "name": "Telexa Communications",
+    "sector": "Communication Services",
+    "industries": [
+      "Wireless Telecommunication"
+    ],
+    "activityTags": [],
+    "description": "Fictional mobile and broadband provider across Europe.",
+    "marketCapGbpBn": 14
+  },
+  {
+    "ticker": "MINR",
+    "name": "Minerva Mining",
+    "sector": "Materials",
+    "industries": [
+      "Diversified Metals & Mining"
+    ],
+    "activityTags": [],
+    "description": "Fictional diversified miner of iron ore, copper and aluminium.",
+    "marketCapGbpBn": 70
+  }
+]

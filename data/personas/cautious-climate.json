@@ -1,0 +1,40 @@
+{
+  "riskLevel": 2,
+  "sectors": {
+    "include": [
+      "Utilities",
+      "Consumer Staples",
+      "Health Care",
+      "Financials"
+    ],
+    "exclude": [
+      "Energy"
+    ]
+  },
+  "activityExclusions": [
+    "fossil_fuels",
+    "coal",
+    "tobacco"
+  ],
+  "causes": [
+    {
+      "causeId": "climate_emissions",
+      "stance": "seek",
+      "weight": 5,
+      "userWords": "I want my money to help the transition to net zero"
+    },
+    {
+      "causeId": "fair_wages",
+      "stance": "seek",
+      "weight": 3,
+      "userWords": "Companies should pay people fairly"
+    },
+    {
+      "causeId": "animal_welfare",
+      "stance": "avoid",
+      "weight": 2,
+      "userWords": "Prefer to avoid animal cruelty"
+    }
+  ],
+  "notes": "Retired teacher, capital preservation, income focus."
+}
