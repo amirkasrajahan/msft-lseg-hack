@@ -1,13 +1,45 @@
 import type { ReactElement } from 'react';
 import type { ReportData } from '@/components/report/registry';
 import { reportRegistry } from '@/components/report/registry';
-import type { ReportSection, ReportSpec } from '@/lib/schemas';
+import type { Company, ReportSection, ReportSpec, ScreenApproval, ScreenResult, VetConfirmation } from '@/lib/schemas';
+import { DecisionTrail } from './DecisionTrail';
 
-/** Renders the report agent's sections through the component registry. */
-export function ReportView({ report, data }: { report: ReportSpec; data: ReportData }) {
+/** Renders the report agent's sections through the component registry, plus the client's decision trail. */
+export function ReportView({
+  report,
+  data,
+  screen,
+  screenApproval,
+  vetConfirmation,
+  companies,
+}: {
+  report: ReportSpec;
+  data: ReportData;
+  screen?: ScreenResult;
+  screenApproval?: ScreenApproval;
+  vetConfirmation?: VetConfirmation;
+  companies: Record<string, Company>;
+}) {
   return (
     <section>
-      <h2 className="report-title">{report.title}</h2>
+      <div className="report-head">
+        <h2 className="report-title">{report.title}</h2>
+        <button className="btn ghost no-print" onClick={() => window.print()}>
+          Print or save as PDF
+        </button>
+      </div>
+      {screen && (
+        <div className="report-section">
+          <DecisionTrail
+            screen={screen}
+            screenApproval={screenApproval}
+            vet={data.vet}
+            vetConfirmation={vetConfirmation}
+            held={data.portfolio.holdings.length}
+            companies={companies}
+          />
+        </div>
+      )}
       {report.sections.map((s, i) => (
         <div key={i} className="report-section">
           {renderSection(s, data)}

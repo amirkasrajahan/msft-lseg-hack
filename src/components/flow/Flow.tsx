@@ -188,6 +188,10 @@ export function Flow() {
         <ReportView
           report={session.report}
           data={{ profile: session.profile, vet: session.vet, portfolio: session.portfolio }}
+          screen={session.screen}
+          screenApproval={session.screenApproval}
+          vetConfirmation={session.vetConfirmation}
+          companies={companies}
         />
       );
     }

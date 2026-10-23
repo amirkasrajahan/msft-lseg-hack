@@ -190,3 +190,19 @@ ul.plain { margin: 0; padding-left: 1.1rem; }
 .persona.primary { border-color: var(--brand); background: var(--brand-soft); }
 .card { box-shadow: 0 1px 2px rgba(0, 0, 0, .04); }
 .working p { margin: 0; }
+
+.report-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0 1rem; }
+.report-head .report-title { margin: 0; }
+
+@media print {
+  :root, :root:not([data-theme="light"]) {
+    --bg: #fff; --card: #fff; --fg: #111; --muted: #555; --line: #ccc; --brand: #4b2e83; --brand-soft: #efeaf8; --on-brand: #fff;
+    --good: #1f7a4d; --good-soft: #e3f4ea; --warn: #9a6200; --warn-soft: #fff3d6; --bad: #b3261e; --bad-soft: #fde8e6;
+    --c1: #4b2e83; --c2: #1f9d8a; --c3: #e08a1e; --c4: #c2410c; --c5: #2563eb; --c6: #9c2f7a; --c7: #5f7a1f; --c8: #64748b;
+  }
+  body { background: #fff; }
+  .topbar .actions, .stepper, .no-print, .tip, .error { display: none !important; }
+  .shell { max-width: none; padding: 0; }
+  .card { box-shadow: none; break-inside: avoid; }
+  .report-section { break-inside: avoid; }
+}
