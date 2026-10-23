@@ -28,3 +28,6 @@ Mock ethical incidents are attached to fictional companies to avoid presenting i
 
 ## 9. Anchor `/lib/` and `/lib64/` in `.gitignore`
 The starter's Python `.gitignore` template contained bare `lib/` and `lib64/`, which match at any depth and silently ignored `src/lib/` (schemas, `llm.ts`, session store). The first scaffold commit therefore omitted it and the repo would not compile for teammates. The entries are now `/lib/` and `/lib64/` (repo root only, Python virtualenv leftovers). Consequence: if a new top-level folder is named `lib`, `build`, `dist`, `var` etc., check `git check-ignore -v <path>` because other Python-template patterns remain.
+
+## 9. Intake uses structured output, not function tools
+The portal's chat completions endpoint rejects function tools for `gpt-6.1-sol` (it demands `reasoning_effort: none`, then rejects `none`), and `/responses` returns 404. So the intake agent makes one `generateText` call per turn with `Output.object({ reply, profile | null })`, and `strictJsonSchema: false` because the profile has optional fields. The server saves the profile when the model returns it after the client confirms; the frontend detects that by re-reading the session. Revisit if the portal gains a Responses endpoint.

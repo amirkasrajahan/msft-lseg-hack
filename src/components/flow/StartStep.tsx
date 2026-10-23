@@ -20,7 +20,7 @@ const PERSONAS = [
   },
 ];
 
-export function StartStep({ onStart }: { onStart: (personaId: string) => void }) {
+export function StartStep({ onStart }: { onStart: (personaId?: string) => void }) {
   const [picked, setPicked] = useState<string | null>(null);
 
   return (
@@ -53,12 +53,20 @@ export function StartStep({ onStart }: { onStart: (personaId: string) => void })
           </button>
         ))}
       </div>
-      <div className="card soft" style={{ marginTop: '1rem' }}>
-        <b>Describe your own client in chat</b>
-        <p className="muted" style={{ margin: 0 }}>
-          Coming soon. The chat intake isn&apos;t connected yet, so pick one of the clients above.
+      <button
+        className="persona"
+        style={{ width: '100%', marginTop: '1rem' }}
+        disabled={picked !== null}
+        onClick={() => {
+          setPicked('chat');
+          onStart();
+        }}
+      >
+        <h3>Describe your own client in chat</h3>
+        <p style={{ margin: 0 }}>
+          An AI adviser asks about your goals, limits and ethical lines, and builds the profile from your answers.
         </p>
-      </div>
+      </button>
     </section>
   );
 }

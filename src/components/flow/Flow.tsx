@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import type { ScreenApproval, Session, VetConfirmation } from '@/lib/schemas';
 import { ProfileSummary } from './ProfileSummary';
 import { ReportView } from './ReportView';
+import { IntakeStep } from './IntakeStep';
 import { ScreenStep } from './ScreenStep';
 import { StartStep } from './StartStep';
 import { VetStep } from './VetStep';
@@ -98,6 +99,15 @@ export function Flow() {
     });
   }, [session, pending, error, run]);
 
+  const reload = useCallback(async () => {
+    if (!session) return;
+    try {
+      setSession(await getSession(session.id));
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Something went wrong');
+    }
+  }, [session]);
+
   const restart = () => {
     remember(null);
     setSession(null);
@@ -149,11 +159,13 @@ export function Flow() {
       {restoring ? (
         <Working label="Loading…" />
       ) : !session ? (
-        <StartStep onStart={(personaId) => run('/api/session', { personaId })} />
+        <StartStep onStart={(personaId) => run('/api/session', personaId ? { personaId } : {})} />
       ) : (
         <>
           {session.profile && current < 4 && <ProfileSummary profile={session.profile} />}
-          {pending ? (
+          {!session.profile ? (
+            <IntakeStep sessionId={session.id} onDone={reload} />
+          ) : pending ? (
             <Working label={WORKING_LABEL[pending]} />
           ) : session.report && session.vet && session.portfolio && session.profile ? (
             <ReportView
