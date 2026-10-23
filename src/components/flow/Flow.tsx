@@ -11,7 +11,8 @@ import { VetStep } from './VetStep';
 import { getSession, post } from './api';
 
 const STORAGE_KEY = 'eia-session-id';
-const STEPS = ['Client', 'Screen', 'Ethics check', 'Portfolio', 'Report'];
+// The portfolio is built and the report written with no client decision in between, so they share one step.
+const STEPS = ['Client', 'Screen', 'Ethics check', 'Your report'];
 /** Steps the client makes decisions in, so the only ones they can go back to. */
 const REVISITABLE = 2;
 
@@ -36,13 +37,12 @@ function pendingAction(s: Session | null): Pending {
   return null;
 }
 
-/** How far the session has actually got (0 to 4), whatever step is on screen. */
+/** How far the session has actually got (0 to 3), whatever step is on screen. */
 function progress(s: Session | null): number {
   if (!s?.profile) return 0;
   if (!s.screenApproval) return 1;
   if (!s.vetConfirmation) return 2;
-  if (!s.report) return 3;
-  return 4;
+  return 3;
 }
 
 const remember = (id: string | null) => {
@@ -258,7 +258,7 @@ export function Flow() {
         <StartStep onStart={(personaId) => run('/api/session', personaId ? { personaId } : {})} />
       ) : (
         <>
-          {session.profile && revisit !== 0 && current < 4 && <ProfileSummary profile={session.profile} />}
+          {session.profile && revisit !== 0 && !(session.report && revisit === null) && <ProfileSummary profile={session.profile} />}
           {body()}
         </>
       )}
