@@ -391,3 +391,10 @@ html { scroll-behavior: smooth; }
 .status { display: inline-block; align-self: flex-start; margin-top: .35rem; padding: .1rem .6rem; border-radius: 999px; font-size: .75rem; font-weight: 700; }
 .status.live { background: var(--good-soft); color: var(--good); }
 .status.soon { background: var(--warn-soft); color: var(--warn); }
+
+/* ---- Score meter and explainer ---- */
+.meter { position: relative; }
+.meter::after { content: ''; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 2px; background: var(--muted); opacity: .55; }
+.how-scored { margin: .25rem 0 1rem; padding: .6rem .9rem; background: var(--brand-soft); border-radius: 10px; font-size: .9rem; }
+.how-scored summary { cursor: pointer; color: var(--brand); font-weight: 700; }
+.how-scored p { margin: .5rem 0 0; max-width: 75ch; }

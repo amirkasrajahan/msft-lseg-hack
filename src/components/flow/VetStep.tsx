@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { RUBRIC, percentOfLine } from '@/lib/rubric';
 import { causeById, type Company, type VetConfirmation, type VetDecision, type VetResult } from '@/lib/schemas';
 import { ChipList } from './ChipList';
 import { CompanyChip } from './CompanyChip';
@@ -41,6 +42,20 @@ export function VetStep({
     <section>
       <h2>Step 2: confirm the ethics check</h2>
       <p>{vet.summary}</p>
+      <details className="how-scored">
+        <summary>How is this scored?</summary>
+        <p>
+          Each incident is scored on how serious it was, how much it matters to that company, whether it was confirmed
+          (allegations count at {Math.round(RUBRIC.allegation * 100)}%), how much was fixed, and how recent it is (its weight
+          halves every {RUBRIC.halfLifeYears} years). For each cause the worst incident counts in full and the others at half. Your
+          weight for the cause then scales the result.
+        </p>
+        <p>
+          At 100% of the exclusion line a company is excluded. From {percentOfLine(RUBRIC.borderline)}% it is a close call. A confirmed
+          serious incident (severity {RUBRIC.floorSeverity} or 5) keeps a company at least a close call however old it is, as long as
+          you rate that cause as important or more.
+        </p>
+      </details>
 
       <div className="card">
         <h3>Passed cleanly ({vet.passed.length})</h3>
@@ -165,6 +180,7 @@ function Decision({
   onToggle: () => void;
 }) {
   const [open, setOpen] = useState(false);
+  const pct = percentOfLine(d.score);
   return (
     <div className="decision">
       <div>
@@ -175,10 +191,10 @@ function Decision({
           </span>
           {company && <b>{company.name}</b>}
           <span>{causeById(d.causeId).label}</span>
-          <span className={`meter ${tone === 'bad' ? 'bad' : ''}`} title={`Concern score ${d.score}`}>
-            <span style={{ width: `${Math.min(100, d.score)}%` }} />
+          <span className={`meter ${tone === 'bad' ? 'bad' : ''}`} title="The tick marks the close-call level; the full bar is the exclusion line">
+            <span style={{ width: `${Math.min(100, pct)}%` }} />
           </span>
-          <small>score {Math.round(d.score)}</small>
+          <small>{pct}% of the exclusion line</small>
         </div>
         <p style={{ margin: 0 }}>{d.reason}</p>
         <button className="linkbtn" onClick={() => setOpen(!open)} aria-expanded={open}>

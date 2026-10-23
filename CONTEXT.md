@@ -29,7 +29,7 @@ Scaffold and contracts are done. Next: each owner builds their module against mo
 - **Placeholder:** allocation (`realAllocate`) uses no price or return data. It picks up to 20 companies with the cleanest record (max 4 per sector), tilts by risk level, caps holdings. **Finance: replace it with `allocate()`** and delete `realAllocate`.
 - **Not rated:** a company with no cache record, or coverage `partial` or `none`, goes in `VetResult.unrated`. It is never treated as clean and is left out unless the client includes it.
 - **Schemas** were extended additively to read the new data (`sources` with quotes, `coverage`, `customer_practices`, `tier`, `index`, `VetResult.unrated`). Rayhan: if your own schema changes differ, yours win; tell me and I will adapt.
-- **Rubric constants** (`RUBRIC` in `rubric.ts`): exclude at 8, borderline at 4, 12-year half-life, tuned on the 276 company-cause scores in the cache. Cause weight scales the score (weight 3 is neutral). Tune freely.
+- **Rubric constants** (`RUBRIC` in `rubric.ts`): exclude at 8, borderline at 4, 12-year half-life; per cause the worst incident counts in full and the rest at half; a confirmed severity 4 or 5 incident keeps a cause at least a close call (client weight 3 or more). Cause weight scales the score (3 is neutral). See `docs/DECISIONS.md` 11. The UI shows the score as a share of the exclusion line. Tune freely.
 - **Coverage today:** 110 of 332 companies have records (all FTSE 100, 10 FTSE 250, 2 SmallCap). Fair wages and supply chain have evidence for only 27 companies, so clients who care mainly about those rarely get exclusions.
 
 ## Open items
