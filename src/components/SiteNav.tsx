@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
 import { EthosMark } from './flow/EthosMark';
 
 const LINKS = [
@@ -12,19 +11,12 @@ const LINKS = [
   { href: '/about', label: 'About', anchor: false },
 ];
 
-/** Sticky site navigation, shared by every page. Dark glass over the landing page, light elsewhere. */
+/** Sticky site navigation, shared by every page. Solid navy over the landing page, light elsewhere. */
 export function SiteNav() {
   const path = usePathname();
   const dark = path === '/';
-  const [scrolled, setScrolled] = useState(false);
-  useEffect(() => {
-    const on = () => setScrolled(window.scrollY > 24);
-    on();
-    window.addEventListener('scroll', on, { passive: true });
-    return () => window.removeEventListener('scroll', on);
-  }, []);
   return (
-    <header className={`sitenav${dark ? ' dark' : ''}${dark && scrolled ? ' scrolled' : ''}`}>
+    <header className={`sitenav${dark ? ' dark' : ''}`}>
       <div className="sitenav-inner">
         <Link href="/" className="nav-brand" aria-label="Ethos home">
           <EthosMark size={34} boxed={!dark} />
@@ -47,7 +39,7 @@ export function SiteNav() {
         </nav>
         <div className="nav-cta">
           {!path.startsWith('/app') && (
-            <Link href="/app?start=chat" className={`btn small${dark ? ' glow' : ''}`}>
+            <Link href="/app?start=chat" className={`btn small${dark ? ' light' : ''}`}>
               Get started
             </Link>
           )}

@@ -31,8 +31,6 @@ export default function About() {
   return (
     <div className="shell about">
       <header className="hero-band about-hero">
-        <span className="orb o1" />
-        <span className="orb o2" />
         <div className="hero-inner">
           <p className="eyebrow">About Ethos</p>
           <h2 className="motto" style={{ fontSize: 'clamp(1.8rem, 4.5vw, 2.8rem)' }}>
@@ -140,7 +138,6 @@ export default function About() {
       </section>
 
       <section className="hero-band purpose">
-        <span className="orb o3" />
         <div className="hero-inner">
           <h2 style={{ color: '#fff' }}>Our purpose</h2>
           <p style={{ fontSize: '1.15rem', color: '#fff' }}>
@@ -157,7 +154,7 @@ export default function About() {
             Invest with purpose. <span>Grow with confidence.</span>
           </p>
           <div className="cta-row">
-            <Link href="/" className="btn gold">
+            <Link href="/app?start=chat" className="btn light">
               Start with Ethos
             </Link>
           </div>
