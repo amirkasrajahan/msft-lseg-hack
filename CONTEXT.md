@@ -19,11 +19,14 @@ Scaffold and contracts are done. Next: each owner builds their module against mo
 | Cache builder + `data/universe.json` | Orchestration | Not started | `scripts/build-cache.ts` is a stub; universe not created |
 | Report agent | Orchestration | Stub | `src/agents/report.ts` |
 | Finance `allocate()` | Finance | Stub | `src/finance/index.ts` |
-| Frontend pages | Frontend | Placeholder | `app/page.tsx` |
-| Report component registry | Frontend | Placeholders | `src/components/report/registry.tsx` |
+| Frontend pages | Frontend | Done in mock mode | Single-page flow in `src/components/flow/`: persona start, screen approval, vet confirmation, report. Chat intake shows "coming soon" until `/api/intake` lands. Resumes the last session from localStorage |
+| Report component registry | Frontend | Done | All nine components in `src/components/report/sections.tsx`, wired in `registry.tsx` |
 
 ## Open items
 
+- Frontend gap: stage 1 and 2 results carry tickers only, so those screens show tickers without company names. Orchestration: expose names (e.g. a `companies` map on `Session` or `GET /api/companies`).
+- `.env.example` is missing from the repo (docs say to copy it). Mock mode needs `USE_MOCKS=1` in `.env`.
+- `.gitignore` does not ignore `node_modules/`, `.next/`, `.data/`, `next-env.d.ts`, `tsconfig.tsbuildinfo`.
 - Azure key not yet in `.env`; confirm endpoint, chat deployment (`gpt-6.1-sol`) and embeddings work.
 - Confirm LSEG data availability with organisers (Finance).
 - Choose news source for the cache (Google News RSS / GDELT, or a search API if provided).
