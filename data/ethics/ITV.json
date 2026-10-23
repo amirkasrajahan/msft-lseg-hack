@@ -1,0 +1,35 @@
+{
+  "ticker": "ITV",
+  "generatedAt": "2026-10-23T13:46:40.380Z",
+  "coverage": "full",
+  "causes": {
+    "diversity_inclusion": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Nadia Sawalha's legal representatives sent ITV a pre-action letter alleging discrimination and harassment over her removal from Loose Women because of her protected philosophical beliefs.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cqx7ql4xqg3o",
+              "title": "Nadia Sawalha threatens legal action against ITV over Loose Women removal",
+              "publishedAt": "2026-08-06T00:00:00.000Z",
+              "quote": "A legal organisation representing her has sent a pre-action letter to ITV, claiming the broadcaster \"subjected Nadia to direct discrimination, indirect discrimination and harassment because of her protected philosophical beliefs\"."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "ITV's 2030 emissions-reduction targets and its long-term 2050 net-zero ambition received Science Based Targets initiative validation.",
+        "ITV reported a 52% reduction in Scope 1 and 2 emissions against its 2019 baseline."
+      ]
+    }
+  }
+}

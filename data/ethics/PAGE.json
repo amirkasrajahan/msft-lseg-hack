@@ -1,0 +1,40 @@
+{
+  "ticker": "PAGE",
+  "generatedAt": "2026-10-23T13:47:27.408Z",
+  "coverage": "full",
+  "causes": {
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Italy’s privacy regulator fined Michael Page International Italia €225,000 for retaining and accessing three former employees’ email accounts.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.ilfattoquotidiano.it/2026/10/16/garante-privacy-multa-michael-page-mail-dipendenti-notizie/8541017/",
+              "title": "Garante privacy multa Michael Page 225mila euro per le mail dei dipendenti | Il Fatto Quotidiano.it",
+              "publishedAt": "2026-10-16T16:33:28.000Z",
+              "quote": "Dentro c’è la posta di tre ex dipendenti di Michael Page, colosso della selezione del personale, usciti nel 2021 e passati a un concorrente. L’azienda ha tenuto in vita le loro caselle fino al 25 settembre 2023, per due di loro oltre due anni e mezzo."
+            },
+            {
+              "url": "https://www.ilfattoquotidiano.it/2026/10/16/garante-privacy-multa-michael-page-mail-dipendenti-notizie/8541017/",
+              "title": "Garante privacy multa Michael Page 225mila euro per le mail dei dipendenti | Il Fatto Quotidiano.it",
+              "publishedAt": "2026-10-16T16:33:28.000Z",
+              "quote": "Ha girato ai vecchi capi le mail che continuavano ad arrivare, poi ha mandato dentro un consulente informatico forense."
+            },
+            {
+              "url": "https://www.ilfattoquotidiano.it/2026/10/16/garante-privacy-multa-michael-page-mail-dipendenti-notizie/8541017/",
+              "title": "Garante privacy multa Michael Page 225mila euro per le mail dei dipendenti | Il Fatto Quotidiano.it",
+              "publishedAt": "2026-10-16T16:33:28.000Z",
+              "quote": "Con il p rovvedimento n. 583 del 6 agosto 2026, pubblicato a inizio ottobre, ha inflitto a Michael Page International Italia una sanzione di 225 mila euro."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

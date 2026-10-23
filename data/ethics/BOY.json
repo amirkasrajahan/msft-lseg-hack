@@ -1,0 +1,56 @@
+{
+  "ticker": "BOY",
+  "generatedAt": "2026-10-23T13:33:45.021Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "Orange County Coastkeeper sued Bodycote Thermal Processing Inc. over alleged polluted stormwater discharges into waterways leading to the Pacific Ocean, affecting habitats and exposing nearby communities to contaminants.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://news.bloomberglaw.com/environment-and-energy/bodycote-facility-discharges-pollutants-into-pacific-suit-says",
+              "title": "Bodycote Facility Discharges Pollutants Into Pacific, Suit Says",
+              "publishedAt": "2022-11-09T00:00:00.000Z",
+              "quote": "Bodycote Thermal Processing Inc., which uses heat to improve durability of metals, allows millions of gallons of polluted rainwater to flow from industrial operations at its facility into storm drains and the Bolsa Chica Channel"
+            },
+            {
+              "url": "https://news.bloomberglaw.com/environment-and-energy/bodycote-facility-discharges-pollutants-into-pacific-suit-says",
+              "title": "Bodycote Facility Discharges Pollutants Into Pacific, Suit Says",
+              "publishedAt": "2022-11-09T00:00:00.000Z",
+              "quote": "The polluted water affects habitats for dozens of species and exposes nearby communities to toxic metals and other contaminants"
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2023,
+          "summary": "Los Angeles Waterkeeper sued Bodycote Thermal Processing Inc. for allegedly violating Clean Water Act permits through polluted stormwater discharges from its Huntington Park facility into local waterways.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://news.bloomberglaw.com/environment-and-energy/metal-treating-company-sued-again-for-polluting-l-a-waterways",
+              "title": "Metal Treating Company Sued Again for Polluting L.A. Waterways",
+              "publishedAt": "2023-09-21T00:00:00.000Z",
+              "quote": "Bodycote Thermal Processing Inc., which uses heat to improve durability of metals, violated its Clean Water Act permits by allowing millions of gallons of polluted water to flow out of its industrial facility in Huntington Park, Calif., and into local waterways, the suit said."
+            },
+            {
+              "url": "https://news.bloomberglaw.com/environment-and-energy/metal-treating-company-sued-again-for-polluting-l-a-waterways",
+              "title": "Metal Treating Company Sued Again for Polluting L.A. Waterways",
+              "publishedAt": "2023-09-21T00:00:00.000Z",
+              "quote": "L.A. Waterkeeper says the pollution affects the environment and their members’ ability to fish, surf, swim, and recreate in the Los Angeles River, Queensway Bay, San Pedro Bay"
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

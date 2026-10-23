@@ -1,0 +1,13 @@
+{
+  "ticker": "IWG",
+  "generatedAt": "2026-10-23T13:44:24.702Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "IWG’s near- and long-term emissions targets were validated by the Science Based Targets initiative in April 2026."
+      ]
+    }
+  }
+}

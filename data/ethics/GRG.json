@@ -1,0 +1,25 @@
+{
+  "ticker": "GRG",
+  "generatedAt": "2026-10-23T13:41:20.094Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Greggs has 2030 emissions targets verified by the Science Based Targets Initiative, although the report says it is off track to meet them."
+      ]
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Greggs exceeded its food-waste reduction target, achieving a 40% reduction against its 2018 baseline."
+      ]
+    },
+    "community_impact": {
+      "incidents": [],
+      "positives": [
+        "Greggs reported supporting more than 1,000 school Breakfast Clubs, helping feed over 79,500 children each school day in 2025."
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "COST",
+  "generatedAt": "2026-10-23T13:35:47.964Z",
+  "coverage": "full",
+  "causes": {
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2009,
+          "summary": "Costain was identified as a subscriber to an illegal construction-industry blacklist and was subsequently among contractors facing High Court proceedings brought by Unite in 2017.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Costain_Group",
+              "title": "Costain Group",
+              "quote": "Costain was revealed as a subscriber to the United Kingdom's Consulting Association, exposed in 2009 for operating an illegal construction industry blacklist."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Costain_Group",
+              "title": "Costain Group",
+              "quote": "it was also one of the eight businesses that were involved in the launch in 2013 of the Construction Workers Compensation Scheme"
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Costain_Group",
+              "title": "Costain Group",
+              "quote": "In December 2017, trade union Unite announced it had issued High Court proceedings against twelve major contractors, including Costain."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "supply_chain": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Costain was suspended from the UK Government's Prompt Payment Code for failing to pay suppliers on time in April 2019 and reinstated in July 2019.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Costain_Group",
+              "title": "Costain Group",
+              "quote": "In April 2019, Costain was suspended from the UK Government's Prompt Payment Code, for failing to pay suppliers on time."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Costain_Group",
+              "title": "Costain Group",
+              "quote": "It was reinstated in July 2019."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Costain achieved BSI verification to the expanded PAS 2080:2023 carbon-management standard following an assessment of its processes and projects.",
+        "The HS2 Skanska Costain Strabag joint venture used a zero-trim piling solution reported to have saved 840 tonnes of CO2 equivalent.",
+        "Costain tested a carbon-tracking platform on road, water and integrated transport projects to improve construction-emissions reporting."
+      ]
+    }
+  }
+}

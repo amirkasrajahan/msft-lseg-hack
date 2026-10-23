@@ -1,0 +1,75 @@
+{
+  "ticker": "HBR",
+  "generatedAt": "2026-10-23T13:42:57.278Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "Harbour Energy subsidiary Chrysaor was fined £150,000 after its Armada platform exceeded its 2022 greenhouse-gas venting consent by 145.566 tonnes.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.energyvoice.com/oilandgas/577210/harbour-hit-with-150k-fine-for-north-sea-venting-pollution/",
+              "title": "Harbour hit with £150K fine for North Sea venting pollution",
+              "publishedAt": "2025-07-29T00:00:00.000Z",
+              "quote": "Energy industry regulator, the North Sea Transition Authority (NSTA) has hit Harbour Energy with a £150,000 fine for a breach of greenhouse gas emission limits in the North Sea in 2022."
+            },
+            {
+              "url": "https://www.energyvoice.com/oilandgas/577210/harbour-hit-with-150k-fine-for-north-sea-venting-pollution/",
+              "title": "Harbour hit with £150K fine for North Sea venting pollution",
+              "publishedAt": "2025-07-29T00:00:00.000Z",
+              "quote": "In total, the asset vented 370.046 tonnes from 1 January 2022 to 31 December 2022, exceeding its consent by 145.566 tonnes, almost 65%."
+            },
+            {
+              "url": "https://www.energyvoice.com/oilandgas/577210/harbour-hit-with-150k-fine-for-north-sea-venting-pollution/",
+              "title": "Harbour hit with £150K fine for North Sea venting pollution",
+              "publishedAt": "2025-07-29T00:00:00.000Z",
+              "quote": "Chrysaor did bring the breach to the NSTA’s attention, fully co-operated with the investigation, had no previous sanctions and has taken steps to prevent future vent consent exceedances"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": [
+        "Harbour Energy became a signatory to the World Bank’s Zero Routine Flaring by 2030 initiative."
+      ]
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2013,
+          "summary": "Argentina imposed a 15-year operating disqualification on Premier Oil, now Harbour Energy, for exploring near the Falkland Islands/Malvinas without Argentine authorization.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.iprofesional.com/energia/463884-denuncian-que-una-petrolera-que-opera-en-malvinas-fue-beneficiada-con-el-rigi",
+              "title": "Denuncian que una petrolera que opera en Malvinas fue beneficiada con el RIGI",
+              "publishedAt": "2026-09-06T00:00:00.000Z",
+              "quote": "Harbour Energy plc es la misma persona jurídica que anteriormente operaba bajo el nombre de Premier Oil PLC (inscripta bajo el número de sociedad SC234781)"
+            },
+            {
+              "url": "https://www.iprofesional.com/energia/463884-denuncian-que-una-petrolera-que-opera-en-malvinas-fue-beneficiada-con-el-rigi",
+              "title": "Denuncian que una petrolera que opera en Malvinas fue beneficiada con el RIGI",
+              "publishedAt": "2026-09-06T00:00:00.000Z",
+              "quote": "el Estado argentino sancionó a Premier Oil PLC con una inhabilitación por el término de 15 años por desarrollar tareas de exploración en la plataforma continental cerca de Malvinas sin permiso oficial."
+            },
+            {
+              "url": "https://www.iprofesional.com/energia/463884-denuncian-que-una-petrolera-que-opera-en-malvinas-fue-beneficiada-con-el-rigi",
+              "title": "Denuncian que una petrolera que opera en Malvinas fue beneficiada con el RIGI",
+              "publishedAt": "2026-09-06T00:00:00.000Z",
+              "quote": "Dicha sanción se encuentra vigente hasta 2028."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "ticker": "PLUS",
+  "generatedAt": "2026-10-23T13:53:12.801Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "An Australian court found Plus500AU's arbitration clause unfair and void, a ruling upheld on appeal in September 2026, after which Plus500 sought permission to appeal to the High Court.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.thelawyermag.com/au/practice-areas/litigation-dispute-resolution/full-federal-court-dismisses-plus500-bid-to-arbitrate-trading-class-action/590651",
+              "title": "Full Federal Court dismisses Plus500 bid to arbitrate trading class action | Australasian Lawyer",
+              "publishedAt": "2026-09-22T00:00:00.000Z",
+              "quote": "The primary judge found that the arbitration clause was an unfair contract term under s. 12BF of the Australian Securities and Investments Commission Act 2001 (Cth)."
+            },
+            {
+              "url": "https://www.thelawyermag.com/au/practice-areas/litigation-dispute-resolution/full-federal-court-dismisses-plus500-bid-to-arbitrate-trading-class-action/590651",
+              "title": "Full Federal Court dismisses Plus500 bid to arbitrate trading class action | Australasian Lawyer",
+              "publishedAt": "2026-09-22T00:00:00.000Z",
+              "quote": "The Full Federal Court refused to force a customer class action into arbitration, upholding a ruling that the dispute clause was unfair."
+            },
+            {
+              "url": "https://www.law360.com/au/articles/2538182",
+              "title": "Plus500 Seeks High Court Review Of Void Arbitration Clause - Law360 Australia",
+              "publishedAt": "2026-10-15T04:50:37.000Z",
+              "quote": "Online trading platform Plus500 has applied for special leave to appeal to the High Court of Australia in its continuing bid to stay a class action, arguing that a clause in..."
+            }
+          ],
+          "severity": 1
+        },
+        {
+          "year": 2017,
+          "summary": "Plus500 paid a €550,000 Belgian regulatory fine for offering CFDs without the required prospectus and failing to submit advertisements, and closed its Belgian website while denying wrongdoing.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Plus500",
+              "title": "Plus500",
+              "quote": "In April 2017, Plus500 paid a €550,000 fine to Belgium's FSMA for offering CFDs without the required prospectus and failing to submit ads to the regulator."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Plus500",
+              "title": "Plus500",
+              "quote": "Although Plus500 denied any wrongdoing, it complied with FSMA's demand to close its Belgian website and inform Belgian clients of the issue, offering free account closures."
+            }
+          ],
+          "severity": 1
+        },
+        {
+          "year": 2016,
+          "summary": "An Israeli court approved litigation of a class action alleging that Plus500 selectively paused put-option sales for 90 minutes following the Brexit referendum.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.globes.co.il/en/article-court-approves-class-action-on-alleged-plus500-manipulation-1001388525",
+              "title": "Court approves class action on alleged Plus500 manipulation - Globes",
+              "publishedAt": "2021-10-25T00:00:00.000Z",
+              "quote": "Court approves class action on alleged Plus500 manipulation"
+            },
+            {
+              "url": "https://en.globes.co.il/en/article-court-approves-class-action-on-alleged-plus500-manipulation-1001388525",
+              "title": "Court approves class action on alleged Plus500 manipulation - Globes",
+              "publishedAt": "2021-10-25T00:00:00.000Z",
+              "quote": "In the request, it was claimed that trading was paused for 90 minutes only for those asking to sell put options."
+            },
+            {
+              "url": "https://en.globes.co.il/en/article-court-approves-class-action-on-alleged-plus500-manipulation-1001388525",
+              "title": "Court approves class action on alleged Plus500 manipulation - Globes",
+              "publishedAt": "2021-10-25T00:00:00.000Z",
+              "quote": "According to Torgeman, Plus500 did not renew options trading for 90 minutes, which violates many clauses in the Securities Law, and the aim was to prevent Plus500 from making losses."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2017,
+          "summary": "Plus500 corrected its 2017 annual report after admitting in February 2019 that a drafting error had obscured a $103 million loss from customers' trading positions.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.thisismoney.co.uk/money/markets/article-8676839/Plus500-launch-shares-trading-battle-Hargreaves.html",
+              "title": "Plus500 to launch shares trading in battle with Hargreaves | This is Money",
+              "publishedAt": "2020-08-29T00:00:00.000Z",
+              "quote": "Plus500 shares crashed last year after it was forced to correct its 2017 annual report, causing substantial embarrassment."
+            },
+            {
+              "url": "https://www.thisismoney.co.uk/money/markets/article-8676839/Plus500-launch-shares-trading-battle-Hargreaves.html",
+              "title": "Plus500 to launch shares trading in battle with Hargreaves | This is Money",
+              "publishedAt": "2020-08-29T00:00:00.000Z",
+              "quote": "The company initially said it had not suffered losses from punters' trading positions, but in February 2019 it admitted to a 'drafting error' after the company's finances showed it took a $103million (£77million) trading hit in 2017."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

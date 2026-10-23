@@ -1,0 +1,46 @@
+{
+  "ticker": "VCT",
+  "generatedAt": "2026-10-23T14:01:23.351Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "Following a chemical spill that contaminated nearby groundwater, Victrex Manufacturing Ltd and Veolia were ordered to pay a combined £80,000, with subsequent cleanup and monitoring overseen by the Environment Agency.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.blackpoolgazette.co.uk/news/people/thornton-companies-ordered-to-pay-ps80k-after-chemical-spill-that-could-have-contaminated-river-wyre-3252040",
+              "title": "Thornton companies ordered to pay £80k after chemical spill that could have contaminated River Wyre",
+              "publishedAt": "2021-05-27T00:00:00.000Z",
+              "quote": "Thornton-based Victrex Manufacturing Ltd and Veolia Energy and Utility Services UK must pay a combined £80,000 to Wyre Rivers Trust and Lancashire Wildlife Trust following the chemical spillage in July 2018."
+            },
+            {
+              "url": "https://www.blackpoolgazette.co.uk/news/people/thornton-companies-ordered-to-pay-ps80k-after-chemical-spill-that-could-have-contaminated-river-wyre-3252040",
+              "title": "Thornton companies ordered to pay £80k after chemical spill that could have contaminated River Wyre",
+              "publishedAt": "2021-05-27T00:00:00.000Z",
+              "quote": "This was cleaned up by specialist contractors, however, several days later contamination was identified in groundwater nearby."
+            },
+            {
+              "url": "https://www.blackpoolgazette.co.uk/news/people/thornton-companies-ordered-to-pay-ps80k-after-chemical-spill-that-could-have-contaminated-river-wyre-3252040",
+              "title": "Thornton companies ordered to pay £80k after chemical spill that could have contaminated River Wyre",
+              "publishedAt": "2021-05-27T00:00:00.000Z",
+              "quote": "This continued until December 2019 when the Environment Agency groundwater specialists were satisfied that the pollution had been minimised and that an appropriate monitoring process had been put in place."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Victrex's emissions-reduction targets across Scopes 1, 2 and 3 received Science Based Targets initiative validation."
+      ]
+    }
+  }
+}

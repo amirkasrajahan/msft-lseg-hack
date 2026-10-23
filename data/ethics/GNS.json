@@ -1,0 +1,13 @@
+{
+  "ticker": "GNS",
+  "generatedAt": "2026-10-23T13:40:38.499Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "An independent life-cycle assessment conducted to international ISO standards found lower emissions intensity for Genus ABS genetics: 4.7% lower for NuEra T14 Angus-sired animals and 8.8% lower for NuEra T15 British Blue-sired animals."
+      ]
+    }
+  }
+}

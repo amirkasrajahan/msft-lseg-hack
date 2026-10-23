@@ -1,0 +1,67 @@
+{
+  "ticker": "BPT",
+  "generatedAt": "2026-10-23T13:33:50.454Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "PESP and the Sierra Club urged Bridgepoint-owned ECP to condition its proposed Gavin coal-plant acquisition on retirement by 2028, but a January 2025 report stated that ECP did not intend to retire the plant.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://pestakeholder.org/news/pesp-sends-letters-to-blackstone-ecp-urging-gavin-plant-retirement/",
+              "title": "PESP sends letters to Blackstone, ECP urging Gavin coal plant retirement",
+              "publishedAt": "2024-09-12T00:00:00.000Z",
+              "quote": "PESP, along with the Sierra Club, sent letters to Blackstone and Energy Capital Partners/Bridgepoint Group urging the firms to condition the sale on an announcement of retirement of Gavin no later than 2028."
+            },
+            {
+              "url": "https://pestakeholder.org/news/energy-capital-partners-wont-retire-gavin/",
+              "title": "Potential Gavin owner Energy Capital Partners won’t retire plant",
+              "publishedAt": "2025-01-14T00:00:00.000Z",
+              "quote": "Contrary to energy transition claims, Bridgepoint-owned ECP has stated that it does not intend to retire the coal plant."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Public Citizen alleged that subsidiary Calpine Energy Solutions failed to identify its ultimate ECP and Bridgepoint ownership in an application to renew authorization to export electricity to Mexico.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.citizen.org/article/calpine-export-electricity/",
+              "title": "Protest of Calpine's Application to Export Power - Public Citizen",
+              "publishedAt": "2025-01-17T00:00:00.000Z",
+              "quote": "On November 22, 2024, Calpine Energy Solutions LLC applied for renewal of its authorization to export electricity from the United States to Mexico as a power marketer."
+            },
+            {
+              "url": "https://www.citizen.org/article/calpine-export-electricity/",
+              "title": "Protest of Calpine's Application to Export Power - Public Citizen",
+              "publishedAt": "2025-01-17T00:00:00.000Z",
+              "quote": "This description of Calpine Energy Solutions’ upstream ownership is incomplete, as it conceals that Calpine Corporation is a wholly-owned subsidiary of the private equity firm Energy Capital Partners, which in turn is affiliated with the UK financial holding company Bridgepoint Group."
+            },
+            {
+              "url": "https://www.citizen.org/article/calpine-export-electricity/",
+              "title": "Protest of Calpine's Application to Export Power - Public Citizen",
+              "publishedAt": "2025-01-17T00:00:00.000Z",
+              "quote": "The failure of the application to correctly identify that it is ultimately controlled by Energy Capital Partners and Bridgepoint Group is a fatal error."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

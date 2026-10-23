@@ -1,0 +1,53 @@
+{
+  "ticker": "PAF",
+  "generatedAt": "2026-10-23T13:51:48.268Z",
+  "coverage": "full",
+  "causes": {
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Community representatives alleged that Pan African Resources used illegal miners as cheaper labour and ignored social and labour commitments, which the company denied.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.business-humanrights.org/en/latest-news/south-africa-communities-complain-against-pan-african-resources-for-alleged-employment-of-illegal-miners-incl-co-comment/",
+              "title": "South Africa: Locals allege Pan African Resources employing illegal miners for cheap labour; company comments - Business and Human Rights Centre",
+              "publishedAt": "2023-08-07T00:00:00.000Z",
+              "quote": "Yumba, and Ohentse Ditire who spoke on behalf of West Village residents accuse Pan African Resources of reneging on commitments to draw up a social and labour plan (SLP) that benefits them."
+            },
+            {
+              "url": "https://www.business-humanrights.org/en/latest-news/south-africa-communities-complain-against-pan-african-resources-for-alleged-employment-of-illegal-miners-incl-co-comment/",
+              "title": "South Africa: Locals allege Pan African Resources employing illegal miners for cheap labour; company comments - Business and Human Rights Centre",
+              "publishedAt": "2023-08-07T00:00:00.000Z",
+              "quote": "The private companies are working with the zama zamas because it’s cheaper labour,” Yumba alleged."
+            },
+            {
+              "url": "https://www.business-humanrights.org/en/latest-news/south-africa-communities-complain-against-pan-african-resources-for-alleged-employment-of-illegal-miners-incl-co-comment/",
+              "title": "South Africa: Locals allege Pan African Resources employing illegal miners for cheap labour; company comments - Business and Human Rights Centre",
+              "publishedAt": "2023-08-07T00:00:00.000Z",
+              "quote": "Spokesperson Hethen Hira said they were not working with any illegal miners, and they also had no plans of ever collaborating with them."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Pan African Resources was named the Mining Elites 2026 Water Management Winner.",
+        "Evander Mines’ reverse osmosis plant produces 3 ML of drinkable water daily from recycled underground water."
+      ]
+    },
+    "community_impact": {
+      "incidents": [],
+      "positives": [
+        "Construction of the Mogale tailings retreatment project employed about 1,600 people, including over 1,000 from the local community."
+      ]
+    }
+  }
+}

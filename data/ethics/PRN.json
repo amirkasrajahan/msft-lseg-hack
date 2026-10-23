@@ -1,0 +1,19 @@
+{
+  "ticker": "PRN",
+  "generatedAt": "2026-10-23T13:53:41.555Z",
+  "coverage": "full",
+  "causes": {
+    "supply_chain": {
+      "incidents": [],
+      "positives": [
+        "Princes carried out a human rights impact assessment of its Argentinean pulse supply chain."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Princes had installed solar panels at its Long Sutton site."
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ticker": "OXB",
+  "generatedAt": "2026-10-23T13:50:30.895Z",
+  "coverage": "full",
+  "causes": {
+    "product_safety": {
+      "incidents": [],
+      "positives": [
+        "The MHRA issued a Certificate of GMP compliance for the fourth manufacturing suite at Oxford Biomedica’s Oxbox facility."
+      ]
+    }
+  }
+}

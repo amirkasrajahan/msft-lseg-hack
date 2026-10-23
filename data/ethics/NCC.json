@@ -1,0 +1,40 @@
+{
+  "ticker": "NCC",
+  "generatedAt": "2026-10-23T13:49:26.437Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2014,
+          "summary": "CREST found NCC Group vicariously responsible for employees’ examination-related breaches of its Code of Conduct and non-disclosure agreements on two occasions between 2012 and 2014.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.theregister.com/2021/08/27/ncc_group_crest_exam_cheating_scandal_statement",
+              "title": "Slap on wrist for NCC Group over CREST exam-cheating scandal as infosec org agrees to rewrite NDAs and more",
+              "publishedAt": "2021-08-27T00:00:00.000Z",
+              "quote": "On two occasions between 2012 and 2014, the examination-related activities of one of more NCC Group employees and candidates breached the CREST Code of Conduct and NCC Group was, as their employer, vicariously responsible for those individuals at the time,"
+            },
+            {
+              "url": "https://www.theregister.com/2021/08/27/ncc_group_crest_exam_cheating_scandal_statement",
+              "title": "Slap on wrist for NCC Group over CREST exam-cheating scandal as infosec org agrees to rewrite NDAs and more",
+              "publishedAt": "2021-08-27T00:00:00.000Z",
+              "quote": "The certification body added that NCC Group's actions also breached its non-disclosure agreements, signed by exam candidates to confirm they won't reveal the exams' contents to anyone."
+            },
+            {
+              "url": "https://www.nccgroup.com/newsroom/ncc-group-responds-to-crest-statement/",
+              "title": "NCC Group responds to CREST statement | NCC Group",
+              "publishedAt": "2021-08-26T00:00:00.000Z",
+              "quote": "We fully accept the requirements in the CREST statement, of which improvements to processes have already been made following our own internal investigation into the historical breaches."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

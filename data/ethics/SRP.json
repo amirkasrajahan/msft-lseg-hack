@@ -1,0 +1,40 @@
+{
+  "ticker": "SRP",
+  "generatedAt": "2026-10-23T13:57:36.999Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2013,
+          "summary": "Serco admitted responsibility for fraud and false accounting related to electronic tagging and settled associated investor litigation in 2024 on undisclosed terms.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.civilserviceworld.com/professions/article/serco-to-pay-23m-after-serious-fraud-office-probe-into-moj-electronic-tagging-scandal",
+              "title": "Serco to pay £23m after Serious Fraud Office probe into MoJ electronic tagging scandal",
+              "publishedAt": "2020-06-25T00:00:00.000Z",
+              "quote": "Outsourcer Serco has agreed to pay £22.9m and admitted responsibility for three offences of fraud and two of false accounting related to its work to deliver an electronic tagging scheme on behalf of the Ministry of Justice."
+            },
+            {
+              "url": "https://www.cityam.com/serco-settles-landmark-lawsuit-linked-to-overcharging-scandal/",
+              "title": "Serco settles landmark lawsuit linked to overcharging scandal",
+              "publishedAt": "2024-06-18T00:00:00.000Z",
+              "quote": "After it came out, Serco agreed to repay £68.5m to the UK government for overcharging to tag criminals."
+            },
+            {
+              "url": "https://www.cityam.com/serco-settles-landmark-lawsuit-linked-to-overcharging-scandal/",
+              "title": "Serco settles landmark lawsuit linked to overcharging scandal",
+              "publishedAt": "2024-06-18T00:00:00.000Z",
+              "quote": "After years of waiting, the trial kicked off last week, but it was revealed today that Serco had settled with the shareholder group."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    }
+  }
+}

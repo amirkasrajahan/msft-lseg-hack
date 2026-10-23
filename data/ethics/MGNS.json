@@ -1,0 +1,75 @@
+{
+  "ticker": "MGNS",
+  "generatedAt": "2026-10-23T13:49:40.673Z",
+  "coverage": "full",
+  "causes": {
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Morgan Sindall Property Services faces nine fire-safety charges concerning its role at the Beechmere retirement village, which burnt down in August 2019.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.constructionnews.co.uk/health-and-safety/morgan-sindall-and-wsp-face-charges-over-burnt-retirement-village-06-07-2023/",
+              "title": "Firms charged over retirement village blaze | Construction News",
+              "publishedAt": "2023-07-06T00:00:00.000Z",
+              "quote": "Six companies, including Morgan Sindall Property Services, have been charged with breaches of fire safety laws over their role in the construction of a retirement village which burnt down in August 2019."
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/health-and-safety/morgan-sindall-and-wsp-face-charges-over-burnt-retirement-village-06-07-2023/",
+              "title": "Firms charged over retirement village blaze | Construction News",
+              "publishedAt": "2023-07-06T00:00:00.000Z",
+              "quote": "Now Morgan Sindall Property Services, which served as the facilities management subcontractor at the building and had contracted MAC Roofing and Contractors for roofing work, is facing nine charges."
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/health-and-safety/morgan-sindall-and-wsp-face-charges-over-burnt-retirement-village-06-07-2023/",
+              "title": "Firms charged over retirement village blaze | Construction News",
+              "publishedAt": "2023-07-06T00:00:00.000Z",
+              "quote": "The fire service alleges Morgan Sindall Property Services failed “to take measures to prevent the spread of fire in the premises” and failed to review a 2009 fire risk assessment which identified defective doors to the smoke shaft."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": [
+        "Morgan Sindall Construction received BS 99001 quality-management certification under a scheme supporting Building Safety Act implementation and regulatory compliance."
+      ]
+    },
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Basildon Borough Council is set to terminate Morgan Sindall’s £300m housing-maintenance contract, saying its work has not been good enough.",
+          "relativeScale": 4,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.constructionnews.co.uk/contractors/morgan-sindall/?block_id=3&page=2",
+              "title": "Morgan Sindall News, Contracts and Projects | Construction News",
+              "publishedAt": "2025-10-02T00:00:00.000Z",
+              "quote": "Basildon Council to end Morgan Sindall’s £300m housing contract"
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/contractors/morgan-sindall/?block_id=3&page=2",
+              "title": "Morgan Sindall News, Contracts and Projects | Construction News",
+              "publishedAt": "2025-10-02T00:00:00.000Z",
+              "quote": "Basildon Borough Council is set to end its relationship with Morgan Sindall as the contractor’s housing maintenance work “has not been good enough”."
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/contractors/morgan-sindall/?block_id=3&page=2",
+              "title": "Morgan Sindall News, Contracts and Projects | Construction News",
+              "publishedAt": "2025-10-02T00:00:00.000Z",
+              "quote": "The Essex authority threatened to terminate Morgan Sindall’s lucrative contract in February, with council leader Gavin Callaghan criticising the “diabolical state” of housing repairs."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

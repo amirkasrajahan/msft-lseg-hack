@@ -1,0 +1,53 @@
+{
+  "ticker": "CVSG",
+  "generatedAt": "2026-10-23T13:37:47.532Z",
+  "coverage": "full",
+  "causes": {
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "CVS admitted unauthorised access to some IT systems that disrupted its UK operations, reported the incident to the Information Commissioner’s Office and subsequently restored IT services to most practices.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/business/2024/apr/08/vet-group-cvs-personal-information-cyber-attack-hackers",
+              "title": "Vet group CVS warns over risk to personal information in cyber-attack",
+              "publishedAt": "2024-04-08T00:00:00.000Z",
+              "quote": "CVS Group said hackers had gained unauthorised external access to a limited number of its IT systems."
+            },
+            {
+              "url": "https://www.thetimes.com/business-money/article/cvs-cyberattack-without-head-cyber-security-g6hq2sb9b",
+              "title": "CVS suffered cyberattack while without a head of IT security",
+              "publishedAt": "2024-04-09T00:00:00.000Z",
+              "quote": "CVS Group revealed on Monday that it recently had detected and responded to an incident that it believes will disrupt its operations in Britain for weeks."
+            },
+            {
+              "url": "https://www.thetimes.com/business-money/article/cvs-cyberattack-without-head-cyber-security-g6hq2sb9b",
+              "title": "CVS suffered cyberattack while without a head of IT security",
+              "publishedAt": "2024-04-09T00:00:00.000Z",
+              "quote": "CVS says IT services have been securely restored to the majority of its veterinary practices"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [],
+      "positives": [
+        "CVS introduced a zero-tolerance policy allowing practices to bar abusive clients or pursue legal action to protect staff.",
+        "CVS introduced discretionary sick pay of up to eight weeks at full pay for exceptional health events, available to colleagues with at least six months’ continuous service."
+      ]
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "CVS introduced reusable sharps bins across its UK practices to reduce single-use waste."
+      ]
+    }
+  }
+}

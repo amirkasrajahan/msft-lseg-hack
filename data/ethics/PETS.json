@@ -1,0 +1,68 @@
+{
+  "ticker": "PETS",
+  "generatedAt": "2026-10-23T13:52:56.314Z",
+  "coverage": "full",
+  "causes": {
+    "animal_welfare": {
+      "incidents": [
+        {
+          "year": 2012,
+          "summary": "BBC Watchdog reported animal mistreatment at Pets at Home stores; a subsequent BBC clarification concerned the omission of the company's responses from an online version.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Pets_at_Home",
+              "title": "Pets at Home",
+              "quote": "The programme discovered evidence of mistreatment of small animals, dead fish being left to rot and be eaten in tanks, and sick small animals up for sale."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Pets_at_Home",
+              "title": "Pets at Home",
+              "quote": "The BBC trust published a clarification on 7 June 2016 that the website included a version of the item made before Pets at Home's points in reply to criticisms were incorporated."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "Pets at Home withdrew KONG rope dog leads pending investigation after owners reported that a lead released their puppy, which was then killed by a van.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://uk.topclassactions.com/lawsuit-settlements/consumer-goods/pets-at-home-withdraws-kong-dog-leads-following-puppys-tragic-death/",
+              "title": "Pets At Home Withdraws KONG Dog Leads Following Puppy’s Tragic Death - Top Class Actions United Kingdom",
+              "publishedAt": "2022-03-30T00:00:00.000Z",
+              "quote": "Pets At Home has withdrawn three KONG rope dog leads after a puppy wearing one of the leads broke loose and was killed by a van."
+            },
+            {
+              "url": "https://uk.topclassactions.com/lawsuit-settlements/consumer-goods/pets-at-home-withdraws-kong-dog-leads-following-puppys-tragic-death/",
+              "title": "Pets At Home Withdraws KONG Dog Leads Following Puppy’s Tragic Death - Top Class Actions United Kingdom",
+              "publishedAt": "2022-03-30T00:00:00.000Z",
+              "quote": "Within hours of the couple’s contact, Pets At Home reportedly withdrew every KONG rope dog lead from all of its stores pending an investigation into the lead."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Pets at Home worked with IBM and the BRC to test and refine a framework for more accurate supply-chain emissions reporting and wider ESG-risk visibility.",
+        "A 1.25MWp rooftop solar array was installed at Pets at Home's National Distribution Centre.",
+        "Pets at Home's distribution-centre building received an Excellent BREEAM rating for its environmentally focused design.",
+        "Pets at Home achieved a 44% reduction in absolute location-based Scope 1 and 2 emissions since 2016."
+      ]
+    }
+  }
+}

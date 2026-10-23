@@ -1,0 +1,40 @@
+{
+  "ticker": "WIX",
+  "generatedAt": "2026-10-23T14:03:34.365Z",
+  "coverage": "full",
+  "causes": {
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Wickes Building Supplies was named by the government for minimum-wage underpayments of £17,186.64 to 1,870 workers, which had subsequently been repaid.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.constructionnews.co.uk/legal/firms-named-for-breaching-minimum-wage-law-01-03-2024/",
+              "title": "Firms named for breaching minimum wage law | Construction News",
+              "publishedAt": "2024-03-01T00:00:00.000Z",
+              "quote": "Wickes Building Supplies, which failed to pay £17,186.64 to 1,870 workers"
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/legal/firms-named-for-breaching-minimum-wage-law-01-03-2024/",
+              "title": "Firms named for breaching minimum wage law | Construction News",
+              "publishedAt": "2024-03-01T00:00:00.000Z",
+              "quote": "All named businesses have since paid what they owe to their staff and have also faced financial penalties of up to 200 per cent of their underpayments, the DBT said."
+            },
+            {
+              "url": "https://www.watfordobserver.co.uk/news/24134369.wickes-failed-pay-workers-17-000-minimum-wages/",
+              "title": "Wickes failed to pay workers over £17,000 in minimum wages | Watford Observer",
+              "publishedAt": "2024-02-21T00:00:00.000Z",
+              "quote": "Following the demerger from Travis Perkins Group in 2021 we have implemented our own National Minimum Wage processes and take proactive steps to ensure that we remain compliant on an ongoing basis."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

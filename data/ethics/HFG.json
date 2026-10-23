@@ -1,0 +1,46 @@
+{
+  "ticker": "HFG",
+  "generatedAt": "2026-10-23T13:43:30.522Z",
+  "coverage": "full",
+  "causes": {
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Hilton's Foppen smoked salmon business experienced a listeria event and US import restrictions on its Greek facility, while its Dutch subsidiary subsequently resumed exports to the United States.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.intrafish.com/finance/foppen-listeria-event-causes-financial-damage-for-hilton/2-1-1968819",
+              "title": "Foppen listeria event causes financial damage for Hilton",
+              "publishedAt": "2026-03-31T00:00:00.000Z",
+              "quote": "Foppen listeria event causes financial damage for Hilton"
+            },
+            {
+              "url": "https://www.bairdmaritime.com/fishing/processing/hilton-food-sees-higher-salmon-write-offs-after-us-import-curbs",
+              "title": "Hilton Food sees higher salmon write-offs after US import curbs",
+              "publishedAt": "2026-01-29T00:00:00.000Z",
+              "quote": "Hilton Food has faced major operational challenges, particularly at its seafood business Foppen, after the US restricted imports from its key Greek facility, prompting the group to switch to supplies from the Netherlands."
+            },
+            {
+              "url": "https://www.intrafish.com/aquaculture/hilton-flags-ongoing-seafood-struggles-as-foppen-awaits-fda-ruling/2-1-1991849",
+              "title": "Hilton flags ongoing seafood struggles as Foppen awaits FDA ruling",
+              "publishedAt": "2026-05-19T00:00:00.000Z",
+              "quote": "Foppen, Hilton’s Dutch smoked salmon subsidiary, has now resumed exporting to the United States by sea rather than air."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Hilton Foods' new long-term greenhouse gas emissions reduction targets were approved by the Science Based Targets initiative in March 2024."
+      ]
+    }
+  }
+}

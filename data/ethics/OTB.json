@@ -1,0 +1,13 @@
+{
+  "ticker": "OTB",
+  "generatedAt": "2026-10-23T14:05:58.828Z",
+  "coverage": "partial",
+  "causes": {
+    "customer_practices": {
+      "incidents": [],
+      "positives": [
+        "On the Beach reported refunding customers £48.7 million for cancelled flights despite Ryanair not reimbursing it."
+      ]
+    }
+  }
+}

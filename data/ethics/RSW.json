@@ -1,0 +1,13 @@
+{
+  "ticker": "RSW",
+  "generatedAt": "2026-10-23T13:55:25.092Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Renishaw partnered with Ecotricity to supply its main UK sites with 100% renewable electricity."
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "TRST",
+  "generatedAt": "2026-10-23T14:02:46.316Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Grizzly Research alleged that Trustpilot coerced businesses into paid subscriptions and challenged or removed premium members’ negative reviews; Trustpilot denied the claims.",
+          "relativeScale": 4,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.cityam.com/trustpilot-shares-rebound-after-short-seller-attacks-mafia-style-practices/",
+              "title": "Trustpilot shares rebound after allegations of 'mafia-style' practices",
+              "publishedAt": "2025-12-05T00:00:00.000Z",
+              "quote": "The American firm alleged that the FTSE 250 company effectively coerces businesses into signing up for membership by “creating unsolicited review profiles” with the intention of attracting “hyper negative reviews”, forcing businesses to pay for subscription deals."
+            },
+            {
+              "url": "https://www.cityam.com/trustpilot-shares-rebound-after-short-seller-attacks-mafia-style-practices/",
+              "title": "Trustpilot shares rebound after allegations of 'mafia-style' practices",
+              "publishedAt": "2025-12-05T00:00:00.000Z",
+              "quote": "Meanwhile, the group claimed genuine negative scores of premium members were “challenged or removed”."
+            },
+            {
+              "url": "https://www.cityam.com/trustpilot-shares-rebound-after-short-seller-attacks-mafia-style-practices/",
+              "title": "Trustpilot shares rebound after allegations of 'mafia-style' practices",
+              "publishedAt": "2025-12-05T00:00:00.000Z",
+              "quote": "Trustpilot released a statement hours later, dismissing the claims as “selective, misleading and framed to support a predetermined narrative”."
+            }
+          ],
+          "severity": 1
+        },
+        {
+          "year": 2021,
+          "summary": "A US federal class action alleged that Trustpilot subjected mainly small and mid-sized subscribers to deceptive business practices, including ineffective paid services and renewal emails designed to evade notice.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.businesswire.com/news/home/20210203006017/en/Class-Action-Alert-Frank-LLP-Notifies-Trustpilot%e2%80%99s-Subscribers-of-Deceptive-Business-Practices-Alleged-in-New-Federal-Suit",
+              "title": "Class Action Alert: Frank LLP Notifies Trustpilot’s Subscribers of Deceptive Business Practices Alleged in New Federal Suit",
+              "publishedAt": "2021-02-04T00:00:00.000Z",
+              "quote": "The suit alleges Trustpilot subscribers—mainly small to mid-sized companies—were subjected to deceptive business practices, among other violations of the law."
+            },
+            {
+              "url": "https://www.businesswire.com/news/home/20210203006017/en/Class-Action-Alert-Frank-LLP-Notifies-Trustpilot%e2%80%99s-Subscribers-of-Deceptive-Business-Practices-Alleged-in-New-Federal-Suit",
+              "title": "Class Action Alert: Frank LLP Notifies Trustpilot’s Subscribers of Deceptive Business Practices Alleged in New Federal Suit",
+              "publishedAt": "2021-02-04T00:00:00.000Z",
+              "quote": "Meanwhile, small and medium-sized companies with tight budgets got nothing for precious dollars they spent on annual “subscriptions” for Trustpilot’s services."
+            },
+            {
+              "url": "https://www.businesswire.com/news/home/20210203006017/en/Class-Action-Alert-Frank-LLP-Notifies-Trustpilot%e2%80%99s-Subscribers-of-Deceptive-Business-Practices-Alleged-in-New-Federal-Suit",
+              "title": "Class Action Alert: Frank LLP Notifies Trustpilot’s Subscribers of Deceptive Business Practices Alleged in New Federal Suit",
+              "publishedAt": "2021-02-04T00:00:00.000Z",
+              "quote": "And when media reports blew the lid off the scheme, and subscribers were eager to cancel, Trustpilot sent them “auto-enroll” emails designed to go straight to subscribers’ junk folders so the email went unread until it was too late to cancel."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": [
+        "Trustpilot won two lawsuits against businesses posting fake reviews and placed warning disclaimers on their profile pages."
+      ]
+    }
+  }
+}

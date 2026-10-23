@@ -1,0 +1,40 @@
+{
+  "ticker": "PCA",
+  "generatedAt": "2026-10-23T14:06:13.940Z",
+  "coverage": "partial",
+  "causes": {
+    "executive_pay": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Lakestreet challenged Palace Capital chairman Steven Owen’s remuneration as excessive, and Owen and the senior independent director subsequently resigned after losing shareholder support.",
+          "relativeScale": 4,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.propertyweek.com/finance/lakestreet-capital-calls-to-remove-palace-capital-chair-amid-pay-and-governance-concerns",
+              "title": "Lakestreet Capital calls to remove Palace Capital chair over pay and governance concerns | Property Week",
+              "publishedAt": "2026-01-05T00:00:00.000Z",
+              "quote": "Lakestreet, Palace Capital’s largest shareholder with a 22.53% stake, said it was “deeply troubled by the excessive amount of remuneration” of Owen and the “value destruction that shareholders suffer as a result”."
+            },
+            {
+              "url": "https://www.propertyweek.com/finance/lakestreet-capital-calls-to-remove-palace-capital-chair-amid-pay-and-governance-concerns",
+              "title": "Lakestreet Capital calls to remove Palace Capital chair over pay and governance concerns | Property Week",
+              "publishedAt": "2026-01-05T00:00:00.000Z",
+              "quote": "It said Owen had received around £220,000 per year over the past four years, which was more than the total remuneration previously paid to Palace Capital’s former five-person board."
+            },
+            {
+              "url": "https://quoteddata.com/2026/01/revolution-at-palace-capital-as-lakestreet-activists-win-control-of-uk-reit-completing-three-year-wind-down/",
+              "title": "Revolution at Palace Capital as Lakestreet activists win control of UK REIT completing three-year wind-down - QuotedData",
+              "publishedAt": "2026-01-26T00:00:00.000Z",
+              "quote": "Their arrival was announced with news on Friday that Palace Capital’s two board directors, executive chair Steven Owen and senior independent director Mark Davies, had resigned with immediate effect having lost the support of shareholders."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

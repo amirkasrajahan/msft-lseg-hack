@@ -1,0 +1,13 @@
+{
+  "ticker": "JSG",
+  "generatedAt": "2026-10-23T13:45:15.906Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Jacobs provided independent limited assurance over selected sustainability data, including carbon metrics, finding no material departures from the reporting criteria."
+      ]
+    }
+  }
+}

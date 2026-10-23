@@ -1,0 +1,41 @@
+{
+  "ticker": "SSPG",
+  "generatedAt": "2026-10-23T13:58:50.741Z",
+  "coverage": "full",
+  "causes": {
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "A proposed class-action lawsuit alleged that SSP America CID violated wage-and-hour laws by failing to pay airport restaurant employees the required minimum wage.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://iowacapitaldispatch.com/2025/12/17/class-action-lawsuit-seeks-to-collect-wages-for-airport-restaurant-workers/",
+              "title": "Class-action lawsuit seeks to collect wages for airport restaurant workers • Iowa Capital Dispatch",
+              "publishedAt": "2025-12-17T00:00:00.000Z",
+              "quote": "A Linn County woman representing workers at airport eateries throughout Iowa has filed a potential class action lawsuit against her employer alleging violations of state and federal wage-and-hour laws."
+            },
+            {
+              "url": "https://iowacapitaldispatch.com/2025/12/17/class-action-lawsuit-seeks-to-collect-wages-for-airport-restaurant-workers/",
+              "title": "Class-action lawsuit seeks to collect wages for airport restaurant workers • Iowa Capital Dispatch",
+              "publishedAt": "2025-12-17T00:00:00.000Z",
+              "quote": "The lawsuit accuses SSP America CID of violating the Fair Labor Standards Act’s requirements and a resulting failure to pay employees the federally mandated minimum wage for all hours worked."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "SSP's target to reach net-zero greenhouse gas emissions by 2040 received formal Science Based Targets initiative approval.",
+        "The Financial Times named SSP among Europe's Climate Leaders in its 2025 report."
+      ]
+    }
+  }
+}

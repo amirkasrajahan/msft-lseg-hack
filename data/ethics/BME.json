@@ -1,0 +1,94 @@
+{
+  "ticker": "BME",
+  "generatedAt": "2026-10-23T13:32:00.353Z",
+  "coverage": "full",
+  "causes": {
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "B&M was fined £2 million in July 2026 for food hygiene failures involving mouse infestations at three Birmingham stores.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.retailgazette.co.uk/blog/2026/07/bm-fined-2m-after-mouse-infestations-caused-enforced-shutdowns/",
+              "title": "B&M fined £2m after mouse infestations caused enforced shutdowns - Retail Gazette",
+              "publishedAt": "2026-07-22T00:00:00.000Z",
+              "quote": "Alongside the £2m fine, B&M was ordered to pay £18,104 in prosecution costs and a £2,000 victim surcharge."
+            },
+            {
+              "url": "https://www.birmingham.gov.uk/news/article/1806/bandm_fined_2_million_following_birmingham_city_council_prosecution_over_serious_food_hygiene_failings",
+              "title": "B&M fined £2 million following Birmingham City Council prosecution over serious food hygiene failings | Birmingham City Council",
+              "publishedAt": "2026-07-21T00:00:00.000Z",
+              "quote": "Officers found significant evidence of mouse activity, including mouse droppings and gnawed food products on sale."
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cvgvxm1n3keo",
+              "title": "B&M fined £2m over mice infestations at Birmingham stores - BBC News",
+              "publishedAt": "2026-07-21T00:00:00.000Z",
+              "quote": "B&M said it was \"deeply sorry for the failings identified\" and had taken comprehensive action to \"strengthen controls across our business\"."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "B&M was fined £1 million after an electrician suffered serious burns in an electrical explosion at its Liverpool warehouse in September 2018.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.thebusinessdesk.com/northwest/news/2101459-retailer-bm-fined-1m-for-safety-breaches-at-its-liverpool-warehouse",
+              "title": "Retailer B&M fined £1m for safety breaches at its Liverpool warehouse",
+              "publishedAt": "2022-07-29T00:00:00.000Z",
+              "quote": "Liverpool-based discount retailer B&M, has been fined £1m after an electrician suffered serious burns to 15% of his body when he was caught in an explosion at a warehouse in Liverpool."
+            },
+            {
+              "url": "https://www.thebusinessdesk.com/northwest/news/2101459-retailer-bm-fined-1m-for-safety-breaches-at-its-liverpool-warehouse",
+              "title": "Retailer B&M fined £1m for safety breaches at its Liverpool warehouse",
+              "publishedAt": "2022-07-29T00:00:00.000Z",
+              "quote": "On September 22, 2018, an electrician was using a metal spanner to repair an electrical fault at a B&M Retail Ltd warehouse, in Speke, South Liverpool."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Burberry filed a High Court lawsuit against B&M alleging trademark infringement and misrepresentation of products as associated with Burberry.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://luxjuris.com/burberry-sues-bm-over-furberry/",
+              "title": "Burberry Sues B&M Over Furberry - Lux Juris",
+              "publishedAt": "2025-01-25T00:00:00.000Z",
+              "quote": "Burberry has officially launched legal action against B&M, alleging trademark infringement and claiming that B&M has misrepresented its products as associated with the renowned luxury brand."
+            },
+            {
+              "url": "https://luxjuris.com/burberry-sues-bm-over-furberry/",
+              "title": "Burberry Sues B&M Over Furberry - Lux Juris",
+              "publishedAt": "2025-01-25T00:00:00.000Z",
+              "quote": "The lawsuit was filed in London’s High Court on December 2, 2024."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

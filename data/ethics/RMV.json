@@ -1,0 +1,40 @@
+{
+  "ticker": "RMV",
+  "generatedAt": "2026-10-23T13:55:49.269Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Rightmove faces a collective legal claim alleging excessive and unfair subscription fees, with a tribunal hearing scheduled for 2–3 November 2026.",
+          "relativeScale": 5,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://thenegotiator.co.uk/news/regulation-law-news/date-set-for-1-5bn-rightmove-court-hearing/",
+              "title": "Date set for £1.5bn Rightmove court hearing",
+              "publishedAt": "2026-05-21T00:00:00.000Z",
+              "quote": "It claims that Rightmove abused its dominant position in the online property portal market by charging excessive and unfair fees to estate agents that list properties on its online portal."
+            },
+            {
+              "url": "https://thenegotiator.co.uk/news/regulation-law-news/date-set-for-1-5bn-rightmove-court-hearing/",
+              "title": "Date set for £1.5bn Rightmove court hearing",
+              "publishedAt": "2026-05-21T00:00:00.000Z",
+              "quote": "The court hearing has been ordered by the Competition Appeal Tribunal for 2nd and 3rd November this year."
+            },
+            {
+              "url": "https://www.jonesday.com/en/insights/2026/04/rightmoves-16b-antitrust-headache-the-rising-tide-of-uk-class-actions",
+              "title": "Rightmove’s £1.6B Antitrust Headache | Jones Day",
+              "publishedAt": "2026-04-23T00:00:00.000Z",
+              "quote": "The action seeks aggregate damages on behalf of an estimated 7,200 members who paid for Rightmove's services over a six-year period—primarily small businesses such as estate agents, letting agents, and new homes developers."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

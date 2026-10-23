@@ -1,0 +1,61 @@
+{
+  "ticker": "SVS",
+  "generatedAt": "2026-10-23T13:56:30.141Z",
+  "coverage": "full",
+  "causes": {
+    "diversity_inclusion": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Savills failed to obtain summary dismissal of a sexual harassment lawsuit whose allegations a judge described as indicating serious discriminatory sexist behaviour if true.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.lawyerly.com.au/savills-loses-bid-to-toss-sexual-harassment-suit/",
+              "title": "Savills loses bid to toss sexual harassment suit | Lawyerly",
+              "publishedAt": "2026-08-05T00:00:00.000Z",
+              "quote": "US real estate firm Savills has failed to summarily dismiss a lawsuit alleging sexual harassment, which a judge said if true “indicated a culture of discriminatory sexist behaviour of a serious kind”."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "A former St James Quarter director sued Savills Management Resources alleging dismissal after raising fire safety and fraud concerns, with a tribunal witness also alleging years of missing maintenance tracking.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.edinburghlive.co.uk/news/edinburgh-news/edinburghs-st-james-quarter-worker-32065777",
+              "title": "Edinburgh's St James Quarter worker alleges 'fraud and health and safety' issues | Edinburgh Live",
+              "publishedAt": "2025-07-15T00:00:00.000Z",
+              "quote": "John Watt, 38, from Dunbar, is suing Savills Management Resources for unfair dismissal and public interest disclosure at the Edinburgh Employment Tribunal."
+            },
+            {
+              "url": "https://www.edinburghlive.co.uk/news/edinburgh-news/edinburghs-st-james-quarter-worker-32065777",
+              "title": "Edinburgh's St James Quarter worker alleges 'fraud and health and safety' issues | Edinburgh Live",
+              "publishedAt": "2025-07-15T00:00:00.000Z",
+              "quote": "Back in February, Mr Watt claimed: \"My dismissal followed my raising of fire safety concerns, serious health and safety concerns, and some really serious fraud of hundreds of thousands of pounds\"."
+            },
+            {
+              "url": "https://www.edinburghlive.co.uk/news/edinburgh-news/edinburgh-st-james-quarter-worker-32132932",
+              "title": "Edinburgh St James Quarter worker claims 'things weren't being maintained' | Edinburgh Live",
+              "publishedAt": "2025-07-25T00:00:00.000Z",
+              "quote": "She further alleged that for years there was no system to track and document maintenance issues."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

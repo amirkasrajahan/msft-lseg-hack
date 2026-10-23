@@ -1,0 +1,67 @@
+{
+  "ticker": "HAS",
+  "generatedAt": "2026-10-23T13:42:38.077Z",
+  "coverage": "full",
+  "causes": {
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Hays Specialist Recruitment was named by the government for failing to pay £8,987.62 in minimum wages to 450 workers and was required to repay the arrears.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://hrreview.co.uk/hr-news/naming-and-shaming-minimum-wage/139669",
+              "title": "Global Recruitment firm one of the companies named and shamed by government - HRreview | HR News, Opinion & Advice",
+              "publishedAt": "2021-12-13T00:00:00.000Z",
+              "quote": "The global firm, Hays Specialist Recruitment was named for failing to pay £8,987.62 to 450 workers."
+            },
+            {
+              "url": "https://hrreview.co.uk/hr-news/naming-and-shaming-minimum-wage/139669",
+              "title": "Global Recruitment firm one of the companies named and shamed by government - HRreview | HR News, Opinion & Advice",
+              "publishedAt": "2021-12-13T00:00:00.000Z",
+              "quote": "The businesses named have since had to pay back what they owe to staff and also face significant financial penalties of up to 200 percent."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "A worker injured while removing rubbish received damages against Hays for failure to train him in a safe system of work, and Hays's appeal was rejected in 2025.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.insurancenews.com.au/daily/employers-stung-in-payout-appeal-after-wasp-wrong-foots-worker",
+              "title": "Employers stung in payout appeal after wasp wrong-foots worker - Insurance News - insuranceNEWS.com.au",
+              "publishedAt": "2025-10-02T00:00:00.000Z",
+              "quote": "In March last year, the Queensland Supreme Court awarded him $503,595 against Hays and $873,014 against Civeo, ruling there was a failure to train him in a safe system of work."
+            },
+            {
+              "url": "https://www.insurancenews.com.au/daily/employers-stung-in-payout-appeal-after-wasp-wrong-foots-worker",
+              "title": "Employers stung in payout appeal after wasp wrong-foots worker - Insurance News - insuranceNEWS.com.au",
+              "publishedAt": "2025-10-02T00:00:00.000Z",
+              "quote": "When he was startled by the wasp, he tripped backwards over a bag and injured his arm, requiring hospital care and surgery."
+            },
+            {
+              "url": "https://www.insurancenews.com.au/daily/employers-stung-in-payout-appeal-after-wasp-wrong-foots-worker",
+              "title": "Employers stung in payout appeal after wasp wrong-foots worker - Insurance News - insuranceNEWS.com.au",
+              "publishedAt": "2025-10-02T00:00:00.000Z",
+              "quote": "Labour hire company Hays Specialist Recruitment and accommodation provider Civeo lost their appeal against damages owed to Aaron Carey-Schofield, who sued them alleging a breach of their duty of care to take precautions against risk of harm."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

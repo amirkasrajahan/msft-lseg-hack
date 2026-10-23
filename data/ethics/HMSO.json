@@ -1,0 +1,13 @@
+{
+  "ticker": "HMSO",
+  "generatedAt": "2026-10-23T13:42:33.465Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Hammerson commissioned scientific tree-suitability guidance for Brent Cross, including screening species for potential biodiversity benefits."
+      ]
+    }
+  }
+}

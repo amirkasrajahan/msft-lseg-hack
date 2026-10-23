@@ -1,0 +1,156 @@
+{
+  "ticker": "DRX",
+  "generatedAt": "2026-10-23T13:37:14.864Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Drax agreed to pay £25 million for inaccurate wood-sourcing reporting to Ofgem and subsequently faced an FCA investigation into its biomass sourcing disclosures.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.independent.co.uk/news/business/drax-to-pay-ps25m-penalty-for-datareporting-breach-after-woodburning-probe-b2603682.html",
+              "title": "Drax to pay £25m penalty for data-reporting breach after wood-burning probe | The Independent",
+              "publishedAt": "2024-08-29T00:00:00.000Z",
+              "quote": "Power station operator Drax has agreed to pay a £25 million penalty after the energy watchdog found it failed to report accurate data on the sourcing of wood pellets it burned at its North Yorkshire plant."
+            },
+            {
+              "url": "https://www.independent.co.uk/news/business/drax-to-pay-ps25m-penalty-for-datareporting-breach-after-woodburning-probe-b2603682.html",
+              "title": "Drax to pay £25m penalty for data-reporting breach after wood-burning probe | The Independent",
+              "publishedAt": "2024-08-29T00:00:00.000Z",
+              "quote": "But Ofgem did not find any evidence that Drax’s biomass was not sustainable or that Drax had been issued renewables obligation certificates (ROCs) incorrectly."
+            },
+            {
+              "url": "https://uk.finance.yahoo.com/news/uk-financial-watchdog-probes-drax-062213386.html",
+              "title": "UK's FCA investigates energy company Drax over biomass sourcing disclosures",
+              "publishedAt": "2025-08-28T00:00:00.000Z",
+              "quote": "The FCA's investigation includes Drax's 2021–2023 annual reports and their compliance with financial disclosure rules."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Canadian pellet mills committed more than 25 environmental violations under Drax's ownership, including wetland destruction and failures to report pollution.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://landclimate.org/drax-mills/",
+              "title": "Drax’s pellet mills violated environmental law 189 times in Canada - Land and Climate Review",
+              "publishedAt": "2024-05-14T00:00:00.000Z",
+              "quote": "Drax now owns the mills after acquiring Pinnacle Renewable Energy in 2021 and buying another plant in Princeton in 2022, making the company directly responsible for more than 25 of the most recent violations."
+            },
+            {
+              "url": "https://landclimate.org/drax-mills/",
+              "title": "Drax’s pellet mills violated environmental law 189 times in Canada - Land and Climate Review",
+              "publishedAt": "2024-05-14T00:00:00.000Z",
+              "quote": "These include wetlands in Alberta being “ completely destroyed” at one facility, and another failing to report pollution to the national regulator, in breach of federal law."
+            },
+            {
+              "url": "https://landclimate.org/drax-mills/",
+              "title": "Drax’s pellet mills violated environmental law 189 times in Canada - Land and Climate Review",
+              "publishedAt": "2024-05-14T00:00:00.000Z",
+              "quote": "British Columbia’s Greenhouse Gas Industrial Reporting and Control Act was breached under Drax’s ownership four times."
+            }
+          ],
+          "severity": 4
+        },
+        {
+          "year": 2019,
+          "summary": "Louisiana regulatory paperwork identified at least 6,714 Clean Air and Water violations at Drax's two Louisiana mills between 2019 and 2024.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://landclimate.org/drax-6000breaches/",
+              "title": "Drax's US environmental violations now total over 18,000 incidents - Land and Climate Review",
+              "publishedAt": "2026-01-16T00:00:00.000Z",
+              "quote": "Legal paperwork prepared by the Louisiana Department for Environmental Quality (LDEQ) indicates that Drax violated Clean Air and Water regulations at least 6,714 times at its two Louisiana mills between 2019 and 2024."
+            },
+            {
+              "url": "https://landclimate.org/drax-6000breaches/",
+              "title": "Drax's US environmental violations now total over 18,000 incidents - Land and Climate Review",
+              "publishedAt": "2026-01-16T00:00:00.000Z",
+              "quote": "Most of the newly reported incidents – at least 6,659 – occured at Drax’s Morehouse BioEnergy facility in Bastrop, northeast Louisiana, suggesting environmental regulations were breached more than 3 times a day, on average."
+            }
+          ],
+          "severity": 3
+        },
+        {
+          "year": 2020,
+          "summary": "Drax's Amite BioEnergy facility received pollution fines of $2.5 million in 2020 and $225,000 in 2024, and its application to expand permitted hazardous air emissions was denied in 2025.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://mississippitoday.org/2025/04/08/state-denies-drax-ability-to-expand-emissions/",
+              "title": "State denies Drax, a repeat violator, ability to expand emissions",
+              "publishedAt": "2025-04-08T00:00:00.000Z",
+              "quote": "In 2020, MDEQ fined Drax $2.5 million for underestimating certain pollutants it had released into the air since 2016, one of three times the state has fined the facility and one of the largest such penalties in the state’s history."
+            },
+            {
+              "url": "https://mississippitoday.org/2025/04/08/state-denies-drax-ability-to-expand-emissions/",
+              "title": "State denies Drax, a repeat violator, ability to expand emissions",
+              "publishedAt": "2025-04-08T00:00:00.000Z",
+              "quote": "Last year, the state fined Drax $225,000 for releasing over 50% more than its permitted limit of HAPs into the air."
+            },
+            {
+              "url": "https://mississippitoday.org/2025/04/08/state-denies-drax-ability-to-expand-emissions/",
+              "title": "State denies Drax, a repeat violator, ability to expand emissions",
+              "publishedAt": "2025-04-08T00:00:00.000Z",
+              "quote": "After over three hours and two executive sessions on Tuesday, the Mississippi Department of Environmental Quality’s Permit Board denied Drax’s application to become a “major” source of Hazardous Air Pollutants, or HAPs."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2015,
+          "summary": "Ten workers sued Drax over health problems diagnostically linked to biomass, with six settling out of court without an admission of liability.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://landclimate.org/asthma/",
+              "title": "Drax biomass led to disabling health conditions, say unions and workers - Land and Climate Review",
+              "publishedAt": "2025-10-24T00:00:00.000Z",
+              "quote": "Martyn was the first of 10 to sue Drax over health problems diagnostically linked to biomass."
+            },
+            {
+              "url": "https://landclimate.org/asthma/",
+              "title": "Drax biomass led to disabling health conditions, say unions and workers - Land and Climate Review",
+              "publishedAt": "2025-10-24T00:00:00.000Z",
+              "quote": "Six have settled out of court without admission of liability"
+            },
+            {
+              "url": "https://landclimate.org/asthma/",
+              "title": "Drax biomass led to disabling health conditions, say unions and workers - Land and Climate Review",
+              "publishedAt": "2025-10-24T00:00:00.000Z",
+              "quote": "In 2018, Martyn was suspended with sick pay. His health improved at home, but worsened when he returned."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

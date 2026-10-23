@@ -1,0 +1,40 @@
+{
+  "ticker": "RAT",
+  "generatedAt": "2026-10-23T13:54:37.331Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "A regulatory review identified Consumer Duty and compliance weaknesses in Rathbones’ UK wealth management business, prompting restrictions affecting approximately 4,700 existing clients; remediation and targeted client reviews remained underway in October.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://markets.ft.com/data/announce/detail?dockey=1323-17641784-3OSL2ICNJF3LCOD9RLLFPB3RER",
+              "title": "Regulatory Update – Company Announcement - FT.com",
+              "publishedAt": "2026-06-16T00:00:00.000Z",
+              "quote": "The review has identified areas for improvement within the Group's UK Wealth Management business regarding the implementation and embedding of Consumer Duty, as well as certain aspects of its compliance, oversight and assurance arrangements."
+            },
+            {
+              "url": "https://www.telegraph.co.uk/business/2026/06/16/rathbones-wealth-manager-60m-hit-block-high-risk-clients/",
+              "title": "Wealth manager Rathbones to take £60m hit as it blocks new high-risk clients",
+              "publishedAt": "2026-06-16T00:00:00.000Z",
+              "quote": "It said these clients would need to “meet certain requirements” to be able to resume inflows to their accounts, affecting around 4,700 of its 119,000 customers."
+            },
+            {
+              "url": "https://www.cityam.com/rathbones-faces-million-pound-hit-from-second-fca-order/",
+              "title": "Rathbones faces million-pound hit from second FCA order",
+              "publishedAt": "2026-10-22T07:36:52.000Z",
+              "quote": "Rathbones confirmed the regulatory programme in June continues on schedule, while targeted client reviews have also started."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

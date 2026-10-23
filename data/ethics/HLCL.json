@@ -1,0 +1,13 @@
+{
+  "ticker": "HLCL",
+  "generatedAt": "2026-10-23T14:05:17.377Z",
+  "coverage": "partial",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "The JJ Mack Building, developed by Helical with AshbyCapital, achieved a 96.4% BREEAM score and was awarded EPC A and NABERS 5 Stars."
+      ]
+    }
+  }
+}

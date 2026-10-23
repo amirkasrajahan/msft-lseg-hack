@@ -1,0 +1,136 @@
+{
+  "ticker": "JMAT",
+  "generatedAt": "2026-10-23T13:47:01.878Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2008,
+          "summary": "Johnson Matthey Inc admitted a Clean Water Act violation involving selective wastewater sampling and was fined $2.25 million, subsequently contributing $750,000 and entering a compliance agreement.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Johnson_Matthey",
+              "title": "Johnson Matthey",
+              "quote": "In December 2008 US subsidiary Johnson Matthey Inc was fined $2.25 million for a felony violation of the United States Clean Water Act, after admitting to violating the act at its Salt Lake City precious metals refining facility."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Johnson_Matthey",
+              "title": "Johnson Matthey",
+              "quote": "The violation related to the selective screening of wastewater samples for compliance analysis."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Johnson_Matthey",
+              "title": "Johnson Matthey",
+              "quote": "Following the charge Johnson Matthey Inc contributed $750,000 to the National Fish and Wildlife Foundation and entered a three-year compliance agreement with the US Environmental Protection Agency."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "Following its Sevierville plant explosion, Johnson Matthey received eight state safety citations and a $13,100 fine, with the company appealing the findings.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.wvlt.tv/2023/02/08/documents-reveal-details-johnson-mattheysevierville-plant-explosion/",
+              "title": "Documents reveal details of Johnson Matthey Sevierville plant explosion",
+              "publishedAt": "2023-02-08T00:00:00.000Z",
+              "quote": "Johnson Matthey is now facing eight violations from the state, seven of which are categorized as “serious.” The two main catalysts of the explosion were a faulty roof and dust collection system, according to the documents."
+            },
+            {
+              "url": "https://www.themountainpress.com/news/johnson-matthey-contesting-state-findings-on-explosion/article_7d3b3e37-3814-53a3-8f12-dfeec3fd3f92.html",
+              "title": "Johnson Matthey contesting state findings on explosion | News | themountainpress.com",
+              "publishedAt": "2023-02-08T00:00:00.000Z",
+              "quote": "The company was fined $13,100"
+            },
+            {
+              "url": "https://www.wvlt.tv/2023/02/08/documents-reveal-details-johnson-mattheysevierville-plant-explosion/",
+              "title": "Documents reveal details of Johnson Matthey Sevierville plant explosion",
+              "publishedAt": "2023-02-08T00:00:00.000Z",
+              "quote": "Johnson Matthey representatives said they have appealed it as well."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "The dispute over Johnson Matthey’s former health-business sale remained headed for trial in July 2025, including an allegation that a statement in a draft disclosure letter constituted misrepresentation.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.thisismoney.co.uk/money/markets/article-12155269/Johnson-Matthey-faces-court-battle-325m-deal.html",
+              "title": "Chemicals giant Johnson Matthey embroiled in bitter legal battle against US buyer of its former health business",
+              "publishedAt": "2023-06-03T00:00:00.000Z",
+              "quote": "A High Court scrap is developing over the sale to New York investment fund Altaris Capital Partners for £325 million."
+            },
+            {
+              "url": "https://www.lexisnexis.co.uk/legal/news/court-entertains-argument-that-statements-in-draft-disclosure-letter-amounted-to-misrepresentations",
+              "title": "Court entertains argument that statements in draft disclosure letter amounted to misrepresentations (Veranova Bidco LP v Johnson Matthey plc) | News | LexisNexis",
+              "publishedAt": "2025-07-21T00:00:00.000Z",
+              "quote": "The High Court has entertained the argument that an allegedly false statement contained in a draft disclosure letter produced during the course of transaction negotiations may have amounted to a misrepresentation."
+            },
+            {
+              "url": "https://www.lexisnexis.co.uk/legal/news/court-entertains-argument-that-statements-in-draft-disclosure-letter-amounted-to-misrepresentations",
+              "title": "Court entertains argument that statements in draft disclosure letter amounted to misrepresentations (Veranova Bidco LP v Johnson Matthey plc) | News | LexisNexis",
+              "publishedAt": "2025-07-21T00:00:00.000Z",
+              "quote": "The case will proceed to a full trial."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Johnson Matthey disclosed a third-party breach involving over 6,000 employee records, with documents potentially stored without access controls since 2020, and offered two years of identity protection.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://cybernews.com/news/johnson-matthey-suffers-third-party-breach/",
+              "title": "Johnson Matthey suffers a third-party breach | Cybernews",
+              "publishedAt": "2024-03-20T00:00:00.000Z",
+              "quote": "Sustainable technology company Johnson Matthey has suffered a third-party data breach, revealing over 6000 employee records."
+            },
+            {
+              "url": "https://cybernews.com/news/johnson-matthey-suffers-third-party-breach/",
+              "title": "Johnson Matthey suffers a third-party breach | Cybernews",
+              "publishedAt": "2024-03-20T00:00:00.000Z",
+              "quote": "While our investigation is ongoing, the company believes the documents may have been stored on the platform since 2020 without access controls,"
+            },
+            {
+              "url": "https://cybernews.com/news/johnson-matthey-suffers-third-party-breach/",
+              "title": "Johnson Matthey suffers a third-party breach | Cybernews",
+              "publishedAt": "2024-03-20T00:00:00.000Z",
+              "quote": "Johnson Matthey is offering two years of identity protection as compensation for the incident."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    }
+  }
+}

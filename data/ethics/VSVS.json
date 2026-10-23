@@ -1,0 +1,68 @@
+{
+  "ticker": "VSVS",
+  "generatedAt": "2026-10-23T14:01:42.474Z",
+  "coverage": "full",
+  "causes": {
+    "diversity_inclusion": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "Vesuvius was found liable for age discrimination, victimisation and unfair dismissal of Glenn Cowie, who was awarded £3,171,723 in compensation.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.independent.co.uk/news/business/glenn-cowie-vesuvius-age-discrimination-b2011400.html",
+              "title": "Executive called an ‘old fossil’ by his boss wins age discrimination case | The Independent",
+              "publishedAt": "2022-02-09T00:00:00.000Z",
+              "quote": "It heard that Mr Andre emailed Mr Cowie in May 2018 to say any new recruits should be no older than 45, with the aim to find people “with enough time left in their career in order to develop”."
+            },
+            {
+              "url": "https://www.personneltoday.com/hr/executive-called-old-fossil-awarded-3-2m-in-ageism-case/",
+              "title": "Executive called ‘old fossil’ awarded £3.2m in ageism case",
+              "publishedAt": "2024-07-05T00:00:00.000Z",
+              "quote": "The tribunal ruled that Cowie was unfairly dismissed by Vesuvius and suffered age discrimination from both Vesuvius and Andre. It ruled Cowie suffered victimisation by raising grievances and appeals following his dismissal."
+            },
+            {
+              "url": "https://www.telegraph.co.uk/news/2024/07/04/executive-old-fossil-31m-age-discrimination-payout/",
+              "title": "Executive called 'old fossil' by younger boss wins £3.1m age discrimination payout",
+              "publishedAt": "2024-07-04T00:00:00.000Z",
+              "quote": "He will now receive a total of £3,171,723 in compensation for loss of earnings, four years after he launched legal action against his former employers."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2020,
+          "summary": "Former employee Royston Phillips sued Vesuvius’s U.S. unit alleging age discrimination and retaliation, and an Ohio appeals court rejected its attempt to block personnel-file discovery using EU privacy law.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://news.bloomberglaw.com/privacy-and-data-security/vesuvius-cant-use-eu-privacy-law-to-bar-worker-access-to-files",
+              "title": "Vesuvius Can’t Use EU Privacy Law to Bar Worker Access to Files",
+              "publishedAt": "2020-06-12T00:00:00.000Z",
+              "quote": "Vesuvius Plc’s U.S. unit can’t stop a former employee from accessing European Union residents’ personnel files by invoking the bloc’s privacy law, an Ohio appeals court ruled."
+            },
+            {
+              "url": "https://news.bloomberglaw.com/privacy-and-data-security/vesuvius-cant-use-eu-privacy-law-to-bar-worker-access-to-files",
+              "title": "Vesuvius Can’t Use EU Privacy Law to Bar Worker Access to Files",
+              "publishedAt": "2020-06-12T00:00:00.000Z",
+              "quote": "The former worker, Royston Phillips, wants the records for a lawsuit alleging age discrimination and retaliation."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [],
+      "positives": [
+        "Vesuvius Canada workers secured their first Teamster contract in November 2021, including a $2 wage increase, a second-year bonus and elimination of mandatory overtime."
+      ]
+    }
+  }
+}

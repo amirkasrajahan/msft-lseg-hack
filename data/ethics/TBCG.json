@@ -1,0 +1,115 @@
+{
+  "ticker": "TBCG",
+  "generatedAt": "2026-10-23T13:59:50.318Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2008,
+          "summary": "Georgia’s banking regulator confirmed conflict-of-interest breaches involving loans to TBC Bank’s founders, with the bank subsequently agreeing to a penalty and supervisory-board restructuring.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://nbg.gov.ge/en/media/news/statement-of-the-national-bank-of-geor-15",
+              "title": "Statement of The National Bank of Georgia",
+              "publishedAt": "2021-02-05T00:00:00.000Z",
+              "quote": "Mamuka Khazaradze and Badri Japaridze, violating the legislation regulating conflicts of interests issues, took loans in the amount of USD 16.7 million from the bank via other legal entities"
+            },
+            {
+              "url": "https://nbg.gov.ge/en/media/news/joint-statement",
+              "title": "Joint Statement",
+              "publishedAt": "2021-02-05T00:00:00.000Z",
+              "quote": "TBC Bank withdraws all court cases against the National Bank of Georgia and will pay approximately GEL 1 million, which was previously requested by the NBG and disclosed by TBC PLC on 9 January 2019."
+            },
+            {
+              "url": "https://nbg.gov.ge/en/media/news/joint-statement",
+              "title": "Joint Statement",
+              "publishedAt": "2021-02-05T00:00:00.000Z",
+              "quote": "it will implement a restructuring of its Supervisory Board whereby the founding shareholders will not be represented at the supervisory Board of JSC TBC Bank."
+            }
+          ],
+          "severity": 1
+        },
+        {
+          "year": 2021,
+          "summary": "The National Bank of Georgia fined TBC Bank GEL 928,000 for misrepresenting information during an inspection and breaching customer-identification requirements.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://nbg.gov.ge/en/supervision/aml-cft/the-monetary-fine-was-imposed-on-commercial-bank-jsc-tbc-bank-i-n-204854595",
+              "title": "The National Bank of Georgia",
+              "publishedAt": "2021-02-05T00:00:00.000Z",
+              "quote": "The monetary fine of 928 000 (nine hundred twenty-eight thousand) GEL was imposed on commercial bank JSC “TBC BANK” (I.N. 204854595)"
+            },
+            {
+              "url": "https://nbg.gov.ge/en/supervision/aml-cft/the-monetary-fine-was-imposed-on-commercial-bank-jsc-tbc-bank-i-n-204854595",
+              "title": "The National Bank of Georgia",
+              "publishedAt": "2021-02-05T00:00:00.000Z",
+              "quote": "For 4 (four) cases for misrepresentation of information/documentation to the National Bank of Georgia in the process of inspection;"
+            },
+            {
+              "url": "https://nbg.gov.ge/en/supervision/aml-cft/the-monetary-fine-was-imposed-on-commercial-bank-jsc-tbc-bank-i-n-204854595",
+              "title": "The National Bank of Georgia",
+              "publishedAt": "2021-02-05T00:00:00.000Z",
+              "quote": "the rule of customer identification is violated towards a high risk client"
+            }
+          ],
+          "severity": 1
+        },
+        {
+          "year": 2024,
+          "summary": "The National Bank of Georgia fined TBC Bank GEL 250,000 for suspicious-transaction reporting, customer due-diligence and other compliance failures.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://nbg.gov.ge/en/supervision/aml-cft/imposition-of-a-monetary-fine-on-jsc-tbc-bank",
+              "title": "The National Bank of Georgia",
+              "publishedAt": "2021-02-05T00:00:00.000Z",
+              "quote": "A monetary fine was imposed on the commercial bank JSC “TBC Bank” (ID No. 204854595) in the amount of GEL 250,000 (two hundred and fifty thousand)."
+            },
+            {
+              "url": "https://nbg.gov.ge/en/supervision/aml-cft/imposition-of-a-monetary-fine-on-jsc-tbc-bank",
+              "title": "The National Bank of Georgia",
+              "publishedAt": "2021-02-05T00:00:00.000Z",
+              "quote": "With respect to 23 (twenty-three) clients, failure to apply risk-appropriate preventive measures;"
+            },
+            {
+              "url": "https://nbg.gov.ge/en/supervision/aml-cft/imposition-of-a-monetary-fine-on-jsc-tbc-bank",
+              "title": "The National Bank of Georgia",
+              "publishedAt": "2021-02-05T00:00:00.000Z",
+              "quote": "For failure to comply within the set deadlines, with 3 (three) written requirements issued as a result of an on-site inspection;"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "TBC Bank participates in a loan-portfolio decarbonisation project with RINA and the Global Climate Partnership Fund.",
+        "The EBRD and Green Climate Fund arranged a US$25 million green-lending package for TBC Bank."
+      ]
+    },
+    "labour_rights": {
+      "incidents": [],
+      "positives": [
+        "TBC Bank offers paid paternity leave, with documented employee uptake."
+      ]
+    },
+    "diversity_inclusion": {
+      "incidents": [],
+      "positives": [
+        "TBC Bank introduced mandatory gender-equality training for all employees in early 2023."
+      ]
+    }
+  }
+}

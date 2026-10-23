@@ -1,0 +1,14 @@
+{
+  "ticker": "GPE",
+  "generatedAt": "2026-10-23T13:41:31.550Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "GPE achieved a 32.2% reduction in energy intensity against its 2016 baseline.",
+        "GPE delivered its first net zero carbon building at 50 Finsbury Square in London."
+      ]
+    }
+  }
+}

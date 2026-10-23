@@ -1,0 +1,13 @@
+{
+  "ticker": "KNOS",
+  "generatedAt": "2026-10-23T13:45:31.448Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Kainos oversaw Companies House’s migration of legacy systems to the cloud, reportedly reducing the public body's carbon emissions by 94%."
+      ]
+    }
+  }
+}

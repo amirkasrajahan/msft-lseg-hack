@@ -1,0 +1,40 @@
+{
+  "ticker": "QQ",
+  "generatedAt": "2026-10-23T13:53:41.133Z",
+  "coverage": "full",
+  "causes": {
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "QinetiQ was fined £800,000 after inadequate risk assessment of an ammunition trial at Pendine resulted in an employee being shot and paralysed below the shoulders.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c2kvxzn8zpzo",
+              "title": "Defence company fined £800,000 after man paralysed by bullet",
+              "publishedAt": "2025-04-04T00:00:00.000Z",
+              "quote": "A defence technology company has been fined £800,000 after an employee was paralysed by a bullet during a test of NATO ammunition."
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c2kvxzn8zpzo",
+              "title": "Defence company fined £800,000 after man paralysed by bullet",
+              "publishedAt": "2025-04-04T00:00:00.000Z",
+              "quote": "An investigation by the Health and Safety Executive (HSE) found QinetiQ Limited had failed to perform an adequate risk assessment of the trial."
+            },
+            {
+              "url": "https://pembrokeshire-herald.com/110263/man-paralysed-after-being-shot-during-weapons-test-at-pendine-mod-range/",
+              "title": "Man paralysed after being shot during weapons test at Pendine MoD range – The Pembrokeshire Herald",
+              "publishedAt": "2025-04-04T00:00:00.000Z",
+              "quote": "The company was also ordered to pay £8,365.40 in costs and a £190 victim surcharge, bringing the total penalty to £808,555.40."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

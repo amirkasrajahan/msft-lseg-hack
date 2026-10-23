@@ -1,0 +1,104 @@
+{
+  "ticker": "SPI",
+  "generatedAt": "2026-10-23T13:59:47.949Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2017,
+          "summary": "Spire facilitated an illegal agreement fixing initial private ophthalmology consultation fees at one hospital and agreed to settle with a £1.2 million fine.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.gov.uk/government/case-studies/private-healthcare-provider-fixed-prices-with-consultants",
+              "title": "Private healthcare provider fixed prices with consultants - Case study - GOV.UK",
+              "publishedAt": "2020-09-24T00:00:00.000Z",
+              "quote": "In July 2020, the Competition and Markets Authority (CMA) found that a hospital belonging to a large healthcare provider, Spire Healthcare Ltd. (a member of the Spire Healthcare Group), and 7 private, consultant eye specialists, called ophthalmologists, had entered into an illegal agreement."
+            },
+            {
+              "url": "https://www.gov.uk/government/case-studies/private-healthcare-provider-fixed-prices-with-consultants",
+              "title": "Private healthcare provider fixed prices with consultants - Case study - GOV.UK",
+              "publishedAt": "2020-09-24T00:00:00.000Z",
+              "quote": "It started in August 2017 and continued for at least two years until the CMA opened its investigation."
+            },
+            {
+              "url": "https://www.investegate.co.uk/index.php/announcement/rns/spire-healthcare-group--spi/cma-investigation-concluded/6464461",
+              "title": "Investegate | Company Announcement",
+              "publishedAt": "2020-07-01T00:00:00.000Z",
+              "quote": "Spire Healthcare apologises for its conduct and fully co-operated with the CMA in its investigation, agreeing to accept the CMA's findings in full and settle the case with a fine of £1.2m."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2018,
+          "summary": "Spire admitted failing to promptly apologise and disclose care failures to four Leeds Hospital patients and was ordered to pay a fine, surcharge and court costs.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.laingbuissonnews.com/healthcare-markets-content/news-healthcare-markets-content/spire-fined-for-duty-of-candour-failings-in-landmark-case/",
+              "title": "Spire fined for Duty of Candour failings in landmark case - LaingBuisson News",
+              "publishedAt": "2021-04-29T00:00:00.000Z",
+              "quote": "However, Spire did not issue letters to the four patients informing them of the concerns until November 2018, prompting the CQC to bring the prosecution – the first of its kind against an independent healthcare provider."
+            },
+            {
+              "url": "https://doi.org/10.1136/bmj.n1129",
+              "title": "Spire Healthcare pleads guilty to failing to tell four patients about poor treatment",
+              "publishedAt": "2021-04-30T00:00:00.000Z",
+              "quote": "Spire was fined £5000 and ordered to pay a £120 victim surcharge and £14 984.36 costs at Leeds magistrates court."
+            },
+            {
+              "url": "https://www.laingbuissonnews.com/healthcare-markets-content/news-healthcare-markets-content/spire-fined-for-duty-of-candour-failings-in-landmark-case/",
+              "title": "Spire fined for Duty of Candour failings in landmark case - LaingBuisson News",
+              "publishedAt": "2021-04-29T00:00:00.000Z",
+              "quote": "The patients were treated by upper limb orthopaedic consultant Mike Walsh up until 2017 and suffered prolonged pain requiring further remedial surgery."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "A BBC Panorama investigation raised safety concerns about NHS surgery patients at Spire hospitals without intensive care facilities and medical staff contracted to work 168 hours a week.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Spire_Healthcare",
+              "title": "Spire Healthcare",
+              "quote": "Spire was the subject of a critical BBC Panorama investigation in April 2024, which raised safety concerns around NHS patients being treated in its hospitals."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Spire_Healthcare",
+              "title": "Spire Healthcare",
+              "quote": "Panorama showed an increasing number of NHS patients were undergoing surgery in Spire hospitals where no intensive care facilities were present."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Spire_Healthcare",
+              "title": "Spire Healthcare",
+              "quote": "Some medical staff were under contract to work 168 hours a week, over three times higher than the NHS's recommended limit."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Spire Murrayfield Hospital installed over 400 solar panels on its roof and grounds."
+      ]
+    }
+  }
+}

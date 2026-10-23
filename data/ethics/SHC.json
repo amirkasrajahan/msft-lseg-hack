@@ -1,0 +1,73 @@
+{
+  "ticker": "SHC",
+  "generatedAt": "2026-10-23T13:57:46.642Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2017,
+          "summary": "Shareholder Samuel Tak Lee sued Shaftesbury over an allegedly improper December 2017 share placing that diluted his stake, with the company denying the claims.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.cityam.com/samuel-tak-lee-announces-plan-to-vote-against-shaftesburys-board-at-agm/",
+              "title": "Samuel Tak Lee announces plan to vote against Shaftesbury's board at AGM",
+              "publishedAt": "2020-01-21T00:00:00.000Z",
+              "quote": "Lee’s legal case, which is expected to be heard in the High Court next year, alleges that Shaftesbury conducted the December 2017 share placing “improperly”."
+            },
+            {
+              "url": "https://quoteddata.com/2020/05/capco-eyes-takeover-shaftesbury/",
+              "title": "Capco eyes up takeover of Shaftesbury - QuotedData",
+              "publishedAt": "2020-05-29T00:00:00.000Z",
+              "quote": "Mr Lee launched legal action against the company last year over alleged losses from a £265m fundraising in 2017 that he says diluted his stake."
+            },
+            {
+              "url": "https://www.cityam.com/samuel-tak-lee-announces-plan-to-vote-against-shaftesburys-board-at-agm/",
+              "title": "Samuel Tak Lee announces plan to vote against Shaftesbury's board at AGM",
+              "publishedAt": "2020-01-21T00:00:00.000Z",
+              "quote": "Shaftesbury has denied the claims saying they have “no merit”."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "executive_pay": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Shaftesbury Capital faced investor criticism over millions of pounds in executive share awards that vested upon completion of its merger.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://news.sky.com/story/covent-garden-owner-shaftesbury-capital-faces-bruising-pay-row-12840079",
+              "title": "Covent Garden-owner Shaftesbury Capital faces bruising pay row  | Money News | Sky News",
+              "publishedAt": "2023-03-22T00:00:00.000Z",
+              "quote": "The newly merged property empire encompassing swathes of London’s Soho and Covent Garden is facing a bruising shareholder row over millions of pounds handed out in executive share awards."
+            },
+            {
+              "url": "https://news.sky.com/story/covent-garden-owner-shaftesbury-capital-faces-bruising-pay-row-12840079",
+              "title": "Covent Garden-owner Shaftesbury Capital faces bruising pay row  | Money News | Sky News",
+              "publishedAt": "2023-03-22T00:00:00.000Z",
+              "quote": "City investors are understood to be livid that bosses including Ian Hawksworth, its chief executive, saw share grants vest when the merger completed."
+            },
+            {
+              "url": "https://news.sky.com/story/covent-garden-owner-shaftesbury-capital-faces-bruising-pay-row-12840079",
+              "title": "Covent Garden-owner Shaftesbury Capital faces bruising pay row  | Money News | Sky News",
+              "publishedAt": "2023-03-22T00:00:00.000Z",
+              "quote": "Mr Hawksworth ran Capco, which was the acquiring entity in the merger despite being smaller, making the vesting of its share awards unusual - and controversial during a cost-of-living crisis."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ticker": "OXIG",
+  "generatedAt": "2026-10-23T13:50:46.130Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Oxford Instruments’ Scope 1, 2 and 3 emissions targets were validated by the Science Based Targets initiative."
+      ]
+    }
+  }
+}

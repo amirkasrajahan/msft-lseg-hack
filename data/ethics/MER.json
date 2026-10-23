@@ -1,0 +1,127 @@
+{
+  "ticker": "MER",
+  "generatedAt": "2026-10-23T14:06:07.454Z",
+  "coverage": "partial",
+  "causes": {
+    "diversity_inclusion": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "An employment tribunal found that Mears discriminated against a disabled former manager and victimised her through dismissal, ordering £964,465 in compensation while the company appealed parts of the ruling.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.insidehousing.co.uk/news/social-housing-contractor-ordered-to-pay-former-employee-nearly-1m-in-disability-discrimination-case-79019",
+              "title": "Inside Housing - News - Social housing contractor ordered to pay former employee nearly £1m in disability discrimination case",
+              "publishedAt": "2022-11-15T00:00:00.000Z",
+              "quote": "The ruling found both that there was a failure to give Ms Austin the opportunity to apply for a new role at the repairs contractor and that her subsequent dismissal amounted to disability discrimination."
+            },
+            {
+              "url": "https://www.insidehousing.co.uk/news/social-housing-contractor-ordered-to-pay-former-employee-nearly-1m-in-disability-discrimination-case-79019",
+              "title": "Inside Housing - News - Social housing contractor ordered to pay former employee nearly £1m in disability discrimination case",
+              "publishedAt": "2022-11-15T00:00:00.000Z",
+              "quote": "The company has been ordered to pay Ms Austin £964,465 in total."
+            },
+            {
+              "url": "https://www.insidehousing.co.uk/news/social-housing-contractor-ordered-to-pay-former-employee-nearly-1m-in-disability-discrimination-case-79019",
+              "title": "Inside Housing - News - Social housing contractor ordered to pay former employee nearly £1m in disability discrimination case",
+              "publishedAt": "2022-11-15T00:00:00.000Z",
+              "quote": "According to the judgment, Mears conceded that the dismissal was “unfair”. However, the firm is appealing parts of the ruling."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Mears Scotland LLP was accused of falsifying at least 13,000 maintenance records, and councillors postponed signing a new £1.8 billion contract with the firm.",
+          "relativeScale": 4,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.thenational.scot/news/25187123.scottish-labour-transparency-row-hamilton-by-election-candidate/",
+              "title": "Scottish Labour transparency row over Hamilton by-election candidate | The National",
+              "publishedAt": "2025-05-23T00:00:00.000Z",
+              "quote": "Last year it was alleged that Mears Scotland LLP had falsified at least 13,000 maintenance records, after a whistleblower reported the firm to the local authority’s auditors."
+            },
+            {
+              "url": "https://www.thenational.scot/news/25187123.scottish-labour-transparency-row-hamilton-by-election-candidate/",
+              "title": "Scottish Labour transparency row over Hamilton by-election candidate | The National",
+              "publishedAt": "2025-05-23T00:00:00.000Z",
+              "quote": "North Lanarkshire councillors then postponed signing a new £1.8 billion contract with the firm, that would have provided maintenance and repairs for the authority’s 36,700 council houses and every council building."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Council inspections identified mould, loose wiring and missing smoke alarms at Mears asylum accommodation in Gateshead, while Glasgow reported a cockroach infestation requiring a treatment plan.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://inews.co.uk/news/rodents-mould-cockroaches-asylum-homes-taxpayers-1bn-3439182",
+              "title": "Rodents, mould and cockroaches: The asylum homes costing taxpayers £1bn",
+              "publishedAt": "2024-12-22T00:00:00.000Z",
+              "quote": "In Gateshead, housing inspectors discovered Mears’ properties had issues including mould, loose wiring and a lack of smoke alarms."
+            },
+            {
+              "url": "https://inews.co.uk/news/rodents-mould-cockroaches-asylum-homes-taxpayers-1bn-3439182",
+              "title": "Rodents, mould and cockroaches: The asylum homes costing taxpayers £1bn",
+              "publishedAt": "2024-12-22T00:00:00.000Z",
+              "quote": "In Glasgow, the council reported an “infestation of cockroaches” in one property for which Mears had to come up with a treatment plan."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "A Glasgow support charity accused Mears of routinely failing to provide the required five days’ notice before moving asylum seekers, causing unnecessary stress and suffering.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.theferret.scot/housing-company-re-traumatising-asylum-seekers/",
+              "title": "Housing company accused of ‘re-traumatising’ asylum seekers",
+              "publishedAt": "2023-01-30T00:00:00.000Z",
+              "quote": "Mears Group – which will be paid £1.1bn by the Home Office over ten years to provide asylum accommodation – is contractually obliged to provide five days’ notice before moving people."
+            },
+            {
+              "url": "https://www.theferret.scot/housing-company-re-traumatising-asylum-seekers/",
+              "title": "Housing company accused of ‘re-traumatising’ asylum seekers",
+              "publishedAt": "2023-01-30T00:00:00.000Z",
+              "quote": "But the Asylum Seeker Housing project, a support service run by Glasgow charity Community Infosource, says it is routinely failing to do this, leading to unnecessary stress and suffering."
+            },
+            {
+              "url": "https://www.theferret.scot/housing-company-re-traumatising-asylum-seekers/",
+              "title": "Housing company accused of ‘re-traumatising’ asylum seekers",
+              "publishedAt": "2023-01-30T00:00:00.000Z",
+              "quote": "At least one was given just ten minutes’ notice, causing panic and anxiety."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

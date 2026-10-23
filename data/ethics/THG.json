@@ -1,0 +1,50 @@
+{
+  "ticker": "THG",
+  "generatedAt": "2026-10-23T14:00:48.590Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2014,
+          "summary": "The High Court ordered The Hut Group to pay just under £7.5 million to Oliver Cookson and his trust following claims and counterclaims concerning the Myprotein acquisition; their subsequent appeal was dismissed in 2016.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/THG_plc",
+              "title": "THG plc",
+              "quote": "Cookson counter sued for £12.7 million claiming a breach of warranty and fraudulent misrepresentation."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/THG_plc",
+              "title": "THG plc",
+              "quote": "At the costs hearing in December 2014, the judge awarded a payment of just under £7.5 million to be made by The Hut Group to Cookson and the Trust in respect of all of the claims and counterclaims in the action and one third of the costs incurred by Cookson and the Trust."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/THG_plc",
+              "title": "THG plc",
+              "quote": "The court of appeal dismissed the appeal on 22 March 2016."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "SBTi validated THG's 2040 net-zero targets as aligned with the latest climate science."
+      ]
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "THG's waste-repurposing project prevented 156 tonnes of nutrition supplements from going to waste, reused 31 tonnes of cardboard and diverted 28 tonnes of plastic into new products.",
+        "THG received the Circular Economy Transition of the Year Award at the 2023 Environmental Finance Sustainability Company Awards."
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ticker": "TEP",
+  "generatedAt": "2026-10-23T14:00:36.736Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "The ASA banned a Utility Warehouse mobile advert because it did not make the fair-use restriction on its advertised unlimited data plan sufficiently clear.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.ispreview.co.uk/index.php/2026/07/utility-warehouse-uk-mobile-ad-banned-for-lack-of-clarity-on-unlimited-data-limits.html",
+              "title": "Utility Warehouse UK Mobile Ad Banned for Lack of Clarity on Unlimited Data Limits - ISPreview UK",
+              "publishedAt": "2026-07-29T00:00:00.000Z",
+              "quote": "Utility Warehouse UK Mobile Ad Banned for Lack of Clarity on Unlimited Data Limits"
+            },
+            {
+              "url": "https://www.ispreview.co.uk/index.php/2026/07/utility-warehouse-uk-mobile-ad-banned-for-lack-of-clarity-on-unlimited-data-limits.html",
+              "title": "Utility Warehouse UK Mobile Ad Banned for Lack of Clarity on Unlimited Data Limits - ISPreview UK",
+              "publishedAt": "2026-07-29T00:00:00.000Z",
+              "quote": "But while the ASA didn’t have a problem with the 500GB figure, they did uphold the second complaint because the advert failed to express the restriction clearly enough."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

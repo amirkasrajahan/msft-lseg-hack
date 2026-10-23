@@ -1,0 +1,19 @@
+{
+  "ticker": "DOCS",
+  "generatedAt": "2026-10-23T13:37:30.929Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Dr. Martens launched three shoe styles using reclaimed material made from leather offcuts that would otherwise go to landfill."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "The Carbon Trust assessed Dr. Martens’ climate risks, including carbon pricing, production standards and building energy efficiency."
+      ]
+    }
+  }
+}

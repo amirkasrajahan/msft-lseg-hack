@@ -1,0 +1,169 @@
+{
+  "ticker": "BWY",
+  "generatedAt": "2026-10-23T13:33:04.386Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Bellway faces a collective claim alleging collusion to inflate new-build prices, following binding commitments accepted in 2025 to address competition concerns without a finding that the Competition Act had been infringed.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.estatesgazette.co.uk/legal/class-action-lawyers-target-uk-housebuilders/",
+              "title": "Class action lawyers target UK housebuilders | Estates Gazette",
+              "publishedAt": "2026-07-01T00:00:00.000Z",
+              "quote": "The claim names Barratt Redrow, Bellway, Redrow, The Berkeley Group, Bloor Homes, Persimmon, Taylor Wimpey, Vistry Group and Countryside Partnerships as defendants, according to the release."
+            },
+            {
+              "url": "https://www.estatesgazette.co.uk/legal/class-action-lawyers-target-uk-housebuilders/",
+              "title": "Class action lawyers target UK housebuilders | Estates Gazette",
+              "publishedAt": "2026-07-01T00:00:00.000Z",
+              "quote": "The companies accepted binding commitments in October last year to address the regulator’s concerns, including a pledge not to share commercially sensitive information in future and a £100m contribution to affordable housing."
+            },
+            {
+              "url": "https://www.estatesgazette.co.uk/legal/class-action-lawyers-target-uk-housebuilders/",
+              "title": "Class action lawyers target UK housebuilders | Estates Gazette",
+              "publishedAt": "2026-07-01T00:00:00.000Z",
+              "quote": "“In our view the claim is difficult to prove, and we note that the CMA’s recent investigation into housebuilders did not conclude that the Competition Act had been infringed.”"
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2015,
+          "summary": "A fire at a Bellway-built Canterbury development destroyed or damaged 45 homes, with a subsequent investigation finding fire-separation problems and repairs beginning in November 2018.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Bellway",
+              "title": "Bellway",
+              "quote": "A major fire broke out in July 2015 at a housing development constructed by Bellway in Canterbury, which destroyed and damaged 45 homes."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Bellway",
+              "title": "Bellway",
+              "quote": "An investigation launched in 2016 discovered problems in the fire separation constructed between the properties."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Bellway",
+              "title": "Bellway",
+              "quote": "Repairs to the development began in November 2018."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2019,
+          "summary": "A fire occurred at Bellway-built Samuel Garside House after a residents’ association chair had raised concerns with Bellway about the development’s potential fire risk.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Bellway",
+              "title": "Bellway",
+              "quote": "On 9 June 2019, a fire took place at the newly built Samuel Garside House located in De Pass Garden, which was constructed by Bellway."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Bellway",
+              "title": "Bellway",
+              "quote": "Peter Mason, chair of the Barking Reach residents’ association had contacted Bellway prior to the fire expressing concern about the potential fire risk of the development, but was told not to worry."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Bellway",
+              "title": "Bellway",
+              "quote": "London mayor Sadiq Khan described the fire as \"shocking\" and stated that it could have \"easily resulted in fatalities\"."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2019,
+          "summary": "A BBC Watchdog investigation found safety breaches caused by poorly fitted fire barriers in every property examined at a Bellway-developed estate.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Bellway",
+              "title": "Bellway",
+              "quote": "In May 2019, a Watchdog investigation was screened on BBC One regarding the fire safety of Bellway and Persimmon plc homes."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Bellway",
+              "title": "Bellway",
+              "quote": "In the programme a surveyor visited an estate developed by Bellway after concerns about fire safety had been raised by a resident."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Bellway",
+              "title": "Bellway",
+              "quote": "The investigation found safety breaches in every property that was looked at due to poorly fitted fire barriers."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2017,
+          "summary": "Bellway imported contaminated waste soil onto its Northumberland housing site in 2017, subsequently removed it and paid £100,000 under an Environment Agency enforcement undertaking.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/uk-england-tyne-64900585",
+              "title": "Housing firm pays £100k for dumping waste soil in Northumberland - BBC News",
+              "publishedAt": "2023-03-09T00:00:00.000Z",
+              "quote": "A housing company has paid £100,000 for dumping soil contaminated with metal, plastics and vehicle tyres on a site it was developing."
+            },
+            {
+              "url": "https://www.endsreport.com/article/1813175/300000-paid-environmental-charities-latest-ea-enforcement-undertaking-round",
+              "title": "£300,000 to be paid to environmental charities in latest EA enforcement undertaking round",
+              "publishedAt": "2023-02-13T00:00:00.000Z",
+              "quote": "The offence happened between November 2017 and July 2020."
+            },
+            {
+              "url": "https://www.endsreport.com/article/1813175/300000-paid-environmental-charities-latest-ea-enforcement-undertaking-round",
+              "title": "£300,000 to be paid to environmental charities in latest EA enforcement undertaking round",
+              "publishedAt": "2023-02-13T00:00:00.000Z",
+              "quote": "It must also carry out a number of other actions which include the removal of the waste from the site, reviewing soil movements and associated protocols, and introducing a new audit procedure."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2020,
+          "summary": "Bellway was fined £600,000 for demolishing a site known to house bats without obtaining the required protected-species licence.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.endsreport.com/article/1813175/300000-paid-environmental-charities-latest-ea-enforcement-undertaking-round",
+              "title": "£300,000 to be paid to environmental charities in latest EA enforcement undertaking round",
+              "publishedAt": "2023-02-13T00:00:00.000Z",
+              "quote": "Bellway Homes made headlines in 2020 when it was hit with the largest fine ever given for a UK wildlife crime at £600,000 after it demolished a site known to be home to bats, without applying for the protected species licence required."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

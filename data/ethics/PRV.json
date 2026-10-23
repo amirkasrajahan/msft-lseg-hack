@@ -1,0 +1,40 @@
+{
+  "ticker": "PRV",
+  "generatedAt": "2026-10-23T14:06:23.958Z",
+  "coverage": "partial",
+  "causes": {
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "HSE served Porvair Sciences Limited an improvement notice for failing to ensure employees using tight-fitting respiratory protection against isocyanates were face-fit tested, and recorded the notice as complied with.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 1,
+          "sources": [
+            {
+              "url": "https://resources.hse.gov.uk/notices/notices/notice_details.asp?SF=CN&SV=314939120",
+              "title": "Notices served - Enforcement notices public",
+              "publishedAt": "2025-03-19T00:00:00.000Z",
+              "quote": "Notice 314939120 served against Porvair Sciences Limited on 19/03/2025"
+            },
+            {
+              "url": "https://resources.hse.gov.uk/notices/notices/notice_details.asp?SF=CN&SV=314939120",
+              "title": "Notices served - Enforcement notices public",
+              "publishedAt": "2025-03-19T00:00:00.000Z",
+              "quote": "failure to ensure that employees provided with tight-fitting respiratory protective equipment to control their exposure to substances hazardous to health, namely isocyanates, have been face-fit tested by a competent person to ensure the equipment is suitable to prevent their exposure."
+            },
+            {
+              "url": "https://resources.hse.gov.uk/notices/notices/notice_details.asp?SF=CN&SV=314939120",
+              "title": "Notices served - Enforcement notices public",
+              "publishedAt": "2025-03-19T00:00:00.000Z",
+              "quote": "| Result | Complied with | |"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

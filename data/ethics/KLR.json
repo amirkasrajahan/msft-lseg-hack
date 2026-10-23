@@ -1,0 +1,40 @@
+{
+  "ticker": "KLR",
+  "generatedAt": "2026-10-23T13:46:44.786Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Keller disclosed financial reporting fraud at Austral that overstated performance from 2019 and affected historical operating profit by £18.3 million.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/uk/uks-keller-group-warns-profit-after-financial-reporting-fraud-unit-2023-01-09/",
+              "title": "UK's Keller Group warns on profit after financial reporting fraud at unit | Reuters",
+              "publishedAt": "2023-01-09T00:00:00.000Z",
+              "quote": "Keller said the fraud is linked with an overstatement of the unit's performance from 2019 onwards, estimating the impact of the fraud to be 6 million pounds in the first half of 2022 and 8 million-10 million pounds in the prior years."
+            },
+            {
+              "url": "https://www.building.co.uk/news/keller-profit-slides-as-firm-counts-cost-of-australia-fraud/5122101.article",
+              "title": "Keller profit slides as firm counts cost of Australia fraud | News | Building",
+              "publishedAt": "2023-03-07T00:00:00.000Z",
+              "quote": "But Keller said the impact of the fraud on historic operating profit was £18.3m for which it had taken a £7.7m goodwill impairment."
+            },
+            {
+              "url": "https://www.building.co.uk/news/keller-profit-slides-as-firm-counts-cost-of-australia-fraud/5122101.article",
+              "title": "Keller profit slides as firm counts cost of Australia fraud | News | Building",
+              "publishedAt": "2023-03-07T00:00:00.000Z",
+              "quote": "We have relocated one of the Group’s experienced Managing Directors into the business while we review and develop a longer-term succession plan."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

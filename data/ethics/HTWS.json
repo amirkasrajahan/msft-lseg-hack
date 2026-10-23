@@ -1,0 +1,79 @@
+{
+  "ticker": "HTWS",
+  "generatedAt": "2026-10-23T13:43:46.776Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Helios Towers and the two acquisition targets paid a combined US$102,101.765 penalty for late merger notification to COMESA, which subsequently approved the acquisition without conditions.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://mwnation.com/comesa-approves-malawi-towers-share-acquisition/",
+              "title": "Comesa approves Malawi Towers share acquisition - Nation Online",
+              "publishedAt": "2021-09-29T00:00:00.000Z",
+              "quote": "In a statement on Monday signed by its registrar Meti Disasa, the commission said the parties have since paid $102 101.765 (about K82 million) in penalties for failure to notify the commission of its proposed acquisition transaction in time."
+            },
+            {
+              "url": "https://comesacompetition.org/notice-of-inquiry-into-the-proposed-acquisition-by-helios-towers-ltd-of-shares-of-madagascar-towers-s-a-and-malawi-towers-limited/",
+              "title": "Notice of Inquiry into the Proposed acquisition by Helios Towers Ltd of shares of Madagascar Towers S.A. and Malawi Towers Limited - COMESA Competition and Consumer Commission",
+              "publishedAt": "2021-09-22T00:00:00.000Z",
+              "quote": "Outcome: Approved without condition"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Malawi’s labour minister inspected Helios Towers Malawi following complaints of unfair dismissals and employee mistreatment, and required a written response within seven days.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://times.mw/minister-demands-order-in-hiring-of-expatriates/",
+              "title": "Minister demands order in hiring of expatriates – The Times Group",
+              "publishedAt": "2025-02-20T00:00:00.000Z",
+              "quote": "Among other issues, the complaints centred on unfair labour practices, such as the dismissal of Malawians from key positions, which were allegedly subsequently filled by expatriates."
+            },
+            {
+              "url": "https://times.mw/minister-demands-order-in-hiring-of-expatriates/",
+              "title": "Minister demands order in hiring of expatriates – The Times Group",
+              "publishedAt": "2025-02-20T00:00:00.000Z",
+              "quote": "There were also allegations of mistreatment of employees by some senior officials at the company."
+            },
+            {
+              "url": "https://times.mw/minister-demands-order-in-hiring-of-expatriates/",
+              "title": "Minister demands order in hiring of expatriates – The Times Group",
+              "publishedAt": "2025-02-20T00:00:00.000Z",
+              "quote": "Helios Towers Malawi has since been given seven days to submit a written response to the ministry regarding the matter."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Helios Towers installed solar panels at 313 Ghanaian sites in 2023, supplying renewable energy to 38% of its national portfolio."
+      ]
+    },
+    "supply_chain": {
+      "incidents": [],
+      "positives": [
+        "Supplier partners received solar installation and maintenance training as part of the Ghana rollout."
+      ]
+    }
+  }
+}

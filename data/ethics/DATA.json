@@ -1,0 +1,34 @@
+{
+  "ticker": "DATA",
+  "generatedAt": "2026-10-23T13:41:32.437Z",
+  "coverage": "full",
+  "causes": {
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2020,
+          "summary": "The High Court awarded a former employee £442,236.76 plus interest in a dispute over GlobalData's refusal to permit exercise of employee share options.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.solicitorsjournal.com/sjarticle/dixon-v-globaldata-proprietary-estoppel-remedy-extended-to-cover-post-plan-share-option-tranche",
+              "title": "Dixon v GlobalData: proprietary estoppel remedy extended to cover post-plan share option tranche",
+              "publishedAt": "2026-04-15T00:00:00.000Z",
+              "quote": "The High Court has handed down its remedy judgement in Andrew Dixon v GlobalData plc [2026] EWHC 850 (Ch), awarding the claimant equitable compensation totalling £442,236.76 across tranches 2 and 3 of the defendant's unapproved employee share option plan, with interest at 2% over base rate."
+            },
+            {
+              "url": "https://www.solicitorsjournal.com/sjarticle/dixon-v-globaldata-proprietary-estoppel-remedy-extended-to-cover-post-plan-share-option-tranche",
+              "title": "Dixon v GlobalData: proprietary estoppel remedy extended to cover post-plan share option tranche",
+              "publishedAt": "2026-04-15T00:00:00.000Z",
+              "quote": "the higher market price prevailing on 16 November 2020 — the date on which the defendant formally refused to permit exercise of the options."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

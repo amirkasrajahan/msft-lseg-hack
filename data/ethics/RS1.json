@@ -1,0 +1,19 @@
+{
+  "ticker": "RS1",
+  "generatedAt": "2026-10-23T13:56:41.574Z",
+  "coverage": "full",
+  "causes": {
+    "labour_rights": {
+      "incidents": [],
+      "positives": [
+        "RS Group reported nearly 27,000 hours of employee health and safety training alongside a behaviour-based safety programme."
+      ]
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "RS Group reported that 94% of its packaging was recyclable and 82% contained more than 50% recycled content."
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ticker": "DSCV",
+  "generatedAt": "2026-10-23T13:36:23.298Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Edison reported that discoverIE had reduced emissions by 40% since 2019 on a like-for-like basis."
+      ]
+    }
+  }
+}

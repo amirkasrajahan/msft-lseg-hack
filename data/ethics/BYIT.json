@@ -1,0 +1,40 @@
+{
+  "ticker": "BYIT",
+  "generatedAt": "2026-10-23T13:34:44.240Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Bytes’ former CEO Neil Murphy conducted undisclosed share transactions between 2021 and 2023 and subsequently agreed to forfeit incentive entitlements and repay after-tax bonuses following the company’s investigation.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.cityam.com/saddened-and-shocked-bytes-technology-launches-probe-into-100-secret-dealings-of-former-chief/",
+              "title": "'Saddened and shocked': Bytes Technology launches probe into 100 secret dealings of former chief",
+              "publishedAt": "2024-03-18T00:00:00.000Z",
+              "quote": "A total of 119 unauthorised transactions took place on 66 trading days between January 2021 and November 2023."
+            },
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/bytes-technology-group--byit/outcome-of-investigation-and-notice-of-results/8202414",
+              "title": "Outcome of investigation and notice of results | Company Announcement | Investegate",
+              "publishedAt": "2024-05-16T00:00:00.000Z",
+              "quote": "Mr Murphy has expressed profound regret for his failure to comply with regulations and the impact of his actions on both BTG and his former colleagues."
+            },
+            {
+              "url": "https://www.ajbell.co.uk/news/articles/bytes-technology-probe-clears-former-ceo-misconduct-share-trade",
+              "title": "Bytes Technology probe clears former CEO of misconduct in share trade | AJ Bell",
+              "publishedAt": "2024-05-16T00:00:00.000Z",
+              "quote": "Bytes said it had reached a settlement with Murphy whereby he has agreed to forfeit his entitlements under its performance share plan and deferred donus plan in their entirety, and repay\n\nhis after-tax bonuses since the initial public offering on the London Stock Exchange in December 2020."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

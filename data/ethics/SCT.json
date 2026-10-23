@@ -1,0 +1,47 @@
+{
+  "ticker": "SCT",
+  "generatedAt": "2026-10-23T13:58:45.452Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2007,
+          "summary": "Softcat failed to comply with packaging-waste regulations from 2007 to 2020 and agreed to pay £35,803.99 to an environmental charity and introduce compliance measures.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.proactiveinvestors.com.au/companies/news/997935/softcat-and-la-z-boy-slapped-with-civil-sanctions-for-recycling-laziness-997935.html",
+              "title": "Softcat and La-Z-Boy slapped with civil sanctions for recycling laziness | The Markets",
+              "publishedAt": "2022-11-10T00:00:00.000Z",
+              "quote": "Softcat PLC (LSE:SCT) has agreed to pay a penalty to an environmental charity after the Environment Agency found it had failed to comply with recycling laws for more than a decade."
+            },
+            {
+              "url": "https://www.proactiveinvestors.com.au/companies/news/997935/softcat-and-la-z-boy-slapped-with-civil-sanctions-for-recycling-laziness-997935.html",
+              "title": "Softcat and La-Z-Boy slapped with civil sanctions for recycling laziness | The Markets",
+              "publishedAt": "2022-11-10T00:00:00.000Z",
+              "quote": "From 2007 until 2020 it had neither registered with the Environment Agency nor taken reasonable steps to recover and recycle packaging waste, contravening regulations."
+            },
+            {
+              "url": "https://www.proactiveinvestors.com.au/companies/news/997935/softcat-and-la-z-boy-slapped-with-civil-sanctions-for-recycling-laziness-997935.html",
+              "title": "Softcat and La-Z-Boy slapped with civil sanctions for recycling laziness | The Markets",
+              "publishedAt": "2022-11-10T00:00:00.000Z",
+              "quote": "pledged £35,803.99 to the National Trust's Langham Pond wetland boardwalk project and will now register with a compliance scheme, implement a new written procedure, assign a responsible person and cover the Environment Agency’s costs."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Softcat was reported to have achieved carbon neutrality after reducing CO2 emissions by 37% over five years.",
+        "Softcat's Marlow headquarters was reported to run entirely on renewable energy."
+      ]
+    }
+  }
+}

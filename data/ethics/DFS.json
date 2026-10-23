@@ -1,0 +1,40 @@
+{
+  "ticker": "DFS",
+  "generatedAt": "2026-10-23T14:06:15.237Z",
+  "coverage": "partial",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "DFS admitted that its May 2022 dividend payments and subsequent share purchases infringed the Companies Act 2006 and stated that procedural and administrative improvements had been implemented.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/dfs-furniture--dfs/notice-of-general-meeting-publication-of-circular/7384339",
+              "title": "Investegate | Company Announcement",
+              "publishedAt": "2022-10-19T00:00:00.000Z",
+              "quote": "the Company's payment of its Interim Dividend and Special Dividend in May 2022 and certain subsequent purchases of its own shares (the \"Relevant Distributions\"), which have regrettably resulted in an infringement of the Companies Act 2006 (the \"Act\")."
+            },
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/dfs-furniture--dfs/notice-of-general-meeting-publication-of-circular/7384339",
+              "title": "Investegate | Company Announcement",
+              "publishedAt": "2022-10-19T00:00:00.000Z",
+              "quote": "The Board confirms that there is no impact on the Group's reported financial position resulting from this."
+            },
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/dfs-furniture--dfs/notice-of-general-meeting-publication-of-circular/7384339",
+              "title": "Investegate | Company Announcement",
+              "publishedAt": "2022-10-19T00:00:00.000Z",
+              "quote": "The Board has undertaken a thorough and detailed review of its reserves and is confident all issues have been identified and that the necessary procedural and administrative improvements have been implemented."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

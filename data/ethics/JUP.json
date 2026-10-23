@@ -1,0 +1,52 @@
+{
+  "ticker": "JUP",
+  "generatedAt": "2026-10-23T13:45:40.005Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Jupiter faced criticism for receiving £117 million in Chrysalis performance fees based on a single valuation date, including valuations that subsequently fell.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.thetimes.com/business/markets/article/jupiter-chrysalis-and-a-cautionary-tale-for-investing-in-private-equity-jmwrjkq00",
+              "title": "Jupiter, Chrysalis and a cautionary tale for investing in private equity",
+              "publishedAt": "2022-02-01T00:00:00.000Z",
+              "quote": "Our story last week that Jupiter Fund Management had bagged a £117 million fees jackpot from an investment trust it manages called Chrysalis was a case in point."
+            },
+            {
+              "url": "https://www.thetimes.com/business/markets/article/jupiter-chrysalis-and-a-cautionary-tale-for-investing-in-private-equity-jmwrjkq00",
+              "title": "Jupiter, Chrysalis and a cautionary tale for investing in private equity",
+              "publishedAt": "2022-02-01T00:00:00.000Z",
+              "quote": "Worse, the bonanza was entirely based on the accounting on a snapshot date of September 30, 2021, since when the likely valuations of some of its investments and its own share price have been plunging."
+            },
+            {
+              "url": "https://www.investorschronicle.co.uk/content/e85e3555-84ad-526e-8868-73510a3e5360",
+              "title": "Jupiter stuck inside Chrysalis  -  Investors' Chronicle",
+              "publishedAt": "2022-07-05T00:00:00.000Z",
+              "quote": "rows over ill-designed performance fees and the wider issue of mainstream managers investing funds in illiquid and unlisted companies have dominated the headlines."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "fair_wages": {
+      "incidents": [],
+      "positives": [
+        "Jupiter joined the Good Work Coalition to encourage living wages and better working conditions at investee companies."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Jupiter established a partnership with Forest Carbon, a scheme providing UK woodland carbon-capture projects."
+      ]
+    }
+  }
+}

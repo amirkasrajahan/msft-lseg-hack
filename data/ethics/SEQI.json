@@ -1,0 +1,13 @@
+{
+  "ticker": "SEQI",
+  "generatedAt": "2026-10-23T13:57:19.742Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "SEQI provided approximately $39.5 million in debt financing to construct 66 MW of solar projects in Poland."
+      ]
+    }
+  }
+}

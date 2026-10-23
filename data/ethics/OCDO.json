@@ -1,0 +1,53 @@
+{
+  "ticker": "OCDO",
+  "generatedAt": "2026-10-23T13:50:52.904Z",
+  "coverage": "full",
+  "causes": {
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "A union threatened a campaign against Ocado over alleged below-minimum-wage payments to subcontracted Ocado Zoom drivers, which Ocado and its delivery partner denied.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.grocerygazette.co.uk/2021/08/25/union-stain-ocado/",
+              "title": "Union threatens to ‘stain’ Ocado reputation over wage row",
+              "publishedAt": "2021-08-25T00:00:00.000Z",
+              "quote": "A trade union has threatened a “loud, relentless and effective” campaign against Ocado after claims that the retailer’s drivers have been paid below minimum wage."
+            },
+            {
+              "url": "https://www.grocerygazette.co.uk/2021/08/25/union-stain-ocado/",
+              "title": "Union threatens to ‘stain’ Ocado reputation over wage row",
+              "publishedAt": "2021-08-25T00:00:00.000Z",
+              "quote": "Payslips show he was paid around £5 an hour in the first week of August, and £2.91 an hour in the last week of July."
+            },
+            {
+              "url": "https://www.grocerygazette.co.uk/2021/08/25/union-stain-ocado/",
+              "title": "Union threatens to ‘stain’ Ocado reputation over wage row",
+              "publishedAt": "2021-08-25T00:00:00.000Z",
+              "quote": "Both Ocado and Ryde deny that drivers were paid below the legal minimum."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Ocado Retail reported paying Climeworks to remove 1,000 tonnes of atmospheric carbon dioxide."
+      ]
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Ocado eliminated PVC, polystyrene and black plastics from its own-label packaging.",
+        "Ocado Retail launched a reusable-packaging pilot designed for online grocery shopping."
+      ]
+    }
+  }
+}

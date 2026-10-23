@@ -1,0 +1,112 @@
+{
+  "ticker": "WIZZ",
+  "generatedAt": "2026-10-23T14:03:46.353Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Austria’s Supreme Court declared 81 Wizz Air contract clauses illegal following a consumer-protection challenge to terms that had disadvantaged passengers since 2019.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.aviation.direct/en/ogh-ruling-against-wizz-air-practices-and-clauses-declared-illegal",
+              "title": "OGH ruling: against Wizz Air: practices and clauses declared illegal – Aviation.Direct",
+              "publishedAt": "2025-02-17T00:00:00.000Z",
+              "quote": "The Chamber of Labor (AK) had attacked a total of 88 clauses in the Wizz Air conditions of carriage and the Wizz Account, 81 of which were declared illegal."
+            },
+            {
+              "url": "https://www.aviation.direct/en/ogh-ruling-against-wizz-air-practices-and-clauses-declared-illegal",
+              "title": "OGH ruling: against Wizz Air: practices and clauses declared illegal – Aviation.Direct",
+              "publishedAt": "2025-02-17T00:00:00.000Z",
+              "quote": "The consumer protection organization Arbeiterkammer (AK) successfully filed a lawsuit against the unclear and partly hidden contract terms that had disadvantaged passengers in Austria since 2019."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2023,
+          "summary": "UK Civil Aviation Authority enforcement over Wizz Air’s passenger-rights failures resulted in £1.24 million in refunds after the airline reviewed previously assessed claims.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.caa.co.uk/newsroom/news/regulators-enforcement-action-sees-over-1-million-refunded-to-wizz-air-passengers/",
+              "title": "Regulator's enforcement action sees over ...",
+              "quote": "Enforcement action against Wizz Air has led to £1.24 million being refunded to passengers the UK Civil Aviation Authority has announced."
+            },
+            {
+              "url": "https://www.caa.co.uk/newsroom/news/regulators-enforcement-action-sees-over-1-million-refunded-to-wizz-air-passengers/",
+              "title": "Regulator's enforcement action sees over ...",
+              "quote": "The undertakings required Wizz Air to make changes to its policies to ensure that in future it consistently complies with its re-routing and care obligations."
+            },
+            {
+              "url": "https://www.caa.co.uk/newsroom/news/regulators-enforcement-action-sees-over-1-million-refunded-to-wizz-air-passengers/",
+              "title": "Regulator's enforcement action sees over ...",
+              "quote": "The airline cooperated with the action and has now completed its review of claims. This has led to more than 25,000 claims being re-examined, and additional payments given in around 6,000 cases."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2024,
+          "summary": "Hungary’s competition authority fined Wizz Air €770,000 for misleading communication about automatic check-in and steering consumers toward more expensive packages.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/sustainability/hungarys-competition-watchdog-fines-wizz-air-misleading-communication-2024-08-03/",
+              "title": "Hungary's competition watchdog fines Wizz Air for misleading ...",
+              "quote": "Hungary's competition watchdog has imposed a fine of 770,000 euros ($839,916) on Wizz Air(WIZZ.L), opens new tab for misleading communication, the authority said on its website on Saturday."
+            },
+            {
+              "url": "https://www.reuters.com/sustainability/hungarys-competition-watchdog-fines-wizz-air-misleading-communication-2024-08-03/",
+              "title": "Hungary's competition watchdog fines Wizz Air for misleading ...",
+              "quote": "Hungary's competition authority said Wizz Air breached professional due diligence and was misleading in how it described its automatic check-in service and pushed consumers towards more expensive packages."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2020,
+          "summary": "The European Transport Workers’ Federation reported that a leaked Wizz Air management meeting revealed discriminatory and anti-worker criteria for selecting pilots for dismissal during the COVID-19 crisis.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.etf-europe.org/news/now-time-clean-airline-internal-leak-exposes-wizz-air-anti-worker-practices",
+              "title": "“Now is the time to clean up the airline” – internal leak exposes Wizz Air anti-worker practices | ETF Europe",
+              "publishedAt": "2021-04-09T00:00:00.000Z",
+              "quote": "management saw the COVID-19 crisis as the opportunity to “clean up the airline” by using discriminatory and anti-worker criteria in deciding which pilots to dismiss."
+            },
+            {
+              "url": "https://www.etf-europe.org/news/now-time-clean-airline-internal-leak-exposes-wizz-air-anti-worker-practices",
+              "title": "“Now is the time to clean up the airline” – internal leak exposes Wizz Air anti-worker practices | ETF Europe",
+              "publishedAt": "2021-04-09T00:00:00.000Z",
+              "quote": "In the meeting, a senior Wizz Air manager tells base captains that 250 pilots need to be dismissed shortly and that after stopping the training of 150 pilots, they need to come up with a list of another 100."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "ClimatePartner reports that its collaboration with Wizz Air supports consistent carbon calculations aligned with current standards."
+      ]
+    }
+  }
+}

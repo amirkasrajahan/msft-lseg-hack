@@ -1,0 +1,19 @@
+{
+  "ticker": "PPH",
+  "generatedAt": "2026-10-23T13:53:30.094Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Seventeen PPHE properties in the UK and Netherlands collected and diverted more than 25,000 kg of plastic bathroom amenities through Clean the World's recycling programme."
+      ]
+    },
+    "labour_rights": {
+      "incidents": [],
+      "positives": [
+        "PPHE brought housekeeping staff back in-house rather than continuing to outsource the function."
+      ]
+    }
+  }
+}

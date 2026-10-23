@@ -1,0 +1,79 @@
+{
+  "ticker": "SAFE",
+  "generatedAt": "2026-10-23T13:57:49.227Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "Safestore admitted breach of duty over a rodent infestation affecting a couple's stored possessions, but disputed the alleged link to the husband's heart condition in their approximately £500,000 lawsuit.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.dailymail.com/news/article-12729047/Top-lawyer-suing-storage-company-500-000-claiming-developed-life-threatening-rat-borne-disease-rodents-infested-furniture-locked-away-house-move.html",
+              "title": "Top lawyer is suing a storage company for £500,000 after claiming he developed a life threatening 'rat-borne' disease from rodents who infested his furniture while locked away during a house move | Daily Mail Online",
+              "publishedAt": "2023-11-09T00:00:00.000Z",
+              "quote": "The couple discovered mystery 'droppings' in the unit in April 2018 and further investigation revealed that a plague of rodents had decimated their valuables."
+            },
+            {
+              "url": "https://www.dailymail.com/news/article-12729047/Top-lawyer-suing-storage-company-500-000-claiming-developed-life-threatening-rat-borne-disease-rodents-infested-furniture-locked-away-house-move.html",
+              "title": "Top lawyer is suing a storage company for £500,000 after claiming he developed a life threatening 'rat-borne' disease from rodents who infested his furniture while locked away during a house move | Daily Mail Online",
+              "publishedAt": "2023-11-09T00:00:00.000Z",
+              "quote": "The Spencers are now suing Safestore Ltd for around £500,000, a sum which includes £30,000 for their damaged valuables, as well as compensation for the devastating impact of the heart disease on Dr Spencer."
+            },
+            {
+              "url": "https://www.dailymail.com/news/article-12729047/Top-lawyer-suing-storage-company-500-000-claiming-developed-life-threatening-rat-borne-disease-rodents-infested-furniture-locked-away-house-move.html",
+              "title": "Top lawyer is suing a storage company for £500,000 after claiming he developed a life threatening 'rat-borne' disease from rodents who infested his furniture while locked away during a house move | Daily Mail Online",
+              "publishedAt": "2023-11-09T00:00:00.000Z",
+              "quote": "The company has admitted breach of duty over the infestation, but disputes that Dr Spencer developed a rat-borne infection due to contact with the storage unit and also questions whether the rodents were mice rather than rats."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "executive_pay": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "Safestore's chief executive received more than £17 million in remuneration under a controversial long-term incentive scheme, with Glass Lewis recommending a vote against the remuneration report.",
+          "relativeScale": 4,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.ii.co.uk/analysis-commentary/your-vote-counts-whos-getting-ps16m-shares-windfall-ii523094",
+              "title": "Your vote counts: who’s getting this £16m shares windfall?",
+              "publishedAt": "2022-03-04T00:00:00.000Z",
+              "quote": "Frederic Vecchioli received a basic salary of £431,000, but his overall remuneration ballooned to more than £17 million as a result of long-term incentives (LTIPs) granted in 2017."
+            },
+            {
+              "url": "https://www.ii.co.uk/analysis-commentary/your-vote-counts-whos-getting-ps16m-shares-windfall-ii523094",
+              "title": "Your vote counts: who’s getting this £16m shares windfall?",
+              "publishedAt": "2022-03-04T00:00:00.000Z",
+              "quote": "The scheme, which applied to executive directors and 56 colleagues, was heavily criticised after its introduction and voting agency Glass Lewis has recommended shareholders vote against Safestore’s remuneration report at this month’s annual general meeting."
+            },
+            {
+              "url": "https://www.lexisnexis.co.uk/blog/research-legal-analysis/safestore-s-2017-remuneration-policy-casts-a-long-shadow-of-dissent-",
+              "title": "Safestore’s 2017 remuneration policy casts a long shadow of dissent | LexisNexis Blogs",
+              "publishedAt": "2022-04-01T00:00:00.000Z",
+              "quote": "When the remuneration policy and LTIP were finally voted on at a general meeting on 4 July 2022, both scraped through by the narrowest of margins, with 50.8% and 51.3% support respectively."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "community_impact": {
+      "incidents": [],
+      "positives": [
+        "Safestore's opened Watford facility forms part of a regeneration partnership delivering homes, community facilities and employment opportunities."
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ticker": "THRL",
+  "generatedAt": "2026-10-23T13:59:28.848Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "All care homes have EPC ratings of A or B, meeting the minimum energy-efficiency standards anticipated to apply from 2030."
+      ]
+    }
+  }
+}

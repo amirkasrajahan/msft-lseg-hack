@@ -1,0 +1,121 @@
+{
+  "ticker": "TCAP",
+  "generatedAt": "2026-10-23T14:00:43.856Z",
+  "coverage": "full",
+  "causes": {
+    "tax_transparency": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "A German court ordered TP ICAP to bear a potentially multimillion-euro tax bill because it allowed its managers to commit crimes involving Cum-Ex trading.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2025-05-22/tp-icap-hit-by-82-million-ruling-for-short-selling-role-in-cum-ex-tax-scandal",
+              "title": "TP ICAP Hit by Multimillion-Euro Ruling Over Role in Dividend Tax ...",
+              "quote": "TP ICAP Group Plc was hit by a German court ruling ordering it to pick up a potentially multimillion-euro tax bill because the broker allowed its managers to commit crimes with Cum-Ex trading."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2016,
+          "summary": "TP ICAP Global Markets Americas agreed to a $400,000 FINRA settlement after inaccurately reporting approximately 600,000 securities transactions between July 2016 and May 2023.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://fxnewsgroup.com/forex-news/institutional/finra-fines-tp-icap-global-markets-americas-400000-for-reporting-deficiencies/",
+              "title": "FINRA fines TP ICAP Global Markets Americas $400,000 for reporting deficiencies - FX News Group",
+              "publishedAt": "2023-09-20T00:00:00.000Z",
+              "quote": "TP ICAP Global Markets Americas LLC, formerly known as ICAP Securities USA LLC (ICAP) has agreed to pay a $400,000 fine as a part of a settlement with the Financial Industry Regulatory Authority (FINRA)."
+            },
+            {
+              "url": "https://fxnewsgroup.com/forex-news/institutional/finra-fines-tp-icap-global-markets-americas-400000-for-reporting-deficiencies/",
+              "title": "FINRA fines TP ICAP Global Markets Americas $400,000 for reporting deficiencies - FX News Group",
+              "publishedAt": "2023-09-20T00:00:00.000Z",
+              "quote": "Between July 2016 and May 2023, ICAP inaccurately reported to the Trade Reporting and Compliance Engine (TRACE) approximately 600,000 transactions in TRACE- Eligible Securities without the required “No Remuneration” (NR) indicator in violation of FINRA Rules 6730(d) and 2010."
+            },
+            {
+              "url": "https://fxnewsgroup.com/forex-news/institutional/finra-fines-tp-icap-global-markets-americas-400000-for-reporting-deficiencies/",
+              "title": "FINRA fines TP ICAP Global Markets Americas $400,000 for reporting deficiencies - FX News Group",
+              "publishedAt": "2023-09-20T00:00:00.000Z",
+              "quote": "However, the firm’s remediation was not effective with respect to U.S. Treasury securities because of a coding error that misidentified counterparties to U.S. Treasury transactions."
+            }
+          ],
+          "severity": 1
+        },
+        {
+          "year": 2020,
+          "summary": "TP ICAP Global Markets Americas agreed to an $80,000 FINRA settlement over supervisory failures concerning potentially manipulative trading from September 2020 until March 2025.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://fxnewsgroup.com/forex-news/institutional/finra-fines-tp-icap-global-markets-americas/",
+              "title": "FINRA fines TP ICAP Global Markets Americas - FX News Group",
+              "publishedAt": "2025-04-08T00:00:00.000Z",
+              "quote": "TP ICAP Global Markets Americas has agreed to pay a fine of $80,000 as a part of a settlement with the Financial Industry Regulatory Authority (FINRA)."
+            },
+            {
+              "url": "https://fxnewsgroup.com/forex-news/institutional/finra-fines-tp-icap-global-markets-americas/",
+              "title": "FINRA fines TP ICAP Global Markets Americas - FX News Group",
+              "publishedAt": "2025-04-08T00:00:00.000Z",
+              "quote": "First, from September 2020 until March 2025, the firm lacked a supervisory system reasonably designed to detect potential spoofing and layering activity."
+            },
+            {
+              "url": "https://www.marketaccessadvisors.com/market-access-cases/tp-icap-global-markets",
+              "title": "TP ICAP Global Markets Americas LLC — Market Access Advisors",
+              "publishedAt": "2025-04-04T00:00:00.000Z",
+              "quote": "The firm later revised its procedures, implementing an automated exception-based surveillance report with expanded parameters designed to identify red flags of marking the close transactions."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "diversity_inclusion": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Christine O’Reilly sued TP ICAP alleging failure to protect her from years of client harassment; in September 2025, the court granted TP ICAP’s partial motion to dismiss her ninth and tenth causes of action.",
+          "relativeScale": 1,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2024-08-05/broker-sues-tp-icap-citigroup-over-trader-s-alleged-harassment",
+              "title": "Broker Sues TP ICAP (TCAP LN), Citigroup (C) Over Trader’s Alleged Harassment - Bloomberg",
+              "publishedAt": "2024-08-05T00:00:00.000Z",
+              "quote": "A broker at a unit of interdealer brokerage TP ICAP Group Plc sued her employer and Citigroup Inc. alleging both firms failed to protect her from a trader at the Wall Street bank who she claims harassed her for years."
+            },
+            {
+              "url": "https://law.counselstack.com/opinion/christine-oreilly-v-tp-icap-global-markets-americas-llc-tp-icap-group-nysd-2025",
+              "title": "Christine O’Reilly v. TP ICAP Global Markets Americas LLC; TP ICAP Group Services Limited; Citigroup Inc.; Citigroup Global Markets Limited; Janie McCathie; and Citibank, N.A. (2025) — Counsel Stack",
+              "publishedAt": "2025-09-29T00:00:00.000Z",
+              "quote": "(ii) TPIGMA’s partial motion to"
+            },
+            {
+              "url": "https://law.counselstack.com/opinion/christine-oreilly-v-tp-icap-global-markets-americas-llc-tp-icap-group-nysd-2025",
+              "title": "Christine O’Reilly v. TP ICAP Global Markets Americas LLC; TP ICAP Group Services Limited; Citigroup Inc.; Citigroup Global Markets Limited; Janie McCathie; and Citibank, N.A. (2025) — Counsel Stack",
+              "publishedAt": "2025-09-29T00:00:00.000Z",
+              "quote": "dismiss Plaintiff’s ninth and tenth causes of action against it under Rule 12(b)(6). For the reasons set forth below, the Court grants both motions."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

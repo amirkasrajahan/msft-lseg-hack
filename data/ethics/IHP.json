@@ -1,0 +1,46 @@
+{
+  "ticker": "IHP",
+  "generatedAt": "2026-10-23T13:44:51.258Z",
+  "coverage": "full",
+  "causes": {
+    "tax_transparency": {
+      "incidents": [
+        {
+          "year": 2020,
+          "summary": "HMRC rejected an IntegraFin subsidiary’s UK VAT-group membership and upheld that decision in June 2022, leaving potential retrospective VAT liabilities that IntegraFin continued to contest.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.accountancydaily.co/integrafin-disputes-ps79m-vat-demand",
+              "title": "IntegraFin disputes £7.9m VAT demand | Business & Accountancy Daily",
+              "publishedAt": "2022-06-21T00:00:00.000Z",
+              "quote": "In a decision in January 2020, HMRC rejected the basis for membership of a UK VAT group, which was terminated with effect from 4 July 2016."
+            },
+            {
+              "url": "https://www.financialplanningtoday.co.uk/news/transact-owner-set-for-7-9m-vat-battle-with-hmrc",
+              "title": "Transact owner set for £7.9m VAT battle with HMRC",
+              "publishedAt": "2022-06-21T00:00:00.000Z",
+              "quote": "Integrafin had requested a review of HMRC’s decision but yesterday the tax collector said it would uphold its original decision."
+            },
+            {
+              "url": "https://www.financialplanningtoday.co.uk/news/transact-owner-set-for-7-9m-vat-battle-with-hmrc",
+              "title": "Transact owner set for £7.9m VAT battle with HMRC",
+              "publishedAt": "2022-06-21T00:00:00.000Z",
+              "quote": "Integrafin has said that should the decision by HMRC be upheld, the VAT due for the period 4 July 2016 to 30 September 2021 would be £7.9m."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [],
+      "positives": [
+        "IntegraFin’s internal audit team won the 2024 Audit & Risk Award for Outstanding Team – Financial Services following improvements to the function."
+      ]
+    }
+  }
+}

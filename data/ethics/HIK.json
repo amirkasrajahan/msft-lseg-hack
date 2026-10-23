@@ -1,0 +1,106 @@
+{
+  "ticker": "HIK",
+  "generatedAt": "2026-10-23T13:43:56.650Z",
+  "coverage": "full",
+  "causes": {
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Hikma agreed in principle to a $150 million multistate settlement resolving allegations that it failed to monitor and report suspicious opioid orders from 2006 to 2021.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-150-million-multistate-agreement-hikma",
+              "title": "Attorney General Bonta Announces $150 Million Multistate Agreement with Hikma Pharmaceuticals for its Role in the Opioid Epidemic | State of California - Department of Justice - Office of the Attorney General",
+              "publishedAt": "2024-02-01T00:00:00.000Z",
+              "quote": "The Attorneys General allege that from 2006 to 2021, Hikma failed to monitor and report suspicious opioid orders from potentially illegal distributors, even while its personnel knew their systems to monitor suspicious orders were inadequate and prone to failure."
+            },
+            {
+              "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-secures-150-million-multistate-settlement-principle-hikma",
+              "title": "Attorney General James Secures $150 Million Multistate Settlement in Principle with Hikma Pharmaceuticals to Help Combat Opioid Crisis",
+              "publishedAt": "2024-02-01T00:00:00.000Z",
+              "quote": "As part of the settlement in principle, Hikma will pay $150 million to participating states and localities, encompassing $115 million in cash and $35 million worth of opioid addiction treatment medication."
+            },
+            {
+              "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-150-million-multistate-agreement-hikma",
+              "title": "Attorney General Bonta Announces $150 Million Multistate Agreement with Hikma Pharmaceuticals for its Role in the Opioid Epidemic | State of California - Department of Justice - Office of the Attorney General",
+              "publishedAt": "2024-02-01T00:00:00.000Z",
+              "quote": "In addition to the financial terms, a final settlement remains contingent on agreement on critical business practice changes."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Hikma agreed to pay $50 million to settle a class action alleging that it delayed a generic version of Xyrem and caused health plans to pay higher prices.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/legal/government/hikma-pharma-pay-50-million-settle-narcolepsy-drug-antitrust-case-2025-05-08/",
+              "title": "Hikma Pharma to pay $50 million to settle narcolepsy drug antitrust case",
+              "publishedAt": "2025-05-08T00:00:00.000Z",
+              "quote": "has agreed to pay $50 million to settle a class action accusing the drugmaker of scheming to delay a generic version of Jazz’s blockbuster narcolepsy drug Xyrem, causing health plans to pay higher prices."
+            },
+            {
+              "url": "https://www.reuters.com/legal/government/hikma-pharma-pay-50-million-settle-narcolepsy-drug-antitrust-case-2025-05-08/",
+              "title": "Hikma Pharma to pay $50 million to settle narcolepsy drug antitrust case",
+              "publishedAt": "2025-05-08T00:00:00.000Z",
+              "quote": "The proposed settlement filed, opens new tab on Wednesday in the San Francisco federal court resolved claims from drug buyers including the city of Providence, Rhode Island, and the New York State Teamsters Council Health and Hospital Fund."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Ohio EPA ordered Hikma's Columbus facility to pay a $4,400 fine after it shipped corrosive cleaning waste mislabeled as non-hazardous to an unauthorized facility.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.dispatch.com/story/business/2025/06/03/hikma-pharmaceutical-company-columbus-ohio-waste-laws-epa/83906616007/",
+              "title": "Hikma pharmaceutical company fined for violating state waste laws",
+              "publishedAt": "2025-06-03T00:00:00.000Z",
+              "quote": "A Columbus pharmaceutical manufacturing and research facility has been ordered to pay a $4,400 fine by the Ohio Environmental Protection Agency after an inspection found that the company violated several Ohio hazardous waste laws."
+            },
+            {
+              "url": "https://www.dispatch.com/story/business/2025/06/03/hikma-pharmaceutical-company-columbus-ohio-waste-laws-epa/83906616007/",
+              "title": "Hikma pharmaceutical company fined for violating state waste laws",
+              "publishedAt": "2025-06-03T00:00:00.000Z",
+              "quote": "The company shipped a mislabeled tote of corrosive cleaning chemical to a facility unauthorized to handle hazardous waste."
+            },
+            {
+              "url": "https://www.dispatch.com/story/business/2025/06/03/hikma-pharmaceutical-company-columbus-ohio-waste-laws-epa/83906616007/",
+              "title": "Hikma pharmaceutical company fined for violating state waste laws",
+              "publishedAt": "2025-06-03T00:00:00.000Z",
+              "quote": "When Reworld discovered that the material was corrosive, they shipped the tote back to Hikma Pharmaceuticals' Columbus location on Oct. 21, 2024."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "A third-party report described onsite solar generation and a new 1 MW solar park in Jordan."
+      ]
+    }
+  }
+}

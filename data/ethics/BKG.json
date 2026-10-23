@@ -1,0 +1,158 @@
+{
+  "ticker": "BKG",
+  "generatedAt": "2026-10-23T13:33:08.788Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Berkeley was among seven housebuilders that agreed to a combined £100 million payment to settle competition concerns without a finding of infringement, with a subsequent class action alleging inflated home prices.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.stockopedia.com/share-prices/berkeley-group-holdings-LON:BKG/news/uk-watchdog-settles-antitrust-probe-with-housebuilders-updated-019e69f1-5acf-750b-8aa5-ff3c2ef86d04/",
+              "title": "BERKELEY GROUPHOLDINGS | UK watchdog settles antitrust probe with housebuilders (updated)",
+              "publishedAt": "2025-10-30T00:00:00.000Z",
+              "quote": "The housebuilders - along with Bellway BWY.L, Berkeley Group BKGH.L, Bloor Homes and Vistry VTYV.L - had committed to a combined 100-million-pound ($134.21 million) payment to affordable housing programs in July to address the regulator's concerns."
+            },
+            {
+              "url": "https://www.stockopedia.com/share-prices/berkeley-group-holdings-LON:BKG/news/uk-watchdog-settles-antitrust-probe-with-housebuilders-updated-019e69f1-5acf-750b-8aa5-ff3c2ef86d04/",
+              "title": "BERKELEY GROUPHOLDINGS | UK watchdog settles antitrust probe with housebuilders (updated)",
+              "publishedAt": "2025-10-30T00:00:00.000Z",
+              "quote": "The CMA formally closed its probe on Thursday without determining whether competition law had been violated."
+            },
+            {
+              "url": "https://www.lse.co.uk/news/uk-housebuilders-face-potential-gbp45-billion-class-action-legal-case-hyab0yoeq17fp4q.html",
+              "title": "UK housebuilders face potential GBP4.5 billion class action legal case | Financial News",
+              "publishedAt": "2026-06-30T00:00:00.000Z",
+              "quote": "The class action case being led by McLaren alleges that property buyers paid more for new build homes than they should have because of reduced competition between the major builders, and claims that it believes this was affecting buyers as far back as October 2015."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Berkeley subsidiary St James Limited was found guilty of breaching health and safety law and fined after a falling window unit killed a coach driver.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://kalkinemedia.com/uk/stocks/infrastructure-and-real-estate/berkeley-group-lsebkg-unit-fined-over-fatal-window-fall-what-does-it-mean-this-week",
+              "title": "Berkeley Group (LSE:BKG) Unit Fined Over Fatal Window Fall: What Does It Mean This Week?",
+              "publishedAt": "2026-09-25T00:00:00.000Z",
+              "quote": "St James Limited, the Berkeley business registered at Berkeley House in Cobham, and facade specialist Lindner Prater Limited were both found guilty after a trial of breaching health and safety law, and together face a substantial combined fine."
+            },
+            {
+              "url": "https://kalkinemedia.com/uk/stocks/infrastructure-and-real-estate/berkeley-group-lsebkg-unit-fined-over-fatal-window-fall-what-does-it-mean-this-week",
+              "title": "Berkeley Group (LSE:BKG) Unit Fined Over Fatal Window Fall: What Does It Mean This Week?",
+              "publishedAt": "2026-09-25T00:00:00.000Z",
+              "quote": "According to Construction Enquirer, the window unit fell from a high floor of the riverside penthouse development and struck a coach driver who was walking below while on a break."
+            },
+            {
+              "url": "https://kalkinemedia.com/uk/stocks/infrastructure-and-real-estate/berkeley-group-lsebkg-unit-fined-over-fatal-window-fall-what-does-it-mean-this-week",
+              "title": "Berkeley Group (LSE:BKG) Unit Fined Over Fatal Window Fall: What Does It Mean This Week?",
+              "publishedAt": "2026-09-25T00:00:00.000Z",
+              "quote": "A company within Berkeley Group Holdings"
+            }
+          ],
+          "severity": 4
+        }
+      ],
+      "positives": []
+    },
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Berkeley's Richmond House suffered a fire in 2019 that the London Fire Brigade's former commissioner attributed to poor construction and internal compartmentation, while residents' solicitor reported that Berkeley denied liability.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Berkeley_Group_Holdings",
+              "title": "Berkeley Group Holdings",
+              "quote": "such as Richmond House (part of the Hamptons development in Worcester Park, southwest London) in 2019 and Holborough Lakes, in Snodland, Kent in 2017."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Berkeley_Group_Holdings",
+              "title": "Berkeley Group Holdings",
+              "quote": "the building had been damaged beyond repair \"in approximately 11 minutes once the fire had taken hold … entirely due to problems with internal compartmentation and poor standards of construction\"."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Berkeley_Group_Holdings",
+              "title": "Berkeley Group Holdings",
+              "quote": "\"Berkeley has since instructed contractual dispute solicitors who are now denying liability and saying, 'We are not paying anything.'\""
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2025,
+          "summary": "The First Tier Tribunal made a remediation contribution order against Berkeley concerning Empire Square, suspending it alongside the remediation order to facilitate the works.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://blogs.law.ox.ac.uk/housing-after-grenfell-blog/blog-post/2025/06/pragmatic-approach-remediation-orders-and-remediation",
+              "title": "A pragmatic approach to Remediation Orders and Remediation Contribution Orders | Oxford Law Blogs",
+              "publishedAt": "2025-06-14T00:00:00.000Z",
+              "quote": "In Empire Square, the developer, Berkeley, had signed self-remediation terms with the Secretary of State in March 2023."
+            },
+            {
+              "url": "https://blogs.law.ox.ac.uk/housing-after-grenfell-blog/blog-post/2025/06/pragmatic-approach-remediation-orders-and-remediation",
+              "title": "A pragmatic approach to Remediation Orders and Remediation Contribution Orders | Oxford Law Blogs",
+              "publishedAt": "2025-06-14T00:00:00.000Z",
+              "quote": "Further, facing the possibility of a remediation order being made against it the freeholder applied for a remediation contribution order (RCO) against Berkeley."
+            },
+            {
+              "url": "https://blogs.law.ox.ac.uk/housing-after-grenfell-blog/blog-post/2025/06/pragmatic-approach-remediation-orders-and-remediation",
+              "title": "A pragmatic approach to Remediation Orders and Remediation Contribution Orders | Oxford Law Blogs",
+              "publishedAt": "2025-06-14T00:00:00.000Z",
+              "quote": "The FTT made both a remediation order and remediation contribution order, but adopted ‘a novel approach’ of suspending both as this was most likely to support remediation being achieved in the shortest possible period."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "community_impact": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Residents near Berkeley's Southall redevelopment reported breathing problems and a petrol-like odour, prompting plans for scientific examination of their health concerns.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/business/2023/apr/27/scientists-to-investigate-health-fears-southall-west-london-development-green-quarter",
+              "title": "Scientists to examine health fears at west London luxury development | Berkeley | The Guardian",
+              "publishedAt": "2023-04-27T00:00:00.000Z",
+              "quote": "Southall residents have reported a ‘petrol-like’ odour in the air surrounding the Berkeley Group’s development site."
+            },
+            {
+              "url": "https://www.theguardian.com/business/2023/apr/27/scientists-to-investigate-health-fears-southall-west-london-development-green-quarter",
+              "title": "Scientists to examine health fears at west London luxury development | Berkeley | The Guardian",
+              "publishedAt": "2023-04-27T00:00:00.000Z",
+              "quote": "Southall residents to give blood samples after former gasworks redevelopment leads to reports of breathing problems"
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "ticker": "VTY",
+  "generatedAt": "2026-10-23T14:02:54.323Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Vistry restated its 2023 comparative figures to correct an error arising from cost forecasting issues in its South Division.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "http://www.vistrygroup.co.uk/~/media/Files/V/vistry-group-v1/results-and-presentations/2025/ara-2024-25-all-spreads-v1.pdf",
+              "title": "[PDF] Annual Report and Accounts 2024 - Vistry",
+              "quote": "The 2023 comparative figures have been restated to correct the error that arose as a result of the cost forecasting issues in \nthe South Division."
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/financial/watchdog-launches-investigation-into-two-former-vistry-accountants-10-03-2026/",
+              "title": "Watchdog launches investigation into two former Vistry accountants | Construction News",
+              "publishedAt": "2026-03-10T00:00:00.000Z",
+              "quote": "Last January, Vistry said the issues would hit its pre-tax adjusted profit for £165m, spread over multiple years."
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/financial/watchdog-launches-investigation-into-two-former-vistry-accountants-10-03-2026/",
+              "title": "Watchdog launches investigation into two former Vistry accountants | Construction News",
+              "publishedAt": "2026-03-10T00:00:00.000Z",
+              "quote": "At the time, the housebuilder said it had implemented “control enhancements” to mitigate against similar problems, such as a tightening of the procedures for the monthly site cost reviews."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "A proposed class action names Vistry and its Countryside Partnerships division among housebuilders alleged to have overcharged new-home buyers through reduced competition.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.cityam.com/housebuilding-giants-hit-with-4-5bn-lawsuit-for-allegedly-overcharging-buyers/",
+              "title": "Housebuilding giants hit with £4.5bn lawsuit for allegedly overcharging buyers",
+              "publishedAt": "2026-06-30T00:00:00.000Z",
+              "quote": "is planning on launching the claim against FTSE 100 firms Barratt Redrow and Persimmon, FTSE 250 companies Taylor Wimpey, Berkeley and Bellway as well as Bloor Homes, Vistry Group and its Countryside Partnerships division."
+            },
+            {
+              "url": "https://www.cityam.com/housebuilding-giants-hit-with-4-5bn-lawsuit-for-allegedly-overcharging-buyers/",
+              "title": "Housebuilding giants hit with £4.5bn lawsuit for allegedly overcharging buyers",
+              "publishedAt": "2026-06-30T00:00:00.000Z",
+              "quote": "The lawsuit, led by McLaren, and represented by competition law firms Geradin Partners and Hausfeld, alleges the property buyers paid more for homes because of less competition between the major housebuilders, for more than ten years."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Vistry was building 54 homes in Leamington Spa with insulation improvements, heat pumps, solar panels, heat-recovery ventilation and timber frames intended to reduce embodied carbon."
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ticker": "WKP",
+  "generatedAt": "2026-10-23T14:04:33.624Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Bureau Veritas performed limited-assurance work on Workspace’s greenhouse-gas reporting under ISAE 3410.",
+        "Workspace agreed a ten-year solar-power purchase arrangement providing power from a Devon solar farm and renewable energy guarantees of origin.",
+        "Workspace opened Leroy House, designed for net-zero carbon in construction and operation under the UK Green Building Council’s framework."
+      ]
+    },
+    "labour_rights": {
+      "incidents": [],
+      "positives": [
+        "Workspace is implementing a digital permit-to-work platform to manage permits for high-risk contractor activities."
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "PAG",
+  "generatedAt": "2026-10-23T13:51:31.105Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Paragon increased its provision for potential motor-finance commission redress to £25.5 million, reflecting proposed FCA redress plans.",
+          "relativeScale": 4,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.voxmarkets.com/articles/paragon-bank-fy-profit-below-forecasts-flags-25m-for-motor-finance-payout-b8d7f11",
+              "title": "Paragon Bank FY profit below forecasts; Flags £25m for motor finance payout",
+              "publishedAt": "2025-12-03T00:00:00.000Z",
+              "quote": "Specialist lender Paragon Banking Group Plc on Wednesday reported lower-than-expected annual earnings amid what it called \"stop-start\" customer demand due to political uncertainties and increased its potential liability for the car financing scandal to £25.5m."
+            },
+            {
+              "url": "https://www.voxmarkets.com/articles/paragon-bank-fy-profit-below-forecasts-flags-25m-for-motor-finance-payout-b8d7f11",
+              "title": "Paragon Bank FY profit below forecasts; Flags £25m for motor finance payout",
+              "publishedAt": "2025-12-03T00:00:00.000Z",
+              "quote": "The bank added that the potential motor financing payout reflected proposed redress plans outlined by the Financial Conduct Authority \"rather than scenario-based approach used at the half year\" when it set aside £6.5m."
+            },
+            {
+              "url": "https://www.ajbell.co.uk/news/articles/paragon-reports-modest-full-year-profit-growth-offset-payouts",
+              "title": "Paragon reports modest full-year profit growth offset by payouts | AJ Bell",
+              "publishedAt": "2025-12-03T00:00:00.000Z",
+              "quote": "The company said it incurred the provision for liabilities due to a potential motor commission redress following ‘heightened legal and regulatory scrutiny’ on historical practices for commissions payment to business introducers."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "community_impact": {
+      "incidents": [],
+      "positives": [
+        "Twenty-five Paragon employees volunteered at a communal garden project in Northfield to improve it for the local community."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Newsweek and Plant-A Insights Group recognized Paragon in their World’s Greenest Companies 2025."
+      ]
+    },
+    "diversity_inclusion": {
+      "incidents": [],
+      "positives": [
+        "Paragon received Level 2 Disability Confident Employer accreditation under the UK Government scheme."
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "ticker": "CWK",
+  "generatedAt": "2026-10-23T13:35:39.205Z",
+  "coverage": "full",
+  "causes": {
+    "animal_welfare": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Cranswick subsidiary Elsham Linc faces 23 alleged animal-welfare offences at Northmoor Farm, with preliminary legal arguments scheduled for February 2027 and welfare-control changes introduced following publication of footage.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.foodmanufacture.co.uk/Article/2026/08/26/cranswick-subsidiary-elsham-linc-is-facing-a-legal-battle-over-animal-cruelty-allegations/",
+              "title": "Cranswick subsidiary Elsham Linc is facing a legal battle over animal cruelty allegations",
+              "publishedAt": "2026-08-26T00:00:00.000Z",
+              "quote": "In total, Elsham Linc, which operates Northmoor Farm near Market Rasen, Lincolnshire, faces 23 alleged offences under the Animal Welfare Act 2006, the Welfare of Animals at the Time of Killing (England) Regulations 2015 and the Animal By-Products (Enforcement) (England) Regulations 2013."
+            },
+            {
+              "url": "https://www.lawyersforanimals.co.uk/active-cases/Blog%20Post%20Title%20One-3zaa9-jn6ad",
+              "title": "Cranswick Farm And Farm Manager Face 30 Charges — Lawyers for Animals",
+              "publishedAt": "2026-07-06T00:00:00.000Z",
+              "quote": "The plea hearing has been adjourned for legal arguments. The arguments will take place 1 Feburary 2027 at Lincoln Magistrates' Court."
+            },
+            {
+              "url": "https://in-food.co.uk/elsham-linc-faces-23-alleged-welfare-offences/",
+              "title": "Elsham Linc faces 23 alleged welfare offences - IN Food",
+              "publishedAt": "2026-08-28T00:00:00.000Z",
+              "quote": "Cranswick previously introduced additional welfare officers, training, auditing, CCTV monitoring, and changes to euthanasia policy following publication of footage from Northmoor Farm."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "An NGO report based on freedom-of-information data stated that Cranswick operations had breached environmental permit regulations 91 times since 2017.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.thegrocer.co.uk/news/cranswick-insists-megafarm-plans-meet-all-green-requirements/700761.article",
+              "title": "Cranswick insists ‘megafarm’ plans meet all green requirements | News | The Grocer",
+              "publishedAt": "2025-02-06T00:00:00.000Z",
+              "quote": "Data obtained via a freedom of information request released by Feedback and Sustain showed how such farms had violated environmental regulations at least 776 times since 2017 – or at least twice a week – with Cranswick operations breaching environmental permit regulations some 91 times in that period."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2019,
+          "summary": "Cranswick admitted responsibility for an accidental discharge of contaminated abattoir liquid into a chalk-stream tributary of Watton Brook and agreed a £75,000 enforcement undertaking plus £15,000 in costs, with no lasting environmental impact found.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.endsreport.com/article/1800352/food-company-pay-90000-discharging-abattoir-liquid-rare-chalk-stream",
+              "title": "Food company to pay £90,000 for discharging abattoir liquid into a rare chalk stream",
+              "publishedAt": "2022-09-27T00:00:00.000Z",
+              "quote": "Cranswick Country Foods (CCF), based in Norfolk, admitted responsibility for the spill from the abattoir operated by the firm, which occurred during August 2019."
+            },
+            {
+              "url": "https://www.endsreport.com/article/1800352/food-company-pay-90000-discharging-abattoir-liquid-rare-chalk-stream",
+              "title": "Food company to pay £90,000 for discharging abattoir liquid into a rare chalk stream",
+              "publishedAt": "2022-09-27T00:00:00.000Z",
+              "quote": "It has now been issued with an enforcement undertaking of £75,000 to be paid to Norfolk Rivers Trust. The company has also paid £15,000 in costs to the Environmental Agency."
+            },
+            {
+              "url": "https://www.wattonandswaffhamtimes.co.uk/news/crime/22650065.norfolk-food-firm-fined-75-000-releasing-polluted-liquid-brook/",
+              "title": "Norfolk food firm fined £75,000 for releasing polluted liquid into brook | Watton & Swaffham Times",
+              "publishedAt": "2022-09-26T00:00:00.000Z",
+              "quote": "The Environment Agency found no lasting impact to the environment, with Cranswick preventing further discharge from the drainage pipe into the ditch until the source could be identified."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

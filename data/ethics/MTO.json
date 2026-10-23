@@ -1,0 +1,61 @@
+{
+  "ticker": "MTO",
+  "generatedAt": "2026-10-23T13:48:41.955Z",
+  "coverage": "full",
+  "causes": {
+    "diversity_inclusion": {
+      "incidents": [
+        {
+          "year": 2020,
+          "summary": "Racist and offensive messages were exchanged in a Mitie staff WhatsApp group from March 2020, prompting the chief executive to apologise and launch an investigation in February 2022.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Mitie",
+              "title": "Mitie",
+              "quote": "In February 2022, The Sunday Mirror revealed a Mitie WhatsApp group relating to immigration management paid by the Home Office that exchanged racist and offensive messages amongst colleagues since March 2020."
+            },
+            {
+              "url": "https://www.theguardian.com/business/2022/feb/25/ceo-of-home-office-contractor-mitie-apologises-for-racist-tweets-by-staff",
+              "title": "CEO of Home Office contractor apologises for racist messages by staff | Mitie | The Guardian",
+              "publishedAt": "2022-02-25T00:00:00.000Z",
+              "quote": "The chief executive of top Home Office contractor Mitie has apologised to the home secretary personally after a series of racist WhatsApp messages shared between Mitie staff emerged."
+            },
+            {
+              "url": "https://www.theguardian.com/business/2022/feb/25/ceo-of-home-office-contractor-mitie-apologises-for-racist-tweets-by-staff",
+              "title": "CEO of Home Office contractor apologises for racist messages by staff | Mitie | The Guardian",
+              "publishedAt": "2022-02-25T00:00:00.000Z",
+              "quote": "Boss of Mitie, awarded contracts worth £2.55bn, apologised to home secretary and has launched an investigation"
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2022,
+          "summary": "Dozens of Mitie Care & Custody detention and deportation officers were taking legal action over alleged race, sex and disability discrimination and unfair dismissal.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/uk-news/2022/sep/21/home-office-contractors-legal-action",
+              "title": "Staff at Home Office contractors sue over discrimination and unfair dismissal",
+              "publishedAt": "2022-09-21T00:00:00.000Z",
+              "quote": "Dozens of security staff who detain and deport people for the Home Office are taking legal action over race, sex, disability discrimination and unfair dismissal, the Guardian has learned."
+            },
+            {
+              "url": "https://www.theguardian.com/uk-news/2022/sep/21/home-office-contractors-legal-action",
+              "title": "Staff at Home Office contractors sue over discrimination and unfair dismissal",
+              "publishedAt": "2022-09-21T00:00:00.000Z",
+              "quote": "The detention and deportation officers work for Mitie Care & Custody, part of the company Mitie"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

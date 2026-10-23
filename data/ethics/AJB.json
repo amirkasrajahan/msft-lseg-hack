@@ -1,0 +1,50 @@
+{
+  "ticker": "AJB",
+  "generatedAt": "2026-10-23T13:32:26.232Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Media investigations reported that AJ Bell allowed tax-ineligible stocks in ISAs, with the option to add TSMC subsequently removed but Criteo still available.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.cityam.com/exclusive-investment-platforms-flouting-tax-rules-on-isa-stocks/",
+              "title": "Exclusive: Investment platforms flouting tax rules on ISA stocks",
+              "publishedAt": "2025-02-06T00:00:00.000Z",
+              "quote": "A Bloomberg investigation recently found TSMC could be added to ISA on AJ Bell and Fidelity, but this option was quickly removed following the revelations."
+            },
+            {
+              "url": "https://www.cityam.com/exclusive-investment-platforms-flouting-tax-rules-on-isa-stocks/",
+              "title": "Exclusive: Investment platforms flouting tax rules on ISA stocks",
+              "publishedAt": "2025-02-06T00:00:00.000Z",
+              "quote": "Meanwhile, AJ Bell allows French advertising company Criteo to be added to an ISA, which is also not eligible for the tax perk."
+            }
+          ],
+          "severity": 1
+        },
+        {
+          "year": 2019,
+          "summary": "The Pensions Ombudsman found that AJ Bell's software caused an error calculating elements of a client's pension funds, but AJ Bell avoided a compensation order.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.ftadviser.com/content/16150423-3d37-528b-82eb-dcb80f7b453e",
+              "title": "Software blamed for Sipp problems at AJ Bell - FTAdviser",
+              "publishedAt": "2019-10-23T13:55:55.000Z",
+              "quote": "AJ Bell has avoided a compensation order from the Pensions Ombudsman after it found the provider’s software was to blame for an error which occurred when calculating certain elements of a client's pension funds."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

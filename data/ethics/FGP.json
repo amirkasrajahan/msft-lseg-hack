@@ -1,0 +1,73 @@
+{
+  "ticker": "FGP",
+  "generatedAt": "2026-10-23T13:38:47.794Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "FirstGroup America’s 401(k) participants finalized a $9 million settlement over allegedly untested investments, requiring FirstGroup and Aon to contribute $4.5 million each.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://news.bloomberglaw.com/employee-benefits/firstgroup-401k-participants-finalize-9-million-aon-fund-deal",
+              "title": "FirstGroup 401(k) Participants Finalize $9 Million Aon Fund Deal",
+              "publishedAt": "2024-12-19T00:00:00.000Z",
+              "quote": "401(k) plan finalized their $9 million global settlement in a class action challenging the plan’s move to allegedly untested funds from an "
+            },
+            {
+              "url": "https://news.bloomberglaw.com/employee-benefits/firstgroup-401k-participants-finalize-9-million-aon-fund-deal",
+              "title": "FirstGroup 401(k) Participants Finalize $9 Million Aon Fund Deal",
+              "publishedAt": "2024-12-19T00:00:00.000Z",
+              "quote": "The deal requires the transportation company and Aon to pay $4.5 million each to a group of 26,000 people who held Aon funds in their FirstGroup accounts."
+            },
+            {
+              "url": "https://news.bloomberglaw.com/employee-benefits/firstgroup-401k-participants-finalize-9-million-aon-fund-deal",
+              "title": "FirstGroup 401(k) Participants Finalize $9 Million Aon Fund Deal",
+              "publishedAt": "2024-12-19T00:00:00.000Z",
+              "quote": "Magistrate Judge Karen L. Litkovitz of the US District Court for the Southern District of Ohio granted final approval to the deal Wednesday"
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2016,
+          "summary": "A tram operated by FirstGroup subsidiary Tram Operations Ltd derailed in Croydon, killing seven people and sending 51 passengers to hospital; an inquest jury found the deaths accidental.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/uk-england-london-57721493",
+              "title": "Croydon tram crash: Passengers accidentally killed, jury finds - BBC News",
+              "publishedAt": "2021-07-22T00:00:00.000Z",
+              "quote": "A tram crash which killed seven people in Croydon was an accident, an inquest jury has found."
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/uk-england-london-57721493",
+              "title": "Croydon tram crash: Passengers accidentally killed, jury finds - BBC News",
+              "publishedAt": "2021-07-22T00:00:00.000Z",
+              "quote": "In addition to the six men and one woman who died, 51 passengers were taken to hospital, eight with life-changing injuries"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/uk-england-london-57721493",
+              "title": "Croydon tram crash: Passengers accidentally killed, jury finds - BBC News",
+              "publishedAt": "2021-07-22T00:00:00.000Z",
+              "quote": "Those potential witnesses included senior managers of operator Tram Operations Ltd (TOL) - a subsidiary of FirstGroup - and Transport for London (TfL), plus other experts."
+            }
+          ],
+          "severity": 5
+        }
+      ],
+      "positives": []
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "CURY",
+  "generatedAt": "2026-10-23T13:36:46.090Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Currys PC World breached a legal order governing extended-warranty sales and agreed to additional staff training and customer information measures.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://blog.palmerslaw.co.uk/commercial/currys-pc-world-promises-extra-training-after-mis-selling-scandal/",
+              "title": "Currys PC World promises extra training after mis-selling scandal - Palmers Solicitors",
+              "publishedAt": "2019-11-14T00:00:00.000Z",
+              "quote": "Currys PC World – which is owned by Dixons Carphone – was found to be in breach of a legal order requiring electrical retailers selling extended warranties to ensure that their customers can make informed decisions about whether the additional insurance is worth buying."
+            },
+            {
+              "url": "https://blog.palmerslaw.co.uk/commercial/currys-pc-world-promises-extra-training-after-mis-selling-scandal/",
+              "title": "Currys PC World promises extra training after mis-selling scandal - Palmers Solicitors",
+              "publishedAt": "2019-11-14T00:00:00.000Z",
+              "quote": "As a result, the retailer said is it now making several changes, including extra training for staff, as well as a store-wide poster and leaflet campaign explaining what is and isn’t included in the extended warranty scheme."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Currys was named for minimum-wage underpayments totalling £122,801.34 to 4,109 workers, with the report stating that listed employers had repaid their arrears.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.gbnews.com/money/minimum-wage-greggs-currys-easyjet",
+              "title": "Greggs, Currys and Easyjet fail to pay minimum wage to thousands of workers",
+              "publishedAt": "2024-02-21T00:00:00.000Z",
+              "quote": "Furthermore, Currys was revealed to have failed to pay 4,109 of their workers an amount of £122,801.34 for an average amount of £29.89."
+            },
+            {
+              "url": "https://www.gbnews.com/money/minimum-wage-greggs-currys-easyjet",
+              "title": "Greggs, Currys and Easyjet fail to pay minimum wage to thousands of workers",
+              "publishedAt": "2024-02-21T00:00:00.000Z",
+              "quote": "Businesses cited in the list have since paid back what they owe to their staff and have also faced financial penalties of up to 200 per cent of their underpayment following investigations carried out by HM Revenue and Customs (HMRC) between 2015 and 2023."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "A 2017–18 cyber attack exposed millions of customers’ card details, resulting in a £500,000 ICO fine for security failures and a subsequent Court of Appeal ruling in the ICO’s favour in 2026.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.computerweekly.com/news/366639299/ICO-wins-appeal-over-data-protection-obligations-in-Currys-cyber-attack",
+              "title": "ICO wins appeal over data protection obligations in Currys cyber attack | Computer Weekly",
+              "publishedAt": "2026-02-19T00:00:00.000Z",
+              "quote": "The incident saw cyber criminals install malware on the firm’s point-of-sale (POS) devices and use it to steal personal data, including the credit and debit card details of millions of customers and, in a small number of cases, their names, postcodes and contact details."
+            },
+            {
+              "url": "https://www.computerweekly.com/news/366639299/ICO-wins-appeal-over-data-protection-obligations-in-Currys-cyber-attack",
+              "title": "ICO wins appeal over data protection obligations in Currys cyber attack | Computer Weekly",
+              "publishedAt": "2026-02-19T00:00:00.000Z",
+              "quote": "In January 2020, the ICO levied a £500,000 fine on DSG under the Data Protection Act (DPA) 1998 after its investigation found the retailer had failed to patch software systems, install firewalls, segregate its networks, conduct routine security testing, or protect personal data."
+            },
+            {
+              "url": "https://www.computerweekly.com/news/366639299/ICO-wins-appeal-over-data-protection-obligations-in-Currys-cyber-attack",
+              "title": "ICO wins appeal over data protection obligations in Currys cyber attack | Computer Weekly",
+              "publishedAt": "2026-02-19T00:00:00.000Z",
+              "quote": "The Court of Appeal (CoA) has ruled in favour of the Information Commissioner’s Office (ICO) in an appeal against a previous decision regarding the data protection responsibilities of businesses"
+            }
+          ],
+          "severity": 4
+        }
+      ],
+      "positives": []
+    }
+  }
+}

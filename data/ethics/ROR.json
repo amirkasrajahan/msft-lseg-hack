@@ -1,0 +1,34 @@
+{
+  "ticker": "ROR",
+  "generatedAt": "2026-10-23T13:55:35.101Z",
+  "coverage": "full",
+  "causes": {
+    "diversity_inclusion": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Black former employees sued Rotork Controls Inc., alleging that compliance with federal anti-DEI demands resulted in their terminations.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://news.bloomberglaw.com/daily-labor-report/worker-bias-suits-reveal-dei-dual-compliance-trap-for-employers",
+              "title": "Worker Bias Suits Reveal DEI Dual Compliance Trap for Employers",
+              "publishedAt": "2026-06-11T00:00:00.000Z",
+              "quote": "Employment attorneys said recent lawsuits by Black ex-employees alleging \n\nInternational Business Machines Corp.'s\n\nRotork Controls Inc.‘s\n\n compliance with federal anti-DEI demands resulted in their terminations underscore this precarious environment."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "SBTi validated Rotork's near-term greenhouse gas emissions reduction targets as conforming to its criteria and recommendations."
+      ]
+    }
+  }
+}

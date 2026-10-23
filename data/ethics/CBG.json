@@ -1,0 +1,46 @@
+{
+  "ticker": "CBG",
+  "generatedAt": "2026-10-23T13:34:57.194Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Close Brothers lost a court ruling on car-loan commissions and subsequently recorded about £320 million in redress provisions, while compensation plans were paused amid legal challenges.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/markets/lloyds-close-brothers-fall-after-uk-motor-finance-ruling-2024-10-25/",
+              "title": "Close Brothers and Lloyds shares slide after UK motor finance ruling",
+              "publishedAt": "2024-10-25T00:00:00.000Z",
+              "quote": "Close Brothers loses court ruling on car loan commissions"
+            },
+            {
+              "url": "https://www.ireland-live.ie/uk-news/close-brothers-ramps-up-cost-cutting-after-posting-another-loss-9217246",
+              "title": "Close Brothers ramps up cost cutting after posting another loss",
+              "publishedAt": "2026-09-29T00:00:00.000Z",
+              "quote": "The group reported pre-tax operating losses of £60.3 million for the year to July 31 as it was knocked by another £164.7 million in provisions for the car finance redress scheme, taking its total to about £320 million, while restructuring costs, including redundancies, also kept it in the red."
+            },
+            {
+              "url": "https://www.ireland-live.ie/uk-news/close-brothers-ramps-up-cost-cutting-after-posting-another-loss-9217246",
+              "title": "Close Brothers ramps up cost cutting after posting another loss",
+              "publishedAt": "2026-09-29T00:00:00.000Z",
+              "quote": "The Financial Conduct Authority (FCA) paused plans earlier this year for compensation payouts for those sold car finance deals with unfair or hidden commission payments as the redress scheme faced legal challenges."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Three Close Brothers Asset Finance and Leasing teams received the AFC Environment Award 2023."
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "ticker": "FRAS",
+  "generatedAt": "2026-10-23T13:39:58.005Z",
+  "coverage": "full",
+  "causes": {
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2015,
+          "summary": "Sports Direct admitted unlawfully withholding wages and agreed to repay about £1 million, although some workers were still awaiting backpay in March 2017.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Frasers_Group",
+              "title": "Frasers Group",
+              "quote": "In August 2016, Sports Direct Int. admitted breaking the law and agreed to disburse unlawfully withheld wages totalling about £1m to the affected workers."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Frasers_Group",
+              "title": "Frasers Group",
+              "quote": "As of March 2017, some Sports Direct workers were yet to receive backpay for their time worked, because of a disagreement regarding how contracts changing between employment agencies should be handled."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2020,
+          "summary": "A Guardian undercover investigation raised concerns that restrictions on unpaid breaks at Sports Direct's Shirebrook warehouse could push workers' effective pay below the minimum wage.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://amp.theguardian.com/business/2020/jul/23/sports-direct-undercover-minimum-wage-mike-ashley",
+              "title": "Sports Direct may be paying less than minimum wage, investigation shows",
+              "publishedAt": "2020-07-23T00:00:00.000Z",
+              "quote": "Warehouse workers at Sports Direct, the retail chain controlled by the billionaire Mike Ashley, appear to be receiving pay below the national minimum wage, according to expert analysis of a new Guardian undercover investigation."
+            },
+            {
+              "url": "https://amp.theguardian.com/business/2020/jul/23/sports-direct-undercover-minimum-wage-mike-ashley",
+              "title": "Sports Direct may be paying less than minimum wage, investigation shows",
+              "publishedAt": "2020-07-23T00:00:00.000Z",
+              "quote": "The reporter recorded how warehouse staff at the group were unable to leave the building during their 30-minute unpaid breaks"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2016,
+          "summary": "Sports Direct reportedly failed to notify its workforce of a personal-information breach after an attacker accessed its internal systems in September 2016.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Frasers_Group",
+              "title": "Frasers Group",
+              "quote": "In February 2017, it was reported that Sports Direct had failed to inform its workforce of a data breach of their personal information after an attacker gained access to its internal systems in September 2016."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Frasers_Group",
+              "title": "Frasers Group",
+              "quote": "The Information Commissioner's Office stated it was aware of \"an incident from 2016 involving Sports Direct\" and would \"be making enquiries.\""
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "tax_transparency": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Frasers faced scrutiny from EU tax authorities over potential missed VAT payments under its overseas-sales arrangement and said some settlements had been reached while other discussions continued.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.retail-week.com/sports-and-leisure/frasers-group-probed-by-eu-tax-authorities-over-vat-bills/7039746.article",
+              "title": "Frasers Group probed by EU tax authorities over VAT bills | News | Retail Week",
+              "publishedAt": "2021-05-04T00:00:00.000Z",
+              "quote": "Documents filed at high court reveal that Sports Direct, prior to its rebrand to Frasers Group, came under scrutiny in Ireland, France and Finland over the tax arrangement, which saw the retail group pay all VAT on overseas sales to customers over a seven-year period."
+            },
+            {
+              "url": "https://www.retail-week.com/sports-and-leisure/frasers-group-probed-by-eu-tax-authorities-over-vat-bills/7039746.article",
+              "title": "Frasers Group probed by EU tax authorities over VAT bills | News | Retail Week",
+              "publishedAt": "2021-05-04T00:00:00.000Z",
+              "quote": "Frasers Group told The Guardian that although Barlin had not been set up to reduce its tax bill, it suggested that some settlements had been reached with some foreign tax authorities while discussions were ongoing with others."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Frasers Group joined Wrap's Textiles 2030 initiative to address carbon emissions, water stewardship and textile circularity."
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ticker": "XPS",
+  "generatedAt": "2026-10-23T14:04:10.675Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [],
+      "positives": [
+        "XPS flags potentially suspicious pension transfer requests and passes them to scheme trustees for further vetting."
+      ]
+    }
+  }
+}

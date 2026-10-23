@@ -1,0 +1,70 @@
+{
+  "ticker": "TRN",
+  "generatedAt": "2026-10-23T14:00:40.893Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "The CMA opened an investigation into whether Trainline included mandatory booking fees in upfront prices displayed on its app and website.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.gov.uk/government/news/trainline-virgin-atlantic-and-red-driving-school-investigated-for-drip-pricing",
+              "title": "Trainline, Virgin Atlantic and RED Driving School investigated for drip pricing - GOV.UK",
+              "publishedAt": "2026-08-19T00:00:00.000Z",
+              "quote": "Trainline: being investigated over whether all mandatory fees have been included in the upfront prices displayed to consumers buying train and coach tickets in advance on the Trainline app and website."
+            },
+            {
+              "url": "https://www.gov.uk/government/news/trainline-virgin-atlantic-and-red-driving-school-investigated-for-drip-pricing",
+              "title": "Trainline, Virgin Atlantic and RED Driving School investigated for drip pricing - GOV.UK",
+              "publishedAt": "2026-08-19T00:00:00.000Z",
+              "quote": "For train travel, the CMA observed transactions with fees ranging from £0.59 to £2.79. For coach bookings, it was a £1.50 booking fee."
+            }
+          ],
+          "severity": 1
+        },
+        {
+          "year": 2025,
+          "summary": "The ASA upheld a complaint that Trainline's TV and radio lowest-price claims were misleading, and Trainline said the discontinued adverts would not run again.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.kentonline.co.uk/news/national/rail-ticket-price-claims-in-trainline-ads-were-misleading-watchdog-153389/",
+              "title": "Rail ticket price claims in Trainline ads were ‘misleading’ – watchdog",
+              "publishedAt": "2025-08-27T10:28:15.000Z",
+              "quote": "The Advertising Standards Authority (ASA) ruled a TV ad with a robot on a fictional planet stating: “You won’t find cheaper same-day tickets anywhere else” breached broadcasting rules."
+            },
+            {
+              "url": "https://www.kentonline.co.uk/news/national/rail-ticket-price-claims-in-trainline-ads-were-misleading-watchdog-153389/",
+              "title": "Rail ticket price claims in Trainline ads were ‘misleading’ – watchdog",
+              "publishedAt": "2025-08-27T10:28:15.000Z",
+              "quote": "It made the same assessment in relation to a radio ad featuring a man engaged in an archaeological dig, claiming: “We won’t find cheaper tickets anywhere else”."
+            },
+            {
+              "url": "https://www.kentonline.co.uk/news/national/rail-ticket-price-claims-in-trainline-ads-were-misleading-watchdog-153389/",
+              "title": "Rail ticket price claims in Trainline ads were ‘misleading’ – watchdog",
+              "publishedAt": "2025-08-27T10:28:15.000Z",
+              "quote": "Trainline told the ASA it had no plans to re-air either of the ads, and future ads would not feature the claim “you won’t find cheaper”."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": [
+        "Trainline added railcard-invalidity warnings to its iOS and Android apps and website."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "SBTi validated Trainline's net-zero-by-2040 target and its near-term target to reduce absolute scope 1 and 2 emissions by 55.2% by 2030."
+      ]
+    }
+  }
+}

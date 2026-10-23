@@ -1,0 +1,164 @@
+{
+  "ticker": "KIE",
+  "generatedAt": "2026-10-23T13:47:59.963Z",
+  "coverage": "full",
+  "causes": {
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "Kier pleaded guilty to safety breaches and was fined £4.4 million in 2023 after its workers twice brought down overhead powerlines on an M6 project in 2018 and 2019.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "Kier workers operating machinery on a project on the M6 motorway near Sandbach, Cheshire twice brought down overhead powerlines, in incidents in March 2018 and January 2019."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "In January 2023, the company was fined £4.4m after pleading guilty to safety breaches at Manchester Crown Court."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2009,
+          "summary": "Kier subscribed to an illegal construction-industry blacklist and received an ICO enforcement notice, with related legal proceedings subsequently announced in 2017.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "Kier was revealed as a subscriber to the UK's Consulting Association, exposed in 2009 for operating an illegal construction industry blacklist, and was among 14 issued with enforcement notices by the UK Information Commissioner's Office."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "Subsequently, Kier was among eight businesses involved in the 2014 launch of the Construction Workers Compensation Scheme, condemned as a \"PR stunt\" by the GMB union, and described by the Scottish Affairs Select Committee as \"an act of bad faith\"."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "Unite also said it was taking action against 12 major contractors including Kier."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "Kier was identified for late supplier payments and subsequently suspended from the Prompt Payment Code, with the listed businesses reinstated during 2019 and 2020.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "In October 2018, Kier was named as a 'poor payer' at a Parliamentary inquiry into small businesses, failing to pay 48% of invoices due within their agreed terms, leading some suppliers to refuse to work for the company."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "In November 2019, Kier and subsidiary McNicholas Construction Services were suspended from the Prompt Payment Code for \"failing to honour a commitment to pay 95% of all supplier invoices within 60 days\"."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "Kier Integrated Services was reinstated in August 2020, but McNicholas Construction Services remained suspended until December 2020."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2021,
+          "summary": "England Highways alleged that Kier Highways overcharged third parties for road-damage costs and reported that Highways England held a draft KPMG investigation report.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.englandhighways.co.uk/attempts-to-keep-kpmgs-project-verde-report-secret/",
+              "title": "Attempts to keep KPMG's 'Project Verde' Report Secret - National Highways",
+              "publishedAt": "2021-09-17T00:00:00.000Z",
+              "quote": "Kier Highways profiteering from the privileged position in which Highways England had placed them; the overcharging of drivers, fleets, hauliers or their insurers (Third Parties)."
+            },
+            {
+              "url": "https://www.englandhighways.co.uk/attempts-to-keep-kpmgs-project-verde-report-secret/",
+              "title": "Attempts to keep KPMG's 'Project Verde' Report Secret - National Highways",
+              "publishedAt": "2021-09-17T00:00:00.000Z",
+              "quote": "it holds information namely (i) a draft report prepared by KPMG dated 31 January 2018 and (ii) correspondence between HE, KPMG and the contractor Kier Group in relation to this."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Kier subsidiary McNicholas Construction was named for failing to pay £170,517.57 in legal minimum wages to 704 workers.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "In June 2023, Kier subsidiary McNicholas Construction was named for failing to pay staff the UK legal minimum wage."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Kier_Group",
+              "title": "Kier Group",
+              "quote": "It was among the 10 worst offenders, failing to pay £170,517.57 to 704 workers."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2017,
+          "summary": "The FRC identified errors in Kier's 2017 accounts, including misclassification of a £40 million disposal gain and disposal proceeds.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.constructionnews.co.uk/financial/pwc-fined-5m-over-kier-and-galliford-try-audit-job-07-06-2022/",
+              "title": "PwC fined £5m over Kier and Galliford Try audit jobs",
+              "quote": "These included errors in the income and cashflow statements of the Kier 2017 results, where a £40m gain on the disposal of Mouchel was wrongly disclosed within continuing operations rather than discontinued operations."
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/financial/pwc-fined-5m-over-kier-and-galliford-try-audit-job-07-06-2022/",
+              "title": "PwC fined £5m over Kier and Galliford Try audit jobs",
+              "quote": "The FRC said this was “clearly inconsistent” with the reporting of Mouchel’s operating loss in discontinued operations."
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/financial/pwc-fined-5m-over-kier-and-galliford-try-audit-job-07-06-2022/",
+              "title": "PwC fined £5m over Kier and Galliford Try audit jobs",
+              "quote": "Elsewhere, cash inflows from sales of Mouchel and another unidentified company were wrongly disclosed as operating cash, rather than investing cash."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

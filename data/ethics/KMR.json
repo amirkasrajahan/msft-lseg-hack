@@ -1,0 +1,52 @@
+{
+  "ticker": "KMR",
+  "generatedAt": "2026-10-23T14:05:38.985Z",
+  "coverage": "partial",
+  "causes": {
+    "tax_transparency": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Kenmare signed an agreement settling a dispute over allegations of approximately USD 30 million in unpaid taxes and miscalculated royalties for 2019–2022.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://streamlinefeed.co.ke/news/mozambique-ends-three-year-tax-dispute-with-kenmare-resources-over-moma-mine",
+              "title": "Mozambique ends three-year tax dispute with Kenmare Resources over Moma mine | Streamline",
+              "publishedAt": "2026-10-19T07:42:02.000Z",
+              "quote": "The dispute had centered on allegations by the Mozambican Tax Authority (AT) that Kenmare owed approximately 30 million dollars in unpaid taxes, including capital gains and miscalculated royalties from the period between 2019 and 2022."
+            },
+            {
+              "url": "https://streamlinefeed.co.ke/news/mozambique-ends-three-year-tax-dispute-with-kenmare-resources-over-moma-mine",
+              "title": "Mozambique ends three-year tax dispute with Kenmare Resources over Moma mine | Streamline",
+              "publishedAt": "2026-10-19T07:42:02.000Z",
+              "quote": "The company had contested these claims, arguing that it had correctly applied international reference prices for its mineral exports."
+            },
+            {
+              "url": "https://streamlinefeed.co.ke/news/mozambique-ends-three-year-tax-dispute-with-kenmare-resources-over-moma-mine",
+              "title": "Mozambique ends three-year tax dispute with Kenmare Resources over Moma mine | Streamline",
+              "publishedAt": "2026-10-19T07:42:02.000Z",
+              "quote": "The signing of the new agreement effectively settles these historical grievances and establishes a clear framework for future operations, aligning the mine's activities with the country's updated mining legislation."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "community_impact": {
+      "incidents": [],
+      "positives": [
+        "The settlement agreement includes a commitment to maintain 1,682 existing jobs."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "The agreement includes a commitment to complete a 15-megawatt solar power plant by 2027; completion is not yet reported."
+      ]
+    }
+  }
+}

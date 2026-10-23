@@ -1,0 +1,40 @@
+{
+  "ticker": "SDY",
+  "generatedAt": "2026-10-23T14:06:57.888Z",
+  "coverage": "partial",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Speedy Hire disclosed a £20.4m overstatement of non-itemised equipment assets caused by multi-year control and accounting problems, while its investigation ruled out underlying systemic fraud.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.constructionnews.co.uk/financial/equipment-write-down-dents-speedy-profit-22-06-2023/",
+              "title": "Equipment write-down dents Speedy profit | Construction News",
+              "publishedAt": "2023-06-22T00:00:00.000Z",
+              "quote": "In February, Speedy revealed that the non-itemised assets it held (such as scaffolding tower, fencing and non-mechanical plant) were worth £20.4m less than it had previously stated."
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/financial/equipment-write-down-dents-speedy-profit-22-06-2023/",
+              "title": "Equipment write-down dents Speedy profit | Construction News",
+              "publishedAt": "2023-06-22T00:00:00.000Z",
+              "quote": "Following an investigation, in May the company said the issue resulted from problems with controls and accounting procedures over a number of years."
+            },
+            {
+              "url": "https://www.constructionnews.co.uk/financial/equipment-write-down-dents-speedy-profit-22-06-2023/",
+              "title": "Equipment write-down dents Speedy profit | Construction News",
+              "publishedAt": "2023-06-22T00:00:00.000Z",
+              "quote": "But it concluded that it was “not the result of underlying systemic fraud perpetrated on the company by its staff or third parties”."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

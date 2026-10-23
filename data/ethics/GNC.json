@@ -1,0 +1,40 @@
+{
+  "ticker": "GNC",
+  "generatedAt": "2026-10-23T13:42:36.955Z",
+  "coverage": "full",
+  "causes": {
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Greencore admitted a December 2021 data breach in which hackers accessed employees’ personal and financial information, with affected employees subsequently seeking legal advice about compensation.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.techmonitor.ai/privacy-and-data-protection/employee-data-breach-claim-greencore/",
+              "title": "Greencore case shows risk of employee data breach claims - Tech Monitor",
+              "publishedAt": "2022-03-17T00:00:00.000Z",
+              "quote": "In a letter to staff last month, Greencore admitted suffering a data breach in December, in which information including employee’s roles and salaries, bank account details and other personal information, was accessed by hackers."
+            },
+            {
+              "url": "https://www.techmonitor.ai/privacy-and-data-protection/employee-data-breach-claim-greencore/",
+              "title": "Greencore case shows risk of employee data breach claims - Tech Monitor",
+              "publishedAt": "2022-03-17T00:00:00.000Z",
+              "quote": "Data breach law firm Hayes Connor has taken up the case, and on Wednesday revealed it is working with up to 40 Greencore employees who suffered from the breach."
+            },
+            {
+              "url": "https://www.techmonitor.ai/privacy-and-data-protection/employee-data-breach-claim-greencore/",
+              "title": "Greencore case shows risk of employee data breach claims - Tech Monitor",
+              "publishedAt": "2022-03-17T00:00:00.000Z",
+              "quote": "A company statement added: “We’ve been working alongside a team of IT forensic experts who continue to investigate the incident,” adding that identity monitoring resources have been available to those affected."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

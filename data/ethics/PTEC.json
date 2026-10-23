@@ -1,0 +1,46 @@
+{
+  "ticker": "PTEC",
+  "generatedAt": "2026-10-23T13:52:34.864Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Playtech faces an ongoing defamation lawsuit alleging that its subsidiary commissioned a false report to damage Evolution and concealed its involvement, with the dispute continuing in September 2026.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.igamingnews.com/article/evolution-accuses-playtech-of-funding-smear-campaign-261489/",
+              "title": "Evolution accuses Playtech of funding 'smear campaign'",
+              "publishedAt": "2025-10-21T00:00:00.000Z",
+              "quote": "Evolution allege that Playtech’s subsidiary, Playtech Software Limited, hired private intelligence firm Black Cube to produce and leak a false report aimed at damaging its business."
+            },
+            {
+              "url": "https://www.igamingnews.com/article/evolution-accuses-playtech-of-funding-smear-campaign-261489/",
+              "title": "Evolution accuses Playtech of funding 'smear campaign'",
+              "publishedAt": "2025-10-21T00:00:00.000Z",
+              "quote": "In its latest filing, Evolution added Playtech as a defendant, accusing the company of hiding its role for nearly four years."
+            },
+            {
+              "url": "https://www.cityam.com/playtechs-legal-spat-with-rival-deepens-after-publication-of-secret-report/",
+              "title": "Playtech's legal spat with rival deepens after publication of secret report",
+              "publishedAt": "2026-09-09T00:00:00.000Z",
+              "quote": "Playtech’s long-running legal feud with rival Evolution has deepened after the gambling software firm claimed a previously-hidden report proved its competitor was “problematic” and made money in banned markets."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Playtech is renewing IT equipment and relocating a substantial portion of its Estonian development centre's server rooms as part of an energy-efficiency upgrade."
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "ticker": "CMCX",
+  "generatedAt": "2026-10-23T13:35:45.017Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "CMC Markets Asia Pacific faces an Australian class action over alleged marketing and sale of highly leveraged CFDs and binary options, with the court allowing additional claims concerning alleged personal advice in February 2026.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/CMC_Markets",
+              "title": "CMC Markets",
+              "quote": "The class action, filed by Johnson Winter Slattery and funded by Harbour Fund V, L.P., concerns the alleged marketing and sale of highly leveraged CFDs and binary options to retail investors between 7 November 2011 and 30 April 2021."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/CMC_Markets",
+              "title": "CMC Markets",
+              "quote": "In May 2025, Lawyerly reported that the applicants had obtained data showing that about 2,500 clients who failed screening tests for high-risk products had nevertheless been allowed to trade."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/CMC_Markets",
+              "title": "CMC Markets",
+              "quote": "In February 2026, after reviewing 27,000 documents produced by the trading platform, the court allowed the applicants to add claims concerning alleged personal advice."
+            }
+          ],
+          "severity": 3
+        },
+        {
+          "year": 2021,
+          "summary": "CMC Markets was among seven Australian CFD brokers that self-reported breaches of retail leverage limits and participated in compensation overseen by ASIC.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.tradingview.com/news/financemagnates:9a6036d09094b:0-cmc-ig-and-more-7-cfds-brokers-violated-aussie-leverage-rules-returns-au-4-3m/",
+              "title": "CMC, IG and More: 7 CFDs Brokers Violated Aussie Leverage Rules, Returns AU$4.3M — TradingView News",
+              "publishedAt": "2023-11-09T00:00:00.000Z",
+              "quote": "The seven named CFDs brokers consist of Capital.com, CMC Markets, Eightcap, IG, Pepperstone, Saxo Markets, and City Index, all operating in Australia with their local entities."
+            },
+            {
+              "url": "https://www.tradingview.com/news/financemagnates:9a6036d09094b:0-cmc-ig-and-more-7-cfds-brokers-violated-aussie-leverage-rules-returns-au-4-3m/",
+              "title": "CMC, IG and More: 7 CFDs Brokers Violated Aussie Leverage Rules, Returns AU$4.3M — TradingView News",
+              "publishedAt": "2023-11-09T00:00:00.000Z",
+              "quote": "These retail brokers self-reported the breach of leverage ratio limits in the Product Intervention Order and proposed redemption program to the Australian Securities & Investments Commission (ASIC)."
+            },
+            {
+              "url": "https://www.tradingview.com/news/financemagnates:9a6036d09094b:0-cmc-ig-and-more-7-cfds-brokers-violated-aussie-leverage-rules-returns-au-4-3m/",
+              "title": "CMC, IG and More: 7 CFDs Brokers Violated Aussie Leverage Rules, Returns AU$4.3M — TradingView News",
+              "publishedAt": "2023-11-09T00:00:00.000Z",
+              "quote": "The Australian financial market regulator revealed today (Thursday) that it had overseen a combined compensation payment of AU$4.3 million to over 1,500 retail clients of seven different issuers of contracts for difference (CFDs)."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "ELM",
+  "generatedAt": "2026-10-23T13:37:46.939Z",
+  "coverage": "full",
+  "causes": {
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "A King County jury awarded $13.5 million against Union Carbide and Elementis Chemicals in an asbestos-related mesothelioma death case, finding that they negligently failed to warn workers, instruct users or substitute safer alternatives.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.oslundlegal.com/news/oslund-udo-little-secures-13-million-dollar-verdict-in-asbestos-wrongful-death-case/",
+              "title": "Oslund Udo Little secures $13.5M verdict in asbestos wrongful death case against Union Carbide and Elementis Chemical - Oslund Udo Little, PLLC",
+              "publishedAt": "2025-10-22T00:00:00.000Z",
+              "quote": "A King County jury has awarded $13.5 million in damages to the widow of a man who died from mesothelioma caused by decades-old asbestos exposure linked to Union Carbide and Elementis Chemicals."
+            },
+            {
+              "url": "https://www.oslundlegal.com/news/oslund-udo-little-secures-13-million-dollar-verdict-in-asbestos-wrongful-death-case/",
+              "title": "Oslund Udo Little secures $13.5M verdict in asbestos wrongful death case against Union Carbide and Elementis Chemical - Oslund Udo Little, PLLC",
+              "publishedAt": "2025-10-22T00:00:00.000Z",
+              "quote": "However, the jury found that Union Carbide and Elementis Chemicals were negligent for failing to warn workers that their products could cause cancer, failing to instruct users, and failing to substitute safer alternatives."
+            },
+            {
+              "url": "https://www.oslundlegal.com/news/oslund-udo-little-secures-13-million-dollar-verdict-in-asbestos-wrongful-death-case/",
+              "title": "Oslund Udo Little secures $13.5M verdict in asbestos wrongful death case against Union Carbide and Elementis Chemical - Oslund Udo Little, PLLC",
+              "publishedAt": "2025-10-22T00:00:00.000Z",
+              "quote": "Union Carbide and Elementis Chemicals knew the risks of asbestos for decades and failed to warn or protect hardworking individuals like our client."
+            }
+          ],
+          "severity": 4
+        }
+      ],
+      "positives": []
+    },
+    "community_impact": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Amended and companion class actions against Harcros and historic parents including Elementis allege decades of carcinogenic emissions harming the surrounding Kansas City community and seek a court-supervised medical monitoring fund.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://milberg.com/news/dual-class-actions-target-harcros-chemicals-community-seeks-medical-monitoring/",
+              "title": "Dual Class Actions Target Harcros Chemicals: Community Seeks Medical Monitoring - Milberg | Leading Class Action Law Firm",
+              "publishedAt": "2025-10-07T00:00:00.000Z",
+              "quote": "KANSAS CITY, KS – The legal battle over toxic air emissions in Kansas City, Kansas intensified this month, as plaintiffs filed an amended and a new companion class action against Harcros Chemicals Inc. and its historic parent companies, Philips and Elementis."
+            },
+            {
+              "url": "https://milberg.com/news/dual-class-actions-target-harcros-chemicals-community-seeks-medical-monitoring/",
+              "title": "Dual Class Actions Target Harcros Chemicals: Community Seeks Medical Monitoring - Milberg | Leading Class Action Law Firm",
+              "publishedAt": "2025-10-07T00:00:00.000Z",
+              "quote": "The lawsuits, both filed in the U.S. District Court for the District of Kansas, allege that for more than six decades, Harcros and its predecessors have “knowingly emitted dangerous quantities” of carcinogenic chemicals, causing widespread illness, premature death, and an ongoing public health crisis within the community surrounding the facility."
+            },
+            {
+              "url": "https://milberg.com/news/dual-class-actions-target-harcros-chemicals-community-seeks-medical-monitoring/",
+              "title": "Dual Class Actions Target Harcros Chemicals: Community Seeks Medical Monitoring - Milberg | Leading Class Action Law Firm",
+              "publishedAt": "2025-10-07T00:00:00.000Z",
+              "quote": "The most recent filing takes a critical additional step for Kansas City residents, seeking the creation of a court-supervised medical monitoring fund to protect the unduly endangered community members who remain at risk of developing cancer and other latent diseases related to toxin exposure."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    }
+  }
+}

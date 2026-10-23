@@ -1,0 +1,40 @@
+{
+  "ticker": "ZIG",
+  "generatedAt": "2026-10-23T14:04:32.174Z",
+  "coverage": "full",
+  "causes": {
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Zigup reported a cyber incident that reduced Claims & Services earnings and resulted in £2.8 million of exceptional costs.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.proactiveinvestors.co.uk/companies/news/1074398/zigup-zigs-down-even-though-profits-fall-less-than-expected-1074398.html",
+              "title": "Zigup zigs down even though profits fall less than expected  | LSE:ZIG",
+              "publishedAt": "2025-07-09T00:00:00.000Z",
+              "quote": "a reduction in Claims & Services earnings following a cyber incident earlier in the year."
+            },
+            {
+              "url": "https://www.lse.co.uk/news/zigup-shares-fall-as-full-year-vehicle-sales-decline-hurts-bottom-line-msfx4jqqgrfrqa3.html",
+              "title": "Zigup shares fall as full-year vehicle sales decline hurts bottom line | Financial News",
+              "publishedAt": "2025-07-09T00:00:00.000Z",
+              "quote": "Exceptional items included GBP12.8 million in expected costs of NewLaw withdrawing from the personal injury market and GBP2.8 million for the cyber incident reported by Zigup during its first-half."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Zigup's intermediate emissions-reduction targets have been validated by the Science Based Targets initiative."
+      ]
+    }
+  }
+}

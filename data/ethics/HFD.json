@@ -1,0 +1,74 @@
+{
+  "ticker": "HFD",
+  "generatedAt": "2026-10-23T13:42:44.151Z",
+  "coverage": "full",
+  "causes": {
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "A security researcher found a Halfords vulnerability that exposed other customers’ booking details, which the report states was subsequently removed.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.theregister.com/2022/06/23/halfords_data_leak_vulnerability",
+              "title": "Halfords suffers a puncture in the customer details department",
+              "publishedAt": "2022-06-23T00:00:00.000Z",
+              "quote": "Halfords removes vulnerability that leaked customer details"
+            },
+            {
+              "url": "https://www.theregister.com/2022/06/23/halfords_data_leak_vulnerability",
+              "title": "Halfords suffers a puncture in the customer details department",
+              "publishedAt": "2022-06-23T00:00:00.000Z",
+              "quote": "Again, all customer details associated with that ID could be retrieved. He tried incrementing the ID and other customers turned up."
+            },
+            {
+              "url": "https://www.theregister.com/2022/06/23/halfords_data_leak_vulnerability",
+              "title": "Halfords suffers a puncture in the customer details department",
+              "publishedAt": "2022-06-23T00:00:00.000Z",
+              "quote": "In January, Hatton responsibly contacted Halfords to warn the company of the vulnerability. Sadly, his efforts were rewarded mostly by a stony silence until The Register got in touch."
+            }
+          ],
+          "severity": 1
+        },
+        {
+          "year": 2020,
+          "summary": "Halfords was fined £30,000 by the ICO for sending 498,179 unsolicited marketing emails without consent in July 2020.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.lewissilkin.com/insights/2022/09/15/no-means-no-ico-fines-halfords-for-misuse-of-consent-over-nearly-500-000-emails-102hwhv",
+              "title": "No means no: ICO fines Halfords for misuse of consent over nearly 500,000 emails",
+              "publishedAt": "2022-09-15T00:00:00.000Z",
+              "quote": "On 6th September 2022, the Information Commissioner's Office (ICO) announced that it has imposed a £30,000 fine on Halfords for sending unsolicited marketing emails without consent."
+            },
+            {
+              "url": "https://www.lewissilkin.com/insights/2022/09/15/no-means-no-ico-fines-halfords-for-misuse-of-consent-over-nearly-500-000-emails-102hwhv",
+              "title": "No means no: ICO fines Halfords for misuse of consent over nearly 500,000 emails",
+              "publishedAt": "2022-09-15T00:00:00.000Z",
+              "quote": "On 28th July 2020, Halfords sent 498,179 direct marketing emails to its customers."
+            },
+            {
+              "url": "https://www.lewissilkin.com/insights/2022/09/15/no-means-no-ico-fines-halfords-for-misuse-of-consent-over-nearly-500-000-emails-102hwhv",
+              "title": "No means no: ICO fines Halfords for misuse of consent over nearly 500,000 emails",
+              "publishedAt": "2022-09-15T00:00:00.000Z",
+              "quote": "Halfords denied any wrongdoing and considered the email as a \"service\" message rather than direct marketing."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Halfords Mobile Expert introduced battery-powered tyre-fitting equipment, with a reported 30% fuel-efficiency improvement in vehicles already equipped."
+      ]
+    }
+  }
+}

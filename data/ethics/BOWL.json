@@ -1,0 +1,40 @@
+{
+  "ticker": "BOWL",
+  "generatedAt": "2026-10-23T13:44:34.992Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Hollywood Bowl admitted a technical breach of the Companies Act 2006 after paying a dividend and making share buy-backs without first filing the required interim accounts, which it subsequently filed on 28 February 2025.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/hollywood-bowl-group--bowl/publication-of-circular-and-notice-of-gm/8770811",
+              "title": "Publication of Circular and Notice of GM | Company Announcement | Investegate",
+              "publishedAt": "2025-03-10T00:00:00.000Z",
+              "quote": "This has resulted in a technical infringement of the Companies Act 2006 (the \" Act\")."
+            },
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/hollywood-bowl-group--bowl/publication-of-circular-and-notice-of-gm/8770811",
+              "title": "Publication of Circular and Notice of GM | Company Announcement | Investegate",
+              "publishedAt": "2025-03-10T00:00:00.000Z",
+              "quote": "the Company omitted to deliver those interim accounts to Companies House to satisfy the procedural requirements of the Act before making the Relevant Distributions."
+            },
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/hollywood-bowl-group--bowl/publication-of-circular-and-notice-of-gm/8770811",
+              "title": "Publication of Circular and Notice of GM | Company Announcement | Investegate",
+              "publishedAt": "2025-03-10T00:00:00.000Z",
+              "quote": "The relevant interim accounts were delivered to Companies House on 28 February 2025."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

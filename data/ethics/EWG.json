@@ -1,0 +1,19 @@
+{
+  "ticker": "EWG",
+  "generatedAt": "2026-10-23T13:38:23.777Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Eurowag restructured its multi-currency term and revolving financing as a sustainability-linked loan with support from Komerční banka and other banks."
+      ]
+    },
+    "community_impact": {
+      "incidents": [],
+      "positives": [
+        "Eurowag’s Philanthropy & You programme, developed with the Via Foundation, enables employees to contribute to charities of their choice."
+      ]
+    }
+  }
+}

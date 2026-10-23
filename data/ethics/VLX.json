@@ -1,0 +1,46 @@
+{
+  "ticker": "VLX",
+  "generatedAt": "2026-10-23T14:02:28.567Z",
+  "coverage": "full",
+  "causes": {
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Volex disclosed a cyber incident involving unauthorised access to IT systems and data at some international sites, with minimal production disruption.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.stockopedia.com/share-prices/volex-LON:VLX/news/reg-volex-plc-notice-of-cyber-incident-urn:newsml:reuters.com:20231009:nRSI3890Pa/",
+              "title": "VOLEX | REG - Volex PLC  - Notice of Cyber Incident",
+              "publishedAt": "2023-09-10T00:00:00.000Z",
+              "quote": "cyber incident which has resulted in unauthorised access to certain IT systems\nand data, at some of the Group's international sites."
+            },
+            {
+              "url": "https://www.stockopedia.com/share-prices/volex-LON:VLX/news/reg-volex-plc-notice-of-cyber-incident-urn:newsml:reuters.com:20231009:nRSI3890Pa/",
+              "title": "VOLEX | REG - Volex PLC  - Notice of Cyber Incident",
+              "publishedAt": "2023-09-10T00:00:00.000Z",
+              "quote": "Specialist, third party consultants have been engaged to\ninvestigate the nature and extent of the incident, and to implement the\nincident response plan."
+            },
+            {
+              "url": "https://www.stockopedia.com/share-prices/volex-LON:VLX/news/reg-volex-plc-notice-of-cyber-incident-urn:newsml:reuters.com:20231009:nRSI3890Pa/",
+              "title": "VOLEX | REG - Volex PLC  - Notice of Cyber Incident",
+              "publishedAt": "2023-09-10T00:00:00.000Z",
+              "quote": "The actions taken to date have ensured that all sites remain operational, with\nminimal disruption to global production levels, and the Group continues to\ntrade with its customers and suppliers."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "PT Volex Indonesia purchased renewable energy certificates from PLN Batam, sourced from the Tanjung Uma solar power plant."
+      ]
+    }
+  }
+}

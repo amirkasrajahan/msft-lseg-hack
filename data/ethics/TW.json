@@ -1,0 +1,161 @@
+{
+  "ticker": "TW",
+  "generatedAt": "2026-10-23T14:00:13.620Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Taylor Wimpey was among housebuilders whose CMA competition investigation ended under a collective £100 million agreement, and subsequently faced a class action alleging collusion over home prices.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Taylor_Wimpey",
+              "title": "Taylor Wimpey",
+              "quote": "In February 2024, Taylor Wimpey was among eight UK house-builders targeted by the Competition and Markets Authority in an investigation into suspected breaches of competition law."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Taylor_Wimpey",
+              "title": "Taylor Wimpey",
+              "quote": "the CMA confirmed its investigation had been dropped in return for a £100m payment towards affordable homes"
+            },
+            {
+              "url": "https://www.theguardian.com/business/2026/jun/30/uk-housebuilders-face-class-action-suit-over-alleged-collusion-to-inflate-prices",
+              "title": "UK housebuilders face class action suit over alleged collusion to inflate prices | Construction industry | The Guardian",
+              "publishedAt": "2026-06-30T00:00:00.000Z",
+              "quote": "Britain’s biggest housebuilders, including Barratt Redrow and Taylor Wimpey, face a multibillion-pound class action lawsuit over claims that they colluded over higher prices for homebuyers."
+            }
+          ],
+          "severity": 3
+        },
+        {
+          "year": 2016,
+          "summary": "Taylor Wimpey committed to remove doubling ground-rent terms following CMA action, with the regulator subsequently ruling that affected leaseholders should receive refunds.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/business/2021/dec/22/taylor-wimpey-drops-costly-leasehold-terms-after-investigation",
+              "title": "Taylor Wimpey drops costly leasehold terms after investigation",
+              "quote": "Thousands of people who bought leasehold homes from the housebuilder Taylor Wimpey will be liberated from terms where their ground rent charges doubled every 10 years, after a long-running investigation by the UK competition watchdog."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Taylor_Wimpey",
+              "title": "Taylor Wimpey",
+              "quote": "In December 2021, Taylor Wimpey formally committed to remove the terms from leasehold contracts and exclude them from new contracts;"
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Taylor_Wimpey",
+              "title": "Taylor Wimpey",
+              "quote": "In August 2022, the CMA ruled that people who had to pay double ground rent would be refunded."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Taylor Wimpey pleaded guilty to a sewage leak at its Sedgefield development that substantially affected a stream and received a £300,000 fine plus costs and a surcharge in 2026.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.gov.uk/government/news/housing-company-fined-300000-for-sewage-pollution",
+              "title": "Housing company fined £300,000 for sewage pollution - GOV.UK",
+              "publishedAt": "2026-07-10T00:00:00.000Z",
+              "quote": "Taylor Wimpey UK Ltd pleaded guilty in July 2023 to polluting a tributary of Shotton Beck with sewage while building new homes at Eden Gardens, Sedgefield, in September 2019."
+            },
+            {
+              "url": "https://www.gov.uk/government/news/housing-company-fined-300000-for-sewage-pollution",
+              "title": "Housing company fined £300,000 for sewage pollution - GOV.UK",
+              "publishedAt": "2026-07-10T00:00:00.000Z",
+              "quote": "It was fined £300,000 and ordered to pay costs and a victim surcharge amounting to £11,042.10."
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/cp3xklq9xgyo",
+              "title": "Taylor Wimpey fined for Sedgefield sewage leak",
+              "publishedAt": "2026-07-09T00:00:00.000Z",
+              "quote": "At Newcastle Crown Court, Judge Stephen Earl said sewage had been leaking into Shotton Beck for up to a week before being discovered by environmental officers and had a \"substantial effect\" on the stream and animals."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2023,
+          "summary": "The Welsh environmental regulator fined Taylor Wimpey nearly half a million pounds for a serious river pollution incident.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.thecanary.co/uk/2023/09/07/developer-taylor-wimpey-is-destroying-protected-trees-but-its-no-stranger-to-ecocide/",
+              "title": "Developer Taylor Wimpey is destroying protected trees - but it's no stranger to ecocide - Canary",
+              "publishedAt": "2023-09-07T00:00:00.000Z",
+              "quote": "Following this, in May 2023, the Welsh environment regulator fined Wimpey nearly half a million pounds for a serious river pollution incident."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2021,
+          "summary": "The Environment Agency fined Taylor Wimpey for an unpermitted sewage discharge.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.thecanary.co/uk/2023/09/07/developer-taylor-wimpey-is-destroying-protected-trees-but-its-no-stranger-to-ecocide/",
+              "title": "Developer Taylor Wimpey is destroying protected trees - but it's no stranger to ecocide - Canary",
+              "publishedAt": "2023-09-07T00:00:00.000Z",
+              "quote": "In 2021, the Environment Agency fined the company for unpermitted sewage discharge."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Taylor Wimpey pleaded guilty and was fined after a temporary stairwell covering collapsed at its Weston-Super-Mare site, injuring a 17-year-old apprentice.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://press.hse.gov.uk/2025/06/12/taylor-wimpey-fined-800000-after-teen-apprentice-injured-on-site/",
+              "title": "Taylor Wimpey fined £800,000 after teen apprentice injured on site – HSE Media Centre",
+              "publishedAt": "2025-06-12T00:00:00.000Z",
+              "quote": "However, the area collapsed, causing Charlie and around 20kg of the concrete blocks to fall more than two metres to the ground below. He sustained injuries to his fingers, hand, wrist and shoulder."
+            },
+            {
+              "url": "https://press.hse.gov.uk/2025/06/12/taylor-wimpey-fined-800000-after-teen-apprentice-injured-on-site/",
+              "title": "Taylor Wimpey fined £800,000 after teen apprentice injured on site – HSE Media Centre",
+              "publishedAt": "2025-06-12T00:00:00.000Z",
+              "quote": "Taylor Wimpey UK Limited pleaded guilty to breaching section 3(1) of the Health and Safety at Work etc. Act 1974."
+            },
+            {
+              "url": "https://press.hse.gov.uk/2025/06/12/taylor-wimpey-fined-800000-after-teen-apprentice-injured-on-site/",
+              "title": "Taylor Wimpey fined £800,000 after teen apprentice injured on site – HSE Media Centre",
+              "publishedAt": "2025-06-12T00:00:00.000Z",
+              "quote": "The company was fined £800,000 and ordered to pay £6,240.25 costs with a £2000 victim surcharge at the North Somerset Magistrates’ Court on 3 June 2025."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

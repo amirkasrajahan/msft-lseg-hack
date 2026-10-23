@@ -1,0 +1,40 @@
+{
+  "ticker": "GMS",
+  "generatedAt": "2026-10-23T14:05:13.140Z",
+  "coverage": "partial",
+  "causes": {
+    "tax_transparency": {
+      "incidents": [
+        {
+          "year": 2017,
+          "summary": "A Saudi court denied GMS's appeal against a $9.2 million tax assessment concerning inter-group transfer pricing between 2017 and 2019, with the final judgment amount not yet communicated.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.ajbell.co.uk/news/articles/gulf-marine-services-seeks-legal-advice-general-meeting-request",
+              "title": "Gulf Marine Services seeks legal advice on general meeting request | AJ Bell",
+              "publishedAt": "2025-05-14T00:00:00.000Z",
+              "quote": "The Abu Dhabi-based provider of self-propelled and self-elevating support vessels for the offshore energy sector said its appeal has been denied by a court in relation to a $9.2 million tax assessment received in 2021 from the Saudi Zakat, Tax & Customs Authority."
+            },
+            {
+              "url": "https://www.ajbell.co.uk/news/articles/gulf-marine-services-seeks-legal-advice-general-meeting-request",
+              "title": "Gulf Marine Services seeks legal advice on general meeting request | AJ Bell",
+              "publishedAt": "2025-05-14T00:00:00.000Z",
+              "quote": "The amount relates to the transfer pricing of an inter-group bareboat agreement between 2017 and 2019."
+            },
+            {
+              "url": "https://data.fca.org.uk/artefacts/NSM/RNS/5653601.html",
+              "title": "National  Storage Mechanism | Additional information",
+              "publishedAt": "2025-05-14T00:00:00.000Z",
+              "quote": "The total amount awarded under the judgment against the Group is yet to be communicated to us and management will work on obtaining a waiver of the penalties."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

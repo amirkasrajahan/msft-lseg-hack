@@ -1,0 +1,46 @@
+{
+  "ticker": "UKW",
+  "generatedAt": "2026-10-23T13:41:41.095Z",
+  "coverage": "full",
+  "causes": {
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2020,
+          "summary": "A maintenance contractor suffered burns and a fall at Greencoat UK Wind’s Tom nan Clach wind farm, resulting in serious injuries and an HSE investigation.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.energyvoice.com/renewables-energy-transition/249797/worker-sustains-burns-and-falls-from-height-at-highland-wind-farm/",
+              "title": "Worker sustains burns and falls from height at Highland wind farm - News for the Energy Sector",
+              "publishedAt": "2020-07-03T00:00:00.000Z",
+              "quote": "An investigation has been launched after a maintenance worker was rushed to hospital with burn injuries and having “fallen from height” at a Highland wind farm."
+            },
+            {
+              "url": "https://www.energyvoice.com/renewables-energy-transition/249797/worker-sustains-burns-and-falls-from-height-at-highland-wind-farm/",
+              "title": "Worker sustains burns and falls from height at Highland wind farm - News for the Energy Sector",
+              "publishedAt": "2020-07-03T00:00:00.000Z",
+              "quote": "The man in his 30s remains in “serious but stable condition” after being airlifted to Raigmore Hospital in Inverness last Tuesday (23 rd), after the incident at the Tom nan Clach wind farm, around 10 miles east of the city."
+            },
+            {
+              "url": "https://www.energyvoice.com/renewables-energy-transition/249797/worker-sustains-burns-and-falls-from-height-at-highland-wind-farm/",
+              "title": "Worker sustains burns and falls from height at Highland wind farm - News for the Energy Sector",
+              "publishedAt": "2020-07-03T00:00:00.000Z",
+              "quote": "“The incident has been reported to the Health and Safety Executive and we are conducting a full review.”"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Greencoat UK Wind committed £111,000 to Imperial College research supporting end-of-life management and recycling decisions for wind turbine blades."
+      ]
+    }
+  }
+}

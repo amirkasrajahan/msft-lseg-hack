@@ -1,0 +1,40 @@
+{
+  "ticker": "JDW",
+  "generatedAt": "2026-10-23T14:03:38.154Z",
+  "coverage": "full",
+  "causes": {
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "Wetherspoons staff disclosed a former employee’s emergency-contact number to her abusive ex-partner, enabling further harassment, and the company’s appeals were dismissed by the High Court in 2025.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.lewissilkin.com/insights/2025/08/13/raine-v-jd-wetherspoon-a-wake-up-call-on-oral-disclosures-and-data-protection-102kyzx",
+              "title": "Raine v JD Wetherspoon: A Wake-Up Call on Oral Disclosures and Data Protection",
+              "publishedAt": "2025-08-13T00:00:00.000Z",
+              "quote": "On Christmas Day 2018, the ex-partner called Wetherspoons and convinced staff to disclose the Claimant's emergency contact number by impersonating a police officer."
+            },
+            {
+              "url": "https://www.lewissilkin.com/insights/2025/08/13/raine-v-jd-wetherspoon-a-wake-up-call-on-oral-disclosures-and-data-protection-102kyzx",
+              "title": "Raine v JD Wetherspoon: A Wake-Up Call on Oral Disclosures and Data Protection",
+              "publishedAt": "2025-08-13T00:00:00.000Z",
+              "quote": "The ex-partner used the number to further harass the Claimant."
+            },
+            {
+              "url": "https://informationrightsandwrongs.com/2025/06/29/oral-disclosure-of-personal-data-a-new-domestic-case/",
+              "title": "Oral disclosure of personal data: a new domestic case | informationrightsandwrongs",
+              "publishedAt": "2025-06-29T00:00:00.000Z",
+              "quote": "In a well-reasoned judgment in Raine v JD Wetherspoon PLC [2025] EWHC 1593 (KB), Mr Justice Bright dismissed the defendant’s appeals."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

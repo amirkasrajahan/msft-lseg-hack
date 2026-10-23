@@ -1,0 +1,107 @@
+{
+  "ticker": "ENQ",
+  "generatedAt": "2026-10-23T13:38:52.303Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "The NSTA fined EnQuest Heather Limited £16.5 million for prolonged failure to decommission 33 inactive wells across four North Sea fields.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.nstauthority.co.uk/news-publications/enquest-heather-fined-for-collective-decommissioning-failures/",
+              "title": "EnQuest Heather fined for collective decommissioning failures",
+              "publishedAt": "2026-04-09T00:00:00.000Z",
+              "quote": "The North Sea Transition Authority (NSTA) has today fined North Sea licensee EnQuest Heather Limited a collective total of £16.5 million for failing to decommission 33 inactive wells."
+            },
+            {
+              "url": "https://www.nstauthority.co.uk/news-publications/enquest-heather-fined-for-collective-decommissioning-failures/",
+              "title": "EnQuest Heather fined for collective decommissioning failures",
+              "publishedAt": "2026-04-09T00:00:00.000Z",
+              "quote": "The Alma, Galia, Broom, and Dons fields ceased production between summer 2020 and spring 2021. The 33 wells which are the subject of the fines have been awaiting decommissioning since this time."
+            },
+            {
+              "url": "https://www.energyvoice.com/oilandgas/decommissioning/595515/nsta-fines-enquest-16-5m-on-slow-decommissioning/",
+              "title": "NSTA fines EnQuest £16.5m on slow decommissioning",
+              "publishedAt": "2026-04-09T00:00:00.000Z",
+              "quote": "The regulator added that the fine followed an investigation which, it claimed, revealed EnQuest “pursued a conscious strategy to defer the costs of meeting its plugging and abandonment obligations”."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "A nine-month equipment failure at EnQuest’s Sullom Voe Terminal increased methane and CO2 emissions in 2024, with further outages reported in 2025.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.shetlandtimes.co.uk/news/broken-equipment-at-sullom-voe-caused-decade-long-peak-in-em-416610/",
+              "title": "Broken equipment at EnQuest’s Sullom Voe Terminal caused decade-long peak in Shetland methane emissions",
+              "publishedAt": "2025-10-14T00:00:00.000Z",
+              "quote": "The company attributed the emissions to a nine-month equipment failure which saw all of the facility’s gas burnt into the atmosphere over the period."
+            },
+            {
+              "url": "https://www.shetlandtimes.co.uk/news/broken-equipment-at-sullom-voe-caused-decade-long-peak-in-em-416610/",
+              "title": "Broken equipment at EnQuest’s Sullom Voe Terminal caused decade-long peak in Shetland methane emissions",
+              "publishedAt": "2025-10-14T00:00:00.000Z",
+              "quote": "Despite regulators insisting the issue was resolved last year, EnQuest said it has continued to suffer “further outages”."
+            },
+            {
+              "url": "https://www.shetlandtimes.co.uk/news/broken-equipment-at-sullom-voe-caused-decade-long-peak-in-em-416610/",
+              "title": "Broken equipment at EnQuest’s Sullom Voe Terminal caused decade-long peak in Shetland methane emissions",
+              "publishedAt": "2025-10-14T00:00:00.000Z",
+              "quote": "As well as seeing methane figures jump more than a third, releases of CO2 increased by almost 30,000 tonnes — half of the entire previous year’s emissions."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2021,
+          "summary": "EnQuest was fined £150,000 in 2022 for knowingly breaching flaring limits by flaring an excess 262 tonnes of gas at the Magnus Field in 2021.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.offshore-technology.com/news/enquest-subsidiary-granted-north-sea-drilling-licence-despite-previous-fine/",
+              "title": "EnQuest subsidiary wins North Sea licence despite previous fine",
+              "publishedAt": "2024-02-02T00:00:00.000Z",
+              "quote": "However, environmental campaigners have criticised the move, noting that EnQuest was fined £150,000 ($191,348) in 2022 by the North Sea Transition Authority for knowingly breaching gas flaring limits."
+            },
+            {
+              "url": "https://www.offshore-technology.com/news/enquest-subsidiary-granted-north-sea-drilling-licence-despite-previous-fine/",
+              "title": "EnQuest subsidiary wins North Sea licence despite previous fine",
+              "publishedAt": "2024-02-02T00:00:00.000Z",
+              "quote": "EnQuest was fined for flaring an excess 262 tonnes of gas at the Magnus Field between 30 November and 1 December 2021."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "fair_wages": {
+      "incidents": [],
+      "positives": [
+        "EnQuest workers backed a union-negotiated two-year agreement improving salaries, offshore allowances, overtime and training-day rates."
+      ]
+    },
+    "labour_rights": {
+      "incidents": [],
+      "positives": [
+        "Unite stated that EnQuest engaged throughout pay negotiations, avoiding a dispute."
+      ]
+    }
+  }
+}

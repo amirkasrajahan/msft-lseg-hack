@@ -1,0 +1,269 @@
+{
+  "ticker": "PSN",
+  "generatedAt": "2026-10-23T13:52:41.507Z",
+  "coverage": "full",
+  "causes": {
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "An independent review found missing or incorrectly installed fire cavity barriers across Persimmon homes and inadequate group-wide construction controls.",
+          "relativeScale": 4,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/business-50827576",
+              "title": "Builder Persimmon lacks minimum house standards, report finds - BBC News",
+              "publishedAt": "2019-12-17T00:00:00.000Z",
+              "quote": "The review found that some houses did not have fire-stopping cavity barriers or they had been wrongly installed."
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/business-50827576",
+              "title": "Builder Persimmon lacks minimum house standards, report finds - BBC News",
+              "publishedAt": "2019-12-17T00:00:00.000Z",
+              "quote": "It said that the issue of missing or improperly fitted cavity barriers was \"a systemic nationwide problem\", which it said was \"a manifestation of poor culture coupled with the lack of a group build process\"."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "In March 2021, Persimmon CEO Dean Finch announced plans to double the firm's team of independent quality inspectors to over 60 by the end of 2021."
+            }
+          ],
+          "severity": 3
+        },
+        {
+          "year": 2008,
+          "summary": "A boy was killed by a falling mantelpiece after Persimmon had not checked its fireplace subcontractor's installation standards.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "In 2008, a boy was killed by a falling mantelpiece."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "Persimmon, which sub-contracted company KD Childs to fit the fireplaces, had not checked the standards and had never received documents about how fireplaces were fitted."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "A mantelpiece had previously fallen at another Persimmon Home but was treated as a \"one-off\" incident."
+            }
+          ],
+          "severity": 4
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2001,
+          "summary": "Persimmon was fined £125,000 after an employee was crushed to death in an incident the HSE said properly fitted safety interlocks would have prevented.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "In 2001, Persimmon was fined £125,000 after an employee was crushed to death."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "In this case properly fitted interlocks would have prevented access to the enclosure, and saved a life"
+            }
+          ],
+          "severity": 4
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Persimmon pleaded guilty to eight pollution offences involving silt-contaminated runoff into the River Gavenny during 2019 and 2021 and was ordered to pay £433,331.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.southwalesargus.co.uk/news/20046277.persimmon-homes-fined-water-pollution-abergavenny/",
+              "title": "Persimmon Homes fined for water pollution in Abergavenny | South Wales Argus",
+              "publishedAt": "2022-04-05T00:00:00.000Z",
+              "quote": "Persimmon Homes Ltd, which had a turnover of £2.7 billion last year, admitted eight offences under the Environmental Regulations 2016."
+            },
+            {
+              "url": "https://www.theconstructionindex.co.uk/news/view/persimmon-fined-433k-for-pollution-offences",
+              "title": "Persimmon fined £433k for pollution offences",
+              "publishedAt": "2022-04-05T00:00:00.000Z",
+              "quote": "Persimmon Homes was fined £53,000 per offence, as well being ordered to pay NRW costs of £9,161 and a victim surcharge of £170 bringing the total fines to £433, 331."
+            },
+            {
+              "url": "https://www.theconstructionindex.co.uk/news/view/persimmon-fined-433k-for-pollution-offences",
+              "title": "Persimmon fined £433k for pollution offences",
+              "publishedAt": "2022-04-05T00:00:00.000Z",
+              "quote": "Although there was no evidence of fish kill recorded in the river, the impact of silt would have had a detrimental effect on aquatic life in the water, NRW said."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": [
+        "Councillors approved Persimmon's proposal to create approximately 17 hectares of wetland intended to prevent housing-related pollution reaching a river.",
+        "Persimmon partnered with Ecofill to reuse excavated soil in construction applications instead of aggregates."
+      ]
+    },
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Persimmon agreed undertakings ending its involvement in the CMA leasehold investigation, including a £2,000 freehold purchase cap and reimbursements for eligible homeowners, without admitting wrongdoing.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/persimmon--psn/voluntary-agreement-with-cma/6778028",
+              "title": "Investegate | Company Announcement",
+              "publishedAt": "2021-06-23T00:00:00.000Z",
+              "quote": "This agreement brings to an end Persimmon's involvement in the on-going CMA leasehold investigation."
+            },
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/persimmon--psn/voluntary-agreement-with-cma/6778028",
+              "title": "Investegate | Company Announcement",
+              "publishedAt": "2021-06-23T00:00:00.000Z",
+              "quote": "An extension of its existing Right to Buy scheme to cap the purchase price of a freehold at £2,000."
+            },
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/persimmon--psn/voluntary-agreement-with-cma/6778028",
+              "title": "Investegate | Company Announcement",
+              "publishedAt": "2021-06-23T00:00:00.000Z",
+              "quote": "Customers who have already acquired their freeholds from Persimmon under the existing Right to Buy scheme, and who still own the freehold, can apply to be reimbursed for the difference between the price paid and £2,000;"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "A CMA investigation involving Persimmon and seven other housebuilders over suspected anti-competitive information sharing ended in 2025 with a collective £100 million affordable-housing payment and information-sharing commitments.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "In February 2024, Persimmon was among eight UK housebuilders targeted by the Competition and Markets Authority in an investigation into suspected breaches of competition law."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "In July 2025, the housebuilders offered to pay £100 million towards affordable housing programme as part of an agreement to reform practices on information sharing and to end the investigation without admitting any liability or wrongdoing."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "the CMA confirmed its investigation had been dropped in return for a £100 million payment towards affordable homes and other measures including the development of industry-wide guidance on information sharing"
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "executive_pay": {
+      "incidents": [
+        {
+          "year": 2017,
+          "summary": "Controversy over chief executive Jeff Fairburn's bonus, ultimately awarded at £75 million, led to the chairman's resignation and Fairburn's subsequent departure at the company's request.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "In December 2017, Persimmon's chairman, Nicholas Wrigley, resigned over his role in awarding Jeff Fairburn, the CEO, a £128 million bonus."
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/business-50827576",
+              "title": "Builder Persimmon lacks minimum house standards, report finds - BBC News",
+              "publishedAt": "2019-12-17T00:00:00.000Z",
+              "quote": "Persimmon's former chief executive Jeff Fairburn was forced out last year amid criticism of a pay deal which awarded him £75m."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "He left the following month in a decision that the company described as being by \"mutual agreement and at the request of the company\"."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "human_rights": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Persimmon paid to take control of and shut down a Facebook group containing customer complaints, and defended deleting it.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "In 2019, Persimmon paid to take control of and then shut down a Facebook group, called Persimmon Homes Unhappy Customers, which detailed complaints about the company, and had almost 14,000 members."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "The company defended deleting the group."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "supply_chain": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Persimmon Homes was suspended from the UK Government's Prompt Payment Code for late supplier payments and reinstated around ten months later.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "In April 2019, Persimmon Homes was suspended from the UK Government's Prompt Payment Code for failing to pay suppliers on time."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Persimmon_plc",
+              "title": "Persimmon plc",
+              "quote": "It was reinstated around 10 months later."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "SYNT",
+  "generatedAt": "2026-10-23T14:07:07.739Z",
+  "coverage": "partial",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "The European Commission fined Synthomer €43.011 million for participating in a styrene purchasing cartel that operated between May 2012 and June 2018.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/markets/commodities/eu-commission-fines-styrene-purchasers-157-mln-euros-cartel-2022-11-29/",
+              "title": "EU Commission fines styrene purchasers 157 mln euros for cartel",
+              "publishedAt": "2022-11-29T00:00:00.000Z",
+              "quote": "The Commission, which oversees competition policy in the 27 nation European Union, said the companies conspired to lower the industry reference price of styrene from May 2012 to June 2018."
+            },
+            {
+              "url": "https://complianceconcourse.willkie.com/articles/news-alerts-2022-12-december-20221201-european-commission-settles-styrene/",
+              "title": "European Commission settles styrene monomer cartel for € 157 million | Willkie Compliance Concourse",
+              "publishedAt": "2022-12-01T00:00:00.000Z",
+              "quote": "Synthomer\n\n€ 43 011 000"
+            },
+            {
+              "url": "https://complianceconcourse.willkie.com/articles/news-alerts-2022-12-december-20221201-european-commission-settles-styrene/",
+              "title": "European Commission settles styrene monomer cartel for € 157 million | Willkie Compliance Concourse",
+              "publishedAt": "2022-12-01T00:00:00.000Z",
+              "quote": "All of the settling companies received a 10% credit pursuant to the Commission’s 2008 Settlement Notice in light of their admission to participating in the cartel and their acknowledgment of liability therefor as part of the Commission’s settlement process."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Synthomer agreed to address ongoing environmental violations at its Pennsylvania facility, including pollutant discharges to the Monongahela River, under a proposed consent decree.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.epa.gov/newsreleases/eastman-chemical-resins-inc-pay-24-million-penalty-multiple-environmental-violations",
+              "title": "Eastman Chemical Resins Inc. to pay $2.4 million penalty for multiple environmental violations at West Elizabeth Pa. facility | US EPA",
+              "publishedAt": "2023-05-25T00:00:00.000Z",
+              "quote": "Along with the financial penalty being paid by Eastman, Synthomer has agreed to take actions to eliminate ongoing violations and prevent future violations."
+            },
+            {
+              "url": "https://www.epa.gov/newsreleases/eastman-chemical-resins-inc-pay-24-million-penalty-multiple-environmental-violations",
+              "title": "Eastman Chemical Resins Inc. to pay $2.4 million penalty for multiple environmental violations at West Elizabeth Pa. facility | US EPA",
+              "publishedAt": "2023-05-25T00:00:00.000Z",
+              "quote": "Chronic Clean Water Act violations including exceeding allowable limits for zinc, xylene and other pollutants that are discharged to the Monongahela River."
+            },
+            {
+              "url": "https://thefederalregister.org/documents/2023-11657/notice-of-lodging-of-proposed-consent-decree-under-the-clean-water-act-clean-air-act-and-resource-conservation-and-recov",
+              "title": "Notice of Lodging of Proposed Consent Decree Under the Clean Water Act, Clean Air Act, and Resource Conservation and Recovery Act | 88 FR 35929",
+              "publishedAt": "2023-06-01T00:00:00.000Z",
+              "quote": "Under the proposed Consent Decree, Synthomer will perform injunctive relief, including: (1) conducting a third-party environmental audit;"
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

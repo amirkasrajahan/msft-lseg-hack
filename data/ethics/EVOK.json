@@ -1,0 +1,61 @@
+{
+  "ticker": "EVOK",
+  "generatedAt": "2026-10-23T14:05:05.639Z",
+  "coverage": "partial",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Evoke and its subsidiaries face a private criminal complaint in Austria alleging unauthorized gambling operations in connection with a physician's attempt to recover historic gambling losses.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.gamblingnews.com/news/evoke-faces-fresh-scrutiny-in-austria-as-ceo-named-in-private-criminal-complaint/",
+              "title": "Evoke Faces Fresh Scrutiny in Austria as CEO Named in Private Criminal Complaint",
+              "publishedAt": "2025-11-19T00:00:00.000Z",
+              "quote": "The case, brought by an Austrian physician, was filed with the Vienna Public Prosecutor’s Office on November 13 to find out whether Evoke and its subsidiaries illegally offered gambling services in Austria."
+            },
+            {
+              "url": "https://www.gamblingnews.com/news/evoke-faces-fresh-scrutiny-in-austria-as-ceo-named-in-private-criminal-complaint/",
+              "title": "Evoke Faces Fresh Scrutiny in Austria as CEO Named in Private Criminal Complaint",
+              "publishedAt": "2025-11-19T00:00:00.000Z",
+              "quote": "The complaint reportedly contains a detailed statement of facts that accuses the business of operating in Austria without local authorization and in breach of the country’s gambling monopoly."
+            },
+            {
+              "url": "https://www.gamblingnews.com/news/evoke-faces-fresh-scrutiny-in-austria-as-ceo-named-in-private-criminal-complaint/",
+              "title": "Evoke Faces Fresh Scrutiny in Austria as CEO Named in Private Criminal Complaint",
+              "publishedAt": "2025-11-19T00:00:00.000Z",
+              "quote": "The physician behind the lawsuit is trying to recover years of gambling losses, claiming that they were generated through unlicensed play."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Evoke's predecessor 888 experienced a Middle Eastern compliance scandal that led to CEO Itai Pazner's resignation in January 2023.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://next.io/news/investment/888-shareholders-approve-rebrand-to-evoke-plc/",
+              "title": "888 shareholders approve rebrand to evoke plc - NEXT.io",
+              "publishedAt": "2024-05-14T00:00:00.000Z",
+              "quote": "Evoke was rocked by a series of shocks in recent years, including the resignation of CEO Itai Pazner in January 2023 due to a Middle Eastern compliance scandal."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

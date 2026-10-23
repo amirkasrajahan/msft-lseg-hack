@@ -1,0 +1,76 @@
+{
+  "ticker": "MAB",
+  "generatedAt": "2026-10-23T13:48:37.110Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Toby Carvery felled the reportedly 500-year-old Whitewebbs Oak in April 2025, and Mitchells & Butlers subsequently agreed to contribute to treatment costs before the matter was closed with Enfield Council.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.thecaterer.com/news/mitchells-butlers-pays-treatment-fee-for-chopped-ancient-oak-tree",
+              "title": "Mitchells & Butlers pays treatment fee for chopped ancient oak tree - News",
+              "publishedAt": "2026-06-10T00:00:00.000Z",
+              "quote": "Mitchells & Butlers has agreed to pay a treatment fee for the ancient oak tree that was cut down by restaurant chain Toby Carvery in London’s Enfield last year."
+            },
+            {
+              "url": "https://www.thecaterer.com/news/mitchells-butlers-pays-treatment-fee-for-chopped-ancient-oak-tree",
+              "title": "Mitchells & Butlers pays treatment fee for chopped ancient oak tree - News",
+              "publishedAt": "2026-06-10T00:00:00.000Z",
+              "quote": "The tree in Whitewebbs Wood was reportedly 500 years old and the local council stressed the tree was “alive and starting to grow new spring leaves” when it was felled in April 2025 by Toby Carvery."
+            },
+            {
+              "url": "https://www.thecaterer.com/news/mitchells-butlers-pays-treatment-fee-for-chopped-ancient-oak-tree",
+              "title": "Mitchells & Butlers pays treatment fee for chopped ancient oak tree - News",
+              "publishedAt": "2026-06-10T00:00:00.000Z",
+              "quote": "A joint press statement was published this week on behalf of Mitchells & Butlers and Enfield Council in relation to Whitewebbs Oak, confirming the matter has now closed."
+            }
+          ],
+          "severity": 4
+        },
+        {
+          "year": 2017,
+          "summary": "Mitchells & Butlers pleaded guilty and was ordered to pay £91,000 after failing to prevent cooking fat, oil and grease entering sewers from The Turnpike pub in conduct dating back to 2017.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://waterbriefing.org/home/company-news/item/18443-allowing-fat-to-enter-thames-water-sewer-network-costs-hospitality-giant-%C2%A391000-in-court?font-size=larger",
+              "title": "Allowing fat to enter Thames Water sewer network costs hospitality giant £91,000 in court",
+              "publishedAt": "2021-06-11T00:00:00.000Z",
+              "quote": "Mitchells & Butlers Leisure Retail Ltd, which owns pub and restaurant chains including Toby Carvery, Harvester and Miller & Carter, was accused of failing to prevent cooking fat, oil and grease entering the sewers at The Turnpike pub in Kidlington, dating back to 2017."
+            },
+            {
+              "url": "https://waterbriefing.org/home/company-news/item/18443-allowing-fat-to-enter-thames-water-sewer-network-costs-hospitality-giant-%C2%A391000-in-court?font-size=larger",
+              "title": "Allowing fat to enter Thames Water sewer network costs hospitality giant £91,000 in court",
+              "publishedAt": "2021-06-11T00:00:00.000Z",
+              "quote": "Appearing at High Wycombe Magistrates’ Court recently, the company pleaded guilty to breaches of the Water Industry Act 1991 and was fined £75,000, the highest amount handed out for this section of the act, along with £3,000 in compensation and costs of £13,000."
+            },
+            {
+              "url": "https://waterbriefing.org/home/company-news/item/18443-allowing-fat-to-enter-thames-water-sewer-network-costs-hospitality-giant-%C2%A391000-in-court?font-size=larger",
+              "title": "Allowing fat to enter Thames Water sewer network costs hospitality giant £91,000 in court",
+              "publishedAt": "2021-06-11T00:00:00.000Z",
+              "quote": "“Our network protection team is now working with the Mitchells & Butlers head office to ensure training, grease management and communication is improved throughout the whole estate.”"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "More than 100 sites had operational rooftop solar installations by August 2024.",
+        "The company implemented SBTi-verified 2030 emissions-reduction targets against a 2019 baseline.",
+        "Mitchells & Butlers has won Best Sustainable Pub Company at the Publican Awards more than once."
+      ]
+    }
+  }
+}

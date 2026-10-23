@@ -1,0 +1,19 @@
+{
+  "ticker": "FCH",
+  "generatedAt": "2026-10-23T13:39:36.436Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Funding Circle committed support for an initial 11-hectare peatland restoration project at Greenlee Lough in Northumberland National Park."
+      ]
+    },
+    "labour_rights": {
+      "incidents": [],
+      "positives": [
+        "Funding Circle introduced paid parental bereavement leave for birth parents and partners, and provides compassionate leave for parental bereavement and fertility treatments."
+      ]
+    }
+  }
+}

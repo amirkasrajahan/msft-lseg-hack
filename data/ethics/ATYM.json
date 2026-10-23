@@ -1,0 +1,74 @@
+{
+  "ticker": "ATYM",
+  "generatedAt": "2026-10-23T13:32:06.237Z",
+  "coverage": "full",
+  "causes": {
+    "community_impact": {
+      "incidents": [
+        {
+          "year": 2016,
+          "summary": "Uncontrolled dust emissions at Riotinto in 2016 reportedly exceeded particle and metal limits and led to a €105,000 sanctioning proceeding by the Andalusian government.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.rebeldes.info/2021/09/el-escandaloso-reality-show-de-atalaya.html",
+              "title": "El escandaloso 'reality show' de Atalaya Mining en el proyecto Riotinto marca el devenir de la mina de Touro",
+              "publishedAt": "2021-09-18T00:00:00.000Z",
+              "quote": "la emisión incontrolada de nubes de polvo que durante la primavera y verano de 2016 alertaron y perjudicaron a las poblaciones colindantes"
+            },
+            {
+              "url": "https://www.rebeldes.info/2021/09/el-escandaloso-reality-show-de-atalaya.html",
+              "title": "El escandaloso 'reality show' de Atalaya Mining en el proyecto Riotinto marca el devenir de la mina de Touro",
+              "publishedAt": "2021-09-18T00:00:00.000Z",
+              "quote": "el Instituto Nacional de Toxicología, que señaló la superación de los límites de partículas además de los valores medios de cobre, zinc y arsénico, superando hasta diez veces los valores promedio"
+            },
+            {
+              "url": "https://www.rebeldes.info/2021/09/el-escandaloso-reality-show-de-atalaya.html",
+              "title": "El escandaloso 'reality show' de Atalaya Mining en el proyecto Riotinto marca el devenir de la mina de Touro",
+              "publishedAt": "2021-09-18T00:00:00.000Z",
+              "quote": "lo que derivó en un expediente sancionador por parte del Gobierno andaluz de 105.000 euros."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2022,
+          "summary": "Residents of Alto de la Mesa alleged that Atalaya's mining activities damaged homes and caused pollution and pest problems, while the company failed to respond to their complaints.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.tercerainformacion.es/articulo/galicia/07/02/2022/asi-es-la-responsabilidad-social-de-la-promotora-de-la-mina-de-touro-vecinos-denuncian-danos-en-viviendas-contaminacion-y-plagas-por-las-actividades-de-atalaya-mining-en-riotinto/",
+              "title": "Así es la \"responsabilidad social\" de la promotora de la mina de Touro: vecinos denuncian daños en viviendas, contaminación y plagas por las actividades de Atalaya Mining en Riotinto - Tercera Información",
+              "publishedAt": "2022-02-07T00:00:00.000Z",
+              "quote": "La plataforma ciudadana «No al hundimiento del Alto de la Mesa» denuncia que la empresa rechaza hacerse cargo de los daños provocados por la explotación minera, que esta no contesta a sus misivas y que no atiende las reclamaciones de la población."
+            },
+            {
+              "url": "https://www.tercerainformacion.es/articulo/galicia/07/02/2022/asi-es-la-responsabilidad-social-de-la-promotora-de-la-mina-de-touro-vecinos-denuncian-danos-en-viviendas-contaminacion-y-plagas-por-las-actividades-de-atalaya-mining-en-riotinto/",
+              "title": "Así es la \"responsabilidad social\" de la promotora de la mina de Touro: vecinos denuncian daños en viviendas, contaminación y plagas por las actividades de Atalaya Mining en Riotinto - Tercera Información",
+              "publishedAt": "2022-02-07T00:00:00.000Z",
+              "quote": "responda civilmente por los daños sufridos en las viviendas, la insufrible polución y las plagas que azotan la barriada"
+            },
+            {
+              "url": "https://www.tercerainformacion.es/articulo/galicia/07/02/2022/asi-es-la-responsabilidad-social-de-la-promotora-de-la-mina-de-touro-vecinos-denuncian-danos-en-viviendas-contaminacion-y-plagas-por-las-actividades-de-atalaya-mining-en-riotinto/",
+              "title": "Así es la \"responsabilidad social\" de la promotora de la mina de Touro: vecinos denuncian daños en viviendas, contaminación y plagas por las actividades de Atalaya Mining en Riotinto - Tercera Información",
+              "publishedAt": "2022-02-07T00:00:00.000Z",
+              "quote": "desde el aumento de las voladuras y su intensidad explosiva en numerosas viviendas de la localidad están apareciendo grietas en muros, techos y paredes"
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "fair_wages": {
+      "incidents": [],
+      "positives": [
+        "USO reported a collectively negotiated 18.5% salary increase over five years, with an inflation-linked review clause to preserve purchasing power."
+      ]
+    }
+  }
+}

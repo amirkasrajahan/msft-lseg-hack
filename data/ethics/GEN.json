@@ -1,0 +1,19 @@
+{
+  "ticker": "GEN",
+  "generatedAt": "2026-10-23T13:40:51.136Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Genuit’s near-term science-based emissions reduction target received SBTi approval."
+      ]
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Recycled materials accounted for 49.3% of polymers used in Genuit products in 2023."
+      ]
+    }
+  }
+}

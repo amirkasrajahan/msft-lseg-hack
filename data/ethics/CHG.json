@@ -1,0 +1,80 @@
+{
+  "ticker": "CHG",
+  "generatedAt": "2026-10-23T13:34:39.645Z",
+  "coverage": "full",
+  "causes": {
+    "human_rights": {
+      "incidents": [
+        {
+          "year": 2011,
+          "summary": "Chemring-produced CS gas was reported to have been used against civilian pro-democracy protesters during the Egyptian revolution.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Chemring_Group",
+              "title": "Chemring Group",
+              "quote": "In 2011, it was revealed that CS gas produced by Chemring had been used against civilian pro-democracy protesters in the 2011 Egyptian revolution."
+            }
+          ],
+          "severity": 3
+        },
+        {
+          "year": 2014,
+          "summary": "Chemring was reported to have supplied tear gas used against Hong Kong demonstrators in 2014, with the UK government subsequently halting crowd-control sales to the region in 2019.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Chemring_Group",
+              "title": "Chemring Group",
+              "quote": "Later in 2014, it was also revealed that tear gas used against demonstrators in the 2014 Hong Kong protests was provided by Chemring."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Chemring_Group",
+              "title": "Chemring Group",
+              "quote": "In June 2019, following the use of CS Gas and other crowd-control measures by authorities against demonstrators in the 2019–20 Hong Kong protests, the UK Government ordered an immediate end to such sales to the region."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Chemring Nobel requested a deadline extension after its promised wastewater treatment plant was delayed until late 2029, drawing criticism over additional nitrogen discharges into the vulnerable Oslofjord.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.nrk.no/dokumentar/renseanlegget-blir-ikke-ferdig-i-tide.-na-vil-chemring-nobel-slippe-ut-mer-nitrogen-i-fjorden-1.18009350",
+              "title": "Renseanlegget blir ikke ferdig i tide. Nå vil Chemring Nobel slippe ut mer nitrogen i fjorden – NRK Dokumentar",
+              "publishedAt": "2026-09-05T00:00:00.000Z",
+              "quote": "I slutten av august sendte Chemring Nobel et brev til Miljødirektoratet og ba om utsatt frist. Renseanlegget vil ikke stå klart før i slutten av 2029, to år på overtid."
+            },
+            {
+              "url": "https://www.nrk.no/dokumentar/renseanlegget-blir-ikke-ferdig-i-tide.-na-vil-chemring-nobel-slippe-ut-mer-nitrogen-i-fjorden-1.18009350",
+              "title": "Renseanlegget blir ikke ferdig i tide. Nå vil Chemring Nobel slippe ut mer nitrogen i fjorden – NRK Dokumentar",
+              "publishedAt": "2026-09-05T00:00:00.000Z",
+              "quote": "– Fjorden tåler ikke mer. Det er for mye nitrogen allerede, og hvert tonn ekstra utgjør en stor belastning for livet i sjøen."
+            },
+            {
+              "url": "https://www.nrk.no/dokumentar/renseanlegget-blir-ikke-ferdig-i-tide.-na-vil-chemring-nobel-slippe-ut-mer-nitrogen-i-fjorden-1.18009350",
+              "title": "Renseanlegget blir ikke ferdig i tide. Nå vil Chemring Nobel slippe ut mer nitrogen i fjorden – NRK Dokumentar",
+              "publishedAt": "2026-09-05T00:00:00.000Z",
+              "quote": "Den opprinnelige planen var å ruste opp det gamle renseanlegget og bygge et nytt."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

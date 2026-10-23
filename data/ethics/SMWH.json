@@ -1,0 +1,52 @@
+{
+  "ticker": "SMWH",
+  "generatedAt": "2026-10-23T14:03:39.176Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "WHSmith disclosed accounting errors involving multi-year revenue overstatements in its North American business and remains subject to an FCA investigation into possible listing and transparency rule breaches.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.scottishfinancialnews.com/articles/frc-opens-probe-into-pwcs-whsmith-audit-after-revenue-overstatement",
+              "title": "FRC opens probe into PwC’s WHSmith audit after revenue overstatement | Scottish Financial News",
+              "publishedAt": "2026-06-09T00:00:00.000Z",
+              "quote": "An independent review by Deloitte found that WHSmith had overstated revenues over several years, forcing chief executive Carl Cowling to step down."
+            },
+            {
+              "url": "https://www.retailgazette.co.uk/blog/2025/12/whsmith-annual-results/",
+              "title": "WHSmith profits drop as FCA launches investigation into business - Retail Gazette",
+              "publishedAt": "2025-12-19T00:00:00.000Z",
+              "quote": "The Financial Conduct Authority today (19 December) said that it was examining possible breaches of UK listing and transparency rules after WHSmith said that it would restate profits for 2023 and 2024 in November."
+            },
+            {
+              "url": "https://www.scottishfinancialnews.com/articles/frc-opens-probe-into-pwcs-whsmith-audit-after-revenue-overstatement",
+              "title": "FRC opens probe into PwC’s WHSmith audit after revenue overstatement | Scottish Financial News",
+              "publishedAt": "2026-06-09T00:00:00.000Z",
+              "quote": "The review identified a “target-driven performance culture” in the North American business, weaknesses in the finance team’s composition, and limited group oversight of US finance procedures."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "WHSmith's short-term emissions targets were validated by the Science Based Targets initiative."
+      ]
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "WHSmith launched a book buyback service with Zeercle, offering gift cards for customers' old books."
+      ]
+    }
+  }
+}

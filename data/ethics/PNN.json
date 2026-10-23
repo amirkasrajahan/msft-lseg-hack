@@ -1,0 +1,144 @@
+{
+  "ticker": "PNN",
+  "generatedAt": "2026-10-23T13:51:55.671Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Ofwat found failings in South West Water’s wastewater and sewer-network management, resulting in an agreed £24m enforcement package in place of a fine.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c24v8303ndlo",
+              "title": "Relief in Brixham as South West Water boss Susan Davy retires - BBC News",
+              "publishedAt": "2025-07-12T00:00:00.000Z",
+              "quote": "Ofwat found failings in South West Water's management of wastewater treatment and sewer networks."
+            },
+            {
+              "url": "https://www.investegate.co.uk/index.php/announcement/rns/pennon-group--pnn/update-on-ofwat-investigation/8972443",
+              "title": "Update on Ofwat investigation | Company Announcement | Investegate",
+              "publishedAt": "2025-07-10T00:00:00.000Z",
+              "quote": "South West Water has agreed undertakings worth £24m [1] to be delivered over the period to 2030 including:"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c24v8303ndlo",
+              "title": "Relief in Brixham as South West Water boss Susan Davy retires - BBC News",
+              "publishedAt": "2025-07-12T00:00:00.000Z",
+              "quote": "A £24m enforcement package was introduced to avoid a £19m fine"
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2023,
+          "summary": "South West Water was fined £2.15m for illegal sewage discharges into rivers and the sea in Devon and Cornwall that caused significant environmental harm.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.telegraph.co.uk/business/2023/06/19/south-west-water-boss-gives-up-bonus-amid-sewage-leak/",
+              "title": "South West Water boss gives up £440,000 bonus amid sewage leak backlash",
+              "publishedAt": "2023-06-19T00:00:00.000Z",
+              "quote": "The firm was fined £2.15m in April for illegally dumping sewage into rivers and the sea in Devon and Cornwall, following an investigation by the Environment Agency that found South West Water culpable for significant environmental harm."
+            },
+            {
+              "url": "https://www.telegraph.co.uk/business/2023/06/19/south-west-water-boss-gives-up-bonus-amid-sewage-leak/",
+              "title": "South West Water boss gives up £440,000 bonus amid sewage leak backlash",
+              "publishedAt": "2023-06-19T00:00:00.000Z",
+              "quote": "Pennon chief executive Susan Davy waived a £157,000 bonus and £283,000 in long-term incentives, according to the company’s annual report."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2025,
+          "summary": "A South West Water treatment works was reported to have caused pollution that killed thousands of fish in a Cornish river.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c24v8303ndlo",
+              "title": "Relief in Brixham as South West Water boss Susan Davy retires - BBC News",
+              "publishedAt": "2025-07-12T00:00:00.000Z",
+              "quote": "In June, one of SWW's treatment works was the source of pollution that killed thousands of fish in a Cornish river"
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "The Brixham contaminated-water outbreak left 143 people ill and prompted approximately £36m in costs, with the Drinking Water Inspectorate court process still pending in March 2026.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c24v8303ndlo",
+              "title": "Relief in Brixham as South West Water boss Susan Davy retires - BBC News",
+              "publishedAt": "2025-07-12T00:00:00.000Z",
+              "quote": "The outbreak, which left 143 people ill and led to four hospitalisations, was traced to a contaminated reservoir."
+            },
+            {
+              "url": "https://www.cityam.com/pennon-group-expect-flat-losses-as-parasite-scandal-lingers/",
+              "title": "Pennon Group records loss after parasite scandal",
+              "publishedAt": "2025-03-31T00:00:00.000Z",
+              "quote": "The firm said in its update the finalisation of costs relating to the Brixham water supply scandal were around £36m."
+            },
+            {
+              "url": "https://www.marketscreener.com/news/pennon-says-performance-improving-regulatory-probes-to-close-in-2026-ce7e5fded18bf22c",
+              "title": "Pennon says performance improving, regulatory probes to close in 2026 | MarketScreener",
+              "publishedAt": "2026-03-10T00:00:00.000Z",
+              "quote": "Pennon also said that it expects prosecutions over wastewater incidents until 2021 is expected to be concluded this year, while the Drinking Water Inspectorate court process over the 2024 water quality incident is expected to be concluded by the summer."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Ofwat opened an investigation into whether Pennon’s reporting of leaks and water use was accurate.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.telegraph.co.uk/business/2023/06/19/south-west-water-boss-gives-up-bonus-amid-sewage-leak/",
+              "title": "South West Water boss gives up £440,000 bonus amid sewage leak backlash",
+              "publishedAt": "2023-06-19T00:00:00.000Z",
+              "quote": "Regulator Ofwat also announced an investigation into Pennon last month focusing on whether its reporting of leaks and water use was accurate."
+            },
+            {
+              "url": "https://www.telegraph.co.uk/business/2023/06/19/south-west-water-boss-gives-up-bonus-amid-sewage-leak/",
+              "title": "South West Water boss gives up £440,000 bonus amid sewage leak backlash",
+              "publishedAt": "2023-06-19T00:00:00.000Z",
+              "quote": "Pennon has said its figures were “subject to rigorous assurance processes” and signed off by a technical auditor."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Two Pennon Power renewable-generation sites in Scotland were energised by March 2026."
+      ]
+    }
+  }
+}

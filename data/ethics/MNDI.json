@@ -1,0 +1,40 @@
+{
+  "ticker": "MNDI",
+  "generatedAt": "2026-10-23T13:48:45.675Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Turkey’s competition authority opened a renewed investigation into Mondi Turkey over allegations of coordinated conduct obstructing waste-paper exports.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.urfadabugun.com/haber/66707/rekabet-kurumundan-mondi-turkeye-yonelik-sorusturma.html",
+              "title": "Rekabet Kurumundan Mondi Turkey'e yönelik soruşturma - urfadabugun",
+              "publishedAt": "2024-04-26T15:51:38.000Z",
+              "quote": "Rekabet Kurumu, Mondi Turkey Oluklu Mukavva Kağıt ve Ambalaj Sanayi A.Ş'ye yönelik soruşturma başlattı."
+            },
+            {
+              "url": "https://www.urfadabugun.com/haber/66707/rekabet-kurumundan-mondi-turkeye-yonelik-sorusturma.html",
+              "title": "Rekabet Kurumundan Mondi Turkey'e yönelik soruşturma - urfadabugun",
+              "publishedAt": "2024-04-26T15:51:38.000Z",
+              "quote": "atık kağıt ihtiyacının bulunmadığına dair onay yazısı verilmemesi yönünde birlikte hareket ettikleri ve bu yolla atık kağıt ihracatını engelledikleri iddiasıyla"
+            },
+            {
+              "url": "https://www.urfadabugun.com/haber/66707/rekabet-kurumundan-mondi-turkeye-yonelik-sorusturma.html",
+              "title": "Rekabet Kurumundan Mondi Turkey'e yönelik soruşturma - urfadabugun",
+              "publishedAt": "2024-04-26T15:51:38.000Z",
+              "quote": "Rekabet Kurulu'nun 21.03.2024 tarih ve 24-14/284-M sayılı kararı ile, Kanun'un 4'üncü maddesinin ihlal edilip edilmediğinin tespiti amacıyla"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

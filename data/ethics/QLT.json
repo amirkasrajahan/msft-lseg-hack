@@ -1,0 +1,76 @@
+{
+  "ticker": "QLT",
+  "generatedAt": "2026-10-23T13:54:45.333Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2015,
+          "summary": "The FCA censured Quilter-owned Lighthouse for unsuitable pension-transfer advice given between April 2015 and April 2019, for which Quilter paid approximately £23.17 million in redress.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.financialplanningtoday.co.uk/news/fca-praises-quilter-over-bsps",
+              "title": "FCA praises Quilter over BSPS",
+              "publishedAt": "2023-06-01T00:00:00.000Z",
+              "quote": "The watchdog censured Lighthouse for unsuitable advice given between 1 April 2015 and 30 April 2019."
+            },
+            {
+              "url": "https://www.fca.org.uk/news/press-releases/fca-censures-lighthouse-advisory-services-limited-serious-failings-relation-british-steel-pension",
+              "title": "FCA censures Lighthouse Advisory Services Limited for serious failings in relation to the British Steel Pension Scheme and £23m paid out in redress | FCA",
+              "publishedAt": "2023-05-15T00:00:00.000Z",
+              "quote": "By 30 April 2023, Quilter had paid approximately £23.17 million in redress to put affected Lighthouse customers back in the financial position they would have been in were it not been for Lighthouse’s unsuitable advice."
+            },
+            {
+              "url": "https://www.fca.org.uk/news/press-releases/fca-censures-lighthouse-advisory-services-limited-serious-failings-relation-british-steel-pension",
+              "title": "FCA censures Lighthouse Advisory Services Limited for serious failings in relation to the British Steel Pension Scheme and £23m paid out in redress | FCA",
+              "publishedAt": "2023-05-15T00:00:00.000Z",
+              "quote": "Quilter Financial Planning Limited (Quilter) acquired Lighthouse in June 2019, after the unsuitable advice."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2024,
+          "summary": "The Financial Ombudsman Service upheld a decision against Quilter Financial Services after finding that an appointed representative gave a client unsuitable advice.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.ftadviser.com/content/7dbd3d47-add6-52cc-a627-71f09d3e7243",
+              "title": "Fos finds Quilter AR gave ‘unsuitable advice’ to client - FTAdviser",
+              "publishedAt": "2024-06-17T07:18:08.000Z",
+              "quote": "The Financial Ombudsman Service has upheld a decision against Quilter Financial Services after finding one of its appointed representatives gave unsuitable advice."
+            },
+            {
+              "url": "https://www.ftadviser.com/content/7dbd3d47-add6-52cc-a627-71f09d3e7243",
+              "title": "Fos finds Quilter AR gave ‘unsuitable advice’ to client - FTAdviser",
+              "publishedAt": "2024-06-17T07:18:08.000Z",
+              "quote": "The ombudsman decided to uphold Mrs B’s complaint due to her misclassification as a moderate investor"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": [
+        "The FCA praised Quilter for taking responsibility for Lighthouse’s pre-acquisition unsuitable advice and improving its inadequate controls."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Quilter introduced a discretionary portfolio service strategy that excludes fossil fuels."
+      ]
+    },
+    "diversity_inclusion": {
+      "incidents": [],
+      "positives": [
+        "Quilter adopted the Halo Code to protect freedom to wear afro-hairstyles without restriction or judgment."
+      ]
+    }
+  }
+}

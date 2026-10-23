@@ -1,0 +1,48 @@
+{
+  "ticker": "DNLM",
+  "generatedAt": "2026-10-23T13:37:41.849Z",
+  "coverage": "full",
+  "causes": {
+    "executive_pay": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Shareholder adviser Pirc criticised Dunelm’s £4m chief executive pay package as excessive, citing misalignment with financial performance and an unacceptable CEO-to-average-employee pay ratio of 66:1.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.cityam.com/dunelm-criticised-for-excessive-4m-pay-package-for-chief-exec/",
+              "title": "Dunelm criticised for 'excessive' £4m pay package for chief exec",
+              "publishedAt": "2021-11-10T00:00:00.000Z",
+              "quote": "Home furnishings retailer Dunelm is under pressure over a £4m pay package for its chief exec amid accusations that the deal is “excessive”."
+            },
+            {
+              "url": "https://www.cityam.com/dunelm-criticised-for-excessive-4m-pay-package-for-chief-exec/",
+              "title": "Dunelm criticised for 'excessive' £4m pay package for chief exec",
+              "publishedAt": "2021-11-10T00:00:00.000Z",
+              "quote": "The changes in the chief executive’s total pay over the last five years are not considered in line with the company’s financial performance over the same period."
+            },
+            {
+              "url": "https://www.cityam.com/dunelm-criticised-for-excessive-4m-pay-package-for-chief-exec/",
+              "title": "Dunelm criticised for 'excessive' £4m pay package for chief exec",
+              "publishedAt": "2021-11-10T00:00:00.000Z",
+              "quote": "The ratio of the CEO’s pay compared to average employee pay is considered unacceptable, standing at 66:1."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": [
+        "Chief executive Nick Wilkinson declined a proposed salary increase for 2022–23, keeping his base salary at £582,125."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Dunelm’s new leased warehouse had its environmental credentials certified by The Planet Mark, with mitigation of all embodied construction carbon reported."
+      ]
+    }
+  }
+}

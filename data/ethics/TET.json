@@ -1,0 +1,13 @@
+{
+  "ticker": "TET",
+  "generatedAt": "2026-10-23T14:07:02.372Z",
+  "coverage": "partial",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [],
+      "positives": [
+        "Treatt entered a relationship agreement requiring transactions and arrangements with major shareholder Döhler to be conducted at arm’s length."
+      ]
+    }
+  }
+}

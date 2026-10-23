@@ -1,0 +1,40 @@
+{
+  "ticker": "MACF",
+  "generatedAt": "2026-10-23T14:05:44.481Z",
+  "coverage": "partial",
+  "causes": {
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "An employee died in an incident involving machinery at Macfarlane’s Pitreavie site in October 2025; the machinery was replaced, and the authorities’ investigation remained ongoing in August 2026.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.printweek.com/content/news/macfarlane-remains-focused-on-profit-recovery-actions",
+              "title": "Printweek - Macfarlane remains focused on profit recovery actions - Printweek",
+              "publishedAt": "2026-08-27T00:00:00.000Z",
+              "quote": "Macfarlane scrapped the corrugated device that was involved in the fatal incident at Pitreavie in October 2025 when an employee died."
+            },
+            {
+              "url": "https://www.printweek.com/content/news/macfarlane-remains-focused-on-profit-recovery-actions",
+              "title": "Printweek - Macfarlane remains focused on profit recovery actions - Printweek",
+              "publishedAt": "2026-08-27T00:00:00.000Z",
+              "quote": "It said the investigation by relevant authorities was ongoing, with no updates to report as yet on the likely outcome or potential fines."
+            },
+            {
+              "url": "https://www.printweek.com/content/news/macfarlane-remains-focused-on-profit-recovery-actions",
+              "title": "Printweek - Macfarlane remains focused on profit recovery actions - Printweek",
+              "publishedAt": "2026-08-27T00:00:00.000Z",
+              "quote": "The group subsequently invested £1.2m in a new four-colour Dong Fang Apstar printer/slotter/die-cutter, to return Pitreavie to full operational capacity ahead of the critical pre-Christmas peak period for food and drink customers in Scotland."
+            }
+          ],
+          "severity": 4
+        }
+      ],
+      "positives": []
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ticker": "WOSG",
+  "generatedAt": "2026-10-23T14:03:33.052Z",
+  "coverage": "full",
+  "causes": {
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Guernsey's Data Protection Authority found that Watches of Switzerland breached the right of access after failing to identify relevant personal information when responding to a customer's data subject access request.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.odpa.gg/news/enforcement-order-issued-watches-switzerland-company-limited",
+              "title": "Enforcement Order issued to Watches of Switzerland Company Limited | ODPA",
+              "publishedAt": "2025-08-20T00:00:00.000Z",
+              "quote": "In November 2024, the Authority received a complaint from an individual in relation to a Data Subject Access Request (“DSAR”) they submitted to Mappin & Webb (part of the WoS group)."
+            },
+            {
+              "url": "https://www.odpa.gg/news/enforcement-order-issued-watches-switzerland-company-limited",
+              "title": "Enforcement Order issued to Watches of Switzerland Company Limited | ODPA",
+              "publishedAt": "2025-08-20T00:00:00.000Z",
+              "quote": "During the Authority’s investigation, WoS located additional material relating to the Complainant which they had failed to identify during the initial DSAR process."
+            },
+            {
+              "url": "https://www.odpa.gg/news/enforcement-order-issued-watches-switzerland-company-limited",
+              "title": "Enforcement Order issued to Watches of Switzerland Company Limited | ODPA",
+              "publishedAt": "2025-08-20T00:00:00.000Z",
+              "quote": "The Authority determined that WoS had breached an operative provision of the Law, namely section 15 relating to Right of Access as follows:"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "The Science Based Targets initiative verified the group's near-term emissions reduction target.",
+        "The group linked financing costs on its £225 million revolving credit facility to sustainability performance, including annual greenhouse gas emissions reductions."
+      ]
+    }
+  }
+}

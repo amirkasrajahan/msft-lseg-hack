@@ -1,0 +1,80 @@
+{
+  "ticker": "GFRD",
+  "generatedAt": "2026-10-23T13:39:47.546Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "An FRC review identified accounting errors that overstated Galliford Try’s net assets by £94.3 million at June 2018, prompting corrections to its financial statements.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.frc.org.uk/news-and-events/news/2020/03/findings-of-the-frc-in-respect-of-the-report-and-accounts-of-galliford-try-plc/",
+              "title": "Findings of the FRC in respect of the report and accounts of Galliford Try plc",
+              "publishedAt": "2020-03-12T00:00:00.000Z",
+              "quote": "The total effect of all the errors identified was to overstate net assets by £94.3m at 30 June 2018."
+            },
+            {
+              "url": "https://www.frc.org.uk/news-and-events/news/2020/03/findings-of-the-frc-in-respect-of-the-report-and-accounts-of-galliford-try-plc/",
+              "title": "Findings of the FRC in respect of the report and accounts of Galliford Try plc",
+              "publishedAt": "2020-03-12T00:00:00.000Z",
+              "quote": "It has corrected this error by way of a prior year adjustment to reduce retained earnings at each of those dates by £64.8m, net of tax."
+            },
+            {
+              "url": "https://www.frc.org.uk/news-and-events/news/2020/03/findings-of-the-frc-in-respect-of-the-report-and-accounts-of-galliford-try-plc/",
+              "title": "Findings of the FRC in respect of the report and accounts of Galliford Try plc",
+              "publishedAt": "2020-03-12T00:00:00.000Z",
+              "quote": "This adjustment would have increased cost of sales and reduced profit before tax in the years to 30 June 2016 and earlier, 30 June 2017, and 30 June 2018 by £13.8m, £8.7m, and £4.6m, respectively."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "Legal action involving Galliford Try Infrastructure over the Cairngorm funicular’s original construction reached an out-of-court settlement after structural problems left the railway closed for four years.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/uk-scotland-highlands-islands-66520877",
+              "title": "Agency secures £11m settlement over Cairngorm funicular - BBC News",
+              "publishedAt": "2023-08-16T00:00:00.000Z",
+              "quote": "A Scottish government agency has received a total of £11m in out-of-court settlements relating to the Cairngorm funicular."
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/uk-scotland-highlands-islands-66520877",
+              "title": "Agency secures £11m settlement over Cairngorm funicular - BBC News",
+              "publishedAt": "2023-08-16T00:00:00.000Z",
+              "quote": "HIE had been pursuing legal action in the Court of Session against construction company Galliford Try Infrastructure Ltd and designer AF Cruden Associates Ltd over work done in the 1990s and early 2000s."
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/uk-scotland-highlands-islands-66520877",
+              "title": "Agency secures £11m settlement over Cairngorm funicular - BBC News",
+              "publishedAt": "2023-08-16T00:00:00.000Z",
+              "quote": "The UK's highest railway reopened in January after four years out of action.\n\nIt had been shut down because of structural problems."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "fair_wages": {
+      "incidents": [],
+      "positives": [
+        "Galliford Try announced that it would pay employees in line with the real living wage.",
+        "Galliford Try announced a one-off payment of up to £750 for almost half its staff to help with the cost-of-living crisis."
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "ticker": "ENT",
+  "generatedAt": "2026-10-23T13:38:35.363Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Entain agreed to pay £615 million under a court-approved deferred prosecution agreement resolving alleged failures to prevent bribery at its former Turkish business.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.kentonline.co.uk/news/national/entain-reaches-final-approval-on-deferred-prosecution-agreement-with-cps-105248/",
+              "title": "Entain reaches final approval on deferred prosecution agreement with CPS",
+              "publishedAt": "2023-12-05T16:53:49.000Z",
+              "quote": "A High Court judge officially approved a deferred prosecution agreement (DPA) between Entain and the Crown Prosecution Service (CPS) on Tuesday to settle an HM Revenue & Customs (HMRC) investigation into the company."
+            },
+            {
+              "url": "https://www.kentonline.co.uk/news/national/entain-reaches-final-approval-on-deferred-prosecution-agreement-with-cps-105248/",
+              "title": "Entain reaches final approval on deferred prosecution agreement with CPS",
+              "publishedAt": "2023-12-05T16:53:49.000Z",
+              "quote": "Entain had reached an agreement with HMRC to pay a penalty of £585 million plus a further £10 million to cover the investigation and a £20 million charitable donation, which will be paid out over a four-year period."
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Entain",
+              "title": "Entain",
+              "quote": "the conduct which is the subject of the DPA relates to alleged failure by GVC to prevent bribery contrary to Section 7 of the Bribery Act 2010 between July 2011 and December 2017."
+            }
+          ],
+          "severity": 4
+        },
+        {
+          "year": 2024,
+          "summary": "AUSTRAC commenced civil penalty proceedings against Entain's Australian subsidiary alleging systemic anti-money-laundering failures and inadequate board and senior-management oversight.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.austrac.gov.au/news-and-media/media-release/austrac-takes-ladbrokes-and-neds-operator-entain-federal-court-over-serious-non-compliance-australias-money-laundering-laws",
+              "title": "Entain – to Federal Court over serious non-compliance ... - AUSTRAC",
+              "quote": "Today, AUSTRAC commenced civil penalty proceedings in the Federal Court against Entain Group Pty Ltd (Entain), which operates online betting sites including Ladbrokes, Neds and other online betting brands."
+            },
+            {
+              "url": "https://www.austrac.gov.au/news-and-media/media-release/austrac-takes-ladbrokes-and-neds-operator-entain-federal-court-over-serious-non-compliance-australias-money-laundering-laws",
+              "title": "Entain – to Federal Court over serious non-compliance ... - AUSTRAC",
+              "quote": "The proceedings allege serious and systemic non-compliance with Australia’s anti-money laundering and counter-terrorism financing (AML/CTF) laws."
+            },
+            {
+              "url": "https://www.austrac.gov.au/news-and-media/media-release/austrac-takes-ladbrokes-and-neds-operator-entain-federal-court-over-serious-non-compliance-australias-money-laundering-laws",
+              "title": "Entain – to Federal Court over serious non-compliance ... - AUSTRAC",
+              "quote": "Entain’s board and senior management did not have appropriate oversight of its AML/CTF program, which limited its ability to identify the ML/TF risks it faced and its vulnerability to criminal exploitation."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "customer_practices": {
+      "incidents": [],
+      "positives": [
+        "Entain contributed £18.7 million to UK gambling research, education and treatment."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Entain purchased just under 100% of its UK and Republic of Ireland electricity from renewable sources."
+      ]
+    }
+  }
+}

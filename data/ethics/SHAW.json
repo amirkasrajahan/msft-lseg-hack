@@ -1,0 +1,67 @@
+{
+  "ticker": "SHAW",
+  "generatedAt": "2026-10-23T13:57:34.010Z",
+  "coverage": "full",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Shawbrook lost its judicial review of Financial Ombudsman decisions concerning mis-sold timeshares, while the National Timeshare Helpline subsequently alleged that compensation remained unpaid.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.national-timeshare-helpline.org.uk/blog/huge-losses-for-shawbrook-for-years-to-come",
+              "title": "Huge Losses For Shawbrook For Years To Come?",
+              "publishedAt": "2024-04-08T00:00:00.000Z",
+              "quote": "Final decisions by the Financial Ombudsman Service and a failed judicial review by Shawbrook Bank in 2023 led to ratification in the High Court that CLC World and Diamond Fractional members were illegally mis-sold their timeshares as investments."
+            },
+            {
+              "url": "https://www.national-timeshare-helpline.org.uk/blog/the-shawbrook-bank-and-financial-ombudsman-fostimeshare-scandal",
+              "title": "The Shawbrook Bank and Financial Ombudsman (FOS)Timeshare Scandal",
+              "publishedAt": "2024-01-17T00:00:00.000Z",
+              "quote": "Despite a Financial Ombudsman Service (FOS) final decision in 2021 and a High Court ruling by Mrs Justice Collins Rice on the 5th of May 2023 in favour of the victims, Shawbrook Bank has yet to pay a penny to those affected by the mis-sold timeshare scandal."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2016,
+          "summary": "Shawbrook disclosed that one unit had issued low-quality loans in breach of internal risk rules and set aside £9 million against potential defaults and losses.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.national-timeshare-helpline.org.uk/blog/huge-losses-for-shawbrook-for-years-to-come",
+              "title": "Huge Losses For Shawbrook For Years To Come?",
+              "publishedAt": "2024-04-08T00:00:00.000Z",
+              "quote": "In 2016, Shawbrook Bank shocked investors by revealing that one of its units accidentally gave out low-quality loans that broke internal risk rules."
+            },
+            {
+              "url": "https://www.national-timeshare-helpline.org.uk/blog/huge-losses-for-shawbrook-for-years-to-come",
+              "title": "Huge Losses For Shawbrook For Years To Come?",
+              "publishedAt": "2024-04-08T00:00:00.000Z",
+              "quote": "As a result, it has had to set aside £9m to secure against the likelihood of future defaults and losses on those loans."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Shawbrook used external climate data to complete a quantitative climate-scenario assessment for its TCFD report."
+      ]
+    }
+  }
+}

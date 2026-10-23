@@ -1,0 +1,13 @@
+{
+  "ticker": "UTG",
+  "generatedAt": "2026-10-23T14:01:16.732Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "SGS independently verified Unite Group's 2025 greenhouse-gas emissions assertion under ISO 14064-3:2019."
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "ticker": "FOXT",
+  "generatedAt": "2026-10-23T14:05:07.853Z",
+  "coverage": "partial",
+  "causes": {
+    "diversity_inclusion": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Former Foxtons employees alleged sexual harassment and racism spanning 2021–2024, with further complainants coming forward in April 2025; Foxtons said it had investigated and taken action where incidents were reported.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.hrgrapevine.com/content/article/2025-04-09-more-former-foxton-staff-allege-sexual-harassment-racism",
+              "title": "More former Foxtons staff allege sexual harassment & racism | HR Management | HR Grapevine | News",
+              "publishedAt": "2025-04-09T00:00:00.000Z",
+              "quote": "Two further former employees of Foxtons have come forward with allegations of sexual harassment and racism, weeks after a Bloomberg investigation first detailed claims of groping, sexual propositions, and racist language."
+            },
+            {
+              "url": "https://www.propertywire.com/news/foxtons-implicated-in-harassment-scandal/",
+              "title": "Foxtons implicated in harassment scandal - PropertyWire",
+              "publishedAt": "2025-02-28T00:00:00.000Z",
+              "quote": "The allegations took place between 2021 and late 2024."
+            },
+            {
+              "url": "https://the-property-managers.com/ex-foxtons-staff-allege-sexual-harassment-and-racism-at-the-estate-agency/",
+              "title": "Ex-Foxtons staff allege sexual harassment and racism at the estate agency – The Property Managers",
+              "publishedAt": "2025-04-09T00:00:00.000Z",
+              "quote": "We have investigated and taken robust action where these incidents have been reported."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "customer_practices": {
+      "incidents": [],
+      "positives": [
+        "Foxtons partnered with Kamma to give all its agents access to regulatory compliance management and checking services."
+      ]
+    }
+  }
+}

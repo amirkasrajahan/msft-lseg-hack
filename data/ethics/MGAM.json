@@ -1,0 +1,73 @@
+{
+  "ticker": "MGAM",
+  "generatedAt": "2026-10-23T13:49:29.103Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2003,
+          "summary": "The European Commission found that Morgan participated in an illegal cartel in electrical and mechanical carbon and graphite products, but Morgan escaped a fine after disclosing the cartel.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.lawglobalhub.com/deutsche-bahn-ag-and-others-v-morgan-advanced-materials-plc-formerly-morgan-crucible-co-plc/",
+              "title": "Deutsche Bahn AG and others v Morgan Advanced Materials Plc (formerly Morgan Crucible Co Plc) - LawGlobal Hub",
+              "publishedAt": "2023-11-28T00:00:00.000Z",
+              "quote": "The appellant and others operated an illegal cartel in the sector of electrical and mechanical carbon and graphite products."
+            },
+            {
+              "url": "https://www.lawglobalhub.com/deutsche-bahn-ag-and-others-v-morgan-advanced-materials-plc-formerly-morgan-crucible-co-plc/",
+              "title": "Deutsche Bahn AG and others v Morgan Advanced Materials Plc (formerly Morgan Crucible Co Plc) - LawGlobal Hub",
+              "publishedAt": "2023-11-28T00:00:00.000Z",
+              "quote": "The appellant as whistle- blower disclosed the existence of the cartel to the Commission and a Commission Decision finding that article 81(1) had been infringed by the members of the cartel was issued on 3 December 2003."
+            },
+            {
+              "url": "https://www.lawglobalhub.com/deutsche-bahn-ag-and-others-v-morgan-advanced-materials-plc-formerly-morgan-crucible-co-plc/",
+              "title": "Deutsche Bahn AG and others v Morgan Advanced Materials Plc (formerly Morgan Crucible Co Plc) - LawGlobal Hub",
+              "publishedAt": "2023-11-28T00:00:00.000Z",
+              "quote": "The appellant escaped any fine."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Morgan experienced unauthorized network activity in January 2023 that left some systems irrecoverable, with recovery reported as substantially complete in March 2024.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.itpro.com/security/cyber-attacks/morgan-advanced-materials-still-unable-to-restore-systems-after-january-cyber-attack",
+              "title": "Morgan Advanced Materials still unable to restore systems after January cyber attack | IT Pro",
+              "publishedAt": "2023-04-28T00:00:00.000Z",
+              "quote": "Morgan experienced a cyber security incident in January 2023, having detected unauthorized activity on the network."
+            },
+            {
+              "url": "https://www.itpro.com/security/cyber-attacks/morgan-advanced-materials-still-unable-to-restore-systems-after-january-cyber-attack",
+              "title": "Morgan Advanced Materials still unable to restore systems after January cyber attack | IT Pro",
+              "publishedAt": "2023-04-28T00:00:00.000Z",
+              "quote": "a small number of systems have proven irrecoverable and so we are accelerating the implementation of a new cloud-based ERP solution at the affected sites"
+            },
+            {
+              "url": "https://www.investegate.co.uk/announcement/rns/morgan-advanced-materials--mgam/morgan-advanced-materials-full-year-2023-results-/8082234",
+              "title": "Morgan Advanced Materials Full Year 2023 Results  | Company Announcement | Investegate",
+              "publishedAt": "2024-03-12T00:00:00.000Z",
+              "quote": "Recovery from cyber security incident now substantially complete"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

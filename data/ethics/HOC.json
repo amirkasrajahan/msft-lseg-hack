@@ -1,0 +1,73 @@
+{
+  "ticker": "HOC",
+  "generatedAt": "2026-10-23T13:43:44.163Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2020,
+          "summary": "Residents of Cayarani reported alleged cyanide contamination of their land and Lake Machuccocha associated with mining by Hochschild subsidiary Ares, with the environmental regulator requesting responses from other authorities.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.servindi.org/actualidad-noticias/04/03/2020/oefa-no-atiende-denuncia-de-comunidades-contaminadas-por-mineria",
+              "title": "Denuncian contaminación con cianuro por minera Hochschild Mining | Servindi - Servicios de Comunicación Intercultural",
+              "publishedAt": "2020-03-06T00:00:00.000Z",
+              "quote": "Comuneros de Cayarani, provincia de Castilla, en Arequipa, denunciaron ante el Organismo de Evaluación y Fiscalización Ambiental (OEFA) la contaminación con cianuro en sus tierras y la laguna Machuccocha, producto de actividades mineras."
+            },
+            {
+              "url": "https://www.servindi.org/actualidad-noticias/04/03/2020/oefa-no-atiende-denuncia-de-comunidades-contaminadas-por-mineria",
+              "title": "Denuncian contaminación con cianuro por minera Hochschild Mining | Servindi - Servicios de Comunicación Intercultural",
+              "publishedAt": "2020-03-06T00:00:00.000Z",
+              "quote": "Desde 1998 la compañía minera Ares del grupo Hochschild Mining extrae oro y plata utilizando cianuro, un químico altamente letal y considerado indispensable para dicha actividad."
+            },
+            {
+              "url": "https://www.servindi.org/actualidad-noticias/04/03/2020/oefa-no-atiende-denuncia-de-comunidades-contaminadas-por-mineria",
+              "title": "Denuncian contaminación con cianuro por minera Hochschild Mining | Servindi - Servicios de Comunicación Intercultural",
+              "publishedAt": "2020-03-06T00:00:00.000Z",
+              "quote": "Ante ello, el OEFA respondió el 31 de enero del presente, que ha solicitado a la Administración Local del Agua Camaná Majes y a la Administración Técnica Forestal y de Fauna Silvestre Arequipa que informen las acciones y medidas a tomar con relación a la denuncia."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2020,
+          "summary": "A death at Hochschild's Pallancata mine in 2020 prompted criticism from Glass Lewis when the chief executive's health-and-safety-linked bonus still made a partial payout.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.cityam.com/hochschild-mining-braces-for-investor-revolt-as-proxy-advisers-continue-to-flex-their-muscles/",
+              "title": "Hochschild Mining braces for investor revolt as proxy advisers continue to flex their muscles",
+              "publishedAt": "2021-05-24T00:00:00.000Z",
+              "quote": "It’s said to be related to a death last year at the Pallancata mine in Peru."
+            },
+            {
+              "url": "https://www.cityam.com/hochschild-mining-braces-for-investor-revolt-as-proxy-advisers-continue-to-flex-their-muscles/",
+              "title": "Hochschild Mining braces for investor revolt as proxy advisers continue to flex their muscles",
+              "publishedAt": "2021-05-24T00:00:00.000Z",
+              "quote": "Chief executive Ignacio Bustamante was paid $1.9m last year, and the portion of the annual bonus linked to health and safety made a partial payout."
+            },
+            {
+              "url": "https://www.cityam.com/hochschild-mining-braces-for-investor-revolt-as-proxy-advisers-continue-to-flex-their-muscles/",
+              "title": "Hochschild Mining braces for investor revolt as proxy advisers continue to flex their muscles",
+              "publishedAt": "2021-05-24T00:00:00.000Z",
+              "quote": "Hochschild Mining declined to comment."
+            }
+          ],
+          "severity": 4
+        }
+      ],
+      "positives": []
+    }
+  }
+}

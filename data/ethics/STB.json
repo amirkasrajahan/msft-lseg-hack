@@ -1,0 +1,40 @@
+{
+  "ticker": "STB",
+  "generatedAt": "2026-10-23T14:06:46.417Z",
+  "coverage": "partial",
+  "causes": {
+    "customer_practices": {
+      "incidents": [
+        {
+          "year": 2025,
+          "summary": "Secure Trust Bank set aside £21 million for expected motor-finance mis-selling redress and subsequently sold its remaining vehicle-finance loan book.",
+          "relativeScale": 5,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/business/finance/uks-secure-trust-raises-motor-finance-mis-selling-charge-28-million-2025-10-20/",
+              "title": "UK's Secure Trust raises motor finance mis-selling charge to $28 million | Reuters",
+              "publishedAt": "2025-10-20T00:00:00.000Z",
+              "quote": "Oct 20 (Reuters) - Britain's Secure Trust Bank (STBS.L), opens new tab on Monday said it would need provisions of about 21 million pounds ($28.2 million) for compensating customers of the motor financing mis-selling scandal, roughly 16 million pounds higher than its previous projection."
+            },
+            {
+              "url": "https://www.cityam.com/secure-trust-bank-sells-motor-finance-arm-after-21m-hit/",
+              "title": "Secure Trust Bank sells motor finance arm after £21m hit",
+              "publishedAt": "2026-02-05T00:00:00.000Z",
+              "quote": "It comes after the firm set aside £21m in provisions for the forthcoming sector redress scheme."
+            },
+            {
+              "url": "https://www.cityam.com/secure-trust-bank-sells-motor-finance-arm-after-21m-hit/",
+              "title": "Secure Trust Bank sells motor finance arm after £21m hit",
+              "publishedAt": "2026-02-05T00:00:00.000Z",
+              "quote": "The bank sold its remaining vehicle finance loan book to European Alternative Investment Fund Manager LCM Partners in a move expected to increase the bank’s CET1 ratio – a crucial metric of a bank’s financial strength – by 180 basis points and generate a net gain of £9m."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

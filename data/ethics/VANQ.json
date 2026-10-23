@@ -1,0 +1,34 @@
+{
+  "ticker": "VANQ",
+  "generatedAt": "2026-10-23T14:07:26.196Z",
+  "coverage": "partial",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Vanquis Banking Group was reported to have £52 million in accounting errors and to have been forced to announce £40 million of write-downs.",
+          "relativeScale": 5,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.thetimes.com/business/companies-markets/article/former-doorstep-lender-hit-by-52m-in-accounting-errors-xklx7ghll",
+              "title": "Former doorstep lender hit by £52m in accounting errors",
+              "publishedAt": "2024-07-16T00:00:00.000Z",
+              "quote": "Former doorstep lender hit by £52m in accounting errors"
+            },
+            {
+              "url": "https://www.thetimes.com/business/companies-markets/article/former-doorstep-lender-hit-by-52m-in-accounting-errors-xklx7ghll",
+              "title": "Former doorstep lender hit by £52m in accounting errors",
+              "publishedAt": "2024-07-16T00:00:00.000Z",
+              "quote": "Vanquis Banking Group forced to announce £40 million of write-downs and issued warnings over capital ratio targets"
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

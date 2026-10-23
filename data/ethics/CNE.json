@@ -1,0 +1,40 @@
+{
+  "ticker": "CNE",
+  "generatedAt": "2026-10-23T14:04:59.432Z",
+  "coverage": "partial",
+  "causes": {
+    "tax_transparency": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Capricorn disputed a Senegalese tax notice claiming unpaid registration duty and capital gains tax on its sale of Senegal interests, with claims totaling USD 42.7 million including penalties and interest.",
+          "relativeScale": 3,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.energyvoice.com/oilandgas/africa/ep-africa/541380/capricorn-receives-tax-notice-on-senegal-exit/",
+              "title": "Capricorn receives tax notice on Senegal exit",
+              "publishedAt": "2023-11-15T00:00:00.000Z",
+              "quote": "The notice claims Capricorn should have paid registration duty on the transfer. Furthermore, Woodside should have withheld capital gains tax."
+            },
+            {
+              "url": "https://www.energyvoice.com/oilandgas/africa/ep-africa/541380/capricorn-receives-tax-notice-on-senegal-exit/",
+              "title": "Capricorn receives tax notice on Senegal exit",
+              "publishedAt": "2023-11-15T00:00:00.000Z",
+              "quote": "The former claim is worth $28.2 million, while the latter is $14.5mn. Both include penalties and interest."
+            },
+            {
+              "url": "https://www.energyvoice.com/oilandgas/africa/ep-africa/541380/capricorn-receives-tax-notice-on-senegal-exit/",
+              "title": "Capricorn receives tax notice on Senegal exit",
+              "publishedAt": "2023-11-15T00:00:00.000Z",
+              "quote": "Under the agreement with Woodside, Capricorn is responsible for registration and capital gains payments."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

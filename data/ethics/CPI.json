@@ -1,0 +1,37 @@
+{
+  "ticker": "CPI",
+  "generatedAt": "2026-10-23T14:04:31.340Z",
+  "coverage": "partial",
+  "causes": {
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2023,
+          "summary": "Capita was fined £14 million for security failings in a March 2023 cyberattack that exposed the personal information of 6.6 million people.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/10/capita-fined-14m-for-data-breach-affecting-over-6m-people/",
+              "title": "Capita fined £14m for data breach affecting over 6m people | ICO",
+              "quote": "We have issued a fine of £14m to Capita for failing to ensure the security of personal data related to a breach in 2023 that saw hackers steal millions of people’s information."
+            },
+            {
+              "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/10/capita-fined-14m-for-data-breach-affecting-over-6m-people/",
+              "title": "Capita fined £14m for data breach affecting over 6m people | ICO",
+              "quote": "The personal information of 6.6 million people was stolen, from pension records and staff records to the details of customers of organisations Capita supports."
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c9d6yxdq3d2o",
+              "title": "Capita fined £14m for cyber-attack which affected millions - BBC",
+              "quote": "The proposed £45m fine was taken down to £14m after Capita argued it had made improvements to its cyber-security, offered support for people affected and engaged with other regulators and the National Cyber Security Centre (NCSC)."
+            }
+          ],
+          "severity": 4
+        }
+      ],
+      "positives": []
+    }
+  }
+}

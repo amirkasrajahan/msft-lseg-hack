@@ -1,0 +1,101 @@
+{
+  "ticker": "ENOG",
+  "generatedAt": "2026-10-23T13:38:24.090Z",
+  "coverage": "full",
+  "causes": {
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Israel's environmental ministry fined Energean NIS 878,000 for a Karish drilling permit violation involving cement dumped into the sea.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://en.globes.co.il/en/article-energean-fined-for-karish-drilling-violations-1001353693",
+              "title": "Energean fined for Karish drilling violation - Globes",
+              "publishedAt": "2020-12-20T00:00:00.000Z",
+              "quote": "Israel's Ministry of Environmental Protection has fined Energean Oil & Gas plc (LSE: ENOG; TASE: ENOG) NIS 878,000 for violating the terms of its permit"
+            },
+            {
+              "url": "https://en.globes.co.il/en/article-energean-fined-for-karish-drilling-violations-1001353693",
+              "title": "Energean fined for Karish drilling violation - Globes",
+              "publishedAt": "2020-12-20T00:00:00.000Z",
+              "quote": "The drilling ship violated the instruction of the permit for gas flow from the sea and during its routine operations dumped cement into the sea."
+            },
+            {
+              "url": "https://en.globes.co.il/en/article-energean-fined-for-karish-drilling-violations-1001353693",
+              "title": "Energean fined for Karish drilling violation - Globes",
+              "publishedAt": "2020-12-20T00:00:00.000Z",
+              "quote": "We respect the decision of the Ministry of Environmental Protection and will work accordingly."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "A union solidarity statement alleged that Energean's Kavala restructuring led to all 185 plant workers being dismissed, while a 2024 report said the court acquitted 136 workers of all charges in the associated dispute.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://ecology.iww.org/node/4973",
+              "title": "Solidarity with the Workers at Kavala Oil | ecology.iww.org",
+              "publishedAt": "2022-05-08T00:00:00.000Z",
+              "quote": "In April 2021, Energean announced a unilateral restructuring program which in mass layoffs with the intention to replacing highly skilled and experienced permanent workers with unskilled contract workers."
+            },
+            {
+              "url": "https://ecology.iww.org/node/4973",
+              "title": "Solidarity with the Workers at Kavala Oil | ecology.iww.org",
+              "publishedAt": "2022-05-08T00:00:00.000Z",
+              "quote": "Despite the incredible effort of the union workers, the layoffs have continued and all 185 workers at the plant have now been dismissed, leaving the facility unstaffed."
+            },
+            {
+              "url": "https://www.rizospastis.gr/story.do?id=12499987",
+              "title": "Αθωώθηκαν οι περισσότεροι από τις χαλκευμένες κατηγορίες της εργοδοσίας | ΕΡΓΑΤΙΚΑ | ΡΙΖΟΣΠΑΣΤΗΣ",
+              "publishedAt": "2024-04-24T00:00:00.000Z",
+              "quote": "Το Τριμελές Πλημμελειοδικείο Kαβάλας ομόφωνα αθώωσε τους 136 εργαζόμενους και για τις 11 κατηγορίες για τις οποίες διώκονταν."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2022,
+          "summary": "A union solidarity statement reported an explosion and tank fire at Kavala Oil on 9 April 2022 that took more than five hours to extinguish, with no injuries.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://ecology.iww.org/node/4973",
+              "title": "Solidarity with the Workers at Kavala Oil | ecology.iww.org",
+              "publishedAt": "2022-05-08T00:00:00.000Z",
+              "quote": "On Saturday the 9th of April 2022, an explosion occurred, and a large fire broke out in a tank of the Kavala Oil facilities, which contained water and residues of oils and petroleum products."
+            },
+            {
+              "url": "https://ecology.iww.org/node/4973",
+              "title": "Solidarity with the Workers at Kavala Oil | ecology.iww.org",
+              "publishedAt": "2022-05-08T00:00:00.000Z",
+              "quote": "It took the firefighters more than 5 hours to extinguish the fire."
+            },
+            {
+              "url": "https://ecology.iww.org/node/4973",
+              "title": "Solidarity with the Workers at Kavala Oil | ecology.iww.org",
+              "publishedAt": "2022-05-08T00:00:00.000Z",
+              "quote": "The facility was not in operation and fortunately there were no injuries."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

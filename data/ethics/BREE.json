@@ -1,0 +1,77 @@
+{
+  "ticker": "BREE",
+  "generatedAt": "2026-10-23T13:33:50.017Z",
+  "coverage": "full",
+  "causes": {
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2020,
+          "summary": "Breedon subsidiary Whitemountain Quarries was fined €1.2 million after pleading guilty to roadworks safety breaches that the court attributed to the deaths of a father and two children.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cdj029r71m4o",
+              "title": "Letterkenny Circuit Court: Roadworks company fined €1.2m after father and two children die in lough - BBC News",
+              "publishedAt": "2026-07-31T00:00:00.000Z",
+              "quote": "A roadworks company that pleaded guilty to health and safety breaches has been fined €1.2m at Letterkenny Circuit Criminal Court following the deaths of a man and two children."
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cdj029r71m4o",
+              "title": "Letterkenny Circuit Court: Roadworks company fined €1.2m after father and two children die in lough - BBC News",
+              "publishedAt": "2026-07-31T00:00:00.000Z",
+              "quote": "Judge Roderick Maguire said three people had died due to the failures of Whitemountain Quarries Limited."
+            },
+            {
+              "url": "https://www.rte.ie/news/ireland/2026/0731/1586041-donegal-whitemountain-quarries/",
+              "title": "Company fined €1.2m over breaches after fatal crash",
+              "publishedAt": "2026-07-31T00:00:00.000Z",
+              "quote": "Whitemountain Quarries Limited, a Breedon Group company, pleaded guilty to breaches of the Safety, Health and Welfare at Work Act 2005."
+            }
+          ],
+          "severity": 5
+        }
+      ],
+      "positives": []
+    },
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "A court fined Breedon Group €350,000 for endangering quarry workers in a blasting incident involving flyrock.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.globalcement.com/news/14064-breedon-group-receives-dangerous-blasting-fine",
+              "title": "Breedon Group receives dangerous blasting fine - Cement Sector News - Global Cement",
+              "publishedAt": "2021-12-09T00:00:00.000Z",
+              "quote": "UK: A court has fined Breedon Group Euro350,000 for endangering workers at one of its quarries."
+            },
+            {
+              "url": "https://www.globalcement.com/news/14064-breedon-group-receives-dangerous-blasting-fine",
+              "title": "Breedon Group receives dangerous blasting fine - Cement Sector News - Global Cement",
+              "publishedAt": "2021-12-09T00:00:00.000Z",
+              "quote": "Environmental Data Services News has reported that a blast caused a flyrock projection event as workers set off explosives at the quarry."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": [
+        "Breedon Cement received a Distinction Award at the NISO/NISG Annual Safety Awards."
+      ]
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Breedon signed a 15-year agreement with RWE to supply approximately 70 GWh of renewable electricity annually to its Great Britain sites.",
+        "Breedon's CDP Climate Change rating improved from B to A- in the first half of 2025.",
+        "Breedon upgraded its Dublin Port Bitumen Terminal with modern boilers and flue gas economisers to improve energy efficiency and enable natural-gas operation."
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "ticker": "SRE",
+  "generatedAt": "2026-10-23T13:58:21.731Z",
+  "coverage": "full",
+  "causes": {
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Sirius provided 100% certified green energy to over 94% of its portfolio.",
+        "Sirius Renewable Energy completed installation and commissioning of a rooftop photovoltaic system at Sigma Technopark Augsburg in June 2024."
+      ]
+    },
+    "biodiversity": {
+      "incidents": [],
+      "positives": [
+        "Sirius implemented a biodiversity strategy involving tree and wildflower meadow planting across green spaces in its German portfolio."
+      ]
+    }
+  }
+}

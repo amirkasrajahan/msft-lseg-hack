@@ -1,0 +1,95 @@
+{
+  "ticker": "TPK",
+  "generatedAt": "2026-10-23T14:01:47.547Z",
+  "coverage": "full",
+  "causes": {
+    "labour_rights": {
+      "incidents": [
+        {
+          "year": 2020,
+          "summary": "Travis Perkins was fined £2 million and ordered to pay £85,000 in costs after unsecured timber fell from its lorry and killed Jack Stevens in May 2020.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://motortransport.co.uk/travis-perkins-fined-2m-for-hgv-unsecured-timber-fatality/25402.article",
+              "title": "Travis Perkins has been fined £2m after timber fell off one of its lorries and onto a car in Sussex, killing the driver. | Motor Transport",
+              "publishedAt": "2025-01-24T00:00:00.000Z",
+              "quote": "Travis Perkins admitted three offences contrary to the Health and Safety at Work Act and as well as the seven-figure fine, it was also ordered to pay costs of £85,000."
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/cvge84vmy3no",
+              "title": "Newhaven: Travis Perkins fined after falling plank kills driver",
+              "publishedAt": "2025-01-23T00:00:00.000Z",
+              "quote": "Jack Stevens, 28, was driving his BMW along the A26 in Newhaven in May 2020 when a wood plank fell from a Travis Perkins lorry and went through his windscreen."
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/cvge84vmy3no",
+              "title": "Newhaven: Travis Perkins fined after falling plank kills driver",
+              "publishedAt": "2025-01-23T00:00:00.000Z",
+              "quote": "It said it has carried out an internal investigation and implemented \"enhanced\" training, adding: \"We strive to ensure an incident like this is never repeated.\""
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2023,
+          "summary": "A tribunal ruled that Travis Perkins pushed a branch manager to resign by bringing trumped-up misconduct allegations after he decided to work for a competitor.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.law360.com/articles/1682484/travis-perkins-manager-was-forced-to-quit-by-witch-hunt",
+              "title": "Travis Perkins Manager Was Forced To Quit By 'Witch Hunt' - Law360",
+              "publishedAt": "2023-05-31T00:00:00.000Z",
+              "quote": "A tribunal has ruled that Travis Perkins PLC pushed a branch manager to resign without notice, finding that it launched a \"witch hunt\" to bring trumped-up misconduct allegations to damage his reputation after he decided to work for a competitor."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "fair_wages": {
+      "incidents": [
+        {
+          "year": 2019,
+          "summary": "Wickes, then a wholly owned Travis Perkins subsidiary, underpaid 1,871 workers by £17,186.64, with the underpayment settled in 2019.",
+          "relativeScale": 1,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.mynewsmag.co.uk/minor-unintentional-breach-company-failed-to-pay-minimum-wage-to-nearly-2000-employees/",
+              "title": "\"MINOR UNINTENTIONAL BREACH\": Company failed to pay minimum wage to nearly 2,000 employees - My News Mag",
+              "publishedAt": "2024-03-11T00:00:00.000Z",
+              "quote": "Included on the list is Wickes Building Supplies Limited in Watford, which failed to pay 1,871 of its workers £17,186.64."
+            },
+            {
+              "url": "https://www.mynewsmag.co.uk/minor-unintentional-breach-company-failed-to-pay-minimum-wage-to-nearly-2000-employees/",
+              "title": "\"MINOR UNINTENTIONAL BREACH\": Company failed to pay minimum wage to nearly 2,000 employees - My News Mag",
+              "publishedAt": "2024-03-11T00:00:00.000Z",
+              "quote": "At that time, Wickes was a wholly owned subsidiary of TPG."
+            },
+            {
+              "url": "https://www.mynewsmag.co.uk/minor-unintentional-breach-company-failed-to-pay-minimum-wage-to-nearly-2000-employees/",
+              "title": "\"MINOR UNINTENTIONAL BREACH\": Company failed to pay minimum wage to nearly 2,000 employees - My News Mag",
+              "publishedAt": "2024-03-11T00:00:00.000Z",
+              "quote": "The error was related to colleague lottery and the end of shifts being incorrectly recorded. It was rectified immediately, with the underpayment settled in 2019."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Travis Perkins has an SBTi-validated target to reduce absolute Scope 1 and 2 emissions by 46% by 2030 against a 2021 baseline."
+      ]
+    }
+  }
+}

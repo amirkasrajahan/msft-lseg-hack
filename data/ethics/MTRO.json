@@ -1,0 +1,114 @@
+{
+  "ticker": "MTRO",
+  "generatedAt": "2026-10-23T13:47:48.080Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2018,
+          "summary": "The FCA fined Metro Bank £10,002,300 for publishing incorrect risk-weighted asset information in its October 2018 trading update despite knowing the figure was wrong.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.fca.org.uk/news/press-releases/fca-fines-metro-bank-plc-decision-notices-two-former-executives",
+              "title": "FCA fines Metro Bank PLC £10 million and publishes Decision Notices for two of its former executive directors | FCA",
+              "publishedAt": "2022-12-12T00:00:00.000Z",
+              "quote": "The FCA has fined Metro Bank PLC £10,002,300 for breaching the Listing Rules by publishing incorrect information to investors."
+            },
+            {
+              "url": "https://www.fca.org.uk/news/press-releases/fca-fines-metro-bank-plc-decision-notices-two-former-executives",
+              "title": "FCA fines Metro Bank PLC £10 million and publishes Decision Notices for two of its former executive directors | FCA",
+              "publishedAt": "2022-12-12T00:00:00.000Z",
+              "quote": "Metro Bank was aware at the time that this figure was wrong and failed to qualify it or explain in the October Announcement that it was subject to an ongoing review and would require a substantial correction."
+            },
+            {
+              "url": "https://www.fca.org.uk/news/press-releases/fca-fines-metro-bank-plc-decision-notices-two-former-executives",
+              "title": "FCA fines Metro Bank PLC £10 million and publishes Decision Notices for two of its former executive directors | FCA",
+              "publishedAt": "2022-12-12T00:00:00.000Z",
+              "quote": "The FCA considers that Mr Donaldson and Mr Arden were knowingly concerned in Metro Bank’s breach of the Listing Rules."
+            }
+          ],
+          "severity": 2
+        },
+        {
+          "year": 2016,
+          "summary": "The FCA fined Metro Bank £16,675,200 for transaction-monitoring failures spanning June 2016 to December 2020, with the bank subsequently reporting that it had resolved the failings.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.financialinstitutionsnews.com/2024/11/12/fca-fines-metro-bank-16m-for-financial-crime-control-failings/",
+              "title": "FCA fines Metro Bank £16m for financial crime control failings | FIN.",
+              "publishedAt": "2024-11-12T00:00:00.000Z",
+              "quote": "The FCA has fined Metro Bank PLC £16,675,200 for failures relating to the systems and controls it had in place to monitor transactions for money laundering risks."
+            },
+            {
+              "url": "https://www.financialinstitutionsnews.com/2024/11/12/fca-fines-metro-bank-16m-for-financial-crime-control-failings/",
+              "title": "FCA fines Metro Bank £16m for financial crime control failings | FIN.",
+              "publishedAt": "2024-11-12T00:00:00.000Z",
+              "quote": "The period concerned spanned from June 2016 to December 2020, and there were over 60m transactions with a value of over £51bn."
+            },
+            {
+              "url": "https://www.theguardian.com/business/2024/nov/12/metro-bank-fined-potential-money-laundering-fca",
+              "title": "Metro Bank fined nearly £17m for failure to monitor potential money laundering | Metro Bank | The Guardian",
+              "publishedAt": "2024-11-12T00:00:00.000Z",
+              "quote": "Metro Bank said it accepted the FCA’s findings and has since resolved the monitoring system failings."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "data_privacy": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "The Bank of England examined allegations that Metro Bank's use of disputed coin-counter software put customer data at risk, while the related copyright and licensing lawsuit remained ongoing in 2025.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/business/2024/mar/31/bank-of-england-investigating-claim-metro-bank-put-customers-data-at-risk",
+              "title": "Bank of England investigating claim Metro Bank put customers’ data at risk  | Metro Bank | The Guardian",
+              "publishedAt": "2024-03-31T00:00:00.000Z",
+              "quote": "The Bank of England is examining claims that the high street lender Metro Bank put customers’ data at risk by allegedly misusing software at the centre of a long-running legal dispute."
+            },
+            {
+              "url": "https://www.lawnews.co.uk/legal-news/helix-law-leverages-ai-to-challenge-metro-bank-in-20m-high-court-battle/",
+              "title": "Helix Law Leverages AI to Challenge Metro Bank in $20m High Court Battle - Law News",
+              "publishedAt": "2025-08-22T00:00:00.000Z",
+              "quote": "The dispute centres on claims brought by US software provider Arkeyo LLC, which accuses Metro Bank of breaching copyright and licensing agreements involving the lender’s in-branch coin counting machines."
+            },
+            {
+              "url": "https://www.lawnews.co.uk/legal-news/helix-law-leverages-ai-to-challenge-metro-bank-in-20m-high-court-battle/",
+              "title": "Helix Law Leverages AI to Challenge Metro Bank in $20m High Court Battle - Law News",
+              "publishedAt": "2025-08-22T00:00:00.000Z",
+              "quote": "Helix Law is pursuing mediation on behalf of Arkeyo later this year."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Independent reporting identified Metro Bank among banks with transparent policies against fossil-fuel lending or business models that preclude it.",
+        "KA2 reported receiving an award for its COzPro ESG and sustainability solution developed with Metro Bank."
+      ]
+    },
+    "labour_rights": {
+      "incidents": [],
+      "positives": [
+        "Metro Bank allows employees experiencing separation to update their benefits without waiting for the annual benefits window."
+      ]
+    }
+  }
+}

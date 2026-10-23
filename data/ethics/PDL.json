@@ -1,0 +1,106 @@
+{
+  "ticker": "PDL",
+  "generatedAt": "2026-10-23T14:06:35.007Z",
+  "coverage": "partial",
+  "causes": {
+    "human_rights": {
+      "incidents": [
+        {
+          "year": 2021,
+          "summary": "Petra agreed to an approximately €5 million settlement with 96 Tanzanian claimants following human rights abuses at its Williamson mine, where its investigation confirmed loss of life, injury and mistreatment.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.6,
+          "sources": [
+            {
+              "url": "https://www.business-humanrights.org/en/latest-news/tanzania-a-study-assesses-petra-diamonds-grievance-mechanism-to-remediate-human-rights-abuses-and-risks-that-led-to-court-proceedings-incl-co-response/",
+              "title": "Tanzania:  How Petra Diamonds has used grievance mechanisms to remediate human rights abuses; incl. co. response - Business and Human Rights Centre",
+              "publishedAt": "2023-11-09T00:00:00.000Z",
+              "quote": "Reports of abuse had circulated unaddressed since at least 2011."
+            },
+            {
+              "url": "https://www.business-humanrights.org/en/latest-news/tanzania-a-study-assesses-petra-diamonds-grievance-mechanism-to-remediate-human-rights-abuses-and-risks-that-led-to-court-proceedings-incl-co-response/",
+              "title": "Tanzania:  How Petra Diamonds has used grievance mechanisms to remediate human rights abuses; incl. co. response - Business and Human Rights Centre",
+              "publishedAt": "2023-11-09T00:00:00.000Z",
+              "quote": "which confirmed the loss of life, injury and mistreatment of intruders caused by the mine’s private security guards and police operating on Williamson Diamonds’ concession."
+            },
+            {
+              "url": "https://www.business-humanrights.org/en/latest-news/tanzania-a-study-assesses-petra-diamonds-grievance-mechanism-to-remediate-human-rights-abuses-and-risks-that-led-to-court-proceedings-incl-co-response/",
+              "title": "Tanzania:  How Petra Diamonds has used grievance mechanisms to remediate human rights abuses; incl. co. response - Business and Human Rights Centre",
+              "publishedAt": "2023-11-09T00:00:00.000Z",
+              "quote": "In May 2021, Petra agreed to a settlement with 96 Tanzanian claimants, committing to a detailed settlement package worth approximately €5 million."
+            }
+          ],
+          "severity": 4
+        }
+      ],
+      "positives": []
+    },
+    "biodiversity": {
+      "incidents": [
+        {
+          "year": 2022,
+          "summary": "A tailings dam breach at Petra's Williamson mine flooded nearby houses and farmland, caused three reported minor injuries and prompted a suspension of operations for up to three months.",
+          "relativeScale": 3,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/markets/commodities/petra-diamonds-tanzania-mine-ops-suspended-three-months-2022-11-10/",
+              "title": "Petra Diamonds' Tanzania mine ops suspended for three months | Reuters",
+              "publishedAt": "2022-11-10T00:00:00.000Z",
+              "quote": "has suspended operations at its Williamson mine in Tanzania for up to three months after a wall of the tailings dam at the site was breached earlier this week"
+            },
+            {
+              "url": "https://www.reuters.com/markets/commodities/petra-diamonds-tanzania-mine-ops-suspended-three-months-2022-11-10/",
+              "title": "Petra Diamonds' Tanzania mine ops suspended for three months | Reuters",
+              "publishedAt": "2022-11-10T00:00:00.000Z",
+              "quote": "said there had been no fatalities as a result of the incident and three minor injuries had been reported"
+            },
+            {
+              "url": "https://www.thecitizen.co.tz/tanzania/news/national/nemc-sends-experts-to-assess-dam-breach-at-mwadui-diamond-mine--4013690",
+              "title": "Nemc sends experts to assess dam breach at Mwadui diamond mine | The Citizen",
+              "publishedAt": "2022-11-09T00:00:00.000Z",
+              "quote": "the mud had damaged some of the houses and farmland that are now flooded."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "tax_transparency": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "HMRC filed a winding-up petition against Petra's wholly owned UK Treasury subsidiary over approximately £5.65 million in corporation tax due for the year ended June 2025.",
+          "relativeScale": 2,
+          "confirmed": false,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.prnewswire.co.uk/news-releases/regulatory-news/petra-diamonds-limited-update-in-relation-to-petra-diamonds-uk-treasury-limited-806785641.html",
+              "title": "Petra Diamonds Limited - Update in relation to Petra Diamonds UK Treasury Limited",
+              "publishedAt": "2026-10-02T00:00:00.000Z",
+              "quote": "a winding-up petition in respect of Petra Diamonds UK Treasury Limited (\" PDUK Treasury\"), a wholly owned, indirect subsidiary of the Company, has today been advertised in the London Gazette by HM Revenue & Customs"
+            },
+            {
+              "url": "https://www.prnewswire.co.uk/news-releases/regulatory-news/petra-diamonds-limited-update-in-relation-to-petra-diamonds-uk-treasury-limited-806785641.html",
+              "title": "Petra Diamonds Limited - Update in relation to Petra Diamonds UK Treasury Limited",
+              "publishedAt": "2026-10-02T00:00:00.000Z",
+              "quote": "in respect of £5,647,811.32 for the year ended 30 June 2025, due to HMRC in relation to corporation tax."
+            },
+            {
+              "url": "https://www.prnewswire.co.uk/news-releases/regulatory-news/petra-diamonds-limited-update-in-relation-to-petra-diamonds-uk-treasury-limited-806785641.html",
+              "title": "Petra Diamonds Limited - Update in relation to Petra Diamonds UK Treasury Limited",
+              "publishedAt": "2026-10-02T00:00:00.000Z",
+              "quote": "The Petition has been filed with the court and the hearing date for the Petition is scheduled for 14 October 2026."
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "positives": []
+    }
+  }
+}

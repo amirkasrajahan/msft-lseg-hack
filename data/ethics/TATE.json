@@ -1,0 +1,52 @@
+{
+  "ticker": "TATE",
+  "generatedAt": "2026-10-23T14:00:06.376Z",
+  "coverage": "full",
+  "causes": {
+    "supply_chain": {
+      "incidents": [
+        {
+          "year": 2009,
+          "summary": "Tate & Lyle sourced sugar from Cambodian plantations associated with forced evictions and human rights abuses, with affected families reaching an out-of-court compensation agreement in 2023.",
+          "relativeScale": 2,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.business-humanrights.org/en/latest-news/cambodia-tate-lyle-settle-human-rights-violations-and-land-grabs-associated-with-sugar-productionout-of-court/",
+              "title": "Cambodia: Tate & Lyle settle human rights abuses and land grabs associated with sugar production out of court - Business and Human Rights Centre",
+              "publishedAt": "2023-07-10T00:00:00.000Z",
+              "quote": "Despite such serious allegations, in 2009, KSL won a contract to supply sugar to London-based food and beverage giant Tate & Lyle, who sourced their sugar from these plantations from 2011-2013."
+            },
+            {
+              "url": "https://www.corpwatch.org/article/200-cambodian-families-compensated-land-seized-grow-sugar-tate-lyle",
+              "title": "200 Cambodian Families Compensated for Land Seized to Grow Sugar for Tate & Lyle | corpwatch",
+              "publishedAt": "2023-06-23T00:00:00.000Z",
+              "quote": "In 2006, the Cambodian military forcibly evicted some 4,000 villagers who lived in the Chikor Leu commune – whose land fell inside the concessions – to make way for the sugar plantations."
+            },
+            {
+              "url": "https://www.business-humanrights.org/en/latest-news/cambodia-tate-lyle-settle-human-rights-violations-and-land-grabs-associated-with-sugar-productionout-of-court/",
+              "title": "Cambodia: Tate & Lyle settle human rights abuses and land grabs associated with sugar production out of court - Business and Human Rights Centre",
+              "publishedAt": "2023-07-10T00:00:00.000Z",
+              "quote": "The NGO Equitable Cambodia announced in April this year that families had reached an out-of-court agreement for an undisclosed financial payment."
+            }
+          ],
+          "severity": 3
+        }
+      ],
+      "positives": []
+    },
+    "climate_emissions": {
+      "incidents": [],
+      "positives": [
+        "Updated greenhouse-gas reduction targets were validated by SBTi as aligned with limiting global warming to 1.5°C."
+      ]
+    },
+    "fair_wages": {
+      "incidents": [],
+      "positives": [
+        "A Dutch collective agreement included an inflation-indexation provision negotiated by union FNV."
+      ]
+    }
+  }
+}

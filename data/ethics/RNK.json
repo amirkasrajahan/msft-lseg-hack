@@ -1,0 +1,40 @@
+{
+  "ticker": "RNK",
+  "generatedAt": "2026-10-23T13:54:47.785Z",
+  "coverage": "full",
+  "causes": {
+    "anti_corruption": {
+      "incidents": [
+        {
+          "year": 2026,
+          "summary": "Rank Group agreed a £5 million regulatory settlement over anti-money laundering and social responsibility failures in its land-based casino network.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://internal.egr.global/intel/news/gambling-commission-confirms-5m-rank-group-sanction-over-aml-and-rg-failings/",
+              "title": "Gambling Commission confirms £5m Rank Group sanction over AML and RG failings - EGR Intel",
+              "publishedAt": "2026-10-07T10:22:05.000Z",
+              "quote": "The Gambling Commission (GC) has confirmed it has reached a £5m settlement with Rank Group over anti-money laundering (AML) and social responsibility violations."
+            },
+            {
+              "url": "https://internal.egr.global/intel/news/gambling-commission-confirms-5m-rank-group-sanction-over-aml-and-rg-failings/",
+              "title": "Gambling Commission confirms £5m Rank Group sanction over AML and RG failings - EGR Intel",
+              "publishedAt": "2026-10-07T10:22:05.000Z",
+              "quote": "Social responsibility violations included failing to carry out safer gambling interactions with a customer during a period in which they lost £50,000."
+            },
+            {
+              "url": "https://internal.egr.global/intel/news/gambling-commission-confirms-5m-rank-group-sanction-over-aml-and-rg-failings/",
+              "title": "Gambling Commission confirms £5m Rank Group sanction over AML and RG failings - EGR Intel",
+              "publishedAt": "2026-10-07T10:22:05.000Z",
+              "quote": "“As also indicated at the time of the group’s 2025/26 preliminary results, remedial actions have been substantially completed.”"
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "SFR",
+  "generatedAt": "2026-10-23T14:06:51.531Z",
+  "coverage": "partial",
+  "causes": {
+    "product_safety": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "Severfield identified bridge structures that failed clients’ weld specifications and had spent £19 million on testing and remediation by July 2025, with further work ongoing.",
+          "relativeScale": 5,
+          "confirmed": true,
+          "remediation": 0.3,
+          "sources": [
+            {
+              "url": "https://www.theconstructionindex.co.uk/news/view/severfield-takes-hit-on-faulty-bridges",
+              "title": "Severfield takes hit on faulty bridges",
+              "publishedAt": "2025-07-24T00:00:00.000Z",
+              "quote": "It was discovered last year that several recent Severfield structures were not in compliance with clients' weld specification requirements."
+            },
+            {
+              "url": "https://www.theconstructionindex.co.uk/news/view/severfield-takes-hit-on-faulty-bridges",
+              "title": "Severfield takes hit on faulty bridges",
+              "publishedAt": "2025-07-24T00:00:00.000Z",
+              "quote": "Severfield has also incurred testing and remedial cash costs of £19.0m and the remaining cash costs are expected to be incurred over this year and next."
+            },
+            {
+              "url": "https://www.theconstructionindex.co.uk/news/view/severfield-takes-hit-on-faulty-bridges",
+              "title": "Severfield takes hit on faulty bridges",
+              "publishedAt": "2025-07-24T00:00:00.000Z",
+              "quote": "The programme of testing and remedial work to resolve the issue is progressing as expected."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    },
+    "tax_transparency": {
+      "incidents": [
+        {
+          "year": 2024,
+          "summary": "HMRC issued disputed tax determinations concerning Severfield’s accommodation and subsistence allowances for site workers, prompting a £4.4 million accounting charge.",
+          "relativeScale": 4,
+          "confirmed": true,
+          "remediation": 0,
+          "sources": [
+            {
+              "url": "https://www.building.co.uk/news/severfield-disputing-4m-tax-bill-as-improved-profit-sees-firm-raise-dividend-again/5130011.article",
+              "title": "Severfield disputing £4m tax bill as improved profit sees firm raise dividend again | News | Building",
+              "publishedAt": "2024-06-19T00:00:00.000Z",
+              "quote": "HMRC is asserting that, as a result of some procedural matters, largely associated with a change in tax legislation in 2016, certain of these payments are subject to income tax and NIC."
+            },
+            {
+              "url": "https://www.building.co.uk/news/severfield-disputing-4m-tax-bill-as-improved-profit-sees-firm-raise-dividend-again/5130011.article",
+              "title": "Severfield disputing £4m tax bill as improved profit sees firm raise dividend again | News | Building",
+              "publishedAt": "2024-06-19T00:00:00.000Z",
+              "quote": "The Group disagrees with the assessment raised and discussions are ongoing."
+            },
+            {
+              "url": "https://www.building.co.uk/news/severfield-disputing-4m-tax-bill-as-improved-profit-sees-firm-raise-dividend-again/5130011.article",
+              "title": "Severfield disputing £4m tax bill as improved profit sees firm raise dividend again | News | Building",
+              "publishedAt": "2024-06-19T00:00:00.000Z",
+              "quote": "Notwithstanding this, since HMRC has issued formal determinations for the amounts it considers are due, a charge of £4.4m has been recognised."
+            }
+          ],
+          "severity": 2
+        }
+      ],
+      "positives": []
+    }
+  }
+}
