@@ -144,6 +144,7 @@ with zero credentials.
 
 - Branches: `frontend/<topic>`, `orch/<topic>`, `finance/<topic>`. Small PRs, squash-merge, at least hourly.
 - Before pushing: `npm run typecheck && npm run check:fixtures`.
+- If a file you created does not show in `git status`, run `git check-ignore -v <path>`: the `.gitignore` started as a Python template (see `docs/DECISIONS.md` #9).
 - No force-pushes to `main`. Do not commit `.env`, `.data/`, `node_modules/`.
 - Do not add co-author trailers to commits.
 - Pull `main` before starting each new chunk of work to pick up schema changes.

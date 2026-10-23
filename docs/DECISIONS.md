@@ -25,3 +25,6 @@ Sessions persist as JSON in `.data/sessions/`. Enough for a demo; revisit only i
 
 ## 8. Fictional companies in fixtures
 Mock ethical incidents are attached to fictional companies to avoid presenting invented claims about real firms. The real universe (`data/universe.json`) is separate.
+
+## 9. Anchor `/lib/` and `/lib64/` in `.gitignore`
+The starter's Python `.gitignore` template contained bare `lib/` and `lib64/`, which match at any depth and silently ignored `src/lib/` (schemas, `llm.ts`, session store). The first scaffold commit therefore omitted it and the repo would not compile for teammates. The entries are now `/lib/` and `/lib64/` (repo root only, Python virtualenv leftovers). Consequence: if a new top-level folder is named `lib`, `build`, `dist`, `var` etc., check `git check-ignore -v <path>` because other Python-template patterns remain.
