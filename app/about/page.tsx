@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { EthosMark } from '@/components/flow/EthosMark';
 
 export const metadata = {
   title: 'About Ethos | Invest with purpose',
@@ -31,21 +30,6 @@ const AUDIENCE = [
 export default function About() {
   return (
     <div className="shell about">
-      <nav className="topbar">
-        <Link href="/" className="brand" aria-label="Ethos home">
-          <EthosMark />
-          <div>
-            <h1>Ethos</h1>
-            <small>Invest with purpose. Grow with confidence.</small>
-          </div>
-        </Link>
-        <div className="actions" style={{ marginTop: 0 }}>
-          <Link href="/" className="btn">
-            Try Ethos
-          </Link>
-        </div>
-      </nav>
-
       <header className="hero-band about-hero">
         <span className="orb o1" />
         <span className="orb o2" />
@@ -176,10 +160,6 @@ export default function About() {
         </div>
       </section>
 
-      <footer className="foot">
-        Ethos is an educational hackathon prototype. The demo screens a sample set of companies and is not financial
-        advice.
-      </footer>
     </div>
   );
 }

@@ -1,9 +1,7 @@
 'use client';
 
-import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Company, ScreenApproval, Session, VetConfirmation } from '@/lib/schemas';
-import { EthosMark } from './EthosMark';
 import { IntakeStep } from './IntakeStep';
 import { ProfileSummary } from './ProfileSummary';
 import { ReportView } from './ReportView';
@@ -211,53 +209,38 @@ export function Flow() {
 
   return (
     <div className="shell">
-      {!landing && (
-      <header className="topbar">
-        <div className="brand">
-          <EthosMark />
-          <div>
-            <h1>Ethos</h1>
-            <small>Invest with purpose. Grow with confidence.</small>
-          </div>
-        </div>
-        {session && (
-          <div className="actions" style={{ marginTop: 0 }}>
+      {!landing && session && (
+        <div className="sessionbar">
+          <ol className="stepper" aria-label="Progress">
+            {STEPS.map((label, i) => (
+              <li
+                key={label}
+                className={i < current ? 'done' : i === current ? 'current' : ''}
+                aria-current={i === current ? 'step' : undefined}
+              >
+                {canGoBack(i) ? (
+                  <button onClick={() => setRevisit(i)} title={`Go back to ${label.toLowerCase()}`}>
+                    {i + 1}. {label}
+                  </button>
+                ) : (
+                  <>
+                    {i + 1}. {label}
+                  </>
+                )}
+              </li>
+            ))}
+          </ol>
+          <div className="session-actions">
             {session.profile && !pending && revisit !== 0 && (
-              <button className="btn ghost" onClick={() => setRevisit(0)}>
+              <button className="btn ghost small" onClick={() => setRevisit(0)}>
                 Edit preferences
               </button>
             )}
-            <Link className="btn ghost" href="/about">
-              About
-            </Link>
-            <button className="btn ghost" onClick={restart}>
+            <button className="btn ghost small" onClick={restart}>
               Start over
             </button>
           </div>
-        )}
-      </header>
-      )}
-
-      {!landing && (
-      <ol className="stepper" aria-label="Progress">
-        {STEPS.map((label, i) => (
-          <li
-            key={label}
-            className={i < current ? 'done' : i === current ? 'current' : ''}
-            aria-current={i === current ? 'step' : undefined}
-          >
-            {canGoBack(i) ? (
-              <button onClick={() => setRevisit(i)} title={`Go back to ${label.toLowerCase()}`}>
-                {i + 1}. {label}
-              </button>
-            ) : (
-              <>
-                {i + 1}. {label}
-              </>
-            )}
-          </li>
-        ))}
-      </ol>
+        </div>
       )}
 
       {error && (
@@ -283,7 +266,6 @@ export function Flow() {
           </div>
         </>
       )}
-      <footer className="foot">Ethos is an educational hackathon project. Not financial advice.</footer>
     </div>
   );
 }

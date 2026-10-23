@@ -1,8 +1,6 @@
 'use client';
 
-import Link from 'next/link';
 import { useState } from 'react';
-import { EthosMark } from './EthosMark';
 
 // ponytail: personas are hardcoded, there is no list endpoint. Add one if more personas appear.
 const PERSONAS = [
@@ -47,11 +45,10 @@ export function StartStep({ onStart }: { onStart: (personaId?: string) => void }
         <span className="orb o1" />
         <span className="orb o2" />
         <span className="orb o3" />
+        <span className="emblem" aria-hidden="true">
+          <i />
+        </span>
         <div className="hero-inner">
-          <div className="wordmark">
-            <EthosMark size={52} boxed={false} />
-            Ethos
-          </div>
           <h2 className="motto">
             Invest with purpose.
             <br />
@@ -68,14 +65,14 @@ export function StartStep({ onStart }: { onStart: (personaId?: string) => void }
             <a className="btn outline" href="#clients">
               Try a ready-made client
             </a>
-            <Link className="btn outline" href="/about">
-              What is Ethos?
-            </Link>
           </div>
           <p className="audience">Ethos works best for ethical charities and ethical institutions, such as law firms.</p>
         </div>
       </div>
 
+      <div id="how" className="block">
+      <p className="eyebrow">How it works</p>
+      <h3 className="section-title">Three steps from values to a portfolio you can defend</h3>
       <ol className="how">
         {HOW.map(([title, text], i) => (
           <li key={title}>
@@ -85,7 +82,10 @@ export function StartStep({ onStart }: { onStart: (personaId?: string) => void }
           </li>
         ))}
       </ol>
+      </div>
 
+      <div id="built-for" className="block">
+      <p className="eyebrow">Who it&apos;s for</p>
       <h3 className="section-title">Built for institutions that have to explain where their money goes</h3>
       <div className="grid3">
         {BUILT_FOR.map(([title, text]) => (
@@ -97,10 +97,11 @@ export function StartStep({ onStart }: { onStart: (personaId?: string) => void }
           </div>
         ))}
       </div>
+      </div>
 
-      <h3 id="clients" className="section-title">
-        Or try a ready-made client
-      </h3>
+      <div id="clients" className="block">
+      <p className="eyebrow">Try it now</p>
+      <h3 className="section-title">Or start from a ready-made client</h3>
       <div className="grid2">
         {PERSONAS.map((p) => (
           <button
@@ -123,6 +124,7 @@ export function StartStep({ onStart }: { onStart: (personaId?: string) => void }
             </div>
           </button>
         ))}
+      </div>
       </div>
     </section>
   );
