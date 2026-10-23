@@ -1,10 +1,11 @@
 'use client';
 
 import { useChat } from '@ai-sdk/react';
-import { DefaultChatTransport, type UIMessage } from 'ai';
+import { DefaultChatTransport } from 'ai';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ClientProfile } from '@/lib/schemas';
-import { profileToText } from './ProfileSummary';
+import type { IntakeMessage } from '@/agents/intake';
+import { profileLines, profileToText } from './ProfileSummary';
 import { getSession } from './api';
 
 const GREETING =
@@ -19,21 +20,21 @@ const STARTERS = [
 const NUDGE = "Tell me what you'd like to change and I'll update your profile.";
 
 const chatKey = (id: string) => `eia-chat-${id}`;
-const textMessage = (id: string, text: string): UIMessage => ({ id, role: 'assistant', parts: [{ type: 'text', text }] });
-const lastText = (m?: UIMessage) => m?.parts.flatMap((p) => (p.type === 'text' ? [p.text] : [])).join('') ?? '';
+const textMessage = (id: string, text: string): IntakeMessage => ({ id, role: 'assistant', parts: [{ type: 'text', text }] });
+const lastText = (m?: IntakeMessage) => m?.parts.flatMap((p) => (p.type === 'text' ? [p.text] : [])).join('') ?? '';
 
 /** Saved chat history for this session, so the interview survives reloads and later edits. */
-function loadHistory(id: string): UIMessage[] | null {
+function loadHistory(id: string): IntakeMessage[] | null {
   try {
     const raw = localStorage.getItem(chatKey(id));
-    const parsed = raw ? (JSON.parse(raw) as UIMessage[]) : null;
+    const parsed = raw ? (JSON.parse(raw) as IntakeMessage[]) : null;
     return parsed?.length ? parsed : null;
   } catch {
     return null;
   }
 }
 
-function startingMessages(id: string, profile?: ClientProfile): UIMessage[] {
+function startingMessages(id: string, profile?: ClientProfile): IntakeMessage[] {
   const history = loadHistory(id);
   if (!history) {
     return [
@@ -63,18 +64,25 @@ export function IntakeStep({
 }) {
   const transport = useMemo(
     () =>
-      new DefaultChatTransport({
+      new DefaultChatTransport<IntakeMessage>({
         api: '/api/intake',
         prepareSendMessagesRequest: ({ id, messages }) => ({ body: { id, messages } }),
       }),
     [],
   );
   const [initial] = useState(() => startingMessages(sessionId, profile));
-  const { messages, sendMessage, status, error } = useChat({
+  const { messages, sendMessage, status, error } = useChat<IntakeMessage>({
     id: sessionId,
     transport,
     messages: initial,
   });
+  // The latest "what I understood" list from the AI. When reopening an edit, start from the saved profile.
+  const understood =
+    messages
+      .slice()
+      .reverse()
+      .flatMap((m) => m.parts.flatMap((p) => (p.type === 'data-understood' ? [p.data] : [])))[0] ??
+    (profile ? profileLines(profile) : []);
   const [input, setInput] = useState('');
   const end = useRef<HTMLDivElement>(null);
 
@@ -120,6 +128,7 @@ export function IntakeStep({
       <p className="muted">
         Answer a few questions. The assistant asks follow-ups about your goals, limits and ethical lines, then builds the profile.
       </p>
+      <div className="intake-grid">
       <div className="chat card">
         <div className="chatlog" aria-live="polite">
           {messages.map((m) => {
@@ -172,6 +181,22 @@ export function IntakeStep({
             Send
           </button>
         </form>
+      </div>
+      <aside className="understood card soft" aria-live="polite">
+        <h3>What I&apos;ve understood</h3>
+        {understood.length === 0 ? (
+          <p className="muted">Nothing yet. Answer the first question and this fills in as we talk.</p>
+        ) : (
+          <ul className="plain">
+            {understood.map((u) => (
+              <li key={u}>{u}</li>
+            ))}
+          </ul>
+        )}
+        <p className="muted" style={{ margin: '.75rem 0 0', fontSize: '.8rem' }}>
+          Correct me in the chat if anything here is wrong.
+        </p>
+      </aside>
       </div>
       {onCancel && (
         <div className="actions">

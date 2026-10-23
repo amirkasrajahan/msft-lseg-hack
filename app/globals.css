@@ -206,3 +206,10 @@ ul.plain { margin: 0; padding-left: 1.1rem; }
   .card { box-shadow: none; break-inside: avoid; }
   .report-section { break-inside: avoid; }
 }
+
+.intake-grid { display: grid; grid-template-columns: 1fr 280px; gap: 1rem; align-items: start; }
+.intake-grid .card { margin-bottom: 0; }
+.understood { position: sticky; top: 1rem; }
+.understood ul { margin: 0; }
+.understood li { margin-bottom: .35rem; }
+@media (max-width: 860px) { .intake-grid { grid-template-columns: 1fr; } .understood { position: static; } }

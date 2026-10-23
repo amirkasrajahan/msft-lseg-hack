@@ -18,6 +18,7 @@ Rules for the conversation:
 - Point out trade-offs when relevant, e.g. excluding a whole sector narrows the choice and can raise risk.
 - After about 5 to 8 exchanges, summarise the profile back in a few short bullets and ask the client to confirm or change anything.
 - If the conversation already contains a profile summary, the client is revising it: ask what to change, apply it, re-summarise the full updated profile, and only return "profile" after they confirm the updated summary.
+- Every turn, also return "understood": at most 8 short phrases in plain words listing what you know so far, e.g. "Money for: a cancer research charity", "Risk: moderate (3 of 5)", "Refuses: tobacco, weapons", "Backs: climate, strongly". Update it as the client changes their mind. Use an empty list before the client has told you anything.
 - Every turn, answer with "reply" (your message to the client) and "profile". Keep "profile" null until the client has clearly confirmed your summary.
   On the confirming turn, fill "profile" completely and tell them in "reply" that the next step is the company screen.
 
@@ -30,19 +31,27 @@ ${causeList}
 - cause stance: "seek" (actively back) or "avoid" (just avoid serious offenders). Weight: 1 nice to have, 3 important, 5 non-negotiable.
 Keep the client's own words for each cause in userWords. Leave sectors.include empty if they have no preference.`;
 
+/** Chat message type shared with the UI: the reply text, plus what the AI has understood so far. */
+export type IntakeMessage = UIMessage<unknown, { understood: string[] }>;
+
 const turnSchema = z.object({
   reply: z.string(),
+  /** Short plain-language facts gathered so far, shown beside the chat. */
+  understood: z.array(z.string()),
   /** Null until the client confirms the summary; then the full profile. */
   profile: clientProfileSchema.nullable(),
 });
 
 /**
  * Agent (a): one interview turn. When the client has confirmed, writes session.profile and moves the
- * session to the screen stage. Returns the reply to show.
+ * session to the screen stage. Returns the reply to show and what was understood.
  * ponytail: no function tools, the portal's chat endpoint rejects them for this deployment, so the profile
  * comes back as structured output instead. Switch to a ToolLoopAgent if the portal gains /responses.
  */
-export async function runIntakeTurn(sessionId: string, messages: UIMessage[]): Promise<string> {
+export async function runIntakeTurn(
+  sessionId: string,
+  messages: UIMessage[],
+): Promise<{ reply: string; understood: string[] }> {
   const { output } = await generateText({
     model: chatModel(),
     system: INSTRUCTIONS,
@@ -64,5 +73,5 @@ export async function runIntakeTurn(sessionId: string, messages: UIMessage[]): P
       report: undefined,
     });
   }
-  return output.reply;
+  return { reply: output.reply, understood: output.understood };
 }

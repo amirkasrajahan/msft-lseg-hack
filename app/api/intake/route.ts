@@ -1,7 +1,7 @@
 import { createUIMessageStream, createUIMessageStreamResponse, type UIMessage } from 'ai';
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { runIntakeTurn } from '@/agents/intake';
+import { runIntakeTurn, type IntakeMessage } from '@/agents/intake';
 import { getSession } from '@/lib/session';
 
 const bodySchema = z.object({ id: z.string(), messages: z.array(z.unknown()) });
@@ -17,9 +17,10 @@ export async function POST(req: Request) {
   if (!(await getSession(parsed.data.id))) {
     return NextResponse.json({ error: 'Session not found' }, { status: 404 });
   }
-  const stream = createUIMessageStream({
+  const stream = createUIMessageStream<IntakeMessage>({
     execute: async ({ writer }) => {
-      const reply = await runIntakeTurn(parsed.data.id, parsed.data.messages as UIMessage[]);
+      const { reply, understood } = await runIntakeTurn(parsed.data.id, parsed.data.messages as UIMessage[]);
+      writer.write({ type: 'data-understood', data: understood });
       writer.write({ type: 'text-start', id: 'reply' });
       writer.write({ type: 'text-delta', id: 'reply', delta: reply });
       writer.write({ type: 'text-end', id: 'reply' });
