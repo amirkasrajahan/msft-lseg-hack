@@ -269,7 +269,9 @@ export function Flow() {
       ) : (
         <>
           {session.profile && revisit !== 0 && !(session.report && revisit === null) && <ProfileSummary profile={session.profile} />}
-          {body()}
+          <div key={`${revisit ?? 'n'}-${reached}-${pending ?? ''}`} className="view">
+            {body()}
+          </div>
         </>
       )}
     </div>

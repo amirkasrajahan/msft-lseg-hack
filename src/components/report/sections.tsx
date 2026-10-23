@@ -67,6 +67,8 @@ export function AllocationDonut({ title, portfolio }: ReportComponentProps<'Allo
               const seg = (
                 <circle
                   key={h.ticker}
+                  className="seg"
+                  style={{ animationDelay: `${i * 0.08}s` }}
                   cx="100" cy="100" r={R} fill="none" stroke={colour(i)} strokeWidth="32"
                   strokeDasharray={`${h.weight * C} ${C}`} strokeDashoffset={-offset * C}
                 />
