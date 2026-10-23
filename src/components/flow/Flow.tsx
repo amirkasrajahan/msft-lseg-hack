@@ -55,6 +55,7 @@ export function Flow() {
   const [session, setSession] = useState<Session | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [restoring, setRestoring] = useState(true);
+  const [editing, setEditing] = useState(false);
   const inflight = useRef<string | null>(null);
 
   const run = useCallback(async (path: string, body?: unknown) => {
@@ -108,8 +109,14 @@ export function Flow() {
     }
   }, [session]);
 
+  const finishEditing = async () => {
+    await reload();
+    setEditing(false);
+  };
+
   const restart = () => {
     remember(null);
+    setEditing(false);
     setSession(null);
     setError(null);
   };
@@ -117,7 +124,7 @@ export function Flow() {
   const approveScreen = (a: ScreenApproval) => run(`/api/session/${session!.id}/screen/approve`, a);
   const confirmVet = (c: VetConfirmation) => run(`/api/session/${session!.id}/vet/confirm`, c);
 
-  const current = stepIndex(session);
+  const current = editing ? 0 : stepIndex(session);
 
   return (
     <div className="shell">
@@ -127,9 +134,16 @@ export function Flow() {
           <small>Educational hackathon project. Not financial advice.</small>
         </div>
         {session && (
-          <button className="btn ghost" onClick={restart}>
-            Start over
-          </button>
+          <div className="actions" style={{ marginTop: 0 }}>
+            {session.profile && !editing && !pending && (
+              <button className="btn ghost" onClick={() => setEditing(true)}>
+                Edit preferences
+              </button>
+            )}
+            <button className="btn ghost" onClick={restart}>
+              Start over
+            </button>
+          </div>
         )}
       </header>
 
@@ -162,9 +176,14 @@ export function Flow() {
         <StartStep onStart={(personaId) => run('/api/session', personaId ? { personaId } : {})} />
       ) : (
         <>
-          {session.profile && current < 4 && <ProfileSummary profile={session.profile} />}
-          {!session.profile ? (
-            <IntakeStep sessionId={session.id} onDone={reload} />
+          {session.profile && !editing && current < 4 && <ProfileSummary profile={session.profile} />}
+          {!session.profile || editing ? (
+            <IntakeStep
+              sessionId={session.id}
+              profile={editing ? session.profile : undefined}
+              onDone={finishEditing}
+              onCancel={editing ? () => setEditing(false) : undefined}
+            />
           ) : pending ? (
             <Working label={WORKING_LABEL[pending]} />
           ) : session.report && session.vet && session.portfolio && session.profile ? (

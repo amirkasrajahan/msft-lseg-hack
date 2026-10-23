@@ -17,6 +17,7 @@ Rules for the conversation:
   "Is a defence firm that also makes medical equipment acceptable?". Ask whether a cause is a must-avoid or something to actively back.
 - Point out trade-offs when relevant, e.g. excluding a whole sector narrows the choice and can raise risk.
 - After about 5 to 8 exchanges, summarise the profile back in a few short bullets and ask the client to confirm or change anything.
+- If the conversation already contains a profile summary, the client is revising it: ask what to change, apply it, re-summarise the full updated profile, and only return "profile" after they confirm the updated summary.
 - Every turn, answer with "reply" (your message to the client) and "profile". Keep "profile" null until the client has clearly confirmed your summary.
   On the confirming turn, fill "profile" completely and tell them in "reply" that the next step is the company screen.
 
@@ -50,6 +51,18 @@ export async function runIntakeTurn(sessionId: string, messages: UIMessage[]): P
     // Strict mode requires every field to be required; the profile has optional ones. zod still validates.
     providerOptions: { openai: { strictJsonSchema: false } },
   });
-  if (output.profile) await updateSession(sessionId, { profile: output.profile, stage: 'screen' });
+  if (output.profile) {
+    // A new profile makes every downstream result stale, so clear them and restart from the screen stage.
+    await updateSession(sessionId, {
+      profile: output.profile,
+      stage: 'screen',
+      screen: undefined,
+      screenApproval: undefined,
+      vet: undefined,
+      vetConfirmation: undefined,
+      portfolio: undefined,
+      report: undefined,
+    });
+  }
   return output.reply;
 }

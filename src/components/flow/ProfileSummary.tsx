@@ -34,3 +34,16 @@ export function ProfileSummary({ profile }: { profile: ClientProfile }) {
     </div>
   );
 }
+
+/** Plain-text version of the profile, used to start an edit conversation. */
+export function profileToText(profile: ClientProfile): string {
+  const lines = [`Risk ${profile.riskLevel} of 5 (${RISK_LABELS[profile.riskLevel - 1].toLowerCase()})`];
+  if (profile.activityExclusions.length) lines.push(`Refuses: ${profile.activityExclusions.map((a) => humanize(a).toLowerCase()).join(', ')}`);
+  if (profile.sectors.exclude.length) lines.push(`Avoids sectors: ${profile.sectors.exclude.join(', ')}`);
+  if (profile.sectors.include.length) lines.push(`Prefers sectors: ${profile.sectors.include.join(', ')}`);
+  for (const c of profile.causes) {
+    lines.push(`${causeById(c.causeId).label}: ${c.stance === 'seek' ? 'actively back' : 'avoid serious offenders'}, weight ${c.weight}/5`);
+  }
+  if (profile.notes) lines.push(`Notes: ${profile.notes}`);
+  return lines.map((l) => `• ${l}`).join('\n');
+}

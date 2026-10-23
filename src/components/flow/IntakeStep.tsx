@@ -1,8 +1,10 @@
 'use client';
 
 import { useChat } from '@ai-sdk/react';
-import { DefaultChatTransport } from 'ai';
+import { DefaultChatTransport, type UIMessage } from 'ai';
 import { useEffect, useMemo, useRef, useState } from 'react';
+import type { ClientProfile } from '@/lib/schemas';
+import { profileToText } from './ProfileSummary';
 import { getSession } from './api';
 
 const GREETING =
@@ -14,8 +16,51 @@ const STARTERS = [
   'A pension pot for retirement in 25 years',
 ];
 
-/** Interview chat. When the agent's finishIntake tool completes, the session has a profile: call onDone. */
-export function IntakeStep({ sessionId, onDone }: { sessionId: string; onDone: () => void }) {
+const NUDGE = "Tell me what you'd like to change and I'll update your profile.";
+
+const chatKey = (id: string) => `eia-chat-${id}`;
+const textMessage = (id: string, text: string): UIMessage => ({ id, role: 'assistant', parts: [{ type: 'text', text }] });
+const lastText = (m?: UIMessage) => m?.parts.flatMap((p) => (p.type === 'text' ? [p.text] : [])).join('') ?? '';
+
+/** Saved chat history for this session, so the interview survives reloads and later edits. */
+function loadHistory(id: string): UIMessage[] | null {
+  try {
+    const raw = localStorage.getItem(chatKey(id));
+    const parsed = raw ? (JSON.parse(raw) as UIMessage[]) : null;
+    return parsed?.length ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
+function startingMessages(id: string, profile?: ClientProfile): UIMessage[] {
+  const history = loadHistory(id);
+  if (!history) {
+    return [
+      profile
+        ? textMessage('greeting', `Here is your current profile:\n${profileToText(profile)}\n\n${NUDGE}`)
+        : textMessage('greeting', GREETING),
+    ];
+  }
+  // Reopened after the profile was saved: invite changes, once.
+  return profile && lastText(history.at(-1)) !== NUDGE ? [...history, textMessage(`nudge-${history.length}`, NUDGE)] : history;
+}
+
+/**
+ * Interview chat. Pass the saved `profile` to reopen it for edits. Calls onDone once the agent has
+ * saved a new profile (the server clears the old results at that point, so the screen result is gone).
+ */
+export function IntakeStep({
+  sessionId,
+  profile,
+  onDone,
+  onCancel,
+}: {
+  sessionId: string;
+  profile?: ClientProfile;
+  onDone: () => void;
+  onCancel?: () => void;
+}) {
   const transport = useMemo(
     () =>
       new DefaultChatTransport({
@@ -24,22 +69,32 @@ export function IntakeStep({ sessionId, onDone }: { sessionId: string; onDone: (
       }),
     [],
   );
+  const [initial] = useState(() => startingMessages(sessionId, profile));
   const { messages, sendMessage, status, error } = useChat({
     id: sessionId,
     transport,
-    messages: [{ id: 'greeting', role: 'assistant', parts: [{ type: 'text', text: GREETING }] }],
+    messages: initial,
   });
   const [input, setInput] = useState('');
   const end = useRef<HTMLDivElement>(null);
 
   const [saved, setSaved] = useState(false);
+  const turned = useRef(false);
+
+  useEffect(() => {
+    try {
+      if (status === 'ready') localStorage.setItem(chatKey(sessionId), JSON.stringify(messages));
+    } catch {
+      // storage blocked: the chat still works, it just won't be remembered
+    }
+  }, [messages, status, sessionId]);
 
   // After each finished turn, check whether the agent saved the profile.
   useEffect(() => {
-    if (status !== 'ready' || messages.length < 2 || saved) return;
+    if (status !== 'ready' || !turned.current || saved) return;
     getSession(sessionId)
       .then((s) => {
-        if (s.profile) {
+        if (s.profile && !s.screen) {
           setSaved(true);
           onDone();
         }
@@ -54,13 +109,14 @@ export function IntakeStep({ sessionId, onDone }: { sessionId: string; onDone: (
   const busy = status === 'submitted' || status === 'streaming';
   const send = (text: string) => {
     if (!text.trim() || busy || saved) return;
+    turned.current = true;
     sendMessage({ text });
     setInput('');
   };
 
   return (
     <section>
-      <h2>Tell us about your client</h2>
+      <h2>{profile ? 'Change your preferences' : 'Tell us about your client'}</h2>
       <p className="muted">
         Answer a few questions. The assistant asks follow-ups about your goals, limits and ethical lines, then builds the profile.
       </p>
@@ -82,7 +138,7 @@ export function IntakeStep({ sessionId, onDone }: { sessionId: string; onDone: (
               <div className="bubble muted">Thinking…</div>
             </div>
           )}
-          {messages.length === 1 && (
+          {messages.length === 1 && !profile && (
             <div className="chips starters">
               {STARTERS.map((s) => (
                 <button key={s} className="chip" onClick={() => send(s)}>
@@ -117,6 +173,14 @@ export function IntakeStep({ sessionId, onDone }: { sessionId: string; onDone: (
           </button>
         </form>
       </div>
+      {onCancel && (
+        <div className="actions">
+          <button className="btn ghost" onClick={onCancel} disabled={busy}>
+            Back to results
+          </button>
+          <small>Changing your preferences clears the results below and re-runs the checks.</small>
+        </div>
+      )}
     </section>
   );
 }
