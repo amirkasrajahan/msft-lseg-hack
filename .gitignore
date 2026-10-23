@@ -190,3 +190,11 @@ pyrightconfig.json
 .ionide
 
 .venv
+
+### Next.js and local data ###
+node_modules/
+.next/
+.data/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
