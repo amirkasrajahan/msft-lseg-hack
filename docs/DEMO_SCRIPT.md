@@ -1,4 +1,6 @@
-# Demo script (about 3 minutes)
+# Ethos demo script (about 3 minutes)
+
+Motto: **Invest with purpose. Grow with confidence.** Positioning: Ethos works best for ethical charities and ethical institutions, such as law firms.
 
 Written against the judging sheet: client focus, use of data and AI, quality of recommendation, originality, execution.
 Update the "Status" lines when the real agents replace the mocks (`USE_MOCKS=0`).
@@ -13,7 +15,7 @@ Update the "Status" lines when the real agents replace the mocks (`USE_MOCKS=0`)
 
 ## The story
 
-One sentence to open: **"Most people want their money to follow their values but cannot tell what is really inside a fund. Our assistant interviews you, screens companies against your rules, and shows its reasoning at every step."**
+One sentence to open: **"Most people want their money to follow their values but cannot tell what is really inside a fund. Ethos interviews you, screens companies against your rules, and shows its reasoning at every step."**
 
 | Time | Do | Say | Scores on |
 |---|---|---|---|

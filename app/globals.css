@@ -293,3 +293,5 @@ button.chip:hover:not(:disabled) { transform: translateY(-1px); }
 .persona.primary { display: none; }
 @media (max-width: 600px) { .hero-band { padding: 2rem 1.25rem; border-radius: 16px; } }
 @media print { .hero-band { display: none; } }
+
+.who { display: flex; align-items: center; gap: .35rem; font-size: .75rem; font-weight: 700; letter-spacing: .03em; color: var(--brand); margin-bottom: .25rem; }

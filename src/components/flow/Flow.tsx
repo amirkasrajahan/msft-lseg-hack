@@ -20,10 +20,10 @@ const REVISITABLE = 2;
 type Pending = 'screen' | 'vet' | 'allocate' | 'report' | null;
 
 const WORKING: Record<Exclude<Pending, null>, [string, string]> = {
-  screen: ['Screening companies against your rules…', 'Applying your sector and activity rules and grouping what is left.'],
-  vet: ['Checking each company against your causes…', "Reading each company's record on the causes you care about and scoring it."],
-  allocate: ['Building your portfolio…', 'Weighing risk and return across the companies that passed.'],
-  report: ['Writing your report…', 'Turning the numbers into a plain-English explanation.'],
+  screen: ['Ethos is screening companies against your rules…', 'Applying your sector and activity rules and grouping what is left.'],
+  vet: ['Ethos is checking each company against your causes…', "Reading each company's record on the causes you care about and scoring it."],
+  allocate: ['Ethos is building your portfolio…', 'Weighing risk and return across the companies that passed.'],
+  report: ['Ethos is writing your report…', 'Turning the numbers into a plain-English explanation.'],
 };
 
 /** The server call the session is waiting for, if the client has nothing left to decide. */

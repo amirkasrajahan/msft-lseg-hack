@@ -5,16 +5,18 @@ import { DefaultChatTransport } from 'ai';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ClientProfile } from '@/lib/schemas';
 import type { IntakeMessage } from '@/agents/intake';
+import { EthosMark } from './EthosMark';
 import { profileLines, profileToText } from './ProfileSummary';
 import { friendly, getSession } from './api';
 
 const GREETING =
-  "Hi! I'll help you work out where an ethical portfolio should invest. To start: who is the money for, and roughly how long can it stay invested?";
+  "Hi, I'm Ethos. I'll help you work out where an ethical portfolio should invest. To start: who is the money for, and roughly how long can it stay invested?";
 
 const STARTERS = [
   'A charity fund that has to last decades',
+  "A law firm's client or trust account",
+  "A foundation's endowment",
   "My own savings, I'd need them in about 5 years",
-  'A pension pot for retirement in 25 years',
 ];
 
 const NUDGE = "Tell me what you'd like to change and I'll update your profile.";
@@ -124,9 +126,9 @@ export function IntakeStep({
 
   return (
     <section>
-      <h2>{profile ? 'Change your preferences' : 'Tell us about your client'}</h2>
+      <h2>{profile ? 'Change your preferences' : 'Chat with Ethos'}</h2>
       <p className="muted">
-        Answer a few questions. The assistant asks follow-ups about your goals, limits and ethical lines, then builds the profile.
+        Answer a few questions. Ethos asks follow-ups about your goals, limits and ethical lines, then builds your profile.
       </p>
       <div className="intake-grid">
       <div className="chat card">
@@ -137,6 +139,11 @@ export function IntakeStep({
             return (
               <div key={m.id} className={`msg ${m.role}`}>
                 <div className="bubble">
+                  {m.role === 'assistant' && (
+                    <span className="who">
+                      <EthosMark size={18} /> Ethos
+                    </span>
+                  )}
                   {text}
                 </div>
               </div>
@@ -144,7 +151,7 @@ export function IntakeStep({
           })}
           {status === 'submitted' && (
             <div className="msg assistant">
-              <div className="bubble muted">Thinking…</div>
+              <div className="bubble muted">Ethos is thinking…</div>
             </div>
           )}
           {messages.length === 1 && !profile && (
@@ -174,7 +181,7 @@ export function IntakeStep({
             value={input}
             onChange={(e) => setInput(e.target.value)}
             disabled={busy || saved}
-            placeholder={saved ? 'Profile saved' : 'Type your answer…'}
+            placeholder={saved ? 'Profile saved' : 'Message Ethos…'}
             aria-label="Your answer"
           />
           <button className="btn" disabled={busy || saved || !input.trim()}>
@@ -183,7 +190,7 @@ export function IntakeStep({
         </form>
       </div>
       <aside className="understood card soft" aria-live="polite">
-        <h3>What I&apos;ve understood</h3>
+        <h3>What Ethos has understood</h3>
         {understood.length === 0 ? (
           <p className="muted">Nothing yet. Answer the first question and this fills in as we talk.</p>
         ) : (
@@ -194,7 +201,7 @@ export function IntakeStep({
           </ul>
         )}
         <p className="muted" style={{ margin: '.75rem 0 0', fontSize: '.8rem' }}>
-          Correct me in the chat if anything here is wrong.
+          Tell Ethos in the chat if anything here is wrong.
         </p>
       </aside>
       </div>
