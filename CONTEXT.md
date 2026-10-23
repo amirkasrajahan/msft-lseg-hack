@@ -24,6 +24,7 @@ Scaffold and contracts are done. Next: each owner builds their module against mo
 
 ## Open items
 
+- Opt-in demo rules (`USE_MOCKS=1 DEMO_RULES=1`, `src/pipeline/demo.ts`): makes the mock screen, vet, portfolio and report react to the client's profile. Not the real logic and makes no forecasts. Off by default; delete the file and its five hooks in `src/pipeline/index.ts` when the real stages land. Orchestration: please review the hooks.
 - Company logos: `Company` has no logo or domain field, so the UI shows generated initials badges (`CompanyLogo.tsx`). Orchestration: add an optional `domain` or `logoUrl` to `Company` if real logos are wanted.
 - Frontend added `GET /api/companies` (universe via `loadUniverse()`), and `/screen/approve` and `/vet/confirm` now clear downstream results so the client can go back to an earlier step. Orchestration: please review.
 - `.env.example` is missing from the repo (docs say to copy it). Mock mode needs `USE_MOCKS=1` in `.env`.

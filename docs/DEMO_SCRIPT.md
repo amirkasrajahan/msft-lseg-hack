@@ -5,7 +5,7 @@ Update the "Status" lines when the real agents replace the mocks (`USE_MOCKS=0`)
 
 ## Before you go on
 
-- [ ] `.env` has `USE_MOCKS=1` (or `0` once the real pipeline works) and a valid `AZURE_OPENAI_API_KEY`.
+- [ ] `.env` has `USE_MOCKS=1` (or `0` once the real pipeline works). `DEMO_RULES=1` makes the mock results react to the client's answers; say so if you use it and a valid `AZURE_OPENAI_API_KEY`.
 - [ ] `npm run dev` is running, `http://localhost:3000` loads, and you have done one dry run since the last code change (the first load after an edit can sit on "Loading…").
 - [ ] Click **Start over** so the page shows the start screen.
 - [ ] Have a second tab ready with a finished report (see "If something breaks").

@@ -18,6 +18,7 @@ import {
   type VetResult,
 } from '@/lib/schemas';
 import { z } from 'zod';
+import { demoAllocate, demoReport, demoRules, demoScreen, demoVet } from './demo';
 
 /**
  * The only place that switches between mocks and real implementations.
@@ -30,6 +31,7 @@ export async function loadUniverse(): Promise<Company[]> {
 }
 
 export async function screenStage(session: Session): Promise<ScreenResult> {
+  if (demoRules()) return demoScreen(session.profile!, await loadUniverse());
   if (useMocks()) return loadFixture('screen-result.json', screenResultSchema);
   return runScreen(session.profile!, await loadUniverse());
 }
@@ -45,12 +47,13 @@ export function keptTickers(session: Session): string[] {
 }
 
 export async function vetStage(session: Session): Promise<VetResult> {
+  if (demoRules()) return demoVet(session.profile!, keptTickers(session));
   if (useMocks()) return loadFixture('vet-result.json', vetResultSchema);
   return runVet(session.profile!, keptTickers(session));
 }
 
 export async function allocateStage(session: Session): Promise<Portfolio> {
-  if (useMocks()) return loadFixture('portfolio.json', portfolioSchema);
+  if (useMocks() && !demoRules()) return loadFixture('portfolio.json', portfolioSchema);
   const universe = await loadUniverse();
   const vet = session.vet!;
   const out = new Set(session.vetConfirmation?.forceExclude ?? []);
@@ -60,10 +63,12 @@ export async function allocateStage(session: Session): Promise<Portfolio> {
   const companies = universe
     .filter((c) => tickers.includes(c.ticker))
     .map((c) => ({ ...c, ethicalNotes: [], borderlineReason: borderline.get(c.ticker) }));
-  return allocate({ companies, profile: session.profile! });
+  const input = { companies, profile: session.profile! };
+  return demoRules() ? demoAllocate(input) : allocate(input);
 }
 
 export async function reportStage(session: Session): Promise<ReportSpec> {
+  if (demoRules()) return demoReport({ profile: session.profile!, vet: session.vet!, portfolio: session.portfolio! });
   if (useMocks()) return loadFixture('report-spec.json', reportSpecSchema);
   return runReport({ profile: session.profile!, vet: session.vet!, portfolio: session.portfolio! });
 }
