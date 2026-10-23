@@ -2,8 +2,10 @@
 
 import { useState } from 'react';
 import { causeById, type Company, type VetConfirmation, type VetDecision, type VetResult } from '@/lib/schemas';
+import { ChipList } from './ChipList';
 import { CompanyChip } from './CompanyChip';
 import { CompanyLogo } from './CompanyLogo';
+import { Evidence } from './Evidence';
 
 /** Checkpoint 2. Borderline companies are in by default and can be excluded; excluded ones can be brought back. */
 export function VetStep({
@@ -43,8 +45,10 @@ export function VetStep({
       <div className="card">
         <h3>Passed cleanly ({vet.passed.length})</h3>
         <p className="muted">No serious concerns on your causes. Hover for details, click one to exclude it.</p>
-        <div className="chips">
-          {vet.passed.map((t) => (
+        <ChipList
+          items={vet.passed}
+          limit={16}
+          render={(t) => (
             <CompanyChip
               key={t}
               ticker={t}
@@ -54,8 +58,8 @@ export function VetStep({
               disabled={sent}
               onClick={() => toggle(out, t, setOut)}
             />
-          ))}
-        </div>
+          )}
+        />
       </div>
 
       {vet.borderline.length > 0 && (
@@ -93,6 +97,31 @@ export function VetStep({
               onToggle={() => toggle(back, d.ticker, setBack)}
             />
           ))}
+        </div>
+      )}
+
+      {vet.unrated.length > 0 && (
+        <div className="card">
+          <h3>Not rated: limited information ({vet.unrated.length})</h3>
+          <p className="muted">
+            Ethos has no usable evidence on these yet, so it cannot say they are clean. They are left out unless you
+            include them. Click one to include it.
+          </p>
+          <ChipList
+            items={vet.unrated}
+            limit={12}
+            render={(t) => (
+              <CompanyChip
+                key={t}
+                ticker={t}
+                company={companies[t]}
+                tone="warn"
+                pressed={back.has(t)}
+                disabled={sent}
+                onClick={() => toggle(back, t, setBack)}
+              />
+            )}
+          />
         </div>
       )}
 
@@ -135,6 +164,7 @@ function Decision({
   disabled: boolean;
   onToggle: () => void;
 }) {
+  const [open, setOpen] = useState(false);
   return (
     <div className="decision">
       <div>
@@ -151,6 +181,10 @@ function Decision({
           <small>score {Math.round(d.score)}</small>
         </div>
         <p style={{ margin: 0 }}>{d.reason}</p>
+        <button className="linkbtn" onClick={() => setOpen(!open)} aria-expanded={open}>
+          {open ? 'Hide evidence' : 'See evidence and sources'}
+        </button>
+        {open && <Evidence ticker={d.ticker} causeId={d.causeId} />}
       </div>
       <button className="toggle" aria-pressed={pressed} disabled={disabled} onClick={onToggle}>
         {label}

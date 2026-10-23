@@ -114,6 +114,7 @@ export async function realAllocate(input: {
   const out = new Set(confirmation?.forceExclude ?? []);
   const forced = new Set((confirmation?.forceInclude ?? []).filter((t) => !out.has(t)));
   const borderline = new Map(vet.borderline.map((d) => [d.ticker, d]));
+  const failed = new Map(vet.excluded.map((d) => [d.ticker, d]));
   const byTicker = new Map(universe.map((c) => [c.ticker, c]));
 
   const records = new Map<string, EthicsRecord | null>();
@@ -165,6 +166,8 @@ export async function realAllocate(input: {
     if (rec) metrics.concernScore = Math.round(concern(t) * 10) / 10;
     const b = borderline.get(t);
     if (b) flags.push(`Accepted despite a concern. ${b.reason}`);
+    const f = failed.get(t);
+    if (f) flags.push(`Failed the ethics check on ${causeById(f.causeId).label.toLowerCase()}, and you chose to include it. ${f.reason}`);
     if (!rec || rec.coverage !== 'full') flags.push('Limited information: not enough evidence to rate this company. You chose to include it.');
     const refused = c.activityTags.filter((tag) => profile.activityExclusions.includes(tag));
     if (refused.length) flags.push(`Conflicts with a rule you set (${refused.map(words).join(', ')}). You overruled the screen.`);
