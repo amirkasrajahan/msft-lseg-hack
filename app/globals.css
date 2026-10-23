@@ -295,3 +295,10 @@ button.chip:hover:not(:disabled) { transform: translateY(-1px); }
 @media print { .hero-band { display: none; } }
 
 .who { display: flex; align-items: center; gap: .35rem; font-size: .75rem; font-weight: 700; letter-spacing: .03em; color: var(--brand); margin-bottom: .25rem; }
+
+/* ---- Logo ---- */
+.mark { display: inline-flex; align-items: center; justify-content: center; border-radius: 22%; background: var(--navy-700); flex: none; }
+.mark.plain { background: transparent; }
+.mark i { display: block; width: 66%; height: 66%; background-color: #a59a85; -webkit-mask: url(/ethos-logo.png) center / contain no-repeat; mask: url(/ethos-logo.png) center / contain no-repeat; }
+.mark.plain i { width: 100%; height: 100%; background-color: #c9bda4; }
+.wordmark { font-size: 1.6rem; }

@@ -1,9 +1,11 @@
-/** The Ethos mark: a leaf in a circle. Colours default to the current theme. */
-export function EthosMark({ size = 36, fill = 'var(--brand)', stroke = 'var(--on-brand)' }: { size?: number; fill?: string; stroke?: string }) {
+/**
+ * The Ethos logo (public/ethos-logo.png, tan pillar on transparent). Drawn as a CSS mask so one file
+ * works on any background. `boxed` puts it on a navy tile for light backgrounds; the hero uses it bare.
+ */
+export function EthosMark({ size = 36, boxed = true }: { size?: number; boxed?: boolean }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 36 36" aria-hidden="true">
-      <circle cx="18" cy="18" r="18" fill={fill} />
-      <path d="M11 24c0-8 5-12 14-12 0 8-4 13-12 13l-2 3" fill="none" stroke={stroke} strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
+    <span className={`mark${boxed ? '' : ' plain'}`} style={{ width: size, height: size }} aria-hidden="true">
+      <i />
+    </span>
   );
 }

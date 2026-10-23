@@ -48,7 +48,7 @@ export function StartStep({ onStart }: { onStart: (personaId?: string) => void }
         <span className="orb o3" />
         <div className="hero-inner">
           <div className="wordmark">
-            <EthosMark size={40} fill="#fff" stroke="#12305f" />
+            <EthosMark size={52} boxed={false} />
             Ethos
           </div>
           <h2 className="motto">
