@@ -1,4 +1,5 @@
 import { createAzure } from '@ai-sdk/azure';
+import { createGoogleGenerativeAI } from '@ai-sdk/google';
 import { embedMany, generateText, Output } from 'ai';
 import type { z } from 'zod';
 import { getEnv } from './env';
@@ -18,10 +19,20 @@ function provider() {
   });
 }
 
-/** Chat Completions model (the portal sample uses chat.completions, not Responses). */
-export const chatModel = () => provider().chat(getEnv().AZURE_OPENAI_CHAT_DEPLOYMENT);
+/** Set GOOGLE_GENERATIVE_AI_API_KEY to use Gemini instead of the (now closed) hackathon Azure portal. */
+const useGemini = () => Boolean(process.env.GOOGLE_GENERATIVE_AI_API_KEY);
+const gemini = () => createGoogleGenerativeAI({ apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY });
 
-export const embeddingModel = () => provider().embedding(getEnv().AZURE_OPENAI_EMBEDDING_DEPLOYMENT);
+/** Chat Completions model (the portal sample uses chat.completions, not Responses). */
+export const chatModel = () =>
+  useGemini()
+    ? gemini()(process.env.GEMINI_MODEL ?? 'gemini-flash-latest')
+    : provider().chat(getEnv().AZURE_OPENAI_CHAT_DEPLOYMENT);
+
+export const embeddingModel = () =>
+  useGemini()
+    ? gemini().embedding(process.env.GEMINI_EMBEDDING_MODEL ?? 'gemini-embedding-001')
+    : provider().embedding(getEnv().AZURE_OPENAI_EMBEDDING_DEPLOYMENT);
 
 /** Generate a value validated against a zod schema. Use for every non-chat LLM call. */
 export async function generateStructured<S extends z.ZodType>(opts: {
