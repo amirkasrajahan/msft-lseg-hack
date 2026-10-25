@@ -26,7 +26,7 @@ const gemini = () => createGoogleGenerativeAI({ apiKey: process.env.GOOGLE_GENER
 /** Chat Completions model (the portal sample uses chat.completions, not Responses). */
 export const chatModel = () =>
   useGemini()
-    ? gemini()(process.env.GEMINI_MODEL ?? 'gemini-flash-latest')
+    ? gemini()(process.env.GEMINI_MODEL ?? 'gemini-3.5-flash')
     : provider().chat(getEnv().AZURE_OPENAI_CHAT_DEPLOYMENT);
 
 export const embeddingModel = () =>
