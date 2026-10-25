@@ -1,6 +1,6 @@
 import { createAzure } from '@ai-sdk/azure';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
-import { embedMany, generateText, Output } from 'ai';
+import { embedMany, generateText, Output, type LanguageModel } from 'ai';
 import type { z } from 'zod';
 import { getEnv } from './env';
 
@@ -23,10 +23,34 @@ function provider() {
 const useGemini = () => Boolean(process.env.GOOGLE_GENERATIVE_AI_API_KEY);
 const gemini = () => createGoogleGenerativeAI({ apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY });
 
+/** Gemini models to try in order. Free-tier models are often busy, so a busy one falls through to the next. */
+const GEMINI_MODELS = (process.env.GEMINI_MODELS ?? 'gemini-3.5-flash,gemini-3.5-flash-lite,gemini-3.1-flash-lite')
+  .split(',')
+  .map((m) => m.trim())
+  .filter(Boolean);
+
+function withFallback(models: LanguageModel[]): LanguageModel {
+  const call = (name: 'doGenerate' | 'doStream') => async (...args: unknown[]) => {
+    let last: unknown;
+    for (const m of models) {
+      try {
+        return await (m as any)[name](...args);
+      } catch (e) {
+        last = e;
+      }
+    }
+    throw last;
+  };
+  return new Proxy(models[0] as object, {
+    get: (target, prop, receiver) =>
+      prop === 'doGenerate' || prop === 'doStream' ? call(prop) : Reflect.get(target, prop, receiver),
+  }) as LanguageModel;
+}
+
 /** Chat Completions model (the portal sample uses chat.completions, not Responses). */
-export const chatModel = () =>
+export const chatModel = (): LanguageModel =>
   useGemini()
-    ? gemini()(process.env.GEMINI_MODEL ?? 'gemini-3.5-flash')
+    ? withFallback(GEMINI_MODELS.map((m) => gemini()(m)))
     : provider().chat(getEnv().AZURE_OPENAI_CHAT_DEPLOYMENT);
 
 export const embeddingModel = () =>
