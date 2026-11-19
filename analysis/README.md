@@ -19,6 +19,7 @@ analysis/.venv/bin/python analysis/01_incidents.py
 | 3 | `03_market_risk.py` | Which sectors are riskiest, how much do companies move together, how much does diversification help? | Matrices, group averages, heatmap, Monte Carlo simulation |
 | 4 | `04_fetch_prices.py` | Get 3 years of daily prices for the 97 companies (my own data pull) | Pulling data from a web source, cleaning, saving |
 | 5 | `05_ethics_backtest.py` | Did excluding companies on ethical grounds cost money? | Joining datasets, returns, drawdown, risk-adjusted return, random-baseline test |
+| 6 | `06_sql.py` | The same questions in SQL (SQLite) | SELECT, JOIN vs LEFT JOIN, GROUP BY, HAVING, CASE, subquery, window function |
 
 ## Caveats to state in any write-up
 
@@ -68,3 +69,7 @@ Method: rate the 96 priced, researched companies for a strict client (all causes
 - **What I would say to a client:** the cost of the screen is a possible return drag of a few points a year in this period, not a certain one, and the portfolios still carry similar risk.
 
 Charts: `charts/ethics_backtest_growth.png`, `charts/ethics_backtest_luck.png`. Table: `charts/ethics_backtest.csv`. The downloaded prices are not committed; run `04_fetch_prices.py` to rebuild them.
+
+## Step 6: SQL
+
+`06_sql.py` builds a SQLite database from the same JSON and answers six questions in SQL. Results match the pandas versions: 308 incidents, Energy at 4.75 incidents per researched company, and 30 researched companies with no incident on record. Extra findings: customer-practice and product-safety incidents are the most often confirmed (about 70%), while climate and labour-rights incidents are mostly alleged (about 35% confirmed), and Tesco, Barclays and BP lead their sectors for incident counts.

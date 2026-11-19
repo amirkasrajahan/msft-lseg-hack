@@ -30,19 +30,26 @@ the data analysis side of the project.
 
 ## What I am working on now
 
-Independent analysis of the evidence data, in Python and pandas, in [`analysis/`](analysis/):
+Independent analysis of the evidence and market data, in Python, pandas and SQL, in [`analysis/`](analysis/). Full write-up: [`analysis/README.md`](analysis/README.md).
 
 - [x] **Step 1.** Incident counts by cause and by sector, as rates per researched company. ([`01_incidents.py`](analysis/01_incidents.py))
-- [ ] **Step 2.** How sensitive the exclusion rubric is: how many companies change outcome when the thresholds move.
-- [ ] **Step 3.** Price data: returns, volatility and correlations.
-- [ ] **Step 4.** A backtest of the three horizon portfolios against the FTSE 100.
-- [ ] **Step 5.** My own additional dataset, compared with the Ethos ratings.
-- [ ] **Step 6.** The same queries in SQL.
+- [x] **Step 2.** How sensitive the exclusion rubric is: how many companies change outcome when its settings move. The Python rule matches the app's TypeScript exactly. ([`02_rubric_sensitivity.py`](analysis/02_rubric_sensitivity.py))
+- [x] **Step 3.** Market risk: volatility by sector, correlations, and how diversification reduces risk. ([`03_market_risk.py`](analysis/03_market_risk.py))
+- [x] **Step 4.** My own data pull: 3 years of daily prices for 97 companies. ([`04_fetch_prices.py`](analysis/04_fetch_prices.py))
+- [x] **Step 5.** Did the ethics screen cost money? A backtest with a random-baseline test. ([`05_ethics_backtest.py`](analysis/05_ethics_backtest.py))
+- [x] **Step 6.** The same questions in SQL. ([`06_sql.py`](analysis/06_sql.py))
+- [ ] **Next.** A short written report with the charts, a second dataset on a different topic, and a Power BI or Tableau dashboard.
 
 **First findings (Step 1):** 308 incidents across 80 of 110 researched companies, 58% confirmed. Anti-corruption and
 customer-practice problems are the most common causes. Energy has the most incidents per researched company (4.75). These
 reflect what was found and cited in the AI-assisted research pass, not the true number of incidents, and small sectors such
 as Real Estate have too few companies for reliable rates.
+
+**Headline results**
+
+- The ethics rubric is stable on most settings, but the exclusion line and time decay change who is excluded (12 vs 18 companies for a typical institution when the line moves from 8 to 6).
+- Diversification gains flatten after about 10 to 15 holdings (26% volatility for 1 company, 14% for 10, 12% for 40).
+- In a 3-year backtest, the companies the strict rubric excludes returned more than those it keeps (19.6% vs 13.9% a year), but the gap is within what random groups of that size produce, and it carries look-ahead bias.
 
 ![Incidents by cause](analysis/charts/incidents_by_cause.png)
 
