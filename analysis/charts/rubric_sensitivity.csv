@@ -1,0 +1,37 @@
+client,change,excluded,excluded_vs_base,companies_changing_outcome
+Cautious climate saver,Half-life of incidents: 6 years (fades faster),0,0,3
+Cautious climate saver,Half-life of incidents: 24 years (fades slower),0,0,1
+Cautious climate saver,Allegations count 0.1 (instead of 0.3),0,0,2
+Cautious climate saver,Allegations count 0.6 (instead of 0.3),2,2,6
+Cautious climate saver,Other incidents count 0 (worst only),0,0,1
+Cautious climate saver,Other incidents count 1 (all in full),1,1,2
+Cautious climate saver,Severity floor off,0,0,0
+Cautious climate saver,Exclusion line 6 (stricter),1,1,1
+Cautious climate saver,Exclusion line 10 (looser),0,0,0
+Growth-seeking engineer,Half-life of incidents: 6 years (fades faster),0,0,0
+Growth-seeking engineer,Half-life of incidents: 24 years (fades slower),0,0,0
+Growth-seeking engineer,Allegations count 0.1 (instead of 0.3),0,0,0
+Growth-seeking engineer,Allegations count 0.6 (instead of 0.3),0,0,1
+Growth-seeking engineer,Other incidents count 0 (worst only),0,0,0
+Growth-seeking engineer,Other incidents count 1 (all in full),0,0,0
+Growth-seeking engineer,Severity floor off,0,0,0
+Growth-seeking engineer,Exclusion line 6 (stricter),0,0,0
+Growth-seeking engineer,Exclusion line 10 (looser),0,0,0
+"Institution: all causes, weight 3",Half-life of incidents: 6 years (fades faster),8,-4,13
+"Institution: all causes, weight 3",Half-life of incidents: 24 years (fades slower),17,5,10
+"Institution: all causes, weight 3",Allegations count 0.1 (instead of 0.3),12,0,2
+"Institution: all causes, weight 3",Allegations count 0.6 (instead of 0.3),13,1,3
+"Institution: all causes, weight 3",Other incidents count 0 (worst only),11,-1,9
+"Institution: all causes, weight 3",Other incidents count 1 (all in full),18,6,7
+"Institution: all causes, weight 3",Severity floor off,12,0,1
+"Institution: all causes, weight 3",Exclusion line 6 (stricter),18,6,6
+"Institution: all causes, weight 3",Exclusion line 10 (looser),6,-6,6
+"Strict institution: all causes, weight 5",Half-life of incidents: 6 years (fades faster),19,-7,15
+"Strict institution: all causes, weight 5",Half-life of incidents: 24 years (fades slower),32,6,8
+"Strict institution: all causes, weight 5",Allegations count 0.1 (instead of 0.3),25,-1,2
+"Strict institution: all causes, weight 5",Allegations count 0.6 (instead of 0.3),31,5,12
+"Strict institution: all causes, weight 5",Other incidents count 0 (worst only),19,-7,11
+"Strict institution: all causes, weight 5",Other incidents count 1 (all in full),30,4,5
+"Strict institution: all causes, weight 5",Severity floor off,26,0,0
+"Strict institution: all causes, weight 5",Exclusion line 6 (stricter),36,10,10
+"Strict institution: all causes, weight 5",Exclusion line 10 (looser),18,-8,8

@@ -1,6 +1,6 @@
 import { createAzure } from '@ai-sdk/azure';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
-import { embedMany, generateText, Output, type LanguageModel } from 'ai';
+import { embedMany, generateText, Output } from 'ai';
 import type { z } from 'zod';
 import { getEnv } from './env';
 
@@ -48,9 +48,9 @@ function withFallback(models: LanguageModel[]): LanguageModel {
 }
 
 /** Chat Completions model (the portal sample uses chat.completions, not Responses). */
-export const chatModel = (): LanguageModel =>
+export const chatModel = () =>
   useGemini()
-    ? withFallback(GEMINI_MODELS.map((m) => gemini()(m)))
+    ? gemini()(process.env.GEMINI_MODEL ?? 'gemini-flash-latest')
     : provider().chat(getEnv().AZURE_OPENAI_CHAT_DEPLOYMENT);
 
 export const embeddingModel = () =>
