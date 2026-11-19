@@ -6,7 +6,7 @@ Data analysis on the Ethos evidence cache and market data. Separate from the app
 
 ```bash
 python3 -m venv analysis/.venv
-analysis/.venv/bin/pip install pandas matplotlib
+analysis/.venv/bin/pip install pandas matplotlib yfinance
 analysis/.venv/bin/python analysis/01_incidents.py
 ```
 
@@ -17,6 +17,8 @@ analysis/.venv/bin/python analysis/01_incidents.py
 | 1 | `01_incidents.py` | Which causes and sectors have the most incidents? | JSON to table, join, group by, rates, charts |
 | 2 | `02_rubric_sensitivity.py` | If the rubric's settings move, how many companies change outcome? | Rebuilding a rule, validating against a reference, parameter sweep, comparison |
 | 3 | `03_market_risk.py` | Which sectors are riskiest, how much do companies move together, how much does diversification help? | Matrices, group averages, heatmap, Monte Carlo simulation |
+| 4 | `04_fetch_prices.py` | Get 3 years of daily prices for the 97 companies (my own data pull) | Pulling data from a web source, cleaning, saving |
+| 5 | `05_ethics_backtest.py` | Did excluding companies on ethical grounds cost money? | Joining datasets, returns, drawdown, risk-adjusted return, random-baseline test |
 
 ## Caveats to state in any write-up
 
@@ -47,3 +49,22 @@ Data: annual volatility and a correlation matrix for 97 FTSE 100 companies, from
 - **Limits:** the sector groups are small (3 to 5 companies for some), correlations come from only 3 years, and these are historical figures, not forecasts.
 
 Charts: `charts/volatility_by_sector.png`, `charts/correlation_heatmap.png`, `charts/diversification.png`.
+
+## Step 5 findings: did the ethics screen cost money?
+
+Method: rate the 96 priced, researched companies for a strict client (all causes at weight 5), hold each group in equal parts over 3 years of prices (Nov 2023 to Nov 2026), and compare. Then draw 1,000 random groups of the same size to see whether the gap is more than luck.
+
+| Group | Companies | Yearly return | Volatility | Return per unit of risk | Worst fall |
+|---|---|---|---|---|---|
+| Passed ethics check | 48 | 13.9% | 12.8% | 0.78 | -13.0% |
+| Close call | 22 | 15.6% | 12.3% | 0.94 | -15.9% |
+| Excluded | 26 | 19.6% | 12.9% | 1.21 | -12.0% |
+| All rated | 96 | 15.9% | 12.1% | 0.98 | -12.8% |
+
+- **In this window, the companies the rubric excludes returned more** than the ones it keeps: 19.6% against 13.9% a year, a gap of 5.7 points. Risk was about the same for both groups.
+- **That does not mean ethics always costs this much.** A random group of 26 companies returned between 11.1% and 20.3% a year (middle 90%). The excluded group beat 92% of random groups, high but not extreme, so luck cannot be ruled out.
+- **Look-ahead bias:** ratings use incidents known today, applied to past prices. An investor in 2023 would not have had them.
+- **Other limits:** 3 years is a short window, equal weights are not the app's optimised portfolios, results depend on which sectors the excluded companies sit in (an energy or mining boom would lift them), and past returns are not forecasts.
+- **What I would say to a client:** the cost of the screen is a possible return drag of a few points a year in this period, not a certain one, and the portfolios still carry similar risk.
+
+Charts: `charts/ethics_backtest_growth.png`, `charts/ethics_backtest_luck.png`. Table: `charts/ethics_backtest.csv`. The downloaded prices are not committed; run `04_fetch_prices.py` to rebuild them.
