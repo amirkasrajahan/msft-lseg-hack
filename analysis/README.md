@@ -16,6 +16,7 @@ analysis/.venv/bin/python analysis/01_incidents.py
 |------|--------|----------|--------|
 | 1 | `01_incidents.py` | Which causes and sectors have the most incidents? | JSON to table, join, group by, rates, charts |
 | 2 | `02_rubric_sensitivity.py` | If the rubric's settings move, how many companies change outcome? | Rebuilding a rule, validating against a reference, parameter sweep, comparison |
+| 3 | `03_market_risk.py` | Which sectors are riskiest, how much do companies move together, how much does diversification help? | Matrices, group averages, heatmap, Monte Carlo simulation |
 
 ## Caveats to state in any write-up
 
@@ -34,3 +35,15 @@ The Python rule was checked against the app's TypeScript `rate()` on the same da
 - **Limits:** only 107 companies have full evidence, severity and scale come from an AI research pass, and the two extra clients are hypothetical.
 
 Charts: `charts/exclusion_line_sweep.png`, `charts/rubric_sensitivity.png`. Tables: the matching `.csv` files.
+
+## Step 3 findings: risk in the market snapshot
+
+Data: annual volatility and a correlation matrix for 97 FTSE 100 companies, from 3 years of daily prices to 2026-10-23.
+
+- **Typical risk:** the median company has 26% annual volatility, ranging from 14% to 47%.
+- **Materials is the riskiest sector** (median 40%), well above the others, which sit between 23% and 28%. Consumer Staples and Utilities are the calmest (23%).
+- **Companies in the same sector move together more:** average correlation is 0.30 within a sector and 0.17 between sectors. Holding companies from different sectors reduces risk more.
+- **Diversification works, then flattens.** Picking companies at random and holding them equally, typical volatility is 26% with 1 company, 14% with 10, and 12% with 40. Going from 10 to 40 holdings only removes about 2 more points, which is why a portfolio of about 15 to 20 companies is reasonable.
+- **Limits:** the sector groups are small (3 to 5 companies for some), correlations come from only 3 years, and these are historical figures, not forecasts.
+
+Charts: `charts/volatility_by_sector.png`, `charts/correlation_heatmap.png`, `charts/diversification.png`.
